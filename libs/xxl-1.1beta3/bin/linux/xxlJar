@@ -1,0 +1,15 @@
+#!/bin/csh
+#
+# Make xxl.jar
+#
+# Last change Martin Schneider (03/08/2004)
+#
+
+####################################################################
+# environment variable checks:
+####################################################################
+source $XXLROOTPATH/bin/linux/xxlEnv
+
+setenv JAR "${XXLJAVAHOME}/bin/jar"
+
+${JAR} cfM ${XXLOUTPATH}/xxl.jar -C ${XXLCLASSPATH}/ .

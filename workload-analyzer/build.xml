@@ -1,0 +1,55 @@
+<!--
+     Copyright (C) 2011 Laurynas Biveinis
+
+     This file is part of RR-Tree.
+
+     RR-Tree is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation, either version 3 of the License, or
+     (at your option) any later version.
+
+     RR-Tree is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with RR-Tree.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<project name="workload-analyzer" default="workload-analyzer.make">
+    <dirname property="workload-analyzer.root" file="${ant.file.workload-analyzer}"/>
+
+    <import file="../build-common.xml"/>
+    <import file="../libworkload/build.xml"/>
+    <import file="../libs/xxl-1.1beta3/build.xml"/>
+
+    <property name="workload-analyzer.src" location="${workload-analyzer.root}/src"/>
+    <property name="workload-analyzer.dest" location="${out-production}/workload-analyzer"/>
+
+    <path id="workload-analyzer.compile.classpath">
+        <pathelement location="${lib-workload.dest}"/>
+        <pathelement location="${jopt-simple}"/>
+    </path>
+
+    <path id="workload-analyzer.run.classpath">
+        <path refid="workload-analyzer.compile.classpath"/>
+        <pathelement location="${xxl-core.dest}"/>
+        <pathelement location="${workload-analyzer.dest}"/>
+    </path>
+
+    <target name="workload-analyzer.init">
+        <mkdir dir="${workload-analyzer.dest}"/>
+    </target>
+
+    <target name="workload-analyzer.clean"
+            description="Removes experimental driver output files and directories">
+        <delete dir="${workload-analyzer.dest}"/>
+    </target>
+
+    <target name="workload-analyzer.make"
+            depends="workload-analyzer.init,lib-workload.make"
+            description="Makes experimental driver">
+        <javac srcdir="${workload-analyzer.src}" destdir="${workload-analyzer.dest}"
+               classpathref="workload-analyzer.compile.classpath"/>
+    </target>
+</project>

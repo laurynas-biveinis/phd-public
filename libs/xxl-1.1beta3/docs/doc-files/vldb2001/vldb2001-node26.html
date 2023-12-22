@@ -1,0 +1,259 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Experiments on Spatial Data</TITLE>
+<META NAME="description" CONTENT="Experiments on Spatial Data">
+<META NAME="keywords" CONTENT="vldb">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="vldb.css">
+
+<LINK REL="next" HREF="vldb2001-node27.html">
+<LINK REL="previous" HREF="vldb2001-node25.html">
+<LINK REL="up" HREF="vldb2001-node24.html">
+<LINK REL="next" HREF="vldb2001-node27.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html308"
+  HREF="vldb2001-node27.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html306"
+  HREF="vldb2001-node24.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html300"
+  HREF="vldb2001-node25.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html309"
+  HREF="vldb2001-node27.html">Online Aggregation of Large</A> <B> Up:</B> <A NAME="tex2html307"
+  HREF="vldb2001-node24.html">Applications</A> <B> Previous:</B> <A NAME="tex2html301"
+  HREF="vldb2001-node25.html">Connectivity to Cloudscape</A> <BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00082000000000000000">
+Experiments on Spatial Data</A>
+</H2>
+
+When developing new query processing techniques researchers strive
+for an experimental comparison of their approach to already
+established ones. There are at least two important requirements
+for an experimental comparison [<A
+ HREF="vldb2001-node30.html#ZMR96">ZMR96</A>]: the experiment should
+be <I>fair</I> (i.e., the approaches should be based on the same
+building blocks) and <I>reproducible</I> (i.e., other researchers
+should be able to repeat the experiments easily). XXL is designed
+as a platform for experimental comparisons where the above
+mentioned requirements can be satisfied.
+
+<UL>
+<LI><B>Fair:</B>
+XXL provides a rich infrastructure for the implementation of new
+query processing techniques. The developer will employ the
+infrastructure since it largely facilitates the burden of
+programming. As a side effect, this leads to a better
+comparability of different approaches and hence, fair comparisons
+are easily possible.
+
+</LI>
+<LI><B>Reproducible:</B>
+Applications implemented in Java using XXL are running under
+different operating systems and hardware platforms. Moreover, XXL
+is available for download&nbsp;[<A
+ HREF="vldb2001-node30.html#xxldocu">Dat01</A>] and includes a full
+documentation. Since XXL contains many useful building blocks,
+applications are likely be written in a high-level style that
+makes it easy to understand the underlying semantics. These are
+important properties for reproducible code.
+</LI>
+</UL>
+<BR><P></P>
+<DIV ALIGN="CENTER"><A NAME="289"></A>
+<TABLE>
+<CAPTION><STRONG>Table 1:</STRONG>
+Description of the data sets</CAPTION>
+<TR><TD>
+    <DIV ALIGN="CENTER">
+    <TABLE CELLPADDING=3 BORDER="1">
+<TR><TD ALIGN="LEFT">data set</TD>
+<TD ALIGN="LEFT">description</TD>
+<TD ALIGN="RIGHT">#MBRs</TD>
+<TD ALIGN="RIGHT">&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT">LA_RR</TD>
+<TD ALIGN="LEFT">railways and rivers LA</TD>
+              <TD ALIGN="RIGHT"><IMG
+ WIDTH="60" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img8.png"
+ ALT="$128,971$"></TD>
+<TD ALIGN="RIGHT">&nbsp;</TD>
+</TR>
+<TR><TD ALIGN="LEFT">LA_ST</TD>
+<TD ALIGN="LEFT">streets LA</TD>
+              <TD ALIGN="RIGHT"><IMG
+ WIDTH="60" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img9.png"
+ ALT="$131,461$"></TD>
+<TD ALIGN="RIGHT">&nbsp;</TD>
+</TR>
+</TABLE>
+    
+    <A NAME="tab:datasets"></A>
+</DIV></TD></TR>
+</TABLE>
+</DIV><P></P>
+<BR>
+
+<BR><P></P>
+<DIV ALIGN="CENTER"><A NAME="298"></A>
+<TABLE>
+<CAPTION><STRONG>Table 2:</STRONG>
+Elapsed time of the algorithms in seconds</CAPTION>
+<TR><TD>
+    <DIV ALIGN="CENTER">
+    <TABLE CELLPADDING=3 BORDER="1">
+<TR><TD ALIGN="LEFT">algorithms</TD>
+<TD ALIGN="CENTER">flat file</TD>
+<TD ALIGN="CENTER">Cloudscape</TD>
+</TR>
+<TR><TD ALIGN="LEFT">SQL (nested loops)</TD>
+<TD ALIGN="CENTER">-</TD>
+              <TD ALIGN="CENTER"><IMG
+ WIDTH="30" HEIGHT="31" ALIGN="MIDDLE" BORDER="0"
+ SRC="img10.png"
+ ALT="$&gt;2$"> days</TD>
+</TR>
+<TR><TD ALIGN="LEFT">plane-sweep (hybrid)</TD>
+<TD ALIGN="CENTER">11.0</TD>
+<TD ALIGN="CENTER">17.4</TD>
+</TR>
+<TR><TD ALIGN="LEFT">plane-sweep (strict)</TD>
+<TD ALIGN="CENTER">11.3</TD>
+<TD ALIGN="CENTER">19.0</TD>
+</TR>
+<TR><TD ALIGN="LEFT">Orenstein (kd-trie)</TD>
+<TD ALIGN="CENTER">52.5</TD>
+<TD ALIGN="CENTER">58.2</TD>
+</TR>
+<TR><TD ALIGN="LEFT">Orenstein (quadtree)</TD>
+<TD ALIGN="CENTER">66.5</TD>
+<TD ALIGN="CENTER">70.7</TD>
+</TR>
+</TABLE>
+    
+    <A NAME="tab:sj:runtimes"></A>
+</DIV></TD></TR>
+</TABLE>
+</DIV><P></P>
+<BR>
+In the following, we present an experimental comparison where we
+examine the popular problem of processing a spatial join. Our
+comparison shows results that are unique with respect to the
+following issues. First, we examine the overhead of reading the
+input data from a database in comparison to reading from flat
+files. Second, our results are reported as a function of the
+elapsed time, i.e., the number of results that are delivered since
+the start of the algorithms. These results are seldom found in the
+literature, though they are important in a demand-driven query
+processor.
+
+Each of the spatial tables corresponds to a set of rectilinear
+minimum bounding rectangles (MBR) represented by columns for the
+x- and y-coordinate of the lower left and the upper right corner.
+In our experiments we used two different real data sets of the
+TIGER database&nbsp;[<A
+ HREF="vldb2001-node30.html#tiger89">Bur89</A>] (see Table&nbsp;<A HREF="node26.html#tab:datasets">1</A>). The
+data sets LA_RR and LA_ST contain the MBRs of different types of
+line segments from the region of Los Angeles. In the following, we
+present the experimental evaluation of five different spatial join
+algorithms.
+
+The first algorithm is an internal algorithm of Cloudscape, i.e.,
+we executed an SQL statement on the two given tables specifying
+the overlapping condition directly in the WHERE clause. The other
+spatial joins correspond to algorithms provided by XXL. The second
+algorithm is a plane sweep algorithm by Arge et.al.&nbsp;[<A
+ HREF="vldb2001-node30.html#APR%2B98">APR$^+$98</A>]
+where the input is sorted in a strict manner using the sort-merge
+routine of XXL. The third algorithm is an improved plane sweep
+approach based on a hybrid sort-merge operator, i.e., the sorted
+streams are created on demand by merging sorted runs&nbsp;[<A
+ HREF="vldb2001-node30.html#Gra94">Gra94</A>].
+The fourth algorithm is the z-code join-algorithm by
+Orenstein&nbsp;[<A
+ HREF="vldb2001-node30.html#Ore91">Ore91</A>] using kd-trie splits. The fifth is a
+variant of this algorithm using quadtree splits.
+
+<P></P>
+<DIV ALIGN="CENTER"><A NAME="fig:cloudscape"></A><A NAME="309"></A>
+<TABLE>
+<CAPTION ALIGN="BOTTOM"><STRONG>Figure 2:</STRONG>
+Elapsed time of spatial join algorithms in Cloudscape</CAPTION>
+<TR>
+      <TD><IMG
+ WIDTH="549" HEIGHT="375" BORDER="0"
+ SRC="img11.png"
+ ALT="\begin{figure}
+\epsfig{file=eps/cloudsca.eps, width=1.0\linewidth}
+\end{figure}"></TD>
+    </TR>
+</TABLE>
+</DIV><P></P>
+Our experiments were performed on a PC with an AMD processor (Athlon <IMG
+ WIDTH="29" HEIGHT="17" ALIGN="BOTTOM" BORDER="0"
+ SRC="img12.png"
+ ALT="$700$"> MHz, <IMG
+ WIDTH="37" HEIGHT="17" ALIGN="BOTTOM" BORDER="0"
+ SRC="img13.png"
+ ALT="$1024$"> MB main memory) under Windows&nbsp;2000. Since main memory was 
+large enough, the entire join phase was performed without any disk access. Figure&nbsp;<A HREF="node26.html#fig:cloudscape">2</A> 
+depicts the number of computed results of the spatial joins as a function of the 
+elapsed time where the input was from a Cloudscape database. Table&nbsp;<A HREF="node26.html#tab:sj:runtimes">2</A> 
+shows the total elapsed time of the algorithms. Since Cloudscape makes use of 
+a simple nested-loops algorithm, the total elapsed time was more than <IMG
+ WIDTH="13" HEIGHT="17" ALIGN="BOTTOM" BORDER="0"
+ SRC="img14.png"
+ ALT="$2$"> days. After that we stopped the process. The other algorithms performed 
+the join in less than <IMG
+ WIDTH="21" HEIGHT="17" ALIGN="BOTTOM" BORDER="0"
+ SRC="img15.png"
+ ALT="$71$"> seconds, whereas the plane sweep algorithms are more efficient than 
+the ones that rely on multi-dimensional data structures. Results show that the 
+use of hybrid sorting pays off. Overall, the results of our experiments show the 
+necessity of using efficient algorithms for advanced query operators. DBMS like 
+Cloudscape are not able (and willing) to provide the right operators for specific 
+applications. As a first solution, these operators can be implemented on top of 
+the DBMS using a library like XXL which facilitates the coding. The overhead of 
+keeping the data in a DBMS is surprisingly low in comparison to using flat files 
+(see Table&nbsp;<A HREF="node26.html#tab:sj:runtimes">2</A>). This generally supports 
+our library approach. 
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html308"
+  HREF="vldb2001-node27.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html306"
+  HREF="vldb2001-node24.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html300"
+  HREF="vldb2001-node25.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html309"
+  HREF="vldb2001-node27.html">Online Aggregation of Large</A> <B> Up:</B> <A NAME="tex2html307"
+  HREF="vldb2001-node24.html">Applications</A> <B> Previous:</B> <A NAME="tex2html301"
+  HREF="vldb2001-node25.html">Connectivity to Cloudscape</A> 
+<!--End of Navigation Panel-->
+<ADDRESS>
+Bernhard Seeger
+2001-10-11
+</ADDRESS>
+</BODY>
+</HTML>

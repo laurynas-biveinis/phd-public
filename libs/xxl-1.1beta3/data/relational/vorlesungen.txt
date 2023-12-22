@@ -1,0 +1,8 @@
+VID	Titel	DID	Semester
+Number	Varchar	Number	Varchar
+
+1	Programmieren in C++	1	SS 2002
+2	Technische Informatik II	2	SS 2002
+3	Anfrageoptimierung	1	SS 2002
+4	Bioinformatik	3	SS 2002
+5	Systemprogrammierung	#	#

@@ -1,0 +1,116 @@
+<!--
+     Copyright (C) 2009, 2012 Laurynas Biveinis
+
+     This file is part of RR-Tree.
+
+     RR-Tree is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation, either version 3 of the License, or
+     (at your option) any later version.
+
+     RR-Tree is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with RR-Tree.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<project name="rr-tree" default="rr-tree.check">
+    <dirname property="rr-tree.root" file="${ant.file.rr-tree}"/>
+        
+    <import file="../build-common.xml"/>
+    <import file="../libs/xxl-1.1beta3/build.xml"/>
+    <import file="../libworkload/build.xml"/>
+
+    <property name="rr-tree.src" location="${rr-tree.root}/src"/>
+    <property name="rr-tree.test.src" location="${rr-tree.root}/tests"/>
+    <property name="rr-tree.dest" location="${out-production}/RR-Tree"/>
+    <property name="rr-tree.test.dest" location="${out-test}/RR-Tree"/>
+    <property name="rr-tree.dest.cobertura" location="${out-production}/RR-Tree/cobertura"/>
+    <property name="rr-tree.coverage" location="${out-coverage}/RR-Tree"/>
+
+
+    <path id="compile.classpath">
+        <pathelement location="${xxl-core.dest}"/>
+        <pathelement location="${lib-workload.dest}"/>
+    </path>
+
+    <path id="rr-tree.test.compile.classpath">
+        <path refid="compile.classpath"/>
+        <pathelement location="${junit}"/>
+        <pathelement location="${jmock}"/>
+        <pathelement location="${hamcrest-core}"/>
+        <pathelement location="${hamcrest-library}"/>
+        <pathelement location="${jmockjunit}"/>
+        <pathelement location="${rr-tree.dest}"/>
+        <pathelement location="${lib-workload.dest}"/>
+        <pathelement location="${lib-workload.test.dest}"/> 
+    </path>
+
+    <path id="rr-tree.test.run.classpath">
+        <pathelement location="${rr-tree.dest.cobertura}"/>
+        <path refid="rr-tree.test.compile.classpath"/>
+        <pathelement location="${rr-tree.test.dest}"/>
+        <path refid="cobertura.classpath"/>
+    </path>
+    
+    <target name="rr-tree.init" depends="build-common.init">
+        <mkdir dir="${rr-tree.dest}"/>
+        <mkdir dir="${rr-tree.dest.cobertura}"/>
+    </target>
+
+    <target name="rr-tree.test-init" depends="build-common.test-init">
+        <mkdir dir="${rr-tree.test.dest}"/>
+    </target>
+
+    <target name="rr-tree.coverage-init" depends="build-common.coverage-init">
+        <mkdir dir="${rr-tree.coverage}"/>
+    </target>
+
+    <target name="rr-tree.clean" description="Removes rr-tree output directories and files">
+        <delete dir="${rr-tree.coverage}"/>
+        <delete dir="${rr-tree.dest.cobertura}"/>
+        <delete dir="${rr-tree.dest}"/>
+        <delete dir="${rr-tree.test.dest}"/>
+    </target>
+
+    <target name="rr-tree.make" depends="rr-tree.init,xxl-core.make" description="Builds rr-tree">
+        <javac srcdir="${rr-tree.src}" destdir="${rr-tree.dest}" classpathref="compile.classpath"/>
+        <cobertura-instrument todir="${rr-tree.dest.cobertura}" datafile="${cobertura.data}">
+            <fileset dir="${rr-tree.dest}">
+                <include name="**/*.class"/>
+            </fileset>
+        </cobertura-instrument>
+    </target>
+
+    <target name="rr-tree.test-make" depends="rr-tree.make,rr-tree.test-init">
+        <javac srcdir="${rr-tree.test.src}" destdir="${rr-tree.test.dest}"
+               classpathref="rr-tree.test.compile.classpath"/>
+    </target>
+
+    <target name="rr-tree.check" depends="rr-tree.make,rr-tree.test-make" description="Tests rr-tree">
+        <junit haltonfailure="yes" fork="yes" printsummary="true">
+            <assertions>
+                <enable/>
+            </assertions>
+            <classpath refid="rr-tree.test.run.classpath"/>
+            <formatter type="brief" usefile="no"/>
+            <batchtest todir="${out-test}">
+                <fileset dir="${rr-tree.test.src}">
+                    <include name="**/AllTests.java"/>
+                </fileset>
+            </batchtest>
+            <jvmarg value="-XX:-UseSplitVerifier"/>
+        </junit>
+    </target>
+
+    <target name="rr-tree.coverage" depends="build-common.coverage-init,rr-tree.check"
+            description="Runs tests for rr-tree and produces coverage report">
+        <cobertura-report destdir="${rr-tree.coverage}" datafile="${cobertura.data}">
+            <fileset dir="${rr-tree.src}">
+                <include name="**/*.java"/>
+            </fileset>
+        </cobertura-report>
+    </target>
+</project>

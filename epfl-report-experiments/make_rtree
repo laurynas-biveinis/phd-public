@@ -1,0 +1,11 @@
+#!/bin/bash
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_r-1by1_1m --data mesh --limit 1000000 --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_r-1by1_2m --data mesh --limit 2000000 --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_r-1by1_3m --data mesh --limit 3000000 --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_r-1by1_4m --data mesh --limit 4000000 --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_r-1by1_5m --data mesh --limit 5000000 --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_r-1by1_6m --data mesh --limit 6000000 --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_r-1by1_7m --data mesh --limit 7000000 --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_r-1by1_8m --data mesh --limit 8000000 --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_r-1by1_9m --data mesh --limit 9000000 --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_r-1by1_10m --data mesh --limit 10000000 --nocheck --noqueries

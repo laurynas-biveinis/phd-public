@@ -1,0 +1,33 @@
+<project name="xxl-core" default="xxl-core.make">
+    <dirname property="xxl-core.root" file="${ant.file.xxl-core}"/>
+
+    <import file="../../build-common.xml"/>
+
+    <property name="xxl-core.src" location="${xxl-core.root}/src"/>
+    <property name="xxl-core.dest" location="${out-production}/XXL"/>
+    <property name="xxl-core.jar" location="${libs}/xxl-1.1beta3/xxl-core.jar"/>
+
+    <target name="xxl-core.init" depends="build-common.init">
+        <mkdir dir="${xxl-core.dest}"/>
+    </target>
+
+    <target name="xxl-core.clean" description="Removes XXL Core output files and directories">
+        <delete dir="${xxl-core.dest}"/>
+    </target>
+
+    <target name="xxl-core.make" depends="xxl-core.init" description="Makes XXL Core">
+        <javac srcdir="${xxl-core.src}" destdir="${xxl-core.dest}" optimize="on"
+               debug="on" debuglevel="lines,vars,source">
+            <exclude name="xxl/applications/**"/>
+            <exclude name="xxl/connectivity/**"/>
+            <exclude name="xxl/core/xml/**"/>
+            <exclude name="xxl/core/relational/**"/>
+        </javac>
+    </target>
+
+    <target name="xxl-core.jar" depends="xxl-core.make" description="Make the XXL JAR">
+        <jar basedir="${xxl-core.dest}" destfile="${xxl-core.jar}"/>
+    </target>
+
+</project>
+        

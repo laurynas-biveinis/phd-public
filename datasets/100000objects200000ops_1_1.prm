@@ -1,0 +1,54 @@
+//--------------------------------------------------------------------
+//   test.prm
+//   --------
+//
+//   Example parameter file for moving points dataset generation
+//   Simulating a space of 100X100 km, time units: minutes,
+// 
+
+Name           : 100000objects200000ops_1_1;      // Name of the .dat and .sql file 
+Load           : 0;         // 0 - no load file, a series of insertions at time 0
+                            // 1 (default) - a separate load file (.dat) generated
+                            // 2 - no load file, but index is populated gradually  
+
+ThreeD         : 2;         // 0 or 2 - 2D data, 3 - 3D data, 1 - 1D data
+Points         : 100000;       // Total number of moving points
+NewObjects     : 0;         // 0 - no new objects introduced, 
+	                    // 1 - all objects are replaced once, etc.
+	                    // Optional, works only with non-zero totalOp
+Hubs           : 20;        // Number of hubs,. if 0 - uniform data
+
+SpaceX         : 100;      // Dimensions of the space
+SpaceY         : 100;   
+SpaceZ         : 100;
+
+Speed1         : 0.75;      // Possible speeds of moving objects (could be more)
+Speed2         : 1.5;       // if uniform then between 0 and speed_n 
+Speed3         : 3;         //add up to 50 parameters, or modify the code
+
+// Dynamic evolution parameters
+
+// Total          : 100;        // Length of the simulation in time units
+TotalOp        : 100000;        // or Length of the simulation in insertions
+UpdateInterval : 1;        // Average interval between two successive updates of object
+                            // If 0 - no updates are generated at all
+
+// Query generation parameters 
+
+//QInterval      : 200;      // Interval between query generation events in time units  
+QIntervalOp    : 1         // or in operations
+QQuantity      : 1;        // Number of queries generated at each query generation event
+QWindow        : 16;       // W - Querying time window
+QSize          : 0.0002;    // Avg. size of spatial part of a query (fraction of space)
+QTSize         : 5;        // Size of a temporal query window (For type 2 and 3 queries)
+QType1         : 1.0;      // Parts of different types of queries in a query mix 
+QType2         : .0;      
+QType3         : .0;     
+
+Threshold1 : 0.2;   //MODIFICATION: add up to 50 parameters, or modify the code
+
+UpdatePolicy : 2; //MODIFICATION: 0 -shared prediction vector; 1 - original time-based prediction
+                  // 2 - shared prediction point policy
+UpdateInterval1 : 30;
+UpdateInterval2 : 60; //MODIFICATION: add up to 50 parameters, or modify the code
+

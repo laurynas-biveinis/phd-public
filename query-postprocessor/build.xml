@@ -1,0 +1,53 @@
+<!-- 
+     Copyright (C) 2007, 2009, 2011 Laurynas Biveinis
+
+     This file is part of RR-Tree.
+
+     RR-Tree is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation, either version 3 of the License, or
+     (at your option) any later version.
+
+     RR-Tree is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with RR-Tree.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<project name="query-postprocessor" default="query-postprocessor.make">
+    <dirname property="query-postprocessor.root" file="${ant.file.query-postprocessor}"/>
+
+    <import file="../build-common.xml"/>
+    <import file="../libworkload/build.xml"/>
+
+    <property name="query-postprocessor.src" location="${query-postprocessor.root}/src"/>
+    <property name="query-postprocessor.dest" location="${out-production}/QueryPostprocessor"/>
+
+    <path id="query-postprocessor.compile.classpath">
+        <pathelement location="${lib-workload.dest}"/>
+        <pathelement location="${jopt-simple}"/>
+    </path>
+
+    <path id="query-postprocessor.run.classpath">
+        <path refid="query-postprocessor.compile.classpath"/>
+        <pathelement location="${query-postprocessor.dest}"/>
+        <pathelement location="${xxl-core.dest}"/>
+    </path>
+
+    <target name="query-postprocessor.init">
+        <mkdir dir="${query-postprocessor.dest}"/>
+    </target>
+
+    <target name="query-postprocessor.clean" description="Removes query postprocessor output files and directories">
+        <delete dir="${query-postprocessor.dest}"/>
+    </target>
+
+    <target name="query-postprocessor.make" depends="query-postprocessor.init,lib-workload.make"
+            description="Builds the query postprocessor">
+        <javac srcdir="${query-postprocessor.src}" destdir="${query-postprocessor.dest}"
+               classpathref="query-postprocessor.compile.classpath"
+               optimize="on" debug="on" debuglevel="lines,vars,source"/>
+    </target>
+</project>

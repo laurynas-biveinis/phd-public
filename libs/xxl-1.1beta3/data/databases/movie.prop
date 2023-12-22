@@ -1,0 +1,5 @@
+# does not run with suns jdk (only microsoft)
+driver=sun.jdbc.odbc.JdbcOdbcDriver
+user=movie
+password=movie
+url=jdbc:odbc:movie

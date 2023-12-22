@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Functions</TITLE>
+<META NAME="description" CONTENT="Functions">
+<META NAME="keywords" CONTENT="vldb">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="vldb.css">
+
+<LINK REL="next" HREF="vldb2001-node3.html">
+<LINK REL="previous" HREF="vldb2001-node1.html">
+<LINK REL="up" HREF="vldb2001.html">
+<LINK REL="next" HREF="vldb2001-node3.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html57"
+  HREF="vldb2001-node3.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html55"
+  HREF="vldb2001.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html49"
+  HREF="vldb2001-node1.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html58"
+  HREF="vldb2001-node3.html">Cursors</A> <B> Up:</B> <A NAME="tex2html56"
+  HREF="vldb2001.html">XXL - A Library</A> <B> Previous:</B> <A NAME="tex2html50"
+  HREF="vldb2001-node1.html">Introduction</A> <BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H1><A NAME="SECTION00020000000000000000"></A>
+<A NAME="Functions"></A>
+<BR>
+Functions
+</H1>
+
+Functions are an extremely important concept to encapsulate
+abstractions. This generally holds, but we found that the
+functional paradigm is of utmost importance when designing and
+implementing a query processing library like XXL. So far, the
+functional paradigm received little attention in the database
+community, at least with respect to implementation issues of query
+processing algorithms. Therefore, we first give a brief review on
+the implementation of the functional concept in XXL.
+
+Since Java does not support a function as a first-class citizen
+nor higher-order functions&nbsp;[<A
+ HREF="vldb2001-node30.html#Hug89">Hug89</A>], XXL contains an abstract
+class <I>Function</I> where these concepts are provided in an
+elegant way. A new function can be implemented by defining a
+subclass of <I>Function</I>. The desired functionality is brought
+in by redefining one of its abstract <code>invoke</code> methods. In
+order to reduce the number of explicit classes, subclasses of
+<I>Function</I> are frequently implemented as anonymous classes.
+This is a specific concept in Java where the implementation of a
+subclass occurs at the same position in the code where an object
+of the class is created. A call of the <code>invoke</code> method of the
+object eventually causes the evaluation of the target function.
+
+Moreover, the class <I>Function</I> also supports higher-order
+functions in a similar way as it is known from Smalltalk's blocks.
+Within the class <I>Function</I> the method <code>compose</code> allows
+to create new functions through compositions of other functions at
+runtime. This is easy to support in Java because of its feature of
+anonymous classes. For example, consider that the mathematical
+functions <code>sin</code>, <code>cos</code> and <code>div</code> are implemented as
+objects of the class <I>Function</I>. Then,
+
+<FONT SIZE="-1">
+<BR>
+    <code>Function tan = div.compose(sin, cos);</code> <BR>
+<BR>
+</FONT>
+defines a new function whose evaluation is simply
+initiated by calling <code>invoke</code>. Moreover, our approach allows
+that a function object may have a state (similar to C where the
+static variables of a procedure survive a call). This powerful
+feature is used in XXL, for example,  when aggregate functions are
+implemented in an incremental manner where the partial results are
+delivered through an iterator.
+
+Since predicates are functions with a high relevance to query
+processing, we decided to introduce special classes for creating
+predicate objects. An arbitrary WHERE clause of an SQL statement
+can be expressed in XXL as an object of the class
+<I>Predicate</I>. There are no limitations on the complexity of a
+predicate which also can cope with subqueries.
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html57"
+  HREF="vldb2001-node3.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html55"
+  HREF="vldb2001.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html49"
+  HREF="vldb2001-node1.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html58"
+  HREF="vldb2001-node3.html">Cursors</A> <B> Up:</B> <A NAME="tex2html56"
+  HREF="vldb2001.html">XXL - A Library</A> <B> Previous:</B> <A NAME="tex2html50"
+  HREF="vldb2001-node1.html">Introduction</A> 
+<!--End of Navigation Panel-->
+<ADDRESS>
+Bernhard Seeger
+2001-10-11
+</ADDRESS>
+</BODY>
+</HTML>

@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Spatial</TITLE>
+<META NAME="description" CONTENT="Spatial">
+<META NAME="keywords" CONTENT="vldb">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="vldb.css">
+
+<LINK REL="next" HREF="vldb2001-node24.html">
+<LINK REL="previous" HREF="vldb2001-node19.html">
+<LINK REL="up" HREF="vldb2001.html">
+<LINK REL="next" HREF="vldb2001-node24.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html275"
+  HREF="vldb2001-node24.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html273"
+  HREF="vldb2001.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html267"
+  HREF="vldb2001-node22.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html276"
+  HREF="vldb2001-node24.html">Applications</A> <B> Up:</B> <A NAME="tex2html274"
+  HREF="vldb2001.html">XXL - A Library</A> <B> Previous:</B> <A NAME="tex2html268"
+  HREF="vldb2001-node22.html">Available Functionality</A> <BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H1><A NAME="SECTION00070000000000000000"></A>
+<A NAME="Spatial"></A>
+<BR>
+Spatial
+</H1>
+
+The package <I>xxl.spatial</I> provides support and building blocks for spatial, 
+temporal and high-dimensional join processing. The classes belong to three main 
+categories: data types, building blocks and algorithms. The most important data 
+types are <IMG
+ WIDTH="13" HEIGHT="18" ALIGN="BOTTOM" BORDER="0"
+ SRC="img5.png"
+ ALT="$d$">-dimensional points and rectangles. For these, we provide lp-metrics 
+and operations like <I>overlap</I>, <I>perimeter</I>, <I>area</I>, etc. This package 
+also contains useful building blocks like z-code computation, data-conversion 
+tools and a fixed-point double-arithmetic. The fixed-point arithmetic considerably 
+facilitates the implementation of algorithms that deal with data that is normalized 
+to the unit-cube <IMG
+ WIDTH="46" HEIGHT="37" ALIGN="MIDDLE" BORDER="0"
+ SRC="img6.png"
+ ALT="$[0;1)^{d}$">, e.g. computing a z-code for a given point is performed with 
+a simple `bit-zipper'. Currently, several <IMG
+ WIDTH="13" HEIGHT="18" ALIGN="BOTTOM" BORDER="0"
+ SRC="img5.png"
+ ALT="$d$">-dimensional join-algorithms come ready-to-use. We provide implementations 
+of plane sweep&nbsp;[<A
+ HREF="vldb2001-node30.html#APR%2B98">APR$^+$98</A>], the z-code join&nbsp;[<A
+ HREF="vldb2001-node30.html#Ore91">Ore91</A>], S3J and MSJ&nbsp;[<A
+ HREF="vldb2001-node30.html#KS00">KS00</A>] and hash-based algorithms&nbsp;[<A
+ HREF="vldb2001-node30.html#PD96">PD96</A>]. In addition, this package contains 
+new developments like the join techniques proposed in [<A
+ HREF="vldb2001-node30.html#DS00">DS00</A>] and a new, powerful similarity-join 
+algorithm&nbsp;[<A
+ HREF="vldb2001-node30.html#DS01">DS01</A>]. The implementations of all the above 
+algorithms are very compact and flexible, e.g. the <IMG
+ WIDTH="13" HEIGHT="18" ALIGN="BOTTOM" BORDER="0"
+ SRC="img5.png"
+ ALT="$d$">-dimensional z-code join&nbsp;[<A
+ HREF="vldb2001-node30.html#Ore91">Ore91</A>] is implemented with only <IMG
+ WIDTH="21" HEIGHT="17" ALIGN="BOTTOM" BORDER="0"
+ SRC="img7.png"
+ ALT="$20$"> lines of code. The high-level coding of the algorithms makes the 
+integration of new functionality easy. Our experience has shown that implementing 
+a new algorithm is reduced to implementing its delta to an existing approach. 
+This does not only sharply reduce the coding time but also helps to classify new 
+approaches. 
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html275"
+  HREF="vldb2001-node24.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html273"
+  HREF="vldb2001.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html267"
+  HREF="vldb2001-node22.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html276"
+  HREF="vldb2001-node24.html">Applications</A> <B> Up:</B> <A NAME="tex2html274"
+  HREF="vldb2001.html">XXL - A Library</A> <B> Previous:</B> <A NAME="tex2html268"
+  HREF="vldb2001-node22.html">Available Functionality</A> 
+<!--End of Navigation Panel-->
+<ADDRESS>
+Bernhard Seeger
+2001-10-11
+</ADDRESS>
+</BODY>
+</HTML>

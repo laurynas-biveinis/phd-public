@@ -1,0 +1,55 @@
+<!--
+     Copyright (C) 2011 Laurynas Biveinis
+
+     This file is part of RR-Tree.
+
+     RR-Tree is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation, either version 3 of the License, or
+     (at your option) any later version.
+
+     RR-Tree is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with RR-Tree.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<project name="query-generator" default="query-generator.make">
+    <dirname property="query-generator.root" file="${ant.file.query-generator}"/>
+
+    <import file="../build-common.xml"/>
+    <import file="../libworkload/build.xml"/>
+    <import file="../libs/xxl-1.1beta3/build.xml"/>
+
+    <property name="query-generator.src" location="${query-generator.root}/src"/>
+    <property name="query-generator.dest" location="${out-production}/query-generator"/>
+
+    <path id="query-generator.compile.classpath">
+        <pathelement location="${lib-workload.dest}"/>
+        <pathelement location="${jopt-simple}"/>
+    </path>
+
+    <path id="query-generator.run.classpath">
+        <path refid="query-generator.compile.classpath"/>
+        <pathelement location="${xxl-core.dest}"/>
+        <pathelement location="${query-generator.dest}"/>
+    </path>
+
+    <target name="query-generator.init">
+        <mkdir dir="${query-generator.dest}"/>
+    </target>
+
+    <target name="query-generator.clean"
+            description="Removes experimental driver output files and directories">
+        <delete dir="${query-generator.dest}"/>
+    </target>
+
+    <target name="query-generator.make"
+            depends="query-generator.init,lib-workload.make"
+            description="Makes experimental driver">
+        <javac srcdir="${query-generator.src}" destdir="${query-generator.dest}"
+               classpathref="query-generator.compile.classpath"/>
+    </target>
+</project>

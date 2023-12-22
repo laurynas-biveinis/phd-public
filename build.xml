@@ -1,0 +1,38 @@
+<!-- 
+     Copyright (C) 2007, 2008, 2009 Laurynas Biveinis
+
+     This file is part of RR-Tree.
+
+     RR-Tree is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation, either version 3 of the License, or
+     (at your option) any later version.
+
+     RR-Tree is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with RR-Tree.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<project name="RR-Tree Suite" default="check">
+    <import file="build-common.xml"/>
+
+    <import file="libs/xxl-1.1beta3/build.xml"/>
+    <import file="libworkload/build.xml"/>
+    <import file="rr-tree/build.xml"/>
+    <import file="experimental-driver/build.xml"/>
+
+    <target name="init" depends="build-common.init,xxl-core.init,rr-tree.init,exp-driver.init"/>
+
+    <target name="make" depends="init,xxl-core.make,rr-tree.make,exp-driver.make" description="Builds everything"/>
+
+    <target name="check" depends="lib-workload.check,rr-tree.check" description="Runs the testsuites"/>
+
+    <target name="coverage" depends="lib-workload.coverage,rr-tree.coverage"
+            description="Prepares coverage reports for testsuites"/>
+
+    <target name="clean" depends="exp-driver.clean,rr-tree.clean,xxl-core.clean,lib-workload.clean,build-common.clean"
+            description="Removes output directories and files"/>
+</project>

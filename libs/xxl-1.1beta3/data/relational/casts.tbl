@@ -1,0 +1,4540 @@
+filmid	title	actor
+VARCHAR	VARCHAR	VARCHAR
+
+AAl10	T:Sweet Liberty	Bob Hoskins
+AC6	T:The Beloved Rogue	Marceline Day
+AC8	T:The Jazz Singer	Al Jolson
+ACj118	T:The Hat Box	Billy Gray
+ACj119	T:Keep Me Company	Anne Francis
+ACj121	T:The Right Kind of Medicine	Bernard Kates
+ACj121	T:The Right Kind of Medicine	Bert Remsen
+ACj123	T:The Woman Who Wanted to Live	Lola Allbright
+ACj124	T:Apex	Pat Breslin
+ACj125	T:The Big Kick	Anne Helm
+ACu23	T:Great Expectations	Anne Bancroft
+ACv10	T:Therese	Aurore Prieto
+ADA10	T:The Memory of the Other	Lyda Bonelli
+ADA10	T:The Memory of the Other	Mario Bonnard
+AdB21	T:The Constant Nymph	Mary Clare
+AdB21	T:The Constant Nymph	Mabel Poulton
+AdB21	T:The Constant Nymph	Benita Hume
+ADg10	T:The Moneytree	Monica Caldwell
+AdL5	T:Flashdance	Michael Nouri
+AdL5	T:Flashdance	Belinda Bauer
+AdL16	T:Indecent Proposal	Oliver Platt
+ADr10	T:The Love-Ins	New Age
+AES10	T:Putting Pants on Philip	Oliver Hardy
+AES100	T:Follow the Boys	Orson Welles
+AES100	T:Follow the Boys	Marlene Dietrich
+AES100	T:Follow the Boys	Artur Rubinstein
+AGe20	T:Scampolo	Max Schreck
+AGe20	T:Scampolo	Oreste Bilancia
+AgH10	T:Europa, Europa	Andre Wilms
+AgH15	T:The Secret Garden	Maggie Smith
+AGm10	T:Sometimes they come back ... again	Morgan Sheppard
+AGs10	T:Visions of Light: The Art of Cinematography	Allen Daviau
+AGs10	T:Visions of Light: The Art of Cinematography	Allen Daviau
+AGs10	T:Visions of Light: The Art of Cinematography	Nestor Almendros
+AHb20	T:Furia a Bahia pour OSS 117	Mylene Demongeot
+AJG50	T:A Chump at Oxford	Peter Cushing
+AJo10	T:Love Letters	Matt Clark
+AJo10	T:Love Letters	Bonnie Bartlett
+AJo10	T:Love Letters	Amy Madigan
+AJP1	T:Klute	Anthony Holland
+AJP2	TZ:The Parallax View	Paula Prentiss
+AJP3	T:All the President's Men	Martin Balsam
+AJP3	T:All the President's Men	Meredith Baxter
+AJP7	TZ:Sophie's Choice	Peter MacNicol
+AJP15	T:Presumed Innocent	Bradley Whitford
+AJP29	T:The Devil's Own	Natascha McElhone
+AJP29	T:The Devil's Own	Ashley Ohara
+AJs1	T:The Noose	Lina Basquette
+AKa5	T:Ariel	Matti Pellonpaa
+AKa20	T:La Vie de Boh\`eme	Matti Pellon\"a\"A
+AKj13	T:A Tangled Web	Barry Morse
+AkS10	T:The Slingshot	Niklas Odlund
+AKu10	TZ:Terror in the Aisles	Nancy Allen
+AL10	T:Tovarich	Basil Rathbone
+AL10	T:Tovarich	Anita Louise
+AL10	T:Tovarich	Melville Cooper
+AL10	T:Tovarich	Maurice Murphy
+AL11	T:The Amazing Dr.Clitterhouse	Allen Jenkins
+AL12	T:All This and Heaven Too	Walter Hampden
+AL12	T:All This and Heaven Too	Montagu Love
+AL13	T:Castle on the Hudson	Pat OBrien
+AL13	T:Castle on the Hudson	Ann Sheridan
+AL16	T:City for Conquest	Ann Sheridan
+AL16	T:City for Conquest	Arthur Kennedy
+AL16	T:City for Conquest	Anthony Quinn
+AL21	T:Sorry Wrong Number	Barbara Stanwyk
+AL21	T:Sorry Wrong Number	Ann Richards
+AL22	T:The Snake Pit	Mark stevens
+AL22	T:The Snake Pit	Beulah Bondi
+AL22	T:The Snake Pit	Natalie Schafer
+AL26	T:Anastasia	Martita Hunt
+AL26	T:Anastasia	Akim Tamiroff
+AL26	T:Anastasia	Natalie Schafer
+AL27	T:The Journey	Anouk Aim\'ee
+AlA10	T:Dracula vs. Frankenstein	Anthony Eisley
+AlA50	TZ:Jessi's Girls	Regina Carrol
+AlA50	TZ:Jessi's Girls	Ben Frank
+AlB10	T:Dracula's Dog	Michael Pataki
+AlC20	T:Tous Les Matins Du Monde	Anne Brochet
+ALe1	T:The Moon and Sixpence	Albert Basserman
+ALe2	T:The Picture of Dorian Gray	Lowell Gilmore
+ALe2	T:The Picture of Dorian Gray	Peter Lawford
+ALe4	T:Pandora and the Flying Dutchman	Ava Gardner
+ALe4	T:Pandora and the Flying Dutchman	Nigel Patrick
+ALe4	T:Pandora and the Flying Dutchman	Mario Cabre
+ALe4	TZ:Pandora and the Flying Dutchman	Pamela Kellino
+ALe4	T:Pandora and the Flying Dutchman	Marius Goring
+ALe7	T:Saadia	Mel Ferrer
+ALe7	T:Saadia	Michel Simon
+ALe7	T:Saadia	Marcel Poncin
+ALe7	T:Saadia	Peter Bull
+AlG11	T:Dracula A.D. 1972	Peter Cushing
+AlH8	TZ:Little Miss Marker	Lynne Overman
+AlH8	TZ:Little Miss Marker	Willie Best
+AlH21	T:The Doctor Takes a Wife	Reginald Gardiner
+AlH24	T:Here Comes Mr.~Jordan	Benny Rubin
+AlH30	T:Once Upon A Time	Art Baker
+AlH38	T:Let's Do It Again	Aldo Ray
+ALi10	TZ:Where the Buffalo Roam	Rene Auberjonois
+ALi10	T:Where the Buffalo Roam	R.G. Armstrong
+AlL3	T:Le ballon rouge	Pascal Lamorisse
+AlP10	T:The Eyes of Youth	Pauline Starke
+AlP10	T:The Eyes of Youth	Milton Sills
+AlP50	T:Blind Man's Bluff	Barbara Greene
+AlT10	T:Dual Alibi	Phyllis Dixey
+ALv10	T:Vice Squad	Paulette Goddard
+ALv10	T:Vice Squad	Porter Hall
+ALv100	T:Decoy	Arnold Laven
+ALv101	T:The Return of Verge Likens	Peter Fonda
+AlW40	T:The House of Rothschild	Loretta Young
+AlW40	T:The House of Rothschild	Boris Karloff
+AlW40	T:The House of Rothschild	Alan Mowbray
+AlW60	T:The Adventures of Sherlock Holmes	Basil Rathbone
+AlW60	T:The Adventures of Sherlock Holmes	Alan Marshall
+AlZ5	T:Sex Kittens go to College	Mijanou Bardot
+AlZ5	T:Sex Kittens go to College	Mickey Shaughnessy
+AlZ5	T:Sex Kittens go to College	Louis Nye
+AM12	T:Ever in My Heart	Barbara Stanwyk
+AM12	T:Ever in My Heart	Ralph Bellamy
+AM18	T:The Petrified Forest	Bette Davis
+AM18	T:The Petrified Forest	Porter Hall
+AM18	T:The Petrified Forest	Paul Harvey
+AML1	T:The Incredible Two-headed Monster	Pat Priest
+ARw12	T:Somebody to Love	Anthony Quinn
+ARw12	T:Somebody to Love	Quentin Tarantion
+ASj15	T:Frenzy	Mai Zettering
+BaL1	T:Strictly Ballroom	Peter Whitford
+BaP10	T:Cool Breeze	Raymond StJacques
+BaP10	T:Cool Breeze	Lincoln Kirkpatrick
+BaS10	T:Sing, Bing, Sing	Bing Crosby
+BB5	T:The Spider's Stratagem	Alida Valli
+BB5	T:The Spider's Stratagem	Pino Campaninin
+BB6	T:Il Conformista	Pierre Clementi
+BB7	T:Last Tango in Paris	Maria Schneider
+BB7	T:Last Tango in Paris	Massimo Girotti
+BB7	T:Last Tango in Paris	Maria Michi
+BB8	T:Novecento	Alida Valli
+BB8	T:Novecento	M. Valli
+BB9	T:Luna	Matthew Barry
+BB10	T:Tragedy of a Ridiculous Man	Anouk Aimee
+BB11	T:The Last Emperor	Peter OToole
+BBe19	T:Babes on Broadway	Ray McDonald
+BBe21	T:The Gang's All Here	Benny Goodman
+BBe21	T:The Gang's All Here	Lillian Yarbo
+BBe21	T:The Gang's All Here	Miriam Lavelle
+BBe23	T:Take Me Out To The Ball Game	Betty Garrett
+BBi10	TZ:North Avenue Irregulars	Barbara Harris
+BBi10	T:North Avenue Irregulars	Michael Constantine
+BBi10	T:North Avenue Irregulars	Patsy Kelly
+BBi10	T:North Avenue Irregulars	Alan Hale~jr
+BBl1	T:Breakdown	Bernard Blier
+BBT10	T:All The Pretty Horses	Matt Damon
+BCl4	T:Murder by Decree	Anthony Quayle
+BCl10	TZ:A Christmas Story	Peter Billingsley
+BCl10	TZ:A Christmas Story	Melinda Dillon
+BCr10	T:Mr.~Saturday Night	Billy Crystal
+BCr10	T:Mr.~Saturday Night	Mary Maya
+BDC8	TZ:Galaxy of Terror	Ray Walston
+BDH10	T:The Tenth Man	Aileen Marson
+BDH30	T:Scrooge	Mervyn Johns
+BDn2	T:Escape	Madeleine Carroll
+BDn7	T:The Constant Nymph	Lyn Harding
+BDn7	T:The Constant Nymph	Mary Clare
+BDn13	T:Lorna Doone	Margaret Lockwood
+BdP2	T:Hi, Mom!	Allan Garfield
+BdP10	T:Phantom of the Paradise	Paul Williams
+BdP11	T:Obsession	Patrick McNamara
+BdP12	T:Carrie	Amy Irving
+BdP12	T:Carrie	Nancy Allen
+BdP14	T:Dressed to Kill	Angie Dickinson
+BdP15	T:Blow Out	Nancy Allen
+BdP16	T:Scarface	Mary Elizabeth Mastrantonio
+BdP16	T:Scarface	Miriam Colon
+BdP17	T:Body Double	Barbara Peckinpah
+BdP18	T:Wise Guys	Ray Sharkey
+BdP25	T:Raising Cain	Barton Heyman
+BdP26	T:Carlito's Way	Penelope Ann Miller
+BDu2	T:A Rage in Harlem	Badja Djola
+BDu3	T:The Cemetery Club	Olympia Dukakis
+BDu4	T:Sister Act 2	Brad Sullivan
+BdY4	T:Inspector Clouseau	Patrick Cargill
+BdY4	T:Inspector Clouseau	Beryl Reid
+BdY4	T:Inspector Clouseau	Barry Foster
+BdY6	T:The Thief Who Came to Dinner	Austin Pendleton
+BE16	T:The Party	Peter Sellers
+BE16	T:The Party	Marge Champion
+BE19	TZ:Tamarind Seed	Omar Sharif
+BE20	T:The Return of the Pink Panther	Peter Sellers
+BE34	T:Victor/Victoria	Alex Karras
+BE34	T:Victor/Victoria	Peter Arne
+BE34	T:Victor/Victoria	Malcolm Jamieson
+BE35	T:Trail of the Pink Panther	Peter Sellers
+BeG10	TZ:Mahogany	Billy Dee Williams
+BeH1	T:The Scoundrel	Noel Coward
+BeH1	T:The Scoundrel	Alexander Wolcott
+BeM10	T:Batman, Mask of The Phantasm	Mark Hamill
+BF6	T:Cabaret	Michael York
+BFo13	T:The Slipper and The Rose	Margaret Lockwood
+BGi19	T:Blood Bargain	Ricard long
+BGi19	T:Blood Bargain	Anne Francis
+BGi21	T:Water's Edge	Ann Sothern
+BHo10	T:Raggedy Rawney	Zoe Nathanson
+BHu10	T:Forces of Nature	Maura Tierney
+BHu10	T:Forces of Nature	Blythe Danner
+BHu10	T:Forces of Nature	Meredith Scott Lynn
+BiA5	T:The Best Intentions	Pernilla Ostergren
+BiA5	T:The Best Intentions	Max vonSydow
+BiA7	T:The House of Spirits	Armin MuellerStahl
+BiA9	T:Jerusalem	Marie Bonnevie
+BiF13	T:Local Hero	Peter Riegert
+BiF13	T:Local Hero	Peter Capaldi
+BiF20	T:Being Human	Anna Galiena
+BIG10	TZ:The Mad Bomber	Neville Brand
+BiK10	T:Ma Barker's Killer Brood	Myrna Dell
+BiK10	T:Ma Barker's Killer Brood	Nelson Leigh
+BiP10	TZ:Serial	Martin Mull
+BiP10	TZ:Serial	Bill Macy
+BJR10	T:My Life	Michael Keaton
+BJR10	T:My Life	Michael Constantine
+BKo10	T:Krakatoa, East of Java	Maximilian Schell
+BKo10	T:Krakatoa, East of Java	Barbara Werle
+BKo10	T:Krakatoa, East of Java	Marc Lawrence
+BLe1	TZ:Diner	Mickey Rourke
+BLe1	T:Diner	Paul Reiser
+BLe4	TZ:The Natural	Barbara Hershey
+BLe5	T:Tin Men	Richard Dreyfuss
+BLe10	T:Avalon	Aidan Quinn
+BLe10	T:Avalon	Lou Jacobi
+BLe21	T:Wag the Dog	Rene Leahy
+BLe22	T:Sphere	Peter Coyote
+BLu10	T:Jam\'on, Jam\'on	Penelope Cruz
+BLu12	T:Macho	Marbel Verdu
+BLu12	T:Macho	Maria deMederios
+BLw10	T:The Favor, the Watch, and the Very Big Fish	Bob Hoskins
+BLw10	T:The Favor, the Watch, and the Very Big Fish	Michel Blanc
+BMa10	TZ:Nighthawks	Lindsay Wagner
+BMa10	TZ:Nighthawks	Billy Dee Williams
+BMa10	TZ:Nighthawks	Persis Khambatta
+BMa10	TZ:Nighthawks	Nigel Davenport
+BMo10	T:The Puerto Rican Mambo (not a Musical)	Ben Model
+BMo10	T:The Puerto Rican Mambo (not a Musical)	Luis Caballero
+BnG12	T:Sweet Poison	Patricia Healey
+BnM10	T:Nickle and Dime	Lise Cutter
+BNu1	T:Camille Claudel	Alain Cuny
+BNu1	T:Camille Claudel	Phillippe Clevenot
+BNu1	T:Camille Claudel	Maxime Leroux
+BoL10	T:Meatballs 4	Bojesse Christopher
+BoS80	T:Rich Man, Poor Man	Peter Strauss
+BoW6	T:Joe Hill	Anja Schmidt
+BPr10	T:Anna Karenina	Alfred Molina
+BRa10	T:Money Talks	Paul Sorvino
+BRB3	T:Don's Party	Ray Barrett
+BRB3	TZ:Don's Party	Pat Bishop
+BrB10	T:Tender Mercies	Betty Buckley
+BrB10	T:Tender Mercies	Allan Hubbard
+BrB10	T:Tender Mercies	Paul Gleason
+BrB15	T:Barry McKenzie On His Own	Barry Humphries
+BrB15	T:Barry McKenzie On His Own	Barry Crocker
+BrB20	T:Driving Miss Daisy	Morgan Freeman
+BrB20	T:Driving Miss Daisy	Patty Luponi
+BrB21	T:Mister Johnson	Pierce Brosnan
+BrB21	T:Mister Johnson	Beartie Edney
+BRf1	T:Five Easy Pieces	Ralph Waite
+BRf1	T:Five Easy Pieces	Marlena McGuire
+BRf4	T:Stay Hungry	Arnold Schwarzenegger
+BRf4	T:Stay Hungry	R.G. Armstrong
+BRf20	T:The Postman Always Ring Twice	Michael Lerner
+BRf20	T:The Postman Always Ring Twice	Anjelica Huston
+BRf30	T:Mountains of the Moon	Paul Onsongo
+BRf32	T:Man Trouble	Beverly DAngelo
+BRf34	T:Wet	Arliss Howard
+BrG10	T:Poltergeist II	Oliver Robbins
+BrG25	T:What's Love Got To Do With It	Pam Tyson
+BrG28	T:The Juror	Lindsay Crouse
+BrL15	T:Hideaway	Alicia Silverstone
+BrL15	T:Hideaway	Alfred Molins
+BRo10	T:Jennifer 8	Andy Garcia
+BrR1	T:Outremer	Marianne Basler
+BrR1	T:Outremer	Philippe Galland
+BrW5	T:June Bride	Bette Davis
+BrW5	T:June Bride	Betty Lynn
+BrW5	T:June Bride	Barbara Bates
+BrW10	T:The Enforcer	Zero Mostel
+BrW13	T:Casino Royale	Barry Nelson
+BrW13	T:Casino Royale	Linda Christian
+BrW100	T:The Avon Emeralds	Barry Harvey
+BrW100	T:The Avon Emeralds	Ralph Clanton
+BSc11	T:Koko, the Talking Gorilla	Penny Peterson
+BSc25	T:Reversal of Fortune	Annabella Sciora
+BSc40	T:Before and After	Alfred Molina
+BSe10	T:Dial M for Murder	Angie Dickinson
+BSe20	T:Night Gallery	Walter Matthau
+BsK14	T:The Boat	n Buster Keaton
+BsK37	T:Our Hospitality	Natalie Talmadge
+BsK39	T:The Three Ages	Margaret Leahy
+BsK40	T:The Navigator	Noble Johnson
+BSo1	T:The Addams Family	Anjelica Huston
+BSo4	T:For Love or Money	Michael Tucker
+BSo5	T:Addams' Family Values	Anjelica Huston
+BSo6	T:For Love or Money	Michael J. Fox
+BSo8	T:Get Shorty	Martin W.
+BSo8	T:Get Shorty	Martin Ferraro
+BSt1	TZ:Yentl	Amy Irving
+BSt1	T:Yentl	Barbra Streisand
+BSt1	TZ:Yentl	Nehemiah Persoff
+BSt1	TZ:Yentl	Mandy Patinkin
+BSt5	T:Prince of Tides	Melinda Dillon
+BSt15	T:The Mirror Has Two Faces	Mimi Roger
+BSt15	T:The Mirror Has Two Faces	Pierre Brosnan
+BtB7	T:Buffet Froid	Bernard Blier
+BtB29	T:Une, deux, trois, soleil	Marcello Mastroianni
+BtB29	T:Une, deux, trois, soleil	Anouk Grinberg
+BTh10	T:The Brady Bunch Movie	Olivia Hack
+BtK10	T:None so Blind	Maurice Costello
+BTv22	T:La Vie et Rien d'Autre	Philippe Noiret
+BTv22	T:La Vie et Rien d'Autre	Pascale Vignal
+BuG10	T:Blade O'Grass	Pat OMalley
+BuH15	TZ:First Family	Madeline Kahn
+BuH15	TZ:First Family	Richard Benjamin
+BuK10	TZ:Support Your Local Sheriff	Walter Brennan
+BuR14	TZ:The End	Norman Fell
+BuR14	TZ:The End	Pat OBrien
+BuR14	TZ:The End	Myrna Loy
+BuR20	TZ:Sharky's Machine	Rachel Ward
+BuR25	T:Cop and a Half	Ray Sharkey
+BVi12	T:The Man from Yesterday	Andy Devine
+BVi12	T:The Man from Yesterday	Alan Mowbray
+BW3	T:Five Graves to Cairo	Anne Baxter
+BW3	T:Five Graves to Cairo	Peter vanEyck
+BW3	T:Five Graves to Cairo	Akim Tamiroff
+BW3	T:Five Graves to Cairo	Miles Mander
+BW4	T:Double Indemnity	Porter Hall
+BW5	T:The Lost Weekend	Ray Milland
+BW5	T:The Lost Weekend	Philip Terry
+BW7	T:A Foreign Affair	Marlene Dietrich
+BW7	T:A Foreign Affair	Millard Mitchell
+BW8	T:Sunset Boulevard	Nancy Olson
+BW9	T:The Big Carnival	Porter Hall
+BW9	T:The Big Carnival	Richard Benedict
+BW9	T:The Big Carnival	Bob Arthur
+BW9	T:The Big Carnival	Richard Benedict
+BW10	T:Stalag 17	Peter Graves
+BW10	T:Stalag 17	Otto Preminger
+BW10	TZ:Stalag 17	Neville Brand
+BW11	T:Sabrina	Martha Hyer
+BW11	T:Sabrina	Marcel Dalio
+BW12	T:The Seven Year Itch	Oscar Homolka
+BW14	T:Love In The Afternoon	Maurice Chevalier
+BW16	T:Some Like It Hot	Marilyn Monroe
+BW16	T:Some Like It Hot	Pat OBrien
+BW16	T:Some Like It Hot	Nehemiah Persoff
+BW16	T:Some Like It Hot	Mike Mazurki
+BW17	T:The Apartment	Ray Walston
+BW18	T:One, Two, Three	Arlene Francis
+BW18	T:One, Two, Three	Pamela Tiffin
+BW19	T:Irma la Douce	Lou Jacobi
+BW30	T:Buddy Buddy	Paula Prentiss
+ByB10	T:Fords on Water	Mark Wingett
+ByH5	T:I Walk Alone	Marc Lawrence
+ByH5	T:I Walk Alone	Mike Mazrrki
+ByH8	T:Treasure Island	Bobby Driscoll
+ByH8	T:Treasure Island	Basil Sydney
+ByH8	T:Treasure Island	Walter Fitzgerald
+ByH8	T:Treasure Island	Ralph Truman
+ByH10	T:Tarzan's Peril	Alan Napier
+ByH13	TZ:War of the Worlds	Ann Robinson
+ByH13	T:War of the Worlds	Bob Cornthwaite
+ByH26	T:Robinson Crusoe on Mars	Paul Mantee
+ByP10	T:Mistress	Martin Landau
+BzK8	T:Riot	Ben Carruthers
+BzK8	T:Riot	Mike Kellin
+BzK10	TZ:Brian's Song	Billy Dee Williams
+BzK15	TZ:Shamus	Barry Beckerman
+C76	T:Mammy	Lois Moran
+C94	T:The Kennel Murder Case	Mary Astor
+C94	T:The Kennel Murder Case	Ralph Morgan
+C94	T:The Kennel Murder Case	Paul Cavanagh
+C101	T:Black Fury	Paul Muni
+C104	TZ:Captain Blood	Olivia deHavilland
+C104	T:Captain Blood	Basil Rathbone
+C104	T:Captain Blood	Lionel Atwill
+C106	TZ:Charge of the Light Brigade	Olivia deHavilland
+C106	T:Charge of the Light Brigade	Patric Knowles
+C106	T:Charge of the Light Brigade	Nigel Bruce
+C106	T:Charge of the Light Brigade	Lumsden Hare
+C109	T:Kid Galahad	Ben Welden
+C112	T:The Adventures of Robin Hood	Montagu Love
+C113	T:Four Daughters	Lola Lane
+C113	T:Four Daughters	Priscilla Lane
+C113	T:Four Daughters	May Robson
+C115	T:Angels with Dirty Faces	Ann Sheridan
+C117	T:Daughters Courageous	Lola Lane
+C117	T:Daughters Courageous	Priscilla Lane
+C117	T:Daughters Courageous	May Robson
+C118	T:The Private Life of Elizabeth and Essex	Olivia deHavilland
+C118	TZ:The Private Lives of Elizabeth and Essex	Nanette Fabray
+C118	T:The Private Lives of Elizabeth and Essex	Alan Hale
+C119	TZ:Dodge City	Olivia deHavilland
+C119	T:Dodge City	Ann Sheridan
+C119	T:Dodge City	Alan Hale
+C120	T:Four Wives	Lola Lane
+C120	T:Four Wives	Priscilla Lane
+C120	T:Four Wives	May Robson
+C121	T:The Sea Hawk	Alan Hale
+C122	T:The Santa Fe Trail	Olivia deHavilland
+C123	T:Virginia City	Randolph Scott
+C123	T:Virginia City	Alan Hale
+C123	T:Virginia City	Moroni Olsen
+C127	T:Casablanca	Peter Lorre
+C127	T:Casablanca	Marcel Dalio
+C127	T:Casablanca	Madeleine Lebeau
+C127	T:Casablanca	Ludwig Stossel
+C131	TZ:Passage to Marseilles	Peter Lorre
+C131	T:Passage to Marseilles	Michele Morgan
+C131	T:Passage to Marseilles	Philip Dorn
+C135	T:Night and Day	Alan Hale
+C135	T:Night and Day	Paul Cavanagh
+C136	T:Life with Father	Zasu Pitts
+C142	T:Young Man with a Horn	Mary Beth Hughes
+C142	T:Young Man with a Horn	Nestor Paiva
+C143	T:The Breaking Point	Patricia Neal
+C143	T:The Breaking Point	Phyllis Thaxter
+C146	T:Force of Arms	Paule Picerni
+C160	T:We're No Angels	Peter Ustinov
+C160	T:We're No Angels	Aldo Ray
+C161	T:White Christmas	Bing Crosby
+C165	T:The Vagabond King	Walter Hampden
+C165	T:The Vagabond King	William Prince
+C171	T:The Adventures of Huckleberry Finn	Archie Moore
+C171	T:The Adventures of Huckleberry Finn	Neville Brand
+C171	T:The Adventures of Huckleberry Finn	Andy Devine
+CaB1	T:36 Fillette	Olivier Parniere
+CaB1	T:36 Fillette	Bertha Dominguez-D
+CaF10	T:One False Move	Billy Bob Thornton
+CaF10	T:One False Move	Michael Beach
+CaG1	T:Caveman	Avery Schreiber
+CAL20	T:Occupe-Toi d'Amelie	Bourvil
+CAL35	T:The Game of Love	Nicole Berger
+CAL46	T:Four Bags Full	Bourvil
+CAL46	T:La Travers\'ee de Paris	Bourvil
+CaR1	T:Enter Laughing	Michael J. Pollard
+CaR5	T:The Comic	Mickey Rooney
+CaR5	T:The Comic	Michele Lee
+CaR5	T:The Comic	Pert Kelton
+CaR7	TZ:Where's Poppa?	Rae Allen
+CaR7	TZ:Where's Poppa?	Barnard Hughes
+CaR15	T:Oh, God	Ralph Bellamy
+CaR15	T:Oh, God	Paul Sorvino
+CaR15	T:Oh, God	Barnard Hughes
+CaR15	T:Oh, God	Barry Sullivan
+CaR27	T:Summer School	Mark Harmon
+CaR20	TZ:Dead Men Don't Wear Plaid	Rachel Ward
+CaR20	TZ:Dead Men Don't Wear Plaid	Reni Santoni
+CaR21	TZ:The Jerk	Bernadette Peters
+CaR21	T:The Jerk	Bill Macy
+CaR21	T:The Jerk	Maurice Evans
+CaR22	T:The Man With Two Brains	Paul Benedict
+CaR35	T:Fatal Instinct	Armand Assante
+CaR38	T:That Old Feeling	Bette Midler
+CaR38	T:That Old Feeling	Paula Marshall
+CBa40	T:It	Antonio Moreno
+CBa50	T:No No Nanette	Bernice Claire
+CBa50	T:No No Nanette	Bert Roach
+CBd10	TZ:Black Stallion	Mickey Rooney
+CBl60	T:Observations Under the Volcano	Walter Huston
+CBl67	T:Private Conversations	Arthur Miller
+CBl69	T:Nik and Murray	Alwin Nikolais
+CBl69	T:Nik and Murray	Murray Louis
+CBl73	T:Signed: Lino Brocka	Lino Brocka
+CBl80	T:Motel	Martha Becket
+CBP10	T:Norseman	Mel Ferrer
+CBP12	TZ:The Evictors	Michael Parks
+CBt10	T:To Sleep with Anger	Paul Butler
+CBt10	T:To Sleep with Anger	Mary Alice
+CBt10	T:To Sleep with Anger	Richard Brooks
+CBt15	T:Nightjohn	Allison Jones
+CBt15	T:Nightjohn	Beau Bridges
+CBt15	T:Nightjohn	Lorraine Toussaint
+CBt15	T:Nightjohn	Bill Cobbs
+CBw9	T:The Eagle	Louise Dresser
+CBw17	T:Anna Christie	Marie Dressler
+CBw19	T:Inspiration	Marjorie Rambeau
+CBw19	T:Inspiration	Beryl Mercer
+CBw22	T:Possessed	Marjorie White
+CBw28	T:Chained	Otto Kruger
+CBw29	T:Anna Karenina	May Robson
+CBw29	T:Anna Karenina	Reginald Owen
+CBw29	T:Anna Karenina	Reginald Denny
+CBw31	T:The Gorgeous Hussy	Melvyn Douglas
+CBw31	T:The Gorgeous Hussy	Alison Skipworth
+CBw31	T:The Gorgeous Hussy	Louis Calhern
+CBw31	T:The Gorgeous Hussy	Beulah Bondi
+CBw31	T:The Gorgeous Hussy	Melville Cooper
+CBw33	T:Conquest	Reginald Owen
+CBw33	T:Conquest	Alan Marshal
+CBw33	T:Conquest	May Whitty
+CBw33	T:Conquest	Maria Ouspenskaya
+CBw36	T:The Rains Came	Myrna Loy
+CBw36	T:The Rains Came	Maria Ouspenskaya
+CBw36	T:The Rains Came	Nigel Bruce
+CBw36	T:The Rains Came	Mary Nash
+CBw36	T:The Rains Came	Marjorie Rambeau
+CBw37	T:Edison The Man	Lynne Overman
+CBw38	T:Come Live With Me	Barton McLane
+CBw41	T:The White Cliffs of Dover	Alan Marshall
+CBw41	T:The White Cliffs of Dover	Norma Varden
+CBw42	T:National Velvet	Mickey Rooney
+CBw42	T:National Velvet	Reginald Owen
+CBw42	T:National Velvet	Norma Varden
+CBw42	T:National Velvet	Alex Craig
+CBw42	T:National Velvet	Arthur Shields
+CBw45	T:Intruder in the Dust	Porter Hall
+CBy10	T:Salome	Alla Nazimova
+CC43	T:The Tramp	Lloyd Bacon
+CC62	T:The Immigrant	Albert Austin
+CC66	T:A Dog's Life	Albert Austin
+CC73	T:The Goldrush	Mack Swain
+CC77	T:Modern Times	Paulette Goddard
+CC78	T:The Great Dictator	Paulette Goddard
+CC78	T:The Great Dictator	Reginald Gardiner
+CC78	T:The Great Dictator	Billy Gilbert
+CC79	T:The Goldrush	Mack Swain
+CC75	T:Circus	Allan Garcia
+CC80	T:Limelight	Melissa Hayden
+CC80	T:Limelight	Nigel Bruce
+CCa10	T:Flight of the Innocent	Manuel Colao
+CCa13	T:Fluke	Matthew Modine
+CCb10	T:The Mummy's Hand	Peggy Moran
+CCG4	T:L'Aveu	Michel Vitold
+CCG7	T:Missing	Melanie Mayron
+CCG7	T:Missing	Richard Bradford
+CCG10	T:Betrayed	Betsy Blair
+CCG10	T:Betrayed	Albert Hall
+CCG10	T:Betrayed	Maria Valdez
+CCG15	T:Music Box	Armin MuellerStahl
+CCG15	T:Music Box	Michael Rooker
+CCG24	T:Mad City	Mia Kirshner
+CCo1	T:Adventures in Babysitting	Bradley Whitford
+CCo3	T:Home Alone	Macaulay Culkin
+CCo4	T:Only the Lonely	Maureen OHara
+CCo5	T:Home Alone 2: Lost in New York	Macaulay Culkin
+CCo6	T:Mrs.~Doubtfire	Polly Hollyday
+CCo6	T:Mrs.~Doubtfire	Lisa Jacub
+CCr10	T:Off Limits	Amanda Pays
+CCr10	T:Off Limits	Paul Alan Grier
+CCr10	T:Off Limits	Richard Brok
+CCr10	T:Off Limits	Raymond OConnor
+CCw2	T:Singles	Matt Dillon
+CD8	T:What's New Pussycat?	Peter OToole
+CD8	T:What's New Pussycat?	Louise Lasser
+CD8	T:What's New Pussycat?	Richard Burton
+CD11	TZ:Luv	Peter Falk
+CD11	TZ:Luv	Nina Wayne
+CD22	T:Vampira	Peter Bayliss
+CD22	T:Vampira	Linda Hayden
+CD22	T:Vampira	Nicky Henson
+CD22	T:Vampira	Bernard Breslaw
+CD29	T:Charlie Chan and the Curse of the Dragon Queen	Peter Ustinov
+CD29	T:Charlie Chan and the Curse of the Dragon Queen	Angie Dickenson
+CD29	T:Charlie Chan and the Curse of the Dragon Queen	Rachel Roberts
+CD29	T:Charlie Chan and the Curse of the Dragon Queen	Michelle Pfeiffer
+CDe10	T:The Escape Artist	Raul Julia
+CdG1	T:Tarzan and his Mate	Paul Cavanagh
+CDM1	T:The Squaw Man	Monroe Salisbury
+CDM1	T:The Squaw Man	Billy Elmer
+CDM3	T:The Virginian	Billy Elmer
+CDM6	T:Rose of the Rancho	Bessie Barrisdale
+CDM9	T:The Girl of the Golden West	Raymond Hatton
+CDM11	T:The Warrens of Virginia	Blanche Sweet
+CDM13	T:The Goose Girl	Marguerite Clark
+CDM17	T:The Captive	Page Peters
+CDM17	T:The Captive	Marjorie Daw
+CDM32	T:The Squaw Man	Naoh Beery
+CDM40	T:The Affairs of Anatol	Agnes Ayres
+CDM40	T:The Affairs of Anatol	Monte Blue
+CDM52	T:Madame Satan	Marthe Sleeper
+CDM56	T:The Sign of the Cross	Arthur Hohl
+CDM56	T:The Sign of the Cross	Nat Pendleton
+CDM59	T:Cleopatra	Arthur Hohl
+CDM64	T:The Plainsman	Paul Harvey
+CDM73	T:Union Pacific	Barbara Stanwyck
+CDM73	T:Union Pacific	Akim Tamiroff
+CDM73	T:Union Pacific	Lynne Overman
+CDM73	T:Union Pacific	Anthony Quinn
+CDM73	T:Union Pacific	Regis Toomey
+CDM75	T:Reap the Wild Wind	Ray Milland
+CDM75	T:Reap the Wild Wind	Paulette Goddard
+CDM77	T:Unconquered	Paulette Goddard
+CDM77	T:Unconquered	Boris Karloff
+CDM77	T:Unconquered	Porter Hall
+CDM77	T:Unconquered	Mike Mazurki
+CDM79	T:The Greatest Show on Earth	Lyle Bettger
+CDM80	T:The Ten Commandments	Anne Baxter
+CDM80	T:The Ten Commandments	Nina Foch
+CDr9	T:The Passion of Joan of Arc	Michel Simon
+CDr9	T:The Passion of Joan of Arc	Antonin Artaud
+CEa2	TZ:High Plains Drifter	Mariana Hill
+CEa3	T:The Outlaw Josey Wales	Bill McKinney
+CEa8	T:Honkytonk Man	Alexa Kenin
+CEa9	TZ:Sudden Impact	Pat Hingle
+CEa9	TZ:Sudden Impact	Bradford Dillman
+CEa9	TZ:Sudden Impact	Paul Drake
+CEa9	TZ:Sudden Impact	Audrie J. Neenan
+CEa9	TZ:Sudden Impact	Michael Currie
+CEa9	TZ:Sudden Impact	Albert Popwell
+CEa9	TZ:Sudden Impact	Mark Keyloun
+CEa12	T:Bird	Michael Zelniker
+CEa13	T:Pink Cadillac	Bernadette Peters
+CEa15	T:Rookie	Raul Julia
+CEa15	T:Rookie	Marco Rodriguez
+CEa18	T:Bridges of Madison County	Annie Corley
+CEa19	T:Absolute Power	Alison Eastwood
+CEa20	T:Midnight in the Garden of Good And Evil	Alison Eastwood
+CEd10	T:Little Dorrit	Amelda Brown
+CEd10	T:Little Dorrit	Paul Rhys
+CEd20	T:As You like It	Miriam Margolyes
+CFr10	T:Intimate Relations	Marian Spencer
+CGl25	T:Malombra	Lyda Borelli
+CGl35	T:Maman poupee	Mario Cusmich
+CGo10	T:The Wonderful Crook	Marlene Jobert
+CHa20	T:The Hand that Rocks the Cradle	Madeline Zima
+CHa20	T:The Hand that Rocks the Cradle	Matt McCoy
+CHa25	T:The River Wild	Meryl Streep
+ChC4	T:Hue and Cry	Alastair Sims
+ChC9	T:The Lavender Hill Mob	Margaret Fielding
+ChC9	T:The Lavender Hill Mob	Audrey Hepburn
+ChC11	T:The Titfield Thunderbolt	Naunton Wayne
+ChC11	T:The Titfield Thunderbolt	Reginald Beckwith
+ChD10	T:Last on a Train	Ralph Bellamy
+ChD10	T:Last on a Train	Patricia Morrison
+ChE1	T:Call It Murder	O.P. Heggie
+ChE2	T:The Egg and I	Louise Allbritton
+ChE2	T:The Egg and I	Billy House
+ChG15	T:Waiting for Guffman	Bob Balaban
+ChG15	T:Waiting for Guffman	Parker Posey
+ChH3	T:Girls Town	Maggie Hayes
+CH10	TZ:Mother Lode	Nick Mancuso
+ChJ30	T:Fanfan la Tulipe	Noel Roquevert
+ChJ36	T:Madame DuBarry	Martine Carol
+CHo5	TZ:Lovers and Other Strangers	Beatrice Arthur
+CHo5	TZ:Lovers and Other Strsngers	Bonnie Bedalia
+CHo5	TZ:Lovers and Other Strangers	Michael Brandon
+CHo5	TZ:Lovers and Other Strangers	Richard Castellano
+ChR10	T:Steamboat Bill jnr.	Marion Byron
+ChR13	T:Hollywood Revue	Marie Dressler
+ChR13	T:Hollywood Revue	Polly Moran
+ChR13	T:Hollywood Revue	Bessie Love
+ChR13	T:Hollywood Revue	Ann Dvorak
+ChR13	T:Hollywood Revue	Oliver Hardy
+ChR13	T:Hollywood Revue	Anita Page
+ChR13	T:Hollywood Revue	Lionel Barrymore
+ChR50	T:The Big Store	Margaret Dumont
+ChR60	T:Lost in a Harem	Murray Leonard
+ChS10	T:Irreconcilable Differences	Alan Garfield
+ChS24	T:I Love Trouble	Olympia Dukakis
+ChS24	T:I Love Trouble	Marsha Mason
+ChV2	T:Blind Alley	Ann Dvorak
+ChV2	T:Blind Alley	Melville Cooper
+ChV2	T:Blind Alley	Marc Lawrence
+ChV8	T:The Lady in Question	Richard Aherne
+ChV8	T:The Lady in Question	Lloyd Corrigan
+ChV13	T:The Tuttles of Tahiti	Peggy Drake
+ChV20	T:Gilda	Ludwig Donath
+ChV26	T:The Loves of Carmen	Luther Adler
+ChV26	T:The Loves of Carmen	Bernard Nedell
+ChV35	T:Hans Christian Andersen	Zizi Jeanmaire
+ChV45	T:The Joker is Wild	Mitzi gaynor
+ChV45	T:The Joker is Wild	Beverly Garland
+ChV46	T:A Farewell to Arms	Alberto Sordi
+ChV46	T:A Farewell to Arms	Mercedes McCambridge
+ChV46	T:A Farewell to Arms	Oscar Homolka
+ChW2	T:Good News	Peter Lawford
+ChW2	T:Good News	Patricia Marshall
+ChW2	T:Good News	Mel Torme
+ChW2	T:Good News	Ray McDonald
+ChW2	T:Good News	Patricia Marshall
+ChW2	T:Good News	Morris Akrum
+ChW3	T:Easter Parade	Ann Miller
+ChW3	T:Easter Parade	Peter Lawford
+ChW4	T:The Barkleys of Broadway	Oscar Levant
+ChW4	T:The Barkleys of Broadway	Billie Burke
+ChW6	T:Lili	Mel Ferrer
+ChW6	T:Lili	Zsa Zsa Gabor
+ChW7	T:Dangerous when Wet	Barbara Whiting
+ChW12	T:High Society	Louis Armstrong
+ChW25	T:Walk, Don't Run	Miiko Taka
+CiS40	T:Eye of the Eagle III	Peter Nelson
+CJ2	T:Anne of a Thousand Days	Anthony Quayle
+CJ2	T:Anne of a Thousand Days	Michael Hordern
+CJ2	T:Anne of a Thousand Days	Peter Jeffrey
+CJ2	T:Anne of a Thousand Days	William Squire
+CJ2	T:Anne of a Thousand Days	Nora SwinBurne
+CJ4	T:Lost Horizon	Peter Finch
+CJ4	T:Lost Horizon	Michael York
+CJ9	TZ:Condor Man	Oliver Reed
+CJ9	T:Condor Man	Barbara Carrera
+CJ10	TZ:The Amateur	Marthe Keller
+CJu10	T:So ist das Leben	Mana Zeniskova
+CkB10	TZ:Gumball Rally	Michael Sarrazin
+CL1	T:The Night of the Hunter	Peter Graves
+CLa95	T:Abbott and Costello in the Foreign Legion	Lou Costello
+CLa100	T:Abbott and Costello Meet the Invisible Man	Lou Costello
+CLa114	T:Abbott and Costello Go To Mars	Lou Costello
+CLa114	T:Abbott and Costello Go To Mars	Anita Ekberg
+CLa114	T:Abbott and Costello Go To Mars	Martha Hyer
+CLa115	T:Abbott and Costello Meet Dr.~Jekyll and Mr.~Hyde	Lou Costello
+CLa121	T:Abbott and Costello Meet the Keystone Kops	Lou Costello
+CLa121	T:Abbott and Costello Meet the Keystone Kops	Lynn Bari
+CLa121	T:Abbott and Costello Meet the Keystone Kops	Maxie Rosenbloom
+CLa121	T:Abbott and Costello Meet the Keystone Kops	Mack Sennett
+CLa125	T:Abbott and Costello Meet the Mummy	Lou Costello
+CLa125	T:Abbott and Costello Meet the Mummy	Marie Windsor
+CLa125	T:Abbott and Costello Meet the Mummy	Mel Welles
+CLa127	T:Dance With me, Henry	Lou Costello
+CLB20	T:Toto and Peppino Divided in Berlin	Peppino DeFillippo
+ClC21	T:La Femme Infidele	Michel Bouquet
+ClC21	T:La Femme Infidele	Michel Duchaussoy
+ClC35	T:Une Partie de Plaisir	Paula Moore
+ClC49	T:Stille Tage in Clichy	Andrew McCarthy
+ClC49	T:Stille Tage in Clichy	Nigel Havers
+ClC49	T:Stille Tage in Clichy	Mario Adorf
+ClC49	T:Stille Tage in Clichy	Barbara deRossi
+ClC50	T:Story of Women	Nils Travenier
+ClC50	T:Story of Women	Marie Trintignant
+ClD1	T:Chocolat	Mireille Perrier
+CLi10	T:Jenseits der Stille	Mathias Haupert
+ClL25	T:Les Miserables	Alexandra Martinez
+ClM30	T:The Little Thief	Nathalie Cardone
+ClM40	T:The Accompanist	Richard Bohringer
+ClS40	T:Un coeur en hiver	Maurice Garrel
+ClW10	TZ:It's My Turn	Michael Douglas
+ClZ10	T:Ripoux contre Ripoux	Philippe Noiret
+CMe10	T:CrissCross	Arliss Howard
+CNy1	T:The Thing	Margaret Sheridan
+CNy15	T:First to Fight	Marilyn Devon
+CoA10	TZ:Avalanche	Mia Farrow
+CoB6	T:King Solomon's Mines	Richard Carlson
+CoB6	T:King Solomon's Mines	Lowell Gilmore
+CoH1	T:Foul Play	Raqchel Roberts
+CoH3	T:Best Little Whorehouse in Texas	Lois Nettleton
+CPR10	T:A Challenge for Robin Hood	Barrie Ingram
+CR10	T:The Night Train to Munich	Margaret lockwood
+CR10	T:The Night Train to Munich	Rex Harrison
+CR10	T:The Night Train to Munich	Basil Radford
+CR10	T:The Night Train to Munich	Naunton Wayne
+CR10	T:The Night Train to Munich	Paul Henreid
+CR10	T:The Night Train to Munich	Raymond Huntley
+CR12	T:Kipps	Phyllis Calvert
+CR12	T:Kipps	Arthur Riscoe
+CR12	T:Kipps	Max Adrian
+CR12	T:Kipps	Michael Wilding
+CR12	T:Kipps	Lloyd Pearson
+CR12	T:Kipps	Beatrice Varley
+CR14	T:The Way Ahead	Raymond Huntley
+CR14	T:The Way Ahead	Renee Asherson
+CR14	T:The Way Ahead	Penelope Dudley ward
+CR14	T:The Way Ahead	Reginal Tate
+CR14	T:The Way Ahead	Mary Jerrold
+CR14	T:The Way Ahead	Peter Ustinov
+CR16	T:Odd Man Out	Maureen Delany
+CR17	T:The Fallen Idol	Ralph Richardson
+CR18	T:The Third Man	Margaret Lockwood
+CR18	T:The Third Man	Michael Redgrave
+CR18	T:The Third Man	Alida Valli
+CR18	T:The Third Man	Bernard Lee
+CR18	T:The Third Man	Paul Hoerbiger
+CR24	T:Our Man in Havana	Maureen OHara
+CR24	T:Our Man in Havana	Ralph Richardson
+CRd10	T:Amityville 1992: It's About Time	Megan Ward
+CSc10	T:The German Chainsaw Massacre	Alfred Edel
+CSe15	T:Mama, There's a Man in Your Bed	Pierre Vernier
+CSe15	T:Mama, There's a Man in Your Bed	Maxime Leroux
+CSe15	T:Mama, There's a Man in Your Bed	Muriel Combeau
+CSG10	T:Jungle Moon Men	Billy Curtis
+CSG10	T:Jungle Moon Men	Angelo Rossitto
+CSi6	T:Bride of the Gorilla	Barbara Payton
+CSi6	T:Bride of the Gorilla	Paul Cavanaugh
+CSm10	T:Pippi Longstocking	Melissa Altro
+CSr7	T:Horas Dulces	Assumpta Serra
+CSr10	T:Carmen	Antonio Gades
+CSr10	T:Carmen	Paco deLucia
+CsS10	T:Where Angels Fear to Tread	Barbara Jefford
+CsS15	T:Fairy Tale: A True Story	Peter OToole
+CTB10	T:Abbott and Costello Meet Frankenstein	Lon Chaney
+CTB15	T:Africa Screams	Lou Costello
+CTB16	T:Abbott and Costello Meet the Killer, Boris Karloff	Lou Costello
+CTB16	T:Abbott and Costello Meet the Killer, Boris Karloff	Percy Helton
+CTB16	T:Abbott and Costello Meet the Killer, Boris Karloff	Alan Mowbray
+CTB16	T:Abbott and Costello Meet the Killer, Boris Karloff	Billy Gray
+CTB25	T:Shaggy Dog	Annette Funicello
+CuB32	T:My Reputation	Barbara Stanwyk
+CuB34	T:Possessed	Moroni Olsen
+CuB34	T:Possessed	Monte Blue
+CuB37	T:The Merry Widow	Marcel Dalio
+CuB44	T:Kisses for My President	Arlene Dahl
+CuH14	TZ:Devil Dog: The Hound of Hell	Richard Crenna
+CWl10	T:Der Stolz der Firma	Martha Krivitz
+CWm10	T:Superstar "The Life and Times of Andy Warhol"	Andy Warhol
+CWm10	T:Superstar "The Life and Times of Andy Warhol"	Lou Reed
+CWr3	T:A Day in the Life of Ivan Denisovitch	Alfred Burke
+CWr3	T:A Day in the Life of Ivan Denisovitch	Matthew Guiness
+CWr10	T:Ransom	Norman Bristow
+CyE8	T:Try and Get Me	Richard Carlson
+CyE8	T:Try and Get Me	Lloyd Bridges
+CyE30	TZ:Mysterious Island	Michael Craig
+CyS1	T:Strangers in Good Company	Michelle Sweeney
+DaB4	T:Just Imagine	Marjorie White
+DaB4	T:Just Imagine	Mischa Auer
+DaB8	T:The Littlest Rebel	Bill Robinson
+DaB8	T:The Littlest Rebel	Willie Best
+DaB9	T:The Little Colonel	Lionel Barrymore
+DaB9	T:The Little Colonel	Bojangles Robinson
+DaB13	T:You're a Sweetheart	Alice Faye
+DAl10	T:Naked in New York	William Styron
+DAl10	T:Naked in New York	Arthur Penn
+DeD30	T:Hollywood Canteen	Bette Davis
+DeD30	T:Hollywood Canteen	Paul Henreid
+DeD30	T:Hollywood Canteen	Peter Lorre
+DeD30	T:Hollywood Canteen	Alexis Smith
+DeD30	T:Hollywood Canteen	Barbara Stanwyck
+DL12	T:The Bridge on the River Kwai	Alec Guiness
+DL13	T:Lawrence of Arabia	Peter OToole
+DMi30	T:Midnight Lace	Rex Harrison
+DS6	T:The Verdict	Peter Lorre
+DS33	T:Charley Varrick	Walter Matthau
+DWr10	T:Ice Castles	Lynn-Holly Johnson
+DZu12	T:The Naked Gun 2 1/2: The Smell of Fear	O.J. Simpson
+DZu12	T:The Naked Gun 2 1/2: The Smell of Fear	Pia Zadora
+DZu12	T:The Naked Gun 2 1/2: The Smell of Fear	Mary Lou Retton
+EDm20	T:Captive Wild Woman	Milburn Stone
+ElB10	T:Dirty Dancing	Patrick Swayze
+ElN13	T:My Favourite Brunette	Raymond Denny
+ElN13	T:My Favourite Brunette	Bing Crosby
+EMu1	T:Harlem Nights	Arsenio Hall
+EPy10	T:A Dry White Season	Marlon Brando
+ErM3	T:The Thin Blue Line	Randell Dale Adams
+EuF51	T:Michael Shayne, Private Detective	Lloyd Nolan
+FB52	T:The Mortal Storm	Margaret Sullavan
+FC28	T:You Can't Take It With You	Mischa Auer
+FC23	T:The Bitter Tea of General Yen	Nils Asther
+FlM1	T:Jigsaw	Marlene Dietrich
+FlM1	T:Jigsaw	Marsha Hunt
+FOz22	T:Housesitter	Peter MacNichol
+FrF28	T:Girly	Pat Heywood
+FrF35	T:Tales from the Crypt	Ralph Richardson
+FSc29	TZ:Six Degrees of Separation	Arlene Dahl
+FT6	T:La peau douce	Phillipe Duval
+GAx1	T:Babette's Feast	Bibi Anderson
+GC45	T:Let's Make Love	Milton Berle
+GgL2	T:American Graffiti	Mackenzie Philips
+GgL3	T:Star Wars	Mark Hamill
+GM224	T:Monsieur Beaucaire	Patric Knowles
+GM227	T:Variety Girl	Bob Hope
+GM227	T:Variety Girl	Bing Crosby
+GM227	T:Variety Girl	Ray Milland
+GM227	T:Variety Girl	Alan Ladd
+GM227	T:Variety Girl	Barbara Stanwyk
+GM227	T:Variety Girl	Paulette Goddard
+GM227	T:Variety Girl	Lizabeth Scott
+GM227	T:Variety Girl	Barry Fitzgerald
+GM227	T:Variety Girl	Billy deWolfe
+GM227	T:Variety Girl	Mitchell Leisen
+GM238	T:Scared Stiff	Bing Crosby
+GM238	T:Scared Stiff	Bob Hope
+GMK10	T:Playboys	Albert Finney
+GRH5	T:Thoroughly Modern Millie	Beatrice Lillie
+GSK1	T:The Senator was Indiscreet	Myrna Loy
+GvS2	T:Drugstore Cowboy	William S.L. Burroughs
+GyM24	T:unknown	Michael Douglas
+H9	T:The Lodger: A Story of The London Fog	Malcolm Keen
+H20	T:Murder!	Norah Baring
+H20	T:Murder!	Alfred Hitchcock
+H23	T:Number Seventeen	Anne Grey
+H27	T:The 39 Steps	Peggy Ashcroft
+H28	T:Secret Agent	Michael SaintDenis
+H31	T:The Lady Vanishes	Basil Radford
+H37	T:Saboteur	Allan Baxter
+H43	T:Notorious	Reinhold Schunzel
+H44	T:The Paradine Case	Alfred Hitchcock
+H51	T:Rear Window	Alfred Hitchcock
+H73	T:Psycho	Martin Balsam
+H73	T:Psycho	Alfred Hitchcock
+H71	T:Arthur	Patrick Macnee
+H71	T:Arthur	Barry G. Harvey
+HAA15	T:Topaze	Myrna Loy
+HBe15	T:Malice	Bebe Neuwith
+HBe15	T:Malice	Anne Bancroft
+HeD105	T:My Brother Richard	Bobby Ellis
+HeD105	T:My Brother Richard	Lisa Golm
+HeD115	T:The Diamond Necklace	Betsy vonFurstenberg
+HeM20	T:Strange Boarders	Renee StCyr
+HEs10	T:I, The Jury	Peggie Castle
+HIL5	T:Mr.~Moto in Danger Island	Peter Lorre
+HKo26	T:No Highway in the Sky	Marlene Dietrich
+HyA3	T:Chamber of Horrors	Patrick ONeal
+HyA3	T:Chamber of Horrors	Marie Windsor
+IDa19	T:Rounders	Martin Landau
+IF112	T:The Searchers	Mae Marsh
+IG4	T:The Living Daylights	Maryam dAbo
+IGu31	T:Death on the Nile	Peter Ustinov
+IGu31	T:Death on the Nile	Bette Davis
+IGu31	T:Death on the Nile	Olivia Hussey
+IH1	T:The Maltese Falcon	Walter Huston
+IH2	T:This is our Life	Walter Huston
+IH3	T:Across the Pacific	Mary Astor
+IH29	T:Casino Royale	Peter Sellers
+ILa55	T:Coming to America	Ralph Bellamy
+IlE10	T:My Twentieth Century	Oleg Jankowski
+IMi10	T:Red Dawn	Patrick Swayze
+IML101	T:Crackpot	Biff McGuire
+IML101	T:Crackpot	Mary Scott
+IMT22	T:Last Action Hero	Art Carney
+IMT22	T:Last Action Hero	Maria Shriver
+INw31	T:Bad Actor	Bartlett Robinson
+IS7	T:Sunday, Bloody Sunday	Murray Head
+JCi17	T:Portrait of a Lady	Martin Donovan
+JD8	T:The Naked City	Barry Fitzgerald
+JDB11	T:Twister	Alan Ruck
+JDB11	T:Twister	Nicholas Sadler
+JeY35	T:The seven faces of Dr.Loa	Noah Berry~jr
+JFll	T:We're Only Human	Preston Foster
+JFr10	T:Kiss and Kill	Maria Rohm
+JFr12	T:The Castle of Fu Manchu	Maria Rohm
+JiA18	T:Hot Shots! Part Deux	Brenda Bakke
+JkS5	T:Cleopatra Jones	Bernie Casey
+JLG1	T:A Bout de Souffle	Philippe deBroca
+JLy10	T:Boxing Helena	Bill Paxton
+JLz2	T:Leolo	Pierre Bourgault
+JMu3	T:Le Puritain	Pierre Fresnay
+JN23	T:Daddy Longlegs	Ray Anthony
+JoD9	T:Piranha	Bradford Dillman
+JoG2	T:Octopussy	Maud Adams
+JoP44	T:One of the Family	Olive Deering
+JoS20	T:Batman & Robin	Arnold Schwarzenegger
+JoS20	T:Batman & Robin	Alicia Silverstone
+JrS10	T:The Vengeance of Fu Manchu	Maria Rohm
+JtF1	T:Star Trek: First Contact	Patrick Stewart
+JTg7	T:Mr.~Moto's Gamble	Peter Lorre
+JuD8	T:P\'ep\'e le Moko	Marcel Dalio
+KCo25	T:An Arabian Adventure	Peter Cushing
+KV27	T:Show People	Mae Murray
+LwS180	T:Pittsburgh	Randolph Scott
+MB5	T:Silent Movie	Anne Bancroft
+MB5	T:Silent Movie	Paul Newman
+MB5	T:Silent Movie	Liza Minnelli
+MB5	T:Silent Movie	Paul Newman
+MF8	T:Amadeus	Patrick K. Hinses
+MFe10	T:Queen Bee	Barry Sullivan
+Mfe40	T:Tales of Ordinary Madness	Ben Gazzara
+MFe40	T:Tales of Ordinary Madness	Ornella Mutti
+MFi16	T:The Browning Version	Albert Finney
+MFr5	T:Knock on Wood	Loon Askin
+MFr23	T:Road to Hong Kong	Bing Crosby
+MFr23	T:Road to Hong Kong	Bob Hope
+MFr23	T:Road to Hong Kong	Peter Sellers
+MFr29	T:A Touch of Class	Paul Sorvino
+MFr29	TZ:A Touch of Class	Paul Sorvino
+MFr40	T:Lost and Found	Maureen Stapleton
+MFr40	T:Lost and Found	Paul Sorvino
+MGe5	T:Madame Butterfly	Louise Carter
+MGe5	T:Madame Butterfly	Berton Churchill
+MGe10	T:Jennie Gerhardt	Mary Astor
+MGe10	T:Jennie Gerhardt	Louise Carter
+MGe12	T:Thirty-Day Princess	Lucien Littlefield
+MGo10	T:Mrs. Dalloway	Natascha McElhone
+MGo10	T:Mrs. Dalloway	Michael Kitchen
+MGo10	T:Mrs. Dalloway	Allan Cox
+MGo10	T:Mrs. Dalloway	Amelia Bullmore
+MGr10	T:Hardbodies	Michael Rapport
+MGr15	TZ:Hardbodies II	Brenda Bakke
+MgT10	TZ:Battle Beneath the Earth	Peter Arne
+MHa10	T:Kicked in the Head	Michael Rappaport
+MHe10	T:Brassed Off	Pete Postlewaite
+MHe15	T:Little Voice	Brenda Bluffin
+MHo10	T:Flash Gordon	Melody Anderson
+MHo10	T:Flash Gordon	Max vonSydow
+MiA6	TZ:The Dam Busters	Michael Redgrave
+MiA6	T:The Dam Busters	Basil Sidney
+MiA6	T:The Dam Busters	Patrick Barr
+MiA6	T:The Dam Busters	Raymond Huntlry
+MiA8	T:Around the World in 80 Days	Martine Carroll
+MiA8	T:Around the World in 80 Days	Melville Cooper
+MiA8	T:Around the World in 80 Days	Noel Coward
+MiA8	T:Around the World in 80 Days	Reginald Denny
+MiA8	T:Around the World in 80 Days	Andy Devine
+MiA8	T:Around the World in 80 Days	Marlene Dietrich
+MiA8	T:Around the World in 80 Days	Luis Dominguin
+MiA8	T:Around the World in 80 Days	Beatrice Lillie
+MiA8	T:Around the World in 80 Days	Peter Lorre
+MiA8	T:Around the World in 80 Days	Mike Mazurki
+MiA8	T:Around the World in 80 Days	Alan Mowbray
+MiA8	T:Around the World in 80 Days	Red Skelton
+MiA8	T:Around the World in 80 Days	Basil Sidney
+MiA11	T:The Wreck of the Mary Deare	Michael Redgrave
+MiA11	T:The Wreck of the Mary Deare	Alexander Knox
+MiA18	T:The Shoes of the Fisherman	Paul Rogers
+MiA22	T:Logan's Run	Michael York
+MiA22	T:Logan's Run	Peter Ustinov
+MiA24	TZ:Dominique is Dead	Michael Jayston
+MiA25	T:Orca the Killer Whale	Bo Derek
+MiA25	T:Orca the Killer Whale	Peter Hoofer
+MiA27	TZ:The Martian Chronicles I/II/III	Bernie Casey
+MiC11	T:The First Great Train Robbery	Alan Webb
+MiC11	T:The First Great Train Robbery	Malcolm Terris
+MiC15	T:Coma	Michael Douglas
+MiC20	T:Looker	Albert Finney
+MiC25	T:Runaway	AnneMarie Martin
+MiD10	T:Les Violons du Bal	Nathalie Roussel
+MiG3	T:Crime Doctor	Margeret Lindsay
+MiG3	T:Crime Doctor	Ray Collins
+MiG25	T:Another Part of the Forest	Ann Blyth
+MiG30	T:Cyrano de Bergerac	Mala Powers
+MiG30	T:Cyrano de Bergerac	William Prince
+MiG30	T:Cyrano de Bergerac	Morris Carnovsky
+MiG30	T:Cyrano de Bergerac	Ralph Clanton
+MiG30	T:Cyrano de Bergerac	Lloyd Corrigan
+MiG30	T:Cyrano de Bergerac	Albert Cavers
+MiG30	TZ:Cyrano de Bergerac	Perce Hellman
+MiG35	T:Pillow Talk	Nick Adams
+MiG35	T:Pillow Talk	Allen Jenkins
+MiG35	T:Pillow Talk	Marcel Dalio
+MiG45	T:A Very Special Favor	Nita Talbot
+MiG50	T:The Impossible Years	Ozzie Nelson
+MiJ5	T:L.A. Story	Patrick Stewart
+MiJ10	T:The Bodyguard	Bill Cobbs
+MiJ10	T:The Bodyguard	Mike Starr
+MiJ10	T:The Bodyguard	Richard Birt
+MiJ12	T:Clean Slate	Olivia dAbo
+MiJ12	T:Clean Slate	Michael Murphy
+MiJ12	T:Clean Slate	Michael Gambon
+MiJ15	T:Volcano	Anne Hecht
+MiK2	TZ:Forty Carats	Liv Ullmann
+MiK2	TZ:Forty Carats	Binnie Barnes
+MiK10	TZ:Strangers: The Story of a Mother and Daughter	Bette Davis
+MiL28	T:Secrets & Lies	Brenda Bluffin
+MiR10	T:White Mischief	Alan Dobie
+MiS3	T:Myra Breckenridge	Mae West
+MiS3	T:Myra Breckenridge	Andy Devine
+MiT1	T:Villain	Richard Burton
+MiT8	TZ:Trenchcoat	Margot Kidder
+MiW12	T:The Jokers	Oliver Reed
+MiW12	T:The Jokers	Michael Hodern
+MiW12	T:The Jokers	Rachel Kempson
+MiW12	T:The Jokers	Peter Graves
+MiW18	T:The Nightcomer	Marlon Brando
+MiW22	T:Death Wish	William Redfield
+MiW23	T:Won Ton Ton, The Dog Who Saved Hollywood	Madeline Kahn
+MiW23	T:Won Ton Ton, The Dog Who Saved Hollywood	Art Carney
+MiW27	T:Sentinel	Ava Gardner
+MiW30	T:The Big Sleep	Richard Boone
+MiW30	T:The Big Sleep	Oliver Reed
+MiW35	TZ:The Stone Killer	Martin Balsam
+MiW35	TZ:The Stone Killer	Norman Fell
+MiW35	TZ:The Stone Killer	Ralph Waite
+MiW43	TZ:Wicked Lady	Alan Bates
+MiW43	T:Wicked Lady	Prunella Scales
+MiW43	T:Wicked Lady	Oliver Tobias
+MJu10	T:Office Space	Ajay Naidu
+MKa10	T:Another Country	Michael Jenn
+MKa10	T:Another Country	Anna Massey
+MKa10	T:Another Country	Betsy Brantley
+MKb10	T:Mobsters	Michael Gambon
+MKb10	T:Mobsters	Anthony Quinn
+MkD10	T:The Childhood of Maxim Gorki	Alexei Lyarski
+MkD10	T:The Childhood of Maxim Gorki	Mark Troyanovski
+MkD11	T:Out in the World	Alexei Lyarski
+MkD12	T:My Universities	Alexei Lyarski
+MkG12	T:The Stand	Bill Fagerbakke
+MkG12	T:The Stand	Ray Walston
+MkG12	T:The Stand	Ossie Davis
+MkG12	T:The Stand	Miguel Ferrer
+MKi10	T:Dangerous Toys	Zoe Yuzna
+MkJ11	T:The Matchmaker	Milo OShea
+MkP1	T:Afraid of the Dark	Paul mcGann
+MkR10	T:Murder Ordained	Annabelle Price
+MkR10	T:Murder Ordained	Margot Rose
+MkR10	T:Murder Ordained	M.Emmett Walsh
+ML6	T:Hands Across the Table	Marie Prevost
+ML8	T:Thirteen Hours by Air	Zasu Pitts
+ML8	T:Thirteen Hours by Air	Alan Baxter
+ML9	T:The Big Broadcast of 1937	Bob Burns
+ML9	T:The Big Broadcast of 1937	Martha Raye
+ML9	T:The Big Broadcast of 1937	Ray Milland
+ML9	T:The Big Broadcast of 1937	Benny Fields
+ML9	T:The Big Broadcast of 1937	Benny Goodman
+ML9	T:The Big Broadcast of 1937	Louis daPron
+ML10	T:Easy Living	Ray Milland
+ML10	T:Easy Living	Mary Nash
+ML10	T:Easy Living	Luis Alberni
+ML12	T:The Big Broadcast of 1938	Bob Hope
+ML12	T:The Big Broadcast of 1938	Martha Raye
+ML12	T:The Big Broadcast of 1938	Lynne Overman
+ML12	T:The Big Broadcast of 1938	Ben Blue
+ML14	T:Remember the Night	Barbara Stanwyck
+ML14	T:Remember the Night	Beulah Bondi
+ML15	T:Arise, My Love	Ray Milland
+ML15	T:Arise, My Love	Walter Abel
+ML17	T:Hold Back the Dawn	Olivia deHavillan
+ML17	T:Hold Back the Dawn	Paulette Goddard
+ML18	T:The Lady is Willing	Marlene Dietrich
+ML18	T:The Lady is Willing	Marlene Dietrich
+ML21	T:Lady in the Dark	Mischa Auer
+ML21	T:Lady in the Dark	Mary Phillips
+ML21	T:Lady in the Dark	Barry Sullivan
+ML30	T:No Man of her Own	Barbara Stanwyk
+MLa10	T:Pet Sematary	Brad Greenquist
+MlB10	T:Paper Wedding	Manuael Aranguez
+MlB10	T:Paper Wedding	Monique Lepage
+MlC10	T:Prehistoric Women	Martine Beswick
+MlC15	T:The Lost Continent	Nigel Stock
+MlC15	T:The Lost Continent	Neil McCallum
+MLe10	TZ:This is Elvis	Paul Boensh~III
+MLe10	T:This is Elvis	Linda Thompson
+MlG1	T:The Man Without a Face	Margaret Whitton
+MlG5	T:Braveheart	Mel Gibson
+MLH5	T:Nasty Habits	Anne Jackson
+MLH5	T:Nasty Habits	Ann Meara
+MLH20	T:The Object of Beauty	Andie McDowall
+MLH20	T:The Object of Beauty	Lolita Davidovich
+MLH20	T:The Object of Beauty	Peter Riegert
+MLH20	T:The Object of Beauty	Bill Paterson
+MLn10	TZ:The Loneliest Runner	Melissa Sue Anderson
+MLn10	TZ:The Loneliest Runner	Rafer Johnson
+MLn10	TZ:The Loneliest Runner	Michael Landon
+MLR4	T:Little Caesar	Ralph Ince
+MLR6	T:Big City Blues	Walter Catlett
+MLR6	T:Big City Blues	Lyle Talbot
+MLR6	T:Big City Blues	Ned Sparks
+MLR7	T:Three on A Match	Patricia Ellis
+MLR8	T:I am Fugitive from a Chain Gang	Preston Foster
+MLR8	T:I am Fugitive from a Chain Gang	Allen Jenkins
+MLR8	T:I am Fugitive from a Chain Gang	Berton Churchill
+MLR12	T:Three on a Match	Lyle Talbot
+MLR12	T:Three on a Match	Allen Jenkins
+MLR14	T:Gold Diggers of 1933	Ned Sparks
+MLR16	T:I Found Stella Parrish	Paul Lukas
+MLR16	T:I Found Stella Parrish	Barton Maclane
+MLR18	T:Anthony Adverse	Olivia deHavilland
+MLR18	T:Anthony Adverse	Anita Louise
+MLR18	T:Anthony Adverse	Louis Hayward
+MLR18	T:Anthony Adverse	Akim Tamiroff
+MLR18	T:Anthony Adverse	Ralph Morgan
+MLR22	T:Waterloo Bridge	Lucille Watson
+MLR22	T:Waterloo Bridge	Maria Ouspenskaya
+MLR23	T:Escape	Norma Shearer
+MLR23	T:Escape	Philip Dorn
+MLR23	T:Escape	Albert Basserman
+MLR27	T:Random Harvest	Philip Dorn
+MLR27	T:Random Harvest	Reginald Owen
+MLR27	T:Random Harvest	Margaret Wycherly
+MLR27	T:Random Harvest	Bramwell Fletcher
+MLR27	T:Random Harvest	Arthur Margetson
+MLR29	T:Thirty Seconds over Tokyo	Phyllis Thaxter
+MLR30	T:Without Reservations	Phil Brown
+MLR31	T:Desire Me	Morris Ankrum
+MLR32	T:Little Women	Peter Lawford
+MLR32	T:Little Women	Margaret OBrien
+MLR32	T:Little Women	Mary Astor
+MLR34	T:East Side West Side	Barbara Stanwyk
+MLR34	T:East Side West Side	Ava Gardner
+MLR34	T:East Side West Side	Nancy Davis
+MLR35	T:Quo Vadis	Marina Berti
+MLR35	T:Quo Vadis	Nora Swinburne
+MLR35	T:Quo Vadis	Norman Wooland
+MLR39	T:Million Dollar Mermaid	Maria Tallchief
+MLR40	T:Lovely To Look At	Ann Miller
+MLR40	T:Lovely To Look At	Red Skelton
+MLR42	T:Rose-Marie	Ann Blyth
+MLR43	T:The Bad Seed	Paul Fox
+MLR50	T:The Devil at Four o'Clock	Alexander Scourby
+MLs10	T:House of Cards	Asha Menina
+MLs10	T:House of Cards	Park Overall
+MLt5	T:Gold of the Amazon Women	Anita Ekberg
+MLt10	TZ:Class of '84	Perry King
+MLt15	TZ:Firestarter	Martin Sheen
+MLt15	TZ:Firestarter	Art Carney
+MLt15	TZ:Firestarter	Louise Fletcher
+MLt15	TZ:Firestarter	Moses Gunn
+MLt15	TZ:Firestarter	Antonio Fargas
+MlW10	T:Glorifying the American Girl	Otto Kahn
+MM10	TZ:Thief	Willie Nelson
+MM10	T:Thief	Willie Nelson
+MM20	T:The Keep	Alberta Watson
+MM30	T:The Last of the Mohicans	Madeleine Stowe
+MM30	T:The Last of the Mohicans	Maurice Roeves
+MMi21	T:National Lampoon's Class Reunion	Michael Lerner
+MMi21	T:National Lampoon's Class Reunion	Miriam Flynn
+MmL10	T:The Peacemaker	Nicole Kidman
+MmL10	T:The Peacemaker	Marcel Iures
+MmL12	T:Deep Impact	Maximilian Schell
+MmL12	T:Deep Impact	Rachel Saenz
+MmL12	T:Deep Impact	Anna Cromwell
+MmL12	T:Deep Impact	Nancy/Mary McCurran
+MmL12	T:Deep Impact	Blair Underwood
+MmL12	T:Deep Impact	Ben Underwood
+MmL12	T:Deep Impact	Loren J.
+MmL12	T:Deep Impact	Michael Schiff
+MN2	T:The Graduate	Murray Hamilton
+MN2	T:The Graduate	Alice Ghostley
+MN3	T:Catch 22	Alan Arkin
+MN3	T:Catch 22	Martin Balsam
+MN3	T:Catch 22	Richard Benjamin
+MN3	T:Catch 22	Art Garfunkel
+MN3	T:Catch 22	Bob Newhart
+MN3	T:Catch 22	Anthony Perkins
+MN3	T:Catch 22	Paula Prentiss
+MN3	T:Catch 22	Martin Sheen
+MN3	T:Catch 22	Orson Welles
+MN4	T:Carnal Knowledge	Art Garfunkel
+MN5	T:The Day of the Dolphin	Paul Sorvino
+MN6	T:The Fortune	Richard B. Shull
+MN11	T:Heartburn	Meryl Streep
+MN11	T:Heartburn	Maureen Stapleton
+MN11	T:Heartburn	Milos Forman
+MN15	T:Working Girl	Nora Dunn
+MN15	T:Working Girl	Alec Baldwin
+MN15	T:Working Girl	Philip Bosco
+MN15	T:Working Girl	Olympia Dukakis
+MN20	T:Postcards from the Edge	Richard Dreyfuss
+MN20	T:Postcards from the Edge	Oliver Platt
+MN20	T:Postcards from the Edge	Mary Wickes
+MN20	T:Postcards from the Edge	Michael Ontken
+MN20	T:Postcards from the Edge	Pepe Serna
+MN22	T:Regarding Henry	Mikki Allen
+MN25	T:Wolf	Michelle Pfeiffer
+MnB10	TZ:Power Play	Peter OToole
+MnB10	TZ:Power Play	Barry Morse
+MnB22	T:Pirates of Silicon Valley	Noah Wyle
+MnB22	T:Pirates of Silicon Valley	Bodhi Pine Elfman
+MNe20	T:Enchanted April	Miranda Richardson
+MNe25	T:Four Weddings and a Funeral	Andie MacDowell
+MnK20	T:The Cloud Door	Murad Ali
+MNo10	T:Dillinger	Anne Jeffreys
+MoB10	T:The Torrent	Ricardo Cortez
+MoB10	T:The Torrent	Lucien Littlefield
+MoF1	T:Bohpa!	Marius Weyers
+MOp4	T:Liebelei	Luise Ullrich
+MOp4	T:Liebelei	Willy Eichberger
+MOp4	T:Liebelei	Paul Hoerbiger
+MOp14	T:The Exile	Maria Montez
+MOp14	T:The Exile	Paul Croset
+MOp14	T:The Exile	Nigel Bruce
+MOp16	T:Letter From an Unknown Woman	Mady Christians
+MOp16	T:Letter From an Unknown Woman	Art Smith
+MOp16	T:Letter From an Unknown Woman	Marcel Journet
+MOp20	T:Le Plaisir	Madelaine Reanaud
+MOp22	T:Lola Montes	Peter Ustinov
+MOp22	T:Lola Montes	Oskar Werner
+MOp30	T:Banana Peel	Alain Cuny
+MoT10	T:Virgin Machine	Peter Kern
+MP4	T:The Thief of Bagdad	Morton Selten
+MP6	T:49th Parallel	Raymond Massey
+MP6	T:49th Parallel	Niall McGinnis
+MP6	T:49th Parallel	Raymond Lovell
+MP8	T:The Life and Death of Colonel Blimp	Anton Walbrook
+MP8	T:The Life and Death of Colonel Blimp	Albert Lieven
+MP8	T:The Life and Death of Colonel Blimp	Arthur Wontner
+MP9	T:The Volunteer	Ralph Richardson
+MP11	T:I Know Where I Am Going	Pamela Brown
+MP11	T:I Know Where I Am Going	Nancy Price
+MP11	T:I Know Where I Am Going	Margot Fitzsimmons
+MP11	T:I Know Where I Am Going	Petula Clark
+MP12	T:A Matter of Life and Death	Marius Goring
+MP12	T:A Matter of Life and Death	Raymond Massey
+MP15	T:The Red Shoes	Moira Shearer
+MP15	T:The Red Shoes	Marin Goering
+MP15	T:The Red Shoes	Albert Basserman
+MP15	T:The Red Shoes	Ludmilla Tcherina
+MP18	T:The Elusive Pimpernel	Margaret Leighton
+MP19	T:The Tales of Hoffman	Ludmilla Tcherina
+MP19	T:The Tales of Hoffman	Mogens Wieth
+MP25	T:Oh Rosalinda!!	Michael Redgrave
+MP25	T:Oh Rosalinda!!	Annaliese Rothenberger
+MP31	T:The Battle of the River Plate	Anthony Quayle
+MP31	T:The Battle of the River Plate	Peter Finch
+MP31	T:The Battle of the River Plate	Bernard Lee
+MP35	T:Peeping Tom	Anna Massey
+MP35	T:Peeping Tom	Michael Goodliffe
+MPa1	T:C\'esar	Raimu
+MPa3	T:Gribouille	Michele Morgan
+MPe10	T:La Ultima Siembra	Patricio Contreras
+MPe10	T:La Ultima Siembra	Mario Pasik
+MPe10	T:La Ultima Siembra	Alberto Benegas
+MPi40	T:A Nos Amours	Maurive Pialat
+MPr4	T:Boulevard Nights	Marta duBois
+MPr6	T:Some Kind of Hero	Margot kidder
+MPr6	T:Some Kind of Hero	Ray Sharkey
+MPr11	T:Pirates of Penzance	Linda Ronstadt
+MPr11	TZ:Pirates of Penzance	Rex Smith
+MR2	T:No Down Payment	Patricia Owens
+MR2	T:No Down Payment	Barbara Rush
+MR2	T:No Down Payment	Pat Hingle
+MR3	T:The Long Hot Summer	Angela Lansbury
+MR3	T:The Long Hot Summer	Anthony Franciosa
+MR3	T:The Long Hot Summer	Richard Anderson
+MR4	T:Black Orchid	Mark Richman
+MR9	T:Hud	Paul Newman
+MR11	T:The Spy Who Came in from the Cold	Peter vanEyck
+MR11	T:The Spy Who Came in from the Cold	Michael Hodern
+MR11	T:The Spy Who Came in from the Cold	Bernard Lee
+MR11	T:The Spy Who Came in from the Cold	Beatrix Lehman
+MR12	T:Hombre	Paul Newman
+MR12	T:Hombre	Richard Boone
+MR12	T:Hombre	Martin Balsam
+MR13	T:The Brotherhood	Alex Cord
+MR13	T:The Brotherhood	Luther Adler
+MR13	T:The Brotherhood	Murray Hamilton
+MR14	T:The Great White Hope	Lou Gilbert
+MR14	T:The Great White Hope	Moses Gunn
+MR15	T:The Molly Macguires	Anthony Zerbe
+MR15	T:The Molly Macguires	Bethel Leslie
+MR17	T:Pete 'n Tillie	Barry Nelson
+MR19	T:The Front	Zero Mostel
+MR19	T:The Front	Remak Ramsey
+MR19	T:The Front	Michael Murphy
+MR25	T:Back Roads	Miriam Colon
+MR25	T:Back Roads	Michael Gazzo
+MR29	T:Cross Creek	Mary Steenburgen
+MR29	T:Cross Creek	Alfre Woodard
+MR29	T:Cross Creek	Malcolm Dowell
+MR30	T:Nuts	Barbra Streisand
+MR30	T:Nuts	William Prince
+MR34	T:Iris and Stanley	Martha Plimpton
+MRa10	T:From the Journals of Jean Seberg	Mary Beth Hurt
+MRb10	TZ:Corvette Summer	Annie Potts
+MRb15	TZ:The Dragonslayer	Ralph Richardson
+MRc10	TZ:Union City	Pat Benatar
+MRe7	T:Rockets Galore	Noel Purcell
+MRm20	T:The Invader	Ben Cross
+MRm20	T:The Invader	Nick Mancusi
+MRP14	T:Posse	Melvin VanPeebles
+MRP14	T:Posse	Pam Grier
+MRP14	T:Posse	Nipsey Russell
+MRP14	T:Posse	Billy Zane
+MRP14	T:Posse	Big Daddy Kane
+MRr5	T:The Plot Against Harry	Ben Lang
+MRr5	T:The Plot Against Harry	Margo Solin
+MRr5	T:The Plot Against Harry	Maxine Woods
+MRs13	T:Isle of the Dead	Marc Cramer
+MRs13	T:Isle of the Dead	Alan Napier
+MRs21	T:Peyton Place	Lloyd Nolan
+MRs21	T:Peyton Place	Betty Field
+MRs25	T:The Bridges at Toko-Ri	Willis Bouchey
+MRs32	T:Inn of the Sixth Happiness	Athene Seyler
+MRs32	T:Inn of the Sixth Happiness	Moultrie Kelsall
+MRs36	T:The Prize	Paul Newman
+MRs36	T:The Prize	Michelin Presle
+MRs39	T:Valley of the Dolls	Paul Burke
+MRs43	T:Earthquake	Ava Gardner
+MRs43	T:Earthquake	Lorne Greene
+MRs43	T:Earthquake	Marjoe Gortner
+MRs43	T:Earthquake	Barry Sullivan
+MRt5	T:The Candidate	Peter Boyle
+MRt5	T:The Candidate	Melvyn Douglas
+MRt6	T:Smile	Barbara Feldon
+MRt6	T:Smile	Michael Kidd
+MRt6	T:Smile	Annette OToole
+MRt6	T:Smile	Maria OBrien
+MRt6	T:Smile	Melanie Griffith
+MRt6	T:Smile	Nicholas Pryor
+MRt8	TZ:Semi-Tough	Lotte Lenya
+MRt11	T:The Island	Angela Punch McGregor
+MRt25	T:Diggstown	Lou Gossett~jr.
+MRh10	T:Das Merkwuerdige Verhalten geschlechtsreifer Grossstaedter zur Paarungszeit	Anica Dobra
+MRh10	T:Das Merkwuerdige Verhalten geschlechtsreifer Grossstaedter zur Paarungszeit	Ann-Kathrin Kramer
+MRv6	T:Witchfinder General	Patrick Wymark
+MRy5	TZ:Harry and Walter Go to New York	Michael Caine
+MRy9	TZ:The Rose	Alan Bates
+MRy19	T:For the Boys	Arye Gross
+MRy21	T:Intersection	Lolita Davidovich
+MRy21	T:Intersection	Matthew Walker
+MS2	T:Boxcar Bertha	Barry Primus
+MS3	T:Mean Streets	Amy Robinson
+MS5	T:Taxi Driver	Albert Brooks
+MS5	T:Taxi Driver	Martin Scorsese
+MS7	T:New York, New York	Liza Minnelli
+MS7	T:New York, New York	Lionel Stander
+MS7	T:New York, New York	Barry Primus
+MS7	T:New York, New York	William Tole
+MS10	T:The Last Waltz	Muddy Waters
+MS10	T:The Last Waltz	Paul Butterfield
+MS10	T:The Last Waltz	Neil Diamond
+MS18	T:Raging Bull	Nicholas Colasanto
+MS19	T:The King of Comedy	Liza Minelli
+MS21	T:The Color of Money	Bill Cobbs
+MS25	T:Goodfellas	Ray Liotta
+MS26	T:Cape Fear	Martin Balsam
+MS28	T:The Age of Innocence	MaryBeth Hurt
+MS28	T:The Age of Innocence	Alec McGowan
+MS30	T:Casino	Al Pacino
+MSa6	T:The Gay Divorcee	Alice Brady
+MSa6	T:The Gay Divorcee	Lillian Miles
+MSa6	T:The Gay Divorcee	Paul Porcasi
+MSa8	T:Follow the Fleet	Randolph Scott
+MSa8	T:Follow the Fleet	Astrid Allwyn
+MSa8	T:Follow the Fleet	Lucille Ball
+MSa8	T:Follow the Fleet	Betty Grable
+MSa9	T:A Woman Rebels	Margaret Seddon
+MSa9	T:A Woman Rebels	Lionel Pape
+MSa10	T:Shall We Dance	Ann Shoemaker
+MSa12	T:Carefree	Luella Gear
+MSa12	T:Carefree	Walter Kingsford
+MSC10	T:The Show-Off	Louise Brooks
+MSe15	T:Fatty and Mabel at the San Diego Exposition	Mabel Normand
+MSe15	T:Fatty and Mabel at the San Diego Exposition	Minta Durfee
+MSe18	T:Fatty and Mabel's Simple Life	Mabel Normand
+MSe18	T:Fatty and Mabel's Simple Life	Al StJohn
+MSf10	T:La Cabalgata del Circo	Orestes Caviglia
+MSf10	T:La Cabalgata del Circo	Orestes Caviglia
+MSf10	T:La Cabalgata del Circo	Armando Boffilde Pirovano
+MSJ10	T:Simon Birch	Beatrice Winden
+MSL10	TZ:Strange Behavior	Michael Murphy
+MSL10	TZ:Strange Behavior	Louise Fletcher
+MSL10	TZ:Strange Behavior	Arthur Dignam
+MSL15	TZ:Strange Invaders	Nancy Allen
+MSL15	TZ:Strange Invaders	Louise Fletcher
+MSL15	TZ:Strange Invaders	Paul LeMat
+MSL15	TZ:Strange Invaders	Michael Lerner
+MSL15	TZ:Strange Invaders	Wallace Shawn
+MSm14	T:Radioland Murders	Mary Stuart Masterson
+MSm14	T:Radioland Murders	Ned Beatty
+MSm14	T:Radioland Murders	Michael Lerner
+MSm17	T:Bean	Peter McNicol
+MSm17	T:Bean	Pamela Reed
+MSm17	T:Bean	Peter Egan
+MSo10	T:La Chiesa	Asia Argento
+MSo10	T:La Chiesa	Barabara Cupisti
+MSt30	T:Erotikon	Anders deWahl
+MSt53	T:The Temptress	Antonio Moreno
+MSt53	T:The Temptress	Marc McDermott
+MSw10	T:Children of the Dark	Peter Horton
+MSw10	T:Children of the Dark	Bill Smitrovich
+MSw10	T:Children of the Dark	Meg Dotrice
+MSw10	T:Children of the Dark	Nallig Horrigan
+MSz8	TZ:Car Wash	Melanie Mayron
+MSz10	T:Which Way is Up	Lonette McKee
+MSz10	T:Which Way is Up?	Margaret Avery
+MSz10	T:Which Way is Up?	Morgan Woodward
+MSz11	TZ:Greased Lightning	Beau Bridges
+MSz11	TZ:Greased Lightning	Pam Grier
+MSz15	TZ:Carbon Copy	Paul Winfield
+MtC10	T:No Escape	Ray Liotta
+MtC12	T:GoldenEye	Pierre Brosnan
+MtC15	T:The Mask of Zorro	Antonio Banderas
+MtC15	T:The Mask of Zorro	Matt Litcheck
+MtD10	TZ:Hero at Large	Anne Archer
+MtD10	TZ:Hero at Large	Bert Convy
+MtM10	T:The Opposite Sex and How to Live with Them	Arye Gross
+MtR1	T:Straight out of Brooklyn	Ann D. Sanders
+MTU10	T:The Wash	Patty Yatsutake
+MuB5	T:The Beachcomber	Paul Rogers
+MuB5	T:The Beachcomber	Walter Crisham
+MuB5	T:The Beachcomber	Michael Hordern
+MvC10	TZ:Evel Knievel	Bert Freed
+MvC20	TZ:Little Ladies of the Night	Linda Purl
+MvC20	TZ:Little Ladies of the Night	Lou Gossett~jr.
+MvC20	TZ:Little Ladies of the Night	Paul Burke
+MVP5	T:The Story of a Three Day Pass	Nicole Beringer
+MVP20	T:Sweet Sweetbackk's Badasssss Song	Melvin VanPeebles
+MVP22	T:Don't Play Us Cheap	Avon Long
+MVP22	T:Don't Play Us Cheap	Rhetta Hughes
+MVP40	T:Identity Crisis	Mario VanPeebles
+MvS1	T:The Seven Little Foys	Bob Hope
+MvS2	T:Beau James	Paul Douglas
+MvS3	T:Houseboat	Martha Hyer
+MvS4	T:The Five Pennies	Barbara BelGeddes
+MvS4	T:The Five Pennies	Bob Crosby
+MvS4	T:The Five Pennies	Ray Anthony
+MvS6	T:On the Double	Margaret Rutherford
+MvS6	T:On the Double	Alan Cuthbertson
+MvS10	T:The Pigeon That Took Rome	Baccaloni
+MvS12	T:A New Kind of Love	Paul Newman
+MvS12	T:A New Kind of Love	Maurice Chevalier
+MvT10	T:The Return	Barbara Sukowa
+MWa10	TZ:Wolfen	Albert Finney
+MWid15	T:Welcome to Sarajevo	Marisa Tomei
+MxB10	T:Ode to Billy Joe	Max Baer
+MxR10	T:A Midsummer Night's Dream	Mickey Rooney
+MxR10	T:A Midsummer Night's Dream	Olivia deHavilland
+MxR10	T:A Midsummer Night's Dream	Arthur Treacher
+MxR10	T:A Midsummer Night's Dream	Otis Harlan
+MxR10	T:A Midsummer Night's Dream	Anita Louise
+MYa20	T:Ai Ni Tsuite, Tokyo	Qian Po
+MyR10	TZ:Student Bodies	Matt Goldsby
+MyR10	T:Student Bodies	Richard Brando
+MZa5	T:Laughter in Paradise	Alastair Sim
+MZa5	T:Laughter in Paradise	Beatrice Campbell
+MZa5	T:Laughter in Paradise	Audrey Hepburn
+MZa10	T:Now and Forever	Pamela Brown
+MZa10	T:Now and Forever	Marjorie Rhodes
+MzN15	T:Volare Volare	Patrizio Roversi
+NBr10	T:Dark Obsession	Amanda Donohue
+NCh10	T:Stand Up Virgin Soldiers	Nigel Davenport
+NeJ10	T:Angel	Alan Devlin
+NeJ10	T:Angel	Peter Caffrey
+NeJ12	T:The Company of Wolves	Angela Lansbury
+NeJ12	T:The Company of Wolves	Brain Glover
+NeJ12	T:The Company of Wolves	Micha Bergese
+NeJ16	T:We're No Angels	Wallace Shawn
+NeJ20	T:The Miracle	Bevery DAngelo
+NeJ20	T:The Miracle	Niall Byrne
+NeJ22	T:The Crying Game	Miranda Richardson
+NeJ28	T:The Butcher Boy	Allen Boyd
+NF3	T:Think Fast, Mr.~Moto	Peter Lorre
+NF4	T:Thank You, Mr.~Moto	Peter Lorre
+NF4	T:Thank You, Mr.~Moto	Pauline Frederick
+NF4	T:Thank You, Mr.~Moto	William vonBrincken
+NF4	T:Thank You, Mr.~Moto	Nedda Harrigan
+NF4	T:Thank You, Mr.~Moto	Philip Ahn
+NF7	T:Mysterious Mr.~Moto	Mary Macguire
+NF12	T:Mr.~Moto Takes a Vacation	Peter Lorre
+NF13	T:Charlie Chan at Treasure Island	Pauline Moore
+NF13	T:Charlie Chan at Treasure Island	Billie Seward
+NF13	T:Charlie Chan at Treasure Island	Wally Vernon
+NF13	T:Charlie Chan at Treasure Island	Louis Jean Heydt
+NF16	T:Journey into Fear	Agnes Moorehead
+NF16	T:Journey into Fear	Richard Bennett
+NF29	T:Indian Paint	Pat Hogan
+NF29	T:Indian Paint	Bobby Crawford
+NGr10	T:Good News	Bessie Love
+NGr10	T:Good News	Mary Lawlor
+NGr10	T:Good News	Lola Lane
+NGr20	T:Before I Hang	Pedro deCordoba
+NHa10	T:Martha - Meet Frank, Daniel and Laurence	Monica Potter
+NHy15	T:The Object of My Affection	Alan Alda
+NHy15	T:The Object of My Affection	Nigel Hawthorne
+NiC30	T:Dennis the Menace	Paul Winfield
+NiC30	T:Dennis the Menace	Mason Gamble
+NiG10	TZ:The Little Girl Who Lives Down the Lane	Martin Sheen
+NiG10	TZ:The Little Girl Who Lives Down the Lane	Alexis Smith
+NiG10	TZ:The Little Girl Who Lives Down the Lane	Mort Shuman
+NiG20	TZ:It Rained All Night the Day I Left	Lou Gossett~jr.
+NiM5	T:Time After Time	Malcolm McDowell
+NiM5	T:Time After Time	Mary Steenburgen
+NiM12	T:Star Trek II: The Wrath of Khan	William Shatner
+NiM12	T:Star Trek II: The Wrath of Khan	Walter Koenig
+NiM12	T:Star Trek II: The Wrath of Khan	Nichelle Nichols
+NiM13	TZ:The Day After	Amy Madigan
+NiM13	TZ:The Day After	Bibi Besch
+NiM20	T:The Deceivers	Pierre Brossman
+NiM30	T:Star Trek VI, The Undiscovered Country	William Shatner
+NiM30	T:Star Trek VI, The Undiscovered Country	Nichelle Nichols
+NiM30	T:Star Trek VI, The Undiscovered Country	Nichel Nichols
+NiM30	T:Star Trek VI, The Undiscovered Country	Walter Koenig
+NiM30	T:Star Trek VI, The Undiscovered Country	Michael Dorn
+NiR1	T:Performance	Michele Breton
+NiR2	T:Walkabout	Lucien John
+NiR3	T:Don't Look Now	Massimo Serrato
+NiR4	T:The Man Who Fell to Earth	Bernie Casey
+NiR40	T:Castaway	Amanda Donohue
+NIs10	TZ:Bachelor Party	William Tepper
+NIs10	TZ:Bachelor Party	Barbara Stuart
+NJ5	TZ:Cincinnati Kid	AnnMargret
+NJ7	T:In the Heat of the Night	Quentin Dean
+NJ7	T:In the Heat of the Night	Beah Richards
+NJ7	T:In the Heat of the Night	William Schallert
+NJ7	T:In the Heat of the Night	Peter Masterson
+NJ7	T:In the Heat of the Night	Matt Clark
+NJ7	T:In the Heat of the Night	Peter Whitney
+NJ8	T:The Thomas Crown Affair	Paul Burke
+NJ11	T:Fiddler on the Roof	Molly Picon
+NJ11	T:Fiddler on the Roof	Norma Crane
+NJ13	T:Rollerball	Maud Adams
+NJ14	TZ:F.I.S.T.	Peter Boyle
+NJ16	T:Best Friends	Barnard Hughes
+NJ20	T:Agnes of God	Anne Bancroft
+NJ20	T:Agnes of God	Meg Tilly
+NJ25	T:Moonstruck	Anita Gillette
+NJ25	T:Moonstruck	Antonia Minelli
+NJu10	T:Hellcats of the Navy	Nancy Davis
+NJu10	T:Hellcats of the Navy	Arthur Franz
+NkM10	T:Bank Robber	Michael Jeter
+NKz10	T:Dream Lover	Madchen Amick
+NKz10	T:Dream Lover	Bess Armstrong
+NLB11	T:Your Friends and Neighbors	Amy Brenneman
+NLl97	T:The Human Interest Story	Arthur Hill
+NLl99	T:Anniversary Gift	Barbara Baxley
+NLl102	T:The Day of the Bullet	Barry Gordon
+NLl106	T:Oh Youth, oh Beauty	Maurice Manson
+NLl107	T:Incident in a Small Jail	Myron Healey
+NlM10	T:Pain of Love	Bithe Neumann
+NML1	T:Monkey Business	Zeppo Marx
+NML2	T:Horse Feathers	Nat Pendleton
+NML4	T:Alice in Wonderland	Ned Sparks
+NML5	T:It's a Gift	Baby LeRoy
+NML7	T:Topper	Billie Burke
+NML7	T:Topper	Alan Mowbray
+NML7	T:Topper	Arthur Lake
+NML10	T:Topper Takes a Trip	Billie Burke
+NML10	T:Topper Takes a Trip	Alan Mowbray
+NML20	T:Swing Shift Maisie	Ann Sothern
+NML21	T:The Kid from Brooklyn	Walter Abel
+NML21	T:The Kid from Brooklyn	Lionel Stander
+NML24	T:Road to Rio	Bing Crosby
+NML31	T:Casanova's Big Night	Basil Rathbone
+NML31	T:Casanova's Big Night	Audrey Dalton
+NML31	T:Casanova's Big Night	Primo Carnera
+NML31	T:Casanova's Big Night	Arnold Moss
+NML31	T:Casanova's Big Night	Lon Chaney~jr.
+NMv1	T:Dark Eyes	Marthe Keller
+NMv1	T:Dark Eyes	Pina Cei
+NNo1	T:River of Unrest	Paul Farrell
+NNo3	T:Las Vegas Lady	Andrew Stevens
+NNo3	T:Las Vegas Lady	Lynne Moody
+NNo7	T:King of the Mountain	Bill Forsythe
+NNo8	T:Night Partners	M.Emmet Walsh
+NNo13	T:Full Exposure: The Sex Tape Scandal	Lisa Hartman
+NoB3	T:Pretty Poison	Beverly Garland
+NoB10	TZ:Private School	Ray Walston
+NoB10	TZ:Private School	Matthew Modine
+NoE1	T:This is my Life	Bob Nelson
+NoE1	T:This is my Life	Marita Geraghty
+NoE1	T:This is my Life	Annie Golden
+NoE5	T:The Women	Meg Ryan
+NoL10	T:Bulldog Drummond at Bay	Richard Bird
+NoL26	T:No Escape	Billy Milton
+NoL26	T:No Escape	Ralph Ince
+NoT3	T:The Ugly Dachshund	Parley Baer
+NoT3	T:The Ugly Dachshund	Mako
+NoT12	TZ:Snowball Express	Nancy Olson
+NoT15	TZ:Cat from Outer Space	MacLean Stevenson
+NOx20	T:Rhapsodia Satanica	Lyda Borelli
+NPa3	T:The Court Jester	Basil rsthbone
+NPa3	T:The Court Jester	Mildred Parker
+NPa3	T:The Court Jester	Angela Lansbury
+NPa3	T:The Court Jester	Michael Pate
+NPa3	T:The Court Jester	Alan Napier
+NR2	T:A Woman's Secret	Maureen oHare
+NR2	T:A Woman's Secret	Melvyn Douglas
+NR2	T:A Woman's Secret	Bill Williams
+NR5	T:In a Lonely Place	Art Smith
+NR8	TZ:The Lusty Men	Arthur Kennedy
+NR11	T:Rebel Without a Cause	Natalie Wood
+NR11	T:Rebel Without a Cause	Nick Adams
+NR11	TZ:Rebel Without a Cause	Ann Doran
+NR20	T:55 Days at Peking	Paul Lukas
+NR20	T:55 Days at Peking	Massimo Serrato
+NRe6	T:Longtime Companion	Mark Lamos
+NRe10	T:Prelude to a Kiss	Meg Ryan
+NRe10	T:Prelude to a Kiss	Alec Baldwin
+NRe10	T:Prelude to a Kiss	Ned Beatty
+NRe10	T:Prelude to a Kiss	Patty Duke
+NSg10	T:The Happy Hooker	Lovelady Powell
+NSg10	T:The Happy Hooker	Nicholas Pryor
+NSv10	T:Household Saints	Lilly Taylor
+NT20	T:Skippy	Mitzi Green
+NT30	T:Huckleberry Finn	Mitzi Green
+NT31	T:The Phantom President	Alan Mowbray
+NT31	T:The Phantom President	Paul Hurst
+NT36	T:We're Not Dressing	Bing Crosby
+NT36	T:We're Not Dressing	Ray Milland
+NT40	T:Mrs.~Wiggs of the Cabbage Patch	Zasu Pitts
+NT44	T:The Big Broadcast of 1936	Lyda Roberti
+NT44	T:The Big Broadcast of 1936	Benny Baker
+NT44	T:The Big Broadcast of 1936	Bong Crosby
+NT44	T:The Big Broadcast of 1936	Amos'n Andy
+NT44	T:The Big Broadcast of 1936	Mary Boland
+NT44	T:The Big Broadcast of 1936	Bill Robinson
+NT44	T:The Big Broadcast of 1936	Akim Tamiroff
+NT45	T:Strike Me Pink	Parkyakarkus
+NT50	T:Mad About Music	Arthur Treacher
+NT50	T:Mad About Music	Marcia Mae Jones
+NT55	T:The Adventures of Tom Sawyer	May Robson
+NT55	T:The Adventures of Tom Sawyer	Walter Brennan
+NT60	T:Boys' Town	Mickey Rooney
+NT60	T:Boys' Town	Bobs Watson
+NT94	T:Big City	Betty Garrett
+NT105	T:Room for one More	Lurene Tuttle
+NT105	T:Room for one More	Randy Stuart
+NT120	T:Bundle of Joy	Melville Cooper
+NT120	T:Bundle of Joy	Nita Talbot
+NT127	T:Blue Hawaii	Nancy Walters
+NT127	TZ:Blue Hawaii	Angela Lansbury
+NuJ1	T:Night People	Walter Abel
+NuJ1	T:Night People	Peter vanEyck
+NuJ2	T:Black Widow	Peggy Ann Gardner
+NuJ2	T:Black Widow	Reginald Gardiner
+NuJ2	T:Black Widow	Otto Kruger
+NuJ3	T:How to Be Very Very Popular	Betty Grable
+NuJ3	T:How to Be Very Very Popular	Bob Cummings
+NuJ3	T:How to Be Very Very Popular	Orson Bean
+NuJ4	T:The Man in The Gray Flannel Suit	Arthur OConnell
+NuJ4	T:The Man in The Gray Flannel Suit	Mickey Maga
+NuJ7	T:The Man Who Understood Women	Myron McCormick
+NuJ7	T:The Man Who Understood Women	Marcel Dalio
+OlA14	T:Irma Vep	Maggie Cheung
+OlA14	T:Irma Vep	Nathalie Richard
+OlS3	T:The Hand	Michael Caine
+OlS12	T:Wall Street	Michael Douglas
+OlS12	T:Wall Street	Martin Sheen
+OlS12	T:Wall Street	Annie McEnroe
+OlS12	T:Wall Street	Monique VanVooren
+OlS15	T:Born on the Fourth of July	Paul Abbott
+OlS18	T:JFK	Michael Rooker
+OlS18	T:JFK	Walter Matthau
+OlS22	T:Natural Born Killers	Quentin Tarantino
+OlS25	T:U-Turn	Powers Boothe
+OP10	T:A Royal Scandal	Anne Baxter
+OP10	T:A Royal Scandal	Mischa Auer
+OP12	T:Fallen Angel	Anne Revere
+OP13	T:Forever Amber	Ricard Haydn
+OP13	T:Forever Amber	Anne Revere
+OP15	T:The Fan	Madeleine Carroll
+OP15	T:The Fan	Marita Hunt
+OP20	T:Angel Face	Barbara ONeil
+OP20	T:Angel Face	Mona Freeman
+OP20	T:Angel Face	Raymond Greenleaf
+OP23	T:River of No Return	Marilyn Monroe
+OP23	T:River of No Return	Murvyn Vrye
+OP24	T:Carmen Jones	Olga James
+OP24	T:Carmen Jones	Archie Savage
+OP26	T:The Man with the Golden Arm	Arnold Stang
+OP31	T:Exodus	Paul Newman
+OP31	T:Exodus	Ralph Richardson
+OP40	T:Tell Me That You Love Me, Junie Moon	Liza Minelli
+OP44	T:Such Good Friends	Louise Lasser
+OP44	T:Such Good Friends	Nina Foch
+OP44	T:Such Good Friends	Nancy Guild
+OP44	T:Such Good Friends	William Redfield
+OP50	T:The Human Factor	Richard Attenborough
+OP50	T:The Human Factor	Ann Todd
+OW1	T:Citizen Kane	Ray Collins
+OW1	T:Citizen Kane	Paul Stewart
+OW2	T:The Magnificent Ambersons	Anne Baxter
+OW2	T:The Magnificent Ambersons	Ray Collins
+OW2	T:The Magnificent Ambersons	Richard Bennett
+OW4	T:The Stranger	Phillip Marrivale
+OW4	T:The Stranger	Billy House
+OW5	T:The Lady From Shanghai	Orson Welles
+OW7	T:Othello	Michael Lawrence
+OW8	T:Confidential Report	Orson Welles
+OW9	T:A Touch of Evil	Marlene Dietrich
+OW9	T:A Touch of Evil	Ray Collins
+OW9	T:A Touch of Evil	Zsa Zsa Gabor
+OW10	T:The Trial	Anthony Perkins
+OW10	T:The Trial	Akim Tamiroff
+OW10	T:The Trial	Madeleine Robinson
+OW10	T:The Trial	Michel Lonsdale
+OW10	T:The Trial	Orson Welles
+OW11	T:Chimes at Midnight	Margeret Rutherford
+PAal	T:A Force of One	Bill Wallace
+PaB10	T:Grease 2	Michelle Pfeiffer
+PaB10	T:Grease 2	Lorna Luft
+PAd2	T:Sugarbaby	Marianne Sagebrecht
+PAd13	T:Bagdad Cafe	Monica Calhoun
+PAd13	T:Bagdad Cafe	Alan S. Craig
+PaF10	T:Clifford	Martin Short
+PaF10	T:Clifford	Mary Steenbugen
+PaH50	T:Vicious Circle	Michael Kahn
+PaH50	T:Vicious Circle	Paul Lambert
+PaH50	T:Vicious Circle	Betty Woods
+PaH52	T:Silent Witness	Pat Hitchcock
+PaH54	T:Last Request	Milo Ross
+PaH55	T:The Diplomatic Corpse	Peter Lorre
+PaH61	T:Girls on the Loose	Mark Richman
+PaH109	T:The Crooked Road	Pat Breslin
+PaH109	T:The Crooked Road	Walter Matthau
+PaH113	T:Hitch Hike	Read Morgan
+PaH113	T:Hitch Hike	Paul E. Burns
+PaH115	T:Letter of Credit	Bob Sweeney
+PaH117	T:The Landlady	Barry Harvey
+PaH123	T:The Old Pro	Richard Carlyle
+PaH215	TZ:Ballad in Blue	Mary Peach
+PaJ10	T:Shadow on the Wall	Ann Sothern
+PaJ10	T:Shadow on the Wall	Barbara Billingsley
+PAl6	T:Law of Desire	Miguel Molina
+PAl6	T:Law of Desire	Manuela Velasco
+PAl12	T:Tie Me Up, Tie Me Down	Lola Cordona
+PAl14	T:High Heels	Marisa Paredes
+PAl18	T:La flor de mi Secreto	Marisa Parades
+PAl20	T:Carne Tremula	Pepe Sancho
+PaM10	T:Orient Express	Ralph Morgan
+PaM10	T:Orient Express	Norman Foster
+PaP15	T:Il Vangelo Secondo Matteo	Mario Socrate
+PAR10	T:Field of Dreams	Ray Liotta
+PAu10	T:Lulu on the Bridge	Mira Sorvino
+PB12	T:Far From Home: The Adventures of Yellow Dog	Mimi Rogers
+PBa3	T:Death Race 2000	Mary Woronov
+PBa4	T:Cannonball	Bill McKinney
+PBa4	T:Cannonball	Martin Scorsese
+PBa6	T:Eating Raoul	Paul Bartel
+PBa9	T:Scenes from the Class Struggle in Beverly Hills	Ray Sharkey
+PBa9	T:Scenes from the Class Struggle in Beverly Hills	Wallace Shawn
+PBa9	T:Scenes from the Class Struggle in Beverly Hills	Rebecca Shaeffer
+PBa12	T:Shelf Life	OLan Jones
+PBa12	T:Shelf Life	Andrea Stein
+PBi10	T:Vautrin	Michel Simon
+PBi10	T:Vautrin	Madeleine Solange
+PBm1	T:Risky Business	Raphael Sbarge
+PBo2	T:Targets	Peter Bogdanovich
+PBo2	T:Targets	Nancy Hsueh
+PBo2	T:Targets	Mike Farrell
+PBo3	T:The Last Picture Show	Bill Thurman
+PBo5	T:What's Up, Doc?	Austin Pendleton
+PBo5	T:What's Up, Doc?	Madeleine Kahn
+PBo6	T:Paper Moon	Madeleine Kahn
+PBo6	T:Paper Moon	Randy Quaid
+PBo11	T:They All Laughed	Blaine Novak
+PBo11	T:They All Laughed	Patti Hansen
+PBo11	T:They All Laughed	Blaine Novak
+PBo20	T:Noises Off	Marilu Henner
+PBz10	TZ:Nobody's Perfekt	Alex Karras
+PCa10	T:The Full Monty	Paul Barber
+PCo11	T:And Then There Were None	Oliver Reed
+PCo11	T:And Then There Were None	Richard Attenborough
+PCo11	T:And Then There Were None	Alberto deMendoza
+PCo11	T:And Then There Were None	Maria Rohm
+PCo12	T:The Spiral Staircase	Mildred Dunnock
+PCr8	T:The Hound of the Baskervilles	William Shatner
+PCr8	T:The Hound of the Baskervilles	Anthony Zerbe
+PCx28	T:The Exile	Beth Champion
+PCz25	T:As You Like It	Richard Ainley
+PCz25	T:As You Like It	Mackenzie Ward
+PCz25	T:As You Like It	Aubrey Mather
+PCz25	T:As You Like It	Peter Bull
+PCz30	T:Dreaming Lips	Raymond Massey
+PdB3	T:Cartouche	Odile Versois
+PdB3	T:Cartouche	Marcel Dalio
+PdB3	T:Cartouche	Philippe Lemaire
+PDu3	T:The House That Dripped Blood	Nyree Dawn Porter
+PDu3	T:The House That Dripped Blood	Michael Pertwee
+PDu10	T:Experience Preferred...But Not Essential	Alun Lewis
+PeB6	T:King Lear	Alan Webb
+PeB6	T:King Lear	Patrick Macgee
+PeB10	T:The Mahabharata	Miriam Goldschmidt
+PeB10	T:The Mahabharata	Antonin StahlyVishwanathan
+PeB10	T:The Mahabharata	Mamadou Diome
+PeC10	TZ:Highpoint	Beverly D'Angelo
+PeG5	T:Becket	Martita Hunt
+PeG5	T:Becket	Paolo Stoppa
+PeG6	T:Hotel Paradiso	Alec Guiness
+PeG6	T:Hotel Paradiso	Akim Tamiroff
+PeG6	T:Hotel Paradiso	Peggy Mount
+PeM10	TZ:Hot Dog...The Movie	Patrick Houser
+PeM20	T:Through the Eyes of a Killer	Marg Helgenberger
+PeS3	T:Countess Dracula	Nigel Green
+PeS3	T:Countess Dracula	Maurice Denham
+PeS3	T:Countess Dracula	Patience Collier
+PeS3	T:Countess Dracula	Peter Jeffrey
+PeS5	T:Hands of the Ripper	Angharad Rees
+PeS10	TZ:The Lonely Lady	Pia Zadora
+PeS10	TZ:The Lonely Lady	Lloyd Bochner
+PeS10	TZ:The Lonely Lady	Bibi Besch
+PeS10	TZ:The Lonely Lady	Anthony Holland
+PEt10	T:Happy Anniversary	Loriot
+PEt10	T:Happy Anniversary	Non Zammit
+PFa1	T:Crocodile Dundee	Paul Hogan
+PFa1	T:Crocodile Dundee	Linda Koslowski
+PFa1	T:Crocodile Dundee	Mark Blum
+PFa10	T:Dutch	Ari Megro
+PFo15	T:Il Fuoco	Pina Menichelli
+PFo20	T:Tigre Reale	Pina Menichelli
+PFo20	T:Tigre Reale	Alberto Nepoti
+PFo25	T:Hedda Gabler	Pina Menichelli
+PFr12	T:Kingpin	Randy Quaid
+PFr12	T:Kingpin	Bill Murray
+PGD11	T:Der Ehekaefig	Lino Ventura
+PGr5	T:The Draughtsman's Contract	Anthony Higgins
+PGr5	T:The Draughtsman's Contract	Anne Louise Lambert
+PGr5	T:The Draughtsman's Contract	Neil Cunningham
+PGr7	T:A Zed and Two Naughts	Andrea Ferreol
+PGr10	T:The Belly of an Architect	Marino Mase
+PGr10	T:The Belly of an Architect	Alfredo Varelli
+PGr12	T:Drowning By Numbers	Bernard Hill
+PGr15	T:The Cook, the Thief, His Wife and Her Lover	Alan Howard
+PGr15	T:The Cook, the Thief, His Wife and Her Lover	Richard Bohringer
+PGr17	T:The Baby of Macon	Ralph Fiennes
+PGr17	T:The Baby of Macon	Philip Stone
+PGr22	T:8 1/2 Women	Polly Walker
+PGr22	T:8 1/2 Women	Anni Shizuka
+PGr22	T:8 1/2 Women	Natacha Amal
+PGy16	T:Barricade	Morgan Farley
+PiG40	T:Divorce Italian Style	Marcello Mastroianni
+PlA101	T:The Ikon of Elijah	Paul Altmond
+PHa15	T:Venom	Nicol Williamson
+PhD2	T:A View from Pompey's Head	Marjorie Rambeau
+PhD9	T:Wild in the Country	Millie Perkins
+PhG10	T:The Birth of Love	Lou Castel
+PhH13	T:Angels and Insects	Patsy Kensit
+PhH13	T:Angels and Insects	Mark Rylance
+PhK11	T:Ladies of the Chorus	Rand Brooks
+PhK50	T:Walking Tall	Noah Beery~jr
+PhN14	T:Patriot Games	Patrick Bergin
+PhN20	T:The Saint	Rade Serbedzija
+PHt1	T:On Her Majesty's Secret Service	Bernard Horsfall
+PHt1	T:On Her Majesty's Secret Service	Bernard Lee
+PHt1	T:On Her Majesty's Secret Service	Besie Love
+PHt1	T:On Her Majesty's Secret Service	Mona Chong
+PHt1	T:On Her Majesty's Secret Service	Anouska Hempel
+PHt8	TZ:1776	Blythe Danner
+PHt11	T:Gold	Ray Milland
+PHt11	T:Gold	Bradford Dillman
+PHt13	T:Gulliver's Travels	Norman Shelley
+PHt20	T:Wild Geese II	Barbara Carrera
+PHw10	T:Bill and Ted's Bogus Journey	William Saddler
+PHy6	T:Capricorn One	O.J. Simpson
+PHy7	TZ:Hanover Street	Alec McCowen
+PHy7	TZ:Hanover Street	Michael Sacks
+PHy9	TZ:Outland	Peter Boyle
+PHy15	T:Running Scared	Billy Crystal
+PHy20	T:Presidio	Mark Harmon
+PHy25	T:Narrow Margin	Anne Archer
+PHy28	T:Stay Tuned	Pam Dawber
+PHy29	T:The Star Chamber	Michael Douglas
+PHy35	T:Time Cop	Mia Sara
+PHy39	T:The Relic	Penelope Ann Miller
+PJ7	T:Mutter Krausens Fahrt ins Gl\"uck	Alexandra Schmitt
+PJH10	T:Muriel's Wedding	Bill Hunter
+PK6	TZ:The Wanderers	Linda Manz
+PK7	TZ:The Right Stuff	Barbara Hershey
+PK7	T:The Right Stuff	Pamela Reed
+PK20	T:Henry and June	Maria deMadeiros
+PlB12	T:The Skin Game	Lou Gossett
+PlB12	T:The Skin Game	Andrew Duggan
+PlB12	T:The Skin Game	Neva Patterson
+PlB20	TZ:Class of '44	Oliver Conant
+PLe10	T:Monsieur Hire	Luc Thullier
+PLf10	T:Le juge	Richard Bohringer
+PLf10	T:Le juge	Andrea Ferreol
+PLi10	T:June Night	Marianne Lofgren
+PLi10	T:June Night	Marianne Aminoff
+PlL2	T:The Cat and the Canary	Arthur Carewe
+PlL3	T:The Man Who Laughs	Mary Philbin
+PlT60	T:Fiorile	Michael Vartan
+PlT60	T:Fiorile	Michael Vartan
+PlT60	T:Fiorile	Michael Vartan
+PlW10	T:City Slickers II, The Legend of Curly's Gold	Billie Crystal
+PLy15	T:Cross Country	Michael Ironside
+PM1	T:Bob and Carol and Ted and Alice	Paul Mazursky
+PM5	T:Next Stop, Greenwich Village	Paul Mazursky
+PM6	TZ:An Unmarried Woman	Michael Murphy
+PM6	TZ:An Unmarried Woman	Lisa Lucas
+PM6	TZ:An Unmarried Woman	Pat Quinn
+PM8	TZ:The Tempest	Molly Ringwald
+PM8	T:The Tempest	Raul Julia
+PM9	TZ:Moscow on the Hudson	Maria Conchita Alonso
+PM9	TZ:Moscow on the Hudson	Alejandro Rey
+PM10	T:Down and Out in Beverly Hills	Nick Nolte
+PM10	T:Down and Out in Beverly Hills	Paul Mazursky
+PM11	T:Moon Over Parador	Richard Dreyfuss
+PM12	T:Enemies, A Love Story	Alan King
+PM12	T:Enemies, A Love Story	Phil Leeds
+PM12	T:Enemies, A Love Story	Paul Mazursky
+PM15	T:Scenes from a Mall	Bette Midler
+PMa5	T:Chandler	Alex Dreier
+PMa5	T:Chandler	Mitchell Ryan
+PMe10	T:The Ruling Class	Arthur Lowe
+PMe10	T:The Ruling Class	Michael Bryant
+PMe15	TZ:The Changeling	Melvyn Douglas
+PMe32	T:Let Him Have It	Mark McGann
+PMo22	T:Andy Warhols's Dracula	Arno Juerging
+PMo24	T:The Hound of the Baskervilles	Peter Cook
+PmR1	T:Miss Beatty's Children	Barry John
+PmR1	T:Miss Beatty's Children	Protima Bedi
+PMG10	T:The Running Man	Arnold Schwarzenegger
+PNe1	T:Rachel, Rachel	Rachel Newman
+PnM10	T:Awakenings	Penelope Anne Miller
+PnM10	T:Awakenings	Bradley Whitford
+PnM11	T:Year of the Comet	Louis Jordan
+PnM11	T:Year of the Comet	Art Malik
+PnM12	T:A League of their Own	Madonna
+PnM14	T:Renaissance Man	Mark Wahlberg
+PnM14	T:Renaissance Man	Paul Abbott
+POC10	T:A Month in the Country	Patrick Malahide
+POC10	T:A Month in the Country	Natasha Richardson
+POC20	T:Zelda	Natasha Richardson
+POC26	T:Dancing at Lughnasa	Michael Gambon
+POC26	T:Dancing at Lughnasa	Al Karth
+PPm10	T:Imagen Latente	Maria Izquierdo
+Pri2	T:Graffiti Bridge	Mavis Staples
+PRo55	T:Sphinx	Paul Hurst
+PRs10	T:The Pope Must Die[t]	Beverly dAngelo
+PRs10	T:The Pope Must Die[t]	Peter Richardson
+PRs10	T:The Pope Must Die[t]	Paul Bartel
+PrWl	T:Don't Cry It's Only Thunder	Lisa Lu
+PRz10	T:I've Heard the Mermaids Singing	Paule Baillargeon
+PRz10	T:I've Heard the Mermaids Singing	AnneMarie McDonald
+PRz15	T:White Room	Maurice Godin
+PS1	T:The Great McGinty	Akim Tamiroff
+PS1	T:The Great McGinty	Louis Jean Heydt
+PS1	T:The Great McGinty	Arthur Hoyt
+PS1	T:The Great McGinty	Allyn Joslyn
+PS2	T:Christmas in July	Al Bridge
+PS2	T:Christmas in July	Raymond Walburn
+PS3	T:Sullivan's Travels	Porter Hall
+PS3	T:Sullivan's Travels	Margaret Hayes
+PS3	T:Sullivan's Travels	Arthur Hoyt
+PS3	T:Sullivan's Travels	Monte Blue
+PS4	T:The Lady Eve	Barbara Stanwyck
+PS4	T:The Lady Eve	Melville Cooper
+PS4	T:The Lady Eve	Martha ODiriscoll
+PS5	T:The Palm Beach Story	Alan Bridge
+PS7	T:The Miracle of Morgan's Creek	Porter Hall
+PS7	T:The Miracle of Morgan's Creek	Akim Tamiroff
+PS7	T:The Miracle of Morgan's Creek	Alan Bridge
+PS7	T:The Miracle of Morgan's Creek	Bobby Watson
+PS8	T:Hail the Conquering Hero	Raymond Walburn
+PS8	T:Hail the Conquering Hero	Alan Bridge
+PS20	T:Unfaithfully Yours	Lionel Stander
+PS20	T:Unfaithfully Yours	Al Bridge
+PS21	T:The Beautiful Blonde from Bashful Bend	Olga SanJuan
+PS21	T:The Beautiful Blonde from Bashful Bend	Porter Hall
+PS21	T:The Beautiful Blonde from Bashful Bend	Margaret Hamilton
+PSc10	T:Hardcore	Peter Boyle
+PSc12	T:American Gigolo	Nina VanPallandt
+PSc20	T:Cat People	Malcolm McDowell
+PSc20	T:Cat People	Annette OToole
+PSc39	T:Touch	Lolita Davidovitch
+PSe10	T:Naked Gun 33 1/3: The Final Insult	Priscilla Presley
+PSl10	T:Too many Kisses	Richard Dix
+PSp10	T:Prison Stories: Women on the Inside	Lolita Davidovich
+PSp12	T:Wayne's World	Mike Myers
+PSp14	T:The Beverly Hillbillies	Lily Tomlin
+PSy10	TZ:To the Devil...A Daughter	Nastassia Kinski
+PtC10	T:The Love Letter	Blythe Danner
+PtF5	T:Attilo Flagello di Dio	Anthony Quinn
+PtP10	T:Wrongfully Accused	Michael York
+PtP10	T:Wrongfully Accused	Richard Crenna
+PTV10	T:Fear	Ally Sheedy
+PUs5	T:Billy Budd	Peter Ustinov
+PUs5	T:Billy Budd	Melvyn Douglas
+PUs5	T:Billy Budd	Paul Rogers
+PUs6	T:Lady L.	Paul Newman
+PUs6	T:Lady L.	Peter Ustinov
+PUs6	T:Lady L.	Philippe Noiret
+PUs6	T:Lady L.	Michel Piccoli
+PUs6	T:Lady L.	Marcel Dalio
+PVh2	T:Spetters	Renee Soutendijk
+PVh15	T:Total Recall	Rachel Ticotin
+PVh20	T:Basic Instinct	Michael Douglas
+PW4	T:Der Golem	Paul Wegener
+PW4	T:Der Golem	Albert Steinruck
+PWa10	TZ:House of the Long Shadows	Peter Cushing
+PWe2	T:Gidget	Arthur OConnell
+PWe10	TZ:Special Delivery	Bo Svenson
+PWr2	T:The Cars That Ate Paris	Melissa Jaffa
+PWr3	T:Picnic at Hanging Rock	Rachel Roberts
+PWr5	T:Gallipoli	Mark Lee
+PWr5	T:Gallipoli	Mel Gibson
+PWr5	T:Gallipoli	Bill Hunter
+PWr6	T:The Year of Living Dangerously	Bill Kerr
+PWr6	T:The Year of Living Dangerously	Michael Murphy
+PWr6	T:The Year of Living Dangerously	Bembol Rocco
+PWr6	T:The Year of Living Dangerously	Noel Ferrier
+PWr6	TZ:The Year of Living Dangerously	Paul Sonkkila
+PWr8	T:Witness	Alexander Godunov
+PWr12	T:Dead Poets Society	Norman Lloyd
+PY1	T:Summer Holiday	Melvyn Hayes
+PY4	T:Bullitt	Norman Fell
+PY7	T:The Friends of Eddie Coyle	Peter Boyle
+PY7	T:The Friends of Eddie Coyle	Alex Rocco
+PY7	T:The Friends of Eddie Coyle	Mitchell Ryan
+PY10	T:The Deep	Nick Nolte
+PY10	T:The Deep	Lou Gossett~jr.
+PY11	T:Breaking Away	Barbara Barrie
+PY11	T:Breaking Away	Paul Dooley
+PY13	TZ:For Pete's Sake	Barbra Streisand
+PY13	TZ:For Pete's Sake	Michael Sarrazin
+PY13	TZ:For Pete's Sake	Molly Picon
+PY13	TZ:For Pete's Sake	William Redfield
+PY19	TZ:Krull	Lysette Anthony
+PY20	TZ:The Dresser	Albert Finney
+PY20	TZ:The Dresser	Zena Walker
+PY20	TZ:The Dresser	Michael Gough
+PY25	T:Suspect	Philip Bosco
+PY32	T:Roommates	Peter Falk
+PY34	T:Nine Months	Mia Ottell
+QMa12	T:The Stud	Mark Burns
+QMa12	T:The Stud	Walter Cotell
+QTa1	T:Reservoir Dogs	Michael Madsen
+QTa3	T:Pulp Fiction	Quentin Tarantino
+QTa3	T:Pulp Fiction	Amanda Plummer
+RA2	T:Young Winston	Anne Bancroft
+RA2	T:Young Winston	Anthony Hopkins
+RA2	T:Young Winston	Patrick Magee
+RA3	T:A Bridge Too Far	Michael Caine
+RA3	T:A Bridge Too Far	Anthony Hopkins
+RA3	T:A Bridge Too Far	Maximilian Schell
+RA3	T:A Bridge Too Far	Liv Ullman
+RA3	T:A Bridge Too Far	Arthur Hill
+RA3	T:A Bridge Too Far	Miriam Brickman
+RA4	T:Magic	Anthony Hopkins
+RA4	T:Magic	AnnMargret
+RA5	T:Gandhi	Michael Hodern
+RA8	T:A Chorus Line	Michael Douglas
+RA8	T:A Chorus Line	Alyson Reed
+RA15	T:Chaplin	Milla Josovich
+RA15	T:Chaplin	Anthony Hopkins
+RA15	T:Chaplin	Penelope Ann Miller
+RA15	T:Chaplin	Paul Rhys
+RA17	T:Shadowlands	Anthony Hopkins
+RA19	T:In Love and War	Mackenzie Aston
+RAB10	T:The Black Mantilla	Lina Basquette
+RAB11?	T:A Dream of Egypt	Lina Basquette
+RAB12?	T:A Romany Rose	Lina Basquette
+RAB13?	T:Little Mariana's Triumph	Lina Basquette
+RAB14?	T:Amelita's Friend	Lina Basquette
+RAC20	TZ:Battlestar Galactica	Lorne Greene
+RAC20	TZ:Battlestar Galactica	Ray Milland
+RaH15	T:Wrestling Ernest Hemingway	Piper Laurie
+RaI50	T:Murder at Monte Carlo	Paul Graetz
+RaI50	T:Murder at Monte Carlo	Molly Lamont
+RaK5	T:Grease	Olivia NewtonJohn
+RaK5	T:Grease	Aloce Ghostley
+RaK5	T:Grease	Barry Pearl
+RaK5	T:Grease	Michael Tucci
+RaK8	TZ:Summer Lovers	Peter Gallagher
+RaK10	T:Big Top Pee-wee	Paul Reubens
+RaK12	T:Getting it Right	Peter Cook
+RaK15	T:Honey, I Blew Up the Kid	Marcia Strassman
+RaK15	T:Honey, I Blew Up the Kid	Lloyd E. Bridges
+RAl50	T:Countdown	Barbara Baxley
+RAl55	T:The Happy Ending	Lloyd Bridges
+RAl55	T:The Happy Ending	Nanette fabray
+RAl55	T:The Happy Ending	Bobby Darin
+RAl62	T:Brewster McCloud	Michael Murphy
+RAl62	T:Brewster McCloud	William Windom
+RAl62	T:Brewster McCloud	Margaret Hamilton
+RAl62	T:Brewster McCloud	Rene Auberjonois
+RAl68	T:McCabe and Mrs.~Miller	Rene Auberjonois
+RAl70	T:The Long Goodbye	Nina VanPallandt
+RAl73	T:Nashville	Barbara Baxley
+RAl73	T:Nashville	Richard Baskin
+RAl73	T:Nashville	Barbara Harris
+RAl73	T:Nashville	Michael Murphy
+RAl74	T:Buffalo Bill and the Indians, or Sitting Bull's History Lesson	Paul Newman
+RAl74	T:Buffalo Bill and the Indians, or Sitting Bull's History Lesson	Bert Remsen
+RAl76	T:A Wedding	Pat McCormick
+RAl76	T:A Wedding	Amy Stryker
+RAl85	T:Come Back to the Five and Dime, Jimmy Dean, Jimmy Dean	Marta Heflin
+RAl87	TZ:Streamers	Matthew Modine
+RAl87	TZ:Streamers	Michael Wright
+RAl87	TZ:Streamers	Mitchell Lichtenstein
+RAl72	T:California Split	Ann Prentiss
+RAl72	T:California Split	Barbara Ruick
+RAl93	T:The Player	Peter Gallagher
+RAl93	T:The Player	Lyle Lovett
+RAl93	T:The Player	Angela Hall
+RAl93	T:The Player	Peter Gallagher
+RAl95	T:Short Cuts	Lyle Lovett
+RAl95	T:Short Cuts	Lori Singer
+RaR12	T:Shattered Image	Ann Poirot
+RaR13	T:Le Temps retrouve	MarieFrance Pisier
+RAs10	TZ:Make Mine Mink	Athene Seyler
+RAs10	TZ:Make Mine Mink	Billie Whitelaw
+RaT1	T:Helter Skelter	Mervyn Johns
+RaT1	T:Helter Skelter	Peter Hammond
+RaT9	T:Appointment with Venus	Barry Jones
+RaT9	T:Appointment with Venus	Noel Purcell
+RaT9	T:Appointment with Venus	Bernard Lee
+RaT16	T:Doctor at Sea	Maurice Denham
+RaT16	T:Doctor at Sea	Michael Medwin
+RaT21	TZ:Doctor At Large	Muriel Pavlow
+RaT26	T:The Thirty-nine Steps	Barry Jones
+RaT26	T:The Thirty-nine Steps	Brenda deBanzie
+RaT26	T:The Thirty-nine Steps	Michael Goodliffe
+RaT26	T:The Thirty-nine Steps	Reginald Beckwith
+RaT30	T:A Pair of Briefs	Brenda deBanzie
+RaT30	T:A Pair of Briefs	Liz Fraser
+RaT46	T:It's not the Size That Counts	Milo OShea
+RaW44	T:The Yellow Ticket	Lionel Barrymore
+RaW47	T:The Bowery	Pert Kelton
+RaW59	T:The Roaring Twenties	Paul Kelley
+RaW59	T:The Roaring Twenties	Pricilla Lane
+RaW59	T:The Roaring Twenties	Bert Hanlon
+RaW59	T:The Roaring Twenties	Murray Alper
+RaW59	T:The Roaring Twenties	Ben Weldon
+RaW61	T:They Drive by Night	Paul Hurst
+RaW62	T:High Sierra	Alan Curtis
+RaW62	T:High Sierra	Artthur Kennedy
+RaW63	TZ:They Died With Their Boots On	Olivia deHavilland
+RaW63	TZ:They Died With Their Boots On	Arthur Kennedy
+RaW63	T:They Died With Their Boots On	Anthony Quinn
+RaW63	T:They Died With Their Boots On	Walter Hampden
+RaW63	T:They Died With Their Boots On	Regis Toomey
+RaW64	T:The Strawberry Blonde	Olivia deHavilland
+RaW64	T:The Strawberry Blonde	Alan Hale
+RaW66	T:Desperate Journey	Alan Hale
+RaW66	T:Desperate Journey	Pat OMoore
+RaW72	T:The Man I Love	Andrea King
+RaW72	T:The Man I Love	Martha Vickers
+RaW72	T:The Man I Love	Alan Hale
+RaW73	T:One Sunday Afternoon	Ben Blue
+RaW78	T:Blackbeard the Pirate	Alan Mowbray
+RaW78	T:Blackbeard the Pirate	Anthony Caruso
+RaW82	T:Battle Cry	Aldo Ray
+RaW82	T:Battle Cry	Mona Freeman
+RaW82	T:Battle Cry	Raymond Massey
+RaW82	T:Battle Cry	Nancy Olson
+RaW82	T:Battle Cry	Anne Francis
+RaW85	T:Band of Angels	Patric Knowles
+RaW85	T:Band of Angels	Rex Reason
+RaW85	T:Band of Angels	Andrea King
+RBa12	T:Cool World	Brad Pitt
+RbC1	T:Amsterdam Kill	Bradford Dillman
+RbC10	T:Enter the Dragon	Ahna Capri
+RbC28	TZ:Run Stranger, Run	Patricia Neal
+RbC28	TZ:Run Stranger, Run	Bobby Darin
+RbD10	TZ:Greaser's Palace	Albert Henderson
+RbD10	TZ:Greaser's Palace	Allan Arbus
+RbD10	TZ:Greaser's Palace	Michael Sullivan
+RbD10	TZ:Greaser's Palace	Luana Anders
+RBe5	TZ:Still of the Night	Meryl Streep
+RBe12	T:Billy Bathgate	Loren Dean
+RBe12	T:Billy Bathgate	Moira Kelly
+RBe15	T:Nobody's Fool	Melanie Griffith
+RBi10	T:Vampire's Kiss	Bob Lujan
+RBl10	T:Lemora, the Lady Dracula	Rainbeaux Smith
+RbM1	T:Murder by Death	Peter Falk
+RbM1	T:Murder by Death	Peter Sellers
+RbM1	T:Murder by Death	Maggie Smith
+RbM1	T:Murder by Death	Nancy Walker
+RbR1	T:This is Spinal Tap	Patrick MacNee
+RbR1	T:This is Spinal Tap	Billy Crystal
+RbR1	T:This is Spinal Tap	Paul Shaffer
+RbR3	T:The Princess Bride	Wallace Shawn
+RbR3	T:The Princess Bride	Andre theGiant
+RbR3	T:The Princess Bride	Peter Cook
+RbR3	T:The Princess Bride	Mel Smith
+RbR14	T:A Few Good Men	Michael deLeon
+RBS15	T:That Wonderful Urge	Reginald Gardiner
+RBS15	T:That Wonderful Urge	Arleen Wheelan
+RBS15	T:That Wonderful Urge	Lucile Watson
+RBS15	T:That Wonderful Urge	Porter Hall
+RBt6	T:The Guinea Pig	Richard Attenborough
+RBt6	T:The Guinea Pig	Bernard Miles
+RBt17	T:There's a Girl in my Soup	Nicky Henson
+RBt20	T:The Last Word	Martin Landau
+RBu15	T:Night of the Juggler	Richard Castellano
+RC10	T:A Nous la Libert\'e	Paul Olivier
+RC12	T:The Last Millionaire	Max Dearly
+RC18	T:It Happened Tomorrow	Linda Darnell
+RC21	T:La Beaut\'e du Diable	Michel Simon
+RC21	T:La Beaut\'e du Diable	Raymond Cordy
+RC21	T:La Beaut\'e du Diable	Nicole Besnard
+RC21	T:La Beaut\'e du Diable	Paolo Stoppa
+RcB1	T:Crisis	Antonio Moreno
+RcB3	T:Deadline USA	Paul Stewart
+RcB3	T:Deadline USA	Audrey Christie
+RcB8	T:The Blackboard Jungle	Anne Francis
+RcB8	T:The Blackboard Jungle	Allison Hayes
+RcB13	T:Cat on a Hot Tin Roof	Madelaine Sherwood
+RcB14	T:Elmer Gantry	Arthur Kennedy
+RcB14	T:Elmer Gantry	Arthur Kennedy
+RcB14	T:Elmer Gantry	Rex Ingram
+RcB14	T:Elmer Gantry	Philip Ober
+RcB16	T:Lord Jim	Paul Lukas
+RcB16	T:Lord Jim	Akim Tamiroff
+RcB17	T:The Professionals	Ralph Bellamy
+RcB25	TZ:Bite the Bullet	Ben Johnson
+RcB30	T:Looking for Mr.~Goodbar	Alan Feinstein
+RcB40	TZ:Wrong is Right	Marianne Marks
+RCh10	T:Masterminds	Patrick Stewart
+RCh10	T:Masterminds	Brad Whitford
+RCh10	T:Masterminds	Matt Craven
+RCj20	T:Guyana, Cult of the Dammned	Pablo Ferrez
+RCl13	T:Is Paris Burning?	Orson Welles
+RCm10	T:Macon County Line	Max Baer
+RCn10	TZ:Scandalous	Pamela Stephenson
+RCn30	T:Dragon: The Bruce Lee Story	Michael Learned
+RCn39	T:Daylight	Amy Brenneman
+RCo11	T:Attack of the Crab Monster	Pamela Duncan
+RCo11	T:Attack of the Crab Monster	Mel Welles
+RCo14	T:Machine Gun Kelly	Wally Campo
+RCo23	T:The Wasp Woman	Barboura Morris
+RCo24	T:A Bucket of Blood	Anthony Carbone
+RCo24	T:A Bucket of Blood	Bert Convy
+RCo26	T:House of Usher	Mark Damon
+RCo32	T:The Premature Burial	Ray Milland
+RCo34	T:Tales of Terror	Maggie Pr.
+RCo34	T:Tales of Terror	Wally Campo
+RCo36	T:The Raven	Boris Karloff
+RCo37	T:The Terror	Boris Karloff
+RCo38	T:The Haunted Palace	Barbara Morris
+RCo43	T:The Tomb of Ligeia	Oliver Johnson
+RCo46	T:The Trip	Peter Fonda
+RCo48	T:Gas-s-s!	Ben Vereen
+RCo70	T:Watchers II	Marc Singer
+RCS10	T:Camille	Alla Nazimova
+RcW10	T:It's all True: Based on An Unfinished Film By Orson Welles	Orson Welles
+RD4	T:The Omen	Martin Benson
+RD5	T:Superman	Ned Beatty
+RD8	TZ:The Toy	Ned Beatty
+RD9	T:Ladyhawke	Matthew Broderick
+RD15	T:Lady Luck	Mathew Broderick
+RD15	T:Lady Luck	Michelle Pfeiffer
+RD19	T:Lethal Weapon	Mel Gibson
+RD19	T:Lethal Weapon	Mitchell Ryan
+RD18	T:Absolute Beginners	Patsy Kensit
+RD20	T:Scrooged	Bill Murray
+RD20	T:Scrooged	Bobcat Goldthwait
+RD25	T:Lethal Weapon II	Mel Gibson
+RD25	T:Lethal Weapon II	Patsy Kensit
+RD35	T:Lethal Weapon III	Mel Gibson
+RD35	T:Lethal Weapon III	Rene Russo
+RD37	T:Maverick	Mel Gibson
+RD37	T:Maverick	Alfred Molina
+RD43	T:Lethal Weapon 4	Mel Gibson
+RD43	T:Lethal Weapon 4	Rene Russo
+RDa1	T:The Green Man	Avril Nagers
+RDa3	T:First Man Into Space	Marshall Thompson
+RDa3	T:First Man Into Space	Marla Landi
+RDa5	TZ:Two-Way Stretch	Peter Sellers
+RDa5	TZ:Two-Way Stretch	Bernard Cribbins
+RDa5	T:Two-Way Stretch	Maurice Denham
+RDa5	T:Two-Way Stretch	Beryl Reid
+RDa5	T:Two-Way Stretch	Liz Fraser
+RDa5	T:Two-Way Stretch	Lionel Jeffries
+RDa12	T:Tarzan and the Great River	Michael Padilla~jr.
+RDa21	TZ:Initiation of Sarah	Morgan Brittany
+RDa21	TZ:Initiation of Sarah	Morgan Fairchild
+RDa25	T:The Man With Bogart's Face	Misty Rowe
+RDa25	T:The Man With Bogart's Face	Michelle Phillips
+RDa25	T:The Man With Bogart's Face	Olivia Hussey
+RDa25	T:The Man With Bogart's Face	Mike Mazurki
+RDh10	T:Le `Petit Baigneur'	Louis deFunes
+RDh10	T:Le `Petit Baigneur'	Michel Galabru
+RDi10	TZ:Deathgames	Lou Brown
+RDL3	T:A Hard Day's Night	Paul McCartney
+RDL3	T:A Hard Day's Night	Norman Rossington
+RDL3	T:A Hard Day's Night	Norman Bassington
+RDL3	T:A Hard Day's Night	Phil Collins
+RDL4	T:The Knack	Michael Crawford
+RDL4	T:The Knack	Ray Brooks
+RDL5	T:Help!	Paul McCartney
+RDL6	T:A Funny Thing Happened on the Way to the Forum	Zero Mostel
+RDL6	T:A Funny Thing Happened on the Way to the Forum	Phil Silvers
+RDL10	TZ:The Three Musketeers	Richard Chamberlain
+RDL10	TZ:The Three Musketeers	Raquel Welch
+RDL10	TZ:The Three Musketeers	Oliver Reed
+RDL10	TZ:The Three Musketeers	Michael York
+RDL11	T:Juggernaut	Omar Sharif
+RDL11	T:Juggernaut	Anthony Hopkins
+RDL12	TZ:Four Musketeers	Raquel Welch
+RDL12	TZ:Four Musketeers	Richard Chamberlain
+RDL12	TZ:Four Musketeers	Michael York
+RDL13	T:Royal Flash	Malcom McDowall
+RDL13	T:Royal Flash	Oliver Reed
+RDL13	T:Royal Flash	Alan Bates
+RDL13	T:Royal Flash	Lionel Jeffries
+RDL13	T:Royal Flash	Alastair Sim
+RDL13	T:Royal Flash	Michael Hodern
+RDL15	T:Robin and Marian	Nicol Williamson
+RDL17	T:Butch and Sundance, the Early Days	Michael C. Gwynne
+RDL17	T:Butch and Sundance, the Early Days	Peter Weller
+RDL18	TZ:Cuba	Martin Balsam
+RDL18	TZ:Cuba	Alejandro Rey
+RDL18	TZ:Cuba	Lonette McKee
+RDL19	T:Superman II	Ned Beatty
+RDL20	TZ:Superman II	Marlon Brando
+RDL20	T:Superman III	Annie Ross
+RDL20	T:Superman III	Pamela Stephenson
+RDL20	T:Superman III	Marc McClure
+RDL24	T:Finders Keepers	Lou Gossett~jr.
+RDL24	T:Finders Keepers	Beverly DAngelo
+RDL24	T:Finders Keepers	Pamela Stephens
+RdM8	T:The Dark Past	Nina Foch
+RdM18	T:Second Chance	Reginal Sheffield
+RdM30	T:The 300 Spartans	Ralph Richardson
+RdM30	T:The 300 Spartans	Barry Coe
+RDo10	T:The Bounty	Anthony Hopkins
+RDo10	T:The Bounty	Bernard Hill
+RDo30	T:White Sands	Mary Elizabeth Mastantonio
+RDo30	T:White Sands	Mickey Rourke
+RDo32	T:The Getaway	Alec Baldwin
+RDo32	T:The Getaway	Michael Madsen
+RdR10	T:Gold Diggers of Broadway	Nancy Welford
+RdR10	T:Gold Diggers of Broadway	Ann Pennington
+RdR10	T:Gold Diggers of Broadway	Lilyan Tashman
+RdR10	T:Gold Diggers of Broadway	Nick Lucas
+RdR30	T:Blonde Crazy	Ray Milland
+RdR30	T:Blonde Crazy	Louis Calhern
+RdR30	T:Blonde Crazy	Polly Walters
+RdR30	T:Blonde Crazy	Maude Eburne
+RdR32	T:The Maltese Falcon	Oscar Apfel
+RdR37	T:Taxi!	Loretta Young
+RdR37	T:Taxi!	Matt McHugh
+RdR40	T:Employees' Entrance	Barbara Stanwyck
+RdR44	T:Lady Killer	Mae Clarke
+RdR44	T:Lady Killer	Margaret Lindsay
+RdR44	T:Lady Killer	Raymond Hatton
+RdR46	T:Bulldog Drummond Strikes Back	Loretta Young
+RdR46	T:Bulldog Drummond Strikes Back	Mischa Auer
+RdR48	T:Folies Bergere	Merle Oberon
+RdR48	T:Folies Bergere	Ann Sothern
+RdR52	T:Born to Dance	Raymond Walburn
+RdR52	T:Born to Dance	Reginald Gardiner
+RdR54	T:On the Avenue	Madeleine Carroll
+RdR54	T:On the Avenue	Walter Catlett
+RdR54	T:On the Avenue	Alan Mowbray
+RdR54	T:On the Avenue	Billy Gilbert
+RdR56	T:Broadway Melody of 1938	Billy Gilbert
+RdR56	T:Broadway Melody of 1938	Raymond Wilburn
+RdR61	T:He Married his Wife	Mary Boland
+RdR63	T:The Chocolate Soldier	Nigel Bruce
+RdR64	T:Topper Returns	Billie Burke
+RdR64	T:Topper Returns	Rafaela Ottiano
+RdR66	T:Maisie Gets Her Man	Ann Sothern
+RdR66	T:Maisie Gets Her Man	Red Skelton
+RdR66	T:Maisie Gets Her Man	Allen Jenkins
+RdR66	T:Maisie Gets Her Man	Lloyd Corrigan
+RdR66	T:Maisie Gets Her Man	Walter Catlett
+RdR66	T:Maisie Gets Her Man	Rags Ragland
+RdR68	T:DuBarry Was a Lady	Lucille Ball
+RDu10	TZ:Angelo My Love	Angelo Evans
+RDu10	TZ:Angelo My Love	Michael Evans
+RDu15	T:The Apostle	Miranda Richardson
+RDW2	TZ:Beneath the 12-Mile Reef	Richard Boone
+RDW2	TZ:Beneath the 12-Mile Reef	Peter Graves
+RDW7	T:Caribbean Mystery	Reed Hadley
+RDW10	T:Love Me Tender	Neville Brand
+ReC4	T:Two Cents worth of Hope	Maria Fiore
+ReC5	T:Romeo and Juliet	Aldo Zollo
+ReC5	T:Romeo and Juliet	Mervyn Johns
+ReC5	T:Romeo and Juliet	Lydia Sherwood
+ReC5	T:Romeo and Juliet	Nietta Zocchi
+ReC5	T:Romeo and Juliet	Bill Travers
+ReC5	T:Romeo and Juliet	Norman Wooland
+ReD10	TZ:Massacre at Central High	Andrew Stevens
+ReH10	T:Die Hard 2	Bonnie Bedelia
+ReH10	T:Die Hard 2	Reginald VelJohnson
+ReH10	T:Die Hard 2	William Saddler
+ReH10	T:Die Hard 2	Art Evans
+REM5	T:Any Wednesday	Ann Prentiss
+REM10	TZ:The Baltimore Bullet	Omar Sharif
+REn6	T:Dames	Zasu Pitts
+REn18	T:China Clipper	Pat OBrien
+REn18	T:China Clipper	Marie Wilson
+REn20	T:Earthworm Tractors	Olin Howland
+REn45	T:Angels Wash Their Faces	Ann Sheridan
+REn45	T:Angels Wash Their Faces	Berton Churchill
+REn50	T:Law of the Tropics	Regis Toomey
+REn50	T:Law of the Tropics	Mona Maris
+ReN53	T:The Spoilers	Randolph Scott Chandler
+ReN53	T:The Spoilers	Margaret Lindsay
+ReN53	T:The Spoilers	Richard Berthelmess
+REn55	T:The Iron Major	Barbara Hale
+RfH10	T:Ave Maria	Zarah Leander
+RFl3	T:The Battle of Paris	Arthur Treacher
+RFl20	T:Murders in the Rue Morgue	Bert Roach
+RFl20	T:Murders in the Rue Morgue	Brandon Hurst
+RFl20	T:Murders in the Rue Morgue	Noble Johnson
+RFl28	T:The Raven	Boris Karloff
+RFl30	T:The Woman in Red	Philip Reed
+RFl33	T:Hollywood Boulevard	Marsha Hunt
+RFl33	T:Hollywood Boulevard	Bob Cummings
+RFl33	T:Hollywood Boulevard	Maurice Costello
+RFl33	T:Hollywood Boulevard	Mae Marsh
+RFl33	T:Hollywood Boulevard	Bert Roach
+RFl40	T:The Magnificent Fraud	Akim Tamiroff
+RFl40	T:The Magnificent Fraud	Patricia Morison
+RFl60	T:The Beast with Five Fingers	Peter Lorre
+RFl100	T:Change of Heart	Anne Helm
+RFM10	T:Little Darlings	Armande Assante
+RFM10	TZ:Little Darlings	Matt Dillon
+RFM20	T:Gettysburg	Martin Sheen
+RFr10	T:Road Games	Marion Edwards
+RFr15	T:Psycho II	Meg Tilly
+RFu10	T:Wuthering Heights	Anna CalderMarshall
+RFu10	T:Wuthering Heights	Pamela Brown
+RFu10	T:Wuthering Heights	Aubrey Woods
+RFu11	T:The Abominable Dr. Phibes	Peter Jeffrey
+RFu11	T:The Abominable Dr. Phibes	Aubrey Woods
+RFu12	T:Dr. Phibes Rises Again	Peter Cushing
+RFu12	T:Dr. Phibes Rises Again	Beryl Reid
+RFu12	T:Dr. Phibes Rises Again	Peter Jeffrey
+RFu20	TZ:Devil's Rain	William Shatner
+RgH10	T:Hi Life	Moira Kelly
+RGo10	T:Never Been Kissed	Molly Shannon
+RGo10	T:Never Been Kissed	Michael Vartan
+RGr10	T:Xanadu	Michael Beck
+RGr30	T:Forgotten Prisoners	Alyson Spiro
+RGt15	T:Subarnarekha	Madhabi Mukherjee
+RgW10	T:Road Scholar	Andrei Codrescu
+RHa4	T:Kind Hearts and Coronets	Arthur Lowe
+RHa5	T:The Spider and the Fly	Nadia Gray
+RHa5	T:The Spider and the Fly	Maurice Denham
+RHa8	T:Father Brown	Peter Finch
+RHa8	T:Father Brown	Bernard Lee
+RHa8	T:Father Brown	Marne Maitland
+RHa9	T:To Paris With Love	Odile Versois
+RHa9	T:To Paris With Love	Austin Trevor
+RHa10	T:The Scapegoat	Alec Guinness
+RHa10	T:The Scapegoat	Bette Davis
+RHa10	T:The Scapegoat	Nicole Maurey
+RHa10	T:The Scapegoat	Pamela brown
+RHf10	T:Futureworld	Peter Fonda
+RHf10	T:Futureworld	Blythe Danner
+RHf10	T:Futureworld	Arthur Hill
+RHf20	TZ:I, The Jury	Armand Assante
+RHf20	TZ:I, The Jury	Barbara Carrera
+RHf20	T:I, The Jury	Alan King
+RHf20	T:I, The Jury	Paul Sorvino
+RHg10	T:Evening Star	Bill Paxton
+RHg10	T:Evening Star	Miranda Richardson
+RHg10	T:Evening Star	Ben Johnson
+RHg10	T:Evening Star	Marion Ross
+RHk10	T:Dead On	Matt McCoy
+RhM10	T:Razorback	Arkie Whiteley
+RhM10	T:Razorback	Bill Kerr
+RhM34	T:Blue Ice	Alun Armstrong
+RhM34	T:Blue Ice	Bobby Hunt
+RhM34	T:Blue Ice	Philip Davis
+RhM34	T:Blue Ice	Bob Hoskins
+RhM37	T:The Shadow	Penelope Ann Miller
+RhM37	T:The Shadow	Peter Boyle
+RHo5	T:Night Shift	Richard Belzer
+RHo5	T:Night Shift	Pawyer Trollhaus
+RHo5	T:Night Shift	Ola Ray
+RHo5	T:Night Shift	Ashley Cox
+RHo12	T:Cocoon	Linda Harrison
+RHo12	T:Cocoon	Mike Nomad
+RHo20	T:Parenthood	Mary Steenburgen
+RHo20	T:Parenthood	Martha Plimpton
+RHo22	T:Backdraft	Rebecca deMornay
+RHo29	T:Apollo 13	Bill Paxton
+RHr5	T:Roadhouse	Patrick Swayze
+RHr5	T:Roadhouse	Ben Gazzara
+RHr5	T:Roadhouse	Red West
+RhS20	T:Viktor und Viktoria	Anton Walbrook
+RHv10	T:Critters 4	Angela Bassett
+RHv10	T:Critters 4	Brad Dourif
+RiB1	T:My Favourite Year	Peter OToole
+RiB1	T:My Favourite Year	Mark LinnBaker
+RiB1	T:My Favourite Year	Bill Macy
+RiB1	T:My Favourite Year	Lou Jacobi
+RiB15	T:Racing with the Moon	Max Showalter
+RiB25	T:Made in America	Nia Long
+RiB25	T:Made in America	Paul Rodriguez
+RiB30	T:City Heat	Madeleine Kahn
+RiD1	T:The Schartz-Metterklume Method	Patricia Hitchcock
+RiD1	T:The Schartz-Metterklume Method	Noel Drayton
+RiF10	T:The Narrow Margin	Queenie Leonard
+RiF13	TZ:Twenty Thousand Leagues Under the Sea	Peter Lorre
+RiF13	T:Twenty Thousand Leagues Under the Sea	Paul Lukas
+RiF15	T:The Girl in the Red Velvet Swing	Ray Milland
+RiF15	T:The Girl in the Red Velvet Swing	Luther Adler
+RiF15	T:The Girl in the Red Velvet Swing	Philip Reed
+RiF18	T:The Vikings	Alexander Knox
+RiF18	T:The Vikings	Maxine Audley
+RiF21	T:Crack in the Mirror	Bradford Dillman
+RiF21	T:Crack in the Mirror	Alexander Knox
+RiF22	T:Barrabas	Arthur Kennedy
+RiF22	T:Barrabas	Norman Wooland
+RiF22	T:Barrabas	Michael Gwynn
+RiF24	TZ:Fantastic Voyage	William Redfield
+RiF24	TZ:Fantastic Voyage	Arthur Kennedy
+RiF25	TZ:Doctor Dolittle	Anthony Newley
+RiF25	TZ:Doctor Dolittle	Peter Bull
+RiF28	T:Tora! Tora! Tora!	Martin Balsam
+RiF35	TZ:Mr.~Majestyk	Al Lettieri
+RiF35	T:Mr.~Majestyk	Linda Cristal
+RiF39	T:Crossed Swords	Raquel Welch
+RiF39	T:Crossed Swords	Rex Harrison
+RiF52	TZ:Conan the Destroyer	Arnold Schwarzenegger
+RiF52	TZ:Conan the Destroyer	Wilt Chamberlain
+RiF52	TZ:Conan the Destroyer	Olivia D'Abo
+RiF52	TZ:Conan the Destroyer	Mako
+RiF48	T:Tough Enough	Pam Grier
+RiL10	TZ:Night Cries	Michael Parks
+RiL14	TZ:Change of Seasons	Anthony Hopkins
+RiL14	TZ:Change of Seasons	Bo Derek
+RiL14	TZ:Change of Seasons	Mary Beth Hurt
+RiO50	T:The Lovable Cheat	Peggy Ann Garner
+RiQ6	T:Cruising Down the River	Billy Daniels
+RiQ15	T:Solid Gold Cadillac	Paul Douglas
+RiQ15	T:Solid Gold Cadillac	Arthur OCinnell
+RiQ23	T:Paris When it Sizzles	Noel Coward
+RiQ23	T:Paris When it Sizzles	Raymond Bussieres
+RiQ29	T:Synanon	Alex Cord
+RiQ29	T:Synanon	Richard Conte
+RiQ29	T:Synanon	Barbara Luna
+RiR15	TZ:Bad Boys	Reni Santoni
+RiS10	T:You, Me, and Marley	Lorcan Cranitch
+RJe1	T:La Lectrice	Maria Casares
+RJR10	T:Zapped	Willie Aames
+RKa10	TZ:Carny	Meg Foster
+RkM10	T:D.O.A.	Meg Ryan
+RkM16	T:Super Mario Bros.	Bob Hoskins
+RKi10	T:The Midnight Man	Morgan Woodward
+RKi10	T:The Midnight Man	Mills watson
+RkK10	T:Quick	Martin Donovan
+RkK15	T:Blast from the Past	Bendan Fraser
+RkK15	T:Blast from the Past	Alicia Silverstone
+RLB10	T:The Mummy's Ghost	Ramsay Ames
+RLB10	T:The Mummy's Ghost	Barton McLaine
+RLB10	T:San Diego, I love You	Louise Allbritton
+RLB12	T:Jungle Woman	Milburn Stone
+RlE20	T:Independence Day	Randy Quaid
+RlE20	T:Independence Day	Margaret Colin
+RLG10	T:Living Out Loud	Martin Donovan
+RLi6	T:Just Before Dawn	Mike Kellin
+RLi10	TZ:Table for Five	Marie-Christine Barrault
+RLi10	TZ:Table for Five	Millie Perkins
+RLi10	T:Table for Five	Richard Crenna
+RLi10	T:Table for Five	Maria OBrien
+RLi20	T:All I want for Christmas	Andrea Martin
+RLi20	T:All I want for Christmas	Renee Taylor
+RLl13	T:Dazed and Confused	Matt Damon
+RLl18	T:Suburbia	Amie Carey
+RLl18	T:Suburbia	Nicky Katt
+RLl18	T:Suburbia	Parker Posey
+RLn10	T:High Lonesome	Bill Monroe
+RLn10	T:High Lonesome	Alison Kraus
+RLo11	TZ:The Missionary	Michael Palin
+RLo11	TZ:The Missionary	Maggie Smith
+RLo11	T:The Missionary	Michael Hodern
+RLT10	TZ:Ticket to Heaven	Meg Foster
+RlW10	T:The Bat	Louise Fazenda
+RM4	T:Love Me Tonight	Blanche Friderici
+RM4	T:Love Me Tonight	Marion `Peanuts' Byron
+RM4	T:Love Me Tonight	Mary Doran
+RM4	T:Love Me Tonight	Bert Roach
+RM6	T:Queen Christina	Reginald Owen
+RM7	T:We Live Again	Anna Sten
+RM8	T:Becky Sharp	Miriam Hopkins
+RM8	T:Becky Sharp	Billie Burke
+RM8	T:Becky Sharp	Nigel Bruce
+RM12	T:The Mark of Zorro	Linda Darnell
+RM12	T:The Mark of Zorro	Montagu Love
+RM13	T:Blood and Sand	Linda Darnell
+RM13	T:Blood and Sand	Anthony Quinn
+RM13	T:Blood and Sand	Alla Nazimova
+RM13	T:Blood and Sand	Lynn Bari
+RM15	T:Summer Holiday	Mickey Rooney
+RM15	T:Summer Holiday	Marilyn Maxwell
+RM15	T:Summer Holiday	Anne Francis
+RM16	T:Silk Stockings	Peter Lorre
+RMD10	T:The Subterraneans	Arte Johnson
+RMe12	T:The Cat and the Canary	Michael Callan
+RMe12	T:The Cat and the Canary	Peter McEnery
+RMe12	T:The Cat and the Canary	Beatrix Lehman
+RMe12	T:The Cat and the Canary	Olivia Hussey
+RMg15	T:The Kingdom of Zydeco	Beau Jocque
+RMk10	T:Once in a Lifetime	Aline McMahon
+RMk10	T:Once in a Lifetime	Louise Fazenda
+RMk10	T:Once in a Lifetime	Mona Maris
+RMl1	T:A Man Alone	Mary Murphy
+RMl1	T:A Man Alone	Arthur Space
+RMl1	T:A Man Alone	Alan Hale~jr
+RMo3	T:Once More My Darling	Ann Blyth
+RMq5	T:Eye of the Needle	Alex McCrindle
+RMq8	T:Return of The Jedi	Billy Dee Williams
+RMq8	T:Return of The Jedi	Peter Mayhew
+RMr10	T:Penetration	Marc Stevens
+RMu7	T:The Spiral Road	Neva Patterson
+RMu7	T:The Spiral Road	Philip Abbott
+RMu25	T:Up the Down Staircase	Patrick Bedford
+RMu37	TZ:Same Time, Next Year	Alan Alda
+RMu41	TZ:Bloodbrothers	Paul Sorvino
+RMu41	TZ:Bloodbrothers	Marilu Henner
+RMu46	T:Kiss Me Goodbye	Paul Dooley
+RMu46	T:Kiss Me Goodbye	Mildred Natwick
+RMu46	T:Kiss Me Goodbye	William Prince
+RMw3	T:The Phantom of the Opera	Maximiliam Schell
+RMw10	T:Overexposed	Marcy Walker
+RMw13	T:Afterburn	Michael Rooker
+RMw13	T:Afterburn	Andy Romano
+RMw13	T:Afterburn	Basil Wallace
+RMY10	T:Short Eyes	Nathan George
+RMY10	TZ:Short Eyes	Miguel Pinero
+RMY15	TZ:One Trick Pony	Blair Marion
+RMY15	TZ:One Trick Pony	Mare Winningham
+RMY15	TZ:One Trick Pony	Lou Reed
+RNe1	T:Requiem for A Heavyweight	Anthony Quinn
+RNe1	T:Requiem for A Heavyweight	Mickey Rooney
+RNe1	T:Requiem for A Heavyweight	Madame Spivey
+RNe15	T:Soldier Blue	Peter Strauss
+RNe23	TZ:Embryo	Barbara Carrera
+RnH13	T:Boomerang	Martin Lawrence
+RNo10	T:Igla	Pyotr Mamonov
+RNo20	T:Diki Vostok	Zhanna Isina
+RoA4	T:Vera Cruz	Morris Ankrum
+RoA5	T:Kiss Me, Deadly	Ralph Meeker
+RoA5	T:Kiss Me, Deadly	Marian Carr
+RoA22	T:Sodom and Gomorrah	Pier Angeli
+RoA22	T:Sodom and Gomorrah	Anouk Aim\'ee
+RoA23	T:Whatever happened to Baby Jane?	Bette Davis
+RoA23	T:Whatever happened to Baby Jane?	Anna Lee
+RoA25	T:Hush Hush, Sweet Charlotte	Mary Astor
+RoA25	T:Hush Hush, Sweet Charlotte	Agnes Moorehead
+RoA26	T:The Flight of the Phoenix	Peter Finch
+RoA28	T:Dirty Dozen	Ralph Meeker
+RoA32	T:The Legend of Lylah Clare	Milton Seltzer
+RoA32	T:The Legend of Lylah Clare	Michael Murphy
+RoA35	TZ:Too Late the Hero	Michael Caine
+RoA57	TZ:Hustle	Ben Johnson
+RoA57	T:Hustle	Paul Winfield
+RoA64	T:The Longest Yard	Bernadette Peters
+RoA66	T:The Choirboys	Louis Gossett~jr.
+RoA66	T:The Choirboys	Randy Quaid
+RoA70	T:All the Marbles	Peter Falk
+RoD10	TZ:The Black Stallion Returns	Allen Goorwitz
+RoH30	T:Caged Fear	Loretta Devine
+RoF20	T:Man of Aran	Maggie Dirane
+RoF30	T:Elephant Boy	Walter HuddF
+RoF30	T:Elephant Boy	Allan Jeayes
+RoJ10	T:Fat Man and Little Boy	Bonnie Bedelia
+RoJ20	T:Goodbye Lover	Patricia Arquette
+RoJ20	T:Goodbye Lover	MarieLouise Parker
+RoL10	T:Anything Goes	Mitzi Gaynor
+RoL10	T:Anything Goes	Zizi Jeanmaire
+RoL10	T:Anything Goes	Phil Harris
+RoL59	TZ:Fallen Angel	Melinda Dillon
+RoL60	TZ:If Things Were Different	Arte Johnson
+RoN16	T:The Prime of Miss Jean Brodie	Maggie Smith
+RoN16	T:The Prime of Miss Jean Brodie	Pamela Franklin
+RoN18	T:The Poseidon Adventure	Red Buttons
+RoN18	T:The Poseidon Adventure	Angela Cartwright
+RoN18	T:The Poseidon Adventure	Arthur OConnell
+RoN18	T:The Poseidon Adventure	Pamela Sue Martin
+RoN22	TZ:The Odessa File	Maximilian Schell
+RoN22	TZ:The Odessa File	Maria Schell
+RoN22	TZ:The Odessa File	Mary Tamm
+RoN28	T:Meteor	Martin Landau
+RoN30	T:Hopscotch	Ned Beatty
+RoN32	TZ:First Monday in October	Walter Matthau
+RoP2	T:Repulsion	Patrick Wymark
+RoP5	T:Rosemary's Baby	Patsy Kelly
+RoP7	T:Che?/What?/Was?	Marcello Mastroianni
+RoP9	T:The Tenant	Melvyn douglas
+RoP10	T:Tess	Nastassia Kinski
+RoP10	T:Tess	Peter Firth
+RoP15	T:Frantic	Alexandra Stewart
+RoP20	T:Bitter Moon	Peter Coyote
+RoR2	T:All the King's Men	Anne Seymour
+RoR5	T:Alexander the Great	Peter Cushing
+RoR5	T:Alexander the Great	Michael Hodern
+RoR5	T:Alexander the Great	Niall MacGinnis
+RoR6	T:Island in the Sun	Michael Rennie
+RoR6	T:Island in the Sun	Patricia Owens
+RoR6	T:Island in the Sun	Basil Sidney
+RoR10	T:Lilith	Peter Fonda
+RoR10	T:Lilith	Anne Meacham
+RoR25	TZ:They Came to Cordura	Richard Conte
+RoR25	TZ:They Came to Cordura	Michael Callan
+RoS3	T:Tudor Rose	Martita Hunt
+RoS3	T:Tudor Rose	Miles Malleson
+RoS6	T:King Solomon's Mines	Paul Robeson
+RoS6	T:King Solomon's Mines	Anna Lee
+RoS11	T:Tom Brown's Schooldays	Billy Halop
+RoS13	T:Back Street	Peggy Stewart
+RoS13	T:Back Street	Neil ODay
+RoS17	T:To the Ends of the Earth	Ludwig Donath
+RoS60	TZ:Old Yeller	Beverly Washburn
+RoS65	TZ:Darby O'Gill and the Little People	Albert Sharpe
+RoS68	T:The Shaggy Dog	Anette Funicello
+RoS68	T:The Shaggy Dog	Alexander Scoursby
+RoS70	T:An Occurrence at Owl Creek Bridge	Brad Weston
+RoS90	T:Mary Poppins	Reginald Owen
+RoS90	T:Mary Poppins	Mathew Garber
+RoS90	T:Mary Poppins	Arthur Treacher
+RoS92	TZ:That Darn Cat	Neville Brand
+RoS94	TZ:Gnome-Mobile	Matthew Garber
+RoS94	T:Gnome-Mobile	Richard Deacon
+RoS95	T:Blackbeard's Ghost	Richard Deacon
+RoS98	T:The Love Bug	Michele Lee
+RoS100	TZ:Bedknobs and Broomsticks	Angela Lansbury
+RoS100	T:Bedknobs and Broomsticks	Barbara Morrison
+RoS120	TZ:Island at the Top of the World	Mako
+RoT20	T:Ring of Spies	Nancy Nevinson
+RoV1	T:And God Created Woman	Paul Faivre
+RoV7	T:La Ronde	Marie Dubois
+RoV7	T:La Ronde	Anna Karina
+RoV7	T:La Ronde	Maurice Ronet
+RoV7	T:La Ronde	Bernard Noel
+RoV10	T:Barbarella	Marcel Marceau
+RoV10	T:Barbarella	Anita Pallenberg
+RoV10	T:Barbarella	Milo OShea
+RoV13	T:Pretty Maids All in a Row	Angie Dickinson
+RoV15	T:Don Juan	Maurice Ronet
+RoW10	TZ:Anna to the Infinite Power	Martha Byrne
+RoW10	TZ:Anna to the Infinite Power	Mark Patton
+RoW10	TZ:Anna to the Infinite Power	Loretta Divine
+RPa10	T:Cry Danger	Rhonda Flemming
+RPa10	T:Cry Danger	Regis Toomey
+RPa25	TZ:A Town Called Hell	Martin Landau
+RPo10	T:Caroline Ch\'erie	Martine Carol
+RPr10	T:Write to Kill	Ray Stricklyn
+RPr10	T:Write to Kill	Ray Wise
+RR1	T:Ordinary People	M.Emmet Walsh
+RR2	T:The Milagro Beanfield War	Richard Bradford
+RR2	T:The Milagro Beanfield War	Melanie Griffith
+RR3	T:A River Runs Through It	Brad Pitt
+RR3	T:A River Runs Through It	Brenda Blethyn
+RR4	T:Quiz Show	Ralph Fiennes
+RR4	T:Quiz Show	Paul Scofield
+RR4	T:Quiz Show	Mira Sorvino
+RR4	T:Quiz Show	Alan Rich
+RR4	T:Quiz Show	Barry Levinson
+RRo1	T:Open City	Anna Magnani
+RRo1	T:Open City	Maria Michi
+RRo5	T:Paisa	William Tubbs
+RRo12	T:Stromboli	Renzo Cesana
+RRo16	T:A Trip To Italy	Paul Muller
+RRo16	T:A Trip To Italy	Anna Proclemer
+RRo16	T:A Trip To Italy	Maria Mauban
+RRo16	T:A Trip To Italy	Natalia Rai
+RRo18	T:Fear	Mathias wieman
+RRo18	T:Fear	Renate Mannhardt
+RRo20	T:General della Rovere	Anne Verdon
+RrS10	T:Gentlemen Prefer Brunettes	Alan Young
+RRu7	T:Hells Angels on Wheels	Pearl Kaplan
+RRu15	TZ:Freebie and the Bean	Alan Arkin
+RRu15	TZ:Freebie and the Bean	Loretta Swit
+RRu15	TZ:Freebie and the Bean	Mike Kellin
+RRu15	TZ:Freebie and the Bean	Alex Rocco
+RRu20	TZ:The Stunt Man	Barbara Hershey
+RRu20	TZ:The Stunt Man	Allen Goorwitz
+RRu20	TZ:The Stunt Man	Alex Rocco
+RRw15	T:Lost Angel	Marsha Hunt
+RRw15	T:Lost Angel	Philip Merryvale
+RRw20	T:Our Vines Have Tender Grapes	Margaret OBrien
+RRw20	T:Our Vines Have Tender Grapes	Agnes Moorehead
+RRw20	T:Our Vines Have Tender Grapes	Morris Carnovsky
+RRw32	T:The 5000 Fingers of Dr.~T	Mary Healy
+RRw33	T:Affair with a Stranger	Mary Jo Tarola
+RRw33	T:Affair with a Stranger	Nicholas Joy
+RRw33	T:Affair with a Stranger	Wally Vernon
+RRw35	T:Hit the Deck	Ann Miller
+RRw37	T:These Wilder Years	Betty Lou Keim
+RRz10	T:Mariachi	Reinol Martinez
+RRz10	T:Mariachi	Peter Marquardt
+RS1	TZ:The Duellists	Albert Finney
+RS3	T:Blade Runner	M.~Emmet Walsh
+RS9	T:Alien 2	Michael Behn
+RS11	T:Someone To Watch Over Me	Lorraine bracco
+RS11	T:Someone To Watch Over Me	Andreas Katsulas
+RS14	T:Black Rain	Michael Douglas
+RS14	T:Black Rain	Andy Garcia
+RS20	T:1492: Conquest of Paradise	Armand Assante
+RS20	T:1492: Conquest of Paradise	Angela Molina
+RS20	T:1492: Conquest of Paradise	Michael Wincott
+RS26	T:White Squall	Bathazar x
+RS28	T:G.I. Jane	Anne Bancroft
+RSa5	T:Vanishing Point	Paul Koslo
+RSa5	T:Vanishing Point	Bob Donner
+RSa20	T:Sunburn	Art Carney
+RSB5	T:Jack the Ripper	Betty McDowell
+RsG10	T:200 Cigarettes	Ben Affleck
+RsG10	T:200 Cigarettes	Martha Plimpton
+RsG10	T:200 Cigarettes	Paul Rudd
+RSh15	T:White Men Can't Jump	Marques Johnson
+RSh15	T:White Men Can't Jump	Nigel Miguel
+RSi17	T:Son of Dracula	Louise Albritton
+RSi18	T:Cobra Woman	Lon Chaney,~jr.
+RSi18	T:Cobra Woman	Lou Collier
+RSi18	T:Cobra Woman	Mary Nash
+RSi18	T:Cobra Woman	Moroni Olsen
+RSi20	T:Phantom Lady	Alan Baxter
+RSi20	T:Phantom Lady	Andrew Tombes
+RSi25	T:The Spiral Staircase	Rhonda Fleming
+RSi30	T:The Killers	Albert Dekker
+RSi45	T:The Crimson Pirate	Margot Grahame
+RSl10	TZ:Big Foot	Lindsay Crosby
+RSp8	T:Terror Train	Ben Johnson
+RSp10	TZ:Under Fire	Nick Nolte
+RSp20	T:and the Band Played On	Matthew Modine
+RSp20	T:and the Band Played On	Lily Tomlin
+RSp20	T:and the Band Played On	Alan Alda
+RSp20	T:and the Band Played On	Phil Collins
+RSp20	T:and the Band Played On	Magic Johnson
+RSp24	T:Tomorrow Never Dies	Pierce Brosnan
+RSp24	T:Tomorrow Never Dies	Michelle Yeoh
+RSt104	T:You Got to Have Luck	Marisa Pavan
+RSt105	T:The Older Sister	Polly Rowles
+RSt105	T:The Older Sister	Pat Hitchcock
+RSt109	T:Portrait of Jocelyn	Oland Soule
+RSt110	T:Never Again	Phyllis Thaxter
+RSt112	T:The Baby Sitter	Reba Tassel
+RSt112	T:The Baby Sitter	Ray Teal
+RSt114	T:Momentum	Mike Ragan
+RSt114	T:Momentum	Billy Newell
+RSt116	T:None are so Blind	Lillian Bronson
+RSt319	T:Manacled	William Redfield
+RSt319	T:Manacled	Betty Hanford
+RSt320	T:Number Twenty-two	Ray Real
+RSt320	T:Number Twenty-two	Mike Ross
+RSt323	T:I Killed the Count	Anthony Dawson
+RSt326	T:The Glass Eye	William Shatner
+RSt326	T:The Glass Eye	Billy Barty
+RSt327	T:Heart of Gold	Nehemiah Persoff
+RSt330	T:Miss Bracegirdle Does her Duty	Mildred Natwick
+RSt332	T:Foghorn	William Yip
+RSt334	T:The Canary Sedan	Murray Matheson
+RSt337	T:A Man with a Problem	Bartlett Robinson
+RSt339	T:I'll Take Care of You	Arthur Batanides
+RSt339	T:I'll Take Care of You	Rad Fulton
+RSt342	T:Appointment at Eleven	Norma Crane
+RtB10	T:Journal d'un Cur\'e de Campagne	Armand Guibert
+RtB10	T:Journal d'un Cur\'e de Campagne	Nicole Ladmiral
+RT10	T:Personal Best	Mariel Hemingway
+RT10	T:Personal Best	Patrice Donnelly
+RT20	T:Tequila Sunrise	Arliss Howard
+RT20	T:Tequila Sunrise	Ann Magnuson
+RTa14	T:Tank Girl	Lori Petty
+RtB8	T:Journal d'un Cuire de Campagne	Nicole Ladmiral
+RtB8	T:Journal d'un Cuire de Campagne	Nicole Laurey
+RtD10	T:The Long Silence	Michael Rennie
+RtD12	T:Behind the Locked Door	Lynnn Loring
+RTh3	T:Tarzan Escapes	Benita Hume
+RTh4	T:Three Loves has Nancy	Reginald Owen
+RTh6	T:Huckleberry Finn	Mickey Roonie
+RTh6	T:Huckleberry Finn	Walter Connolly
+RTh6	T:Huckleberry Finn	Rex Ingram
+RTh8	T:Wyoming	Marjorie Main
+RTh8	T:Wyoming	Ann Rutherford
+RTh9	T:Tarzan's Secret Treasure	Philip Dorn
+RTh9	T:Tarzan's Secret Treasure	Barry Fitzgerald
+RTh9	T:Tarzan's Secret Treasure	Reginald Owen
+RTh10	T:Tarzan's New York Adventure	Paul Kelly
+RTh10	T:Tarzan's New York Adventure	Miles Mander
+RTh10	T:Tarzan's New York Adventure	Mantan Moreland
+RTh12	T:Above Suspicion	Basil Rathbone
+RTh12	T:Above Suspicion	Reginal Owen
+RTh12	T:Above Suspicion	Richard Ainley
+RTh25	T:The Sun Comes Up	Lloyd Nolan
+RTh27	T:Three Little Words	Phil Regan
+RTh27	T:Three Little Words	Paul Harvey
+RTh35	T:The Prisoner of Zenda	Louis Calhern
+RTh35	T:The Prisoner of Zenda	Peter Bracco
+RTh42	T:The Student Prince	Ann Blyth
+RTh42	T:The Student Prince	Louis Calhern
+RTh42	T:The Student Prince	Betta St.John
+RTh52	T:The Venetian Affair	Luciana Paluzzi
+RTu1	T:Tightrope	Alison Eastwood
+RtW10	T:Medea	Paul Sparke
+RtY15	T:Fierce Creatures	Michael Palin
+RuB10	T:The Girl in the Kremlin	Maurice Manson
+RuB10	T:The Girl in the Kremlin	Zsa Zsa Gabor
+RuB10	T:The Girl in the Kremlin	William Schallert
+RuC10	T:Fear of a Black Hat	Mark Chrisopher Lawrence
+RuJ8	T:The Cat Creeps	Neil Hamilton
+RuJ8	T:The Cat Creeps	Lilyan Tashman
+RuJ8	T:The Cat Creeps	Montagu Love
+RuM30	T:Faster Pussycat! Kill! Kill!	Lori Williams
+RuM37	T:Beyond the Valley of the Dolls	Marcia McBroom
+RuM37	T:Beyond the Valley of the Dolls	Michael Blodgett
+RuM40	T:The Seven Minutes	Philip Carey
+RVD10	TZ:Family Enforcer	Lou Crisoula
+RVL10	T:The Count of Monte Cristo	Louis Calhern
+RVL10	T:The Count of Monte Cristo	Raymond Walburn
+RVL10	T:The Count of Monte Cristo	O.P. Heggie
+RVL14	T:The Three Musketeers	Walter Abel
+RVL14	T:The Three Musketeers	Paul Lukas
+RVL14	T:The Three Musketeers	Onslow Stevens
+RVL14	T:The Three Musketeers	Nigel deBrulier
+RVL16	T:Love From A Stranger	Binnie Hale
+RVL25	T:Mother Carey's Chickens	Anne Shirley
+RVL25	T:Mother Carey's Chickens	Walter Brennan
+RVL25	T:Mother Carey's Chickens	Otto Kruger
+RVL25	T:Mother Carey's Chickens	Margaret Hamilton
+RVL28	T:The Son of Frankenstein	Bela Lugosi
+RVL30	T:Tower of London	Nan Grey
+RVL32	T:The Son of Monte Christo	Lionel Royce
+RvP6	T:Underground and Emigrants	Al Carmines
+RvP6	T:Underground and Emigrants	Andy Warhol
+RWa10	T:The Shopworn Angel	Nancy Carroll
+RWa12	T:Seven Days Leave	Beryl Mercer
+RWa12	T:Seven Days Leave	Nora Cecil
+RWa12	T:Seven Days Leave	Arthur Hoyt
+RWa12	T:Seven Days Leave	Basil Radford
+RWa50	T:Young at Heart	Billie Burke
+RWa50	T:Young at Heart	Minnie Depree
+RWa50	T:Young at Heart	Paulette Goddard
+RWa50	T:Young at Heart	Richard Carlson
+RWa65	T:A Girl, a Guy, and a Gob	Lloyd Corrigan
+RWa72	T:A Night to Remember	Loretta Young
+RWa72	T:A Night to Remember	William Wright
+RWa72	T:A Night to Remember	Blanche Yurka
+RWa90	T:Sinbad the Sailor	Mike Mazurki
+RWa90	T:Sinbad the Sailor	Barry Mitchell
+RWB25	T:I'll Never Forget You	Anne Bancroft
+RWB32	T:Don't Bother to Knock	Marilyn Monroe
+RWB32	T:Don't Bother to Knock	Anne Bancroft
+RWB33	T:Inferno	Rhonda Fleming
+RWB42	T:The One that got Away	Michael Goodlife
+RWB42	T:The One that got Away	Alec McGowen
+RWB45	T:A Night to Remember	Michael Goodliffe
+RWB45	T:A Night to Remember	Anthony Bushell
+RWB45	T:A Night to Remember	Ralph Michael
+RWB45	T:A Night to Remember	Michael Bryant
+RWB58	T:Quatermass and the Pit	Andrew Keir
+RWB58	T:Quatermass and the Pit	Barbara Shelley
+RWe10	T:Twelfth Night	Nicky Gentile
+RWe10	T:Twelfth Night	Arthur Maris
+RWe10	T:Twelfth Night	Alan Coeberge
+RWe10	T:Twelfth Night	Ajita Wist
+RWF1	T:Why does Herr R run amok	Amadeus Fengler
+RWF3	T:Gods of the Plague	Margarethe vonTrotta
+RWF4	T:The American Soldier	Margarethe vonTrotta
+RWF6	T:Beware of a Holy Whore	Lou Castel
+RWF6	T:Beware of a Holy Whore	Rainer Fassbinder
+RWF7	T:The American Soldier	Margaretha vonTrotta
+RWF10	T:The Bitter Tears of Petra von Kant	Margit Carstensen
+RWF15	T:Ali: Fear Eats the Soul	Barbara Valentin
+RWF18	T:Fox and his friends	Rainer Fassbinder
+RWF22	T:Chinese Roulette	Andrea Schroeber
+RWF22	T:Chinese Roulette	Ana Karina
+RWF22	T:Chinese Roulette	Macha Meril
+RWF26	T:Despair	Andrea Ferreol
+RWF26	T:Despair	Berhard Wicki
+RWF33	T:Lili Marleen	Mel Ferrer
+RWF35	T:Veronica Voss	Annemarie D\"uringer
+RWF37	T:Querelle	Brad Davis
+RWg10	T:Indochine	Linh Dan Pham
+RWh8	T:Blonde Fever	Philip Dorn
+RWh8	T:Blonde Fever	Mary Astor
+RWh8	T:Blonde Fever	Marshall Thompson
+RWh10	T:Till the Clouds Roll By	Lucille Bremer
+RWh10	T:Till the Clouds Roll By	Mary nash
+RWh15	T:Love From A Stranger	Ann Richards
+RWi1	T:Mademoiselle Fifi	Norma Varden
+RWi2	T:The Curse of the Cat People	Ann Carter
+RWi3	T:The Body Snatchers	Boris Karloff
+RWi3	T:The Body Snatchers	Bela Lugosi
+RWi9	T:The Set-Up	Alan Baxter
+RWi13	T:The Day the Earth Stood Still	Michael Rennie
+RWi28	T:West Side Story	Natalie Wood
+RWi28	T:West Side Story	Bill Bramley
+RWi28	T:West Side Story	Ned Glass
+RWi29	T:The Haunting	Los Maxwell
+RWi31	T:The Sound of Music	Peggy Wood
+RWi31	T:The Sound of Music	Anna Lee
+RWi31	T:The Sound of Music	Nicholas hammond
+RWi31	T:The Sound of Music	Angela Cartwright
+RWi33	T:Star!	Richard Crenna
+RWi33	T:Star!	Michael Craig
+RWi33	T:Star!	Beryl Reid
+RWi36	T:The Hindenburg	Anne Bancroft
+RWi37	TZ:Audrey Rose	Marsha Mason
+RWi37	TZ:Audrey Rose	Anthony Hopkins
+RWi38	T:Star Trek, the Motion Picture	Persis Khambatta
+RWi38	T:Star Trek, the Motion Picture	Nichelle Nichols
+RWN10	T:Sherlock Holmes and the Secret Weapon	Basil Rathbone
+RWN15	T:Frankenstein Meets the Wolf Man	Patric Knowles
+RWN15	T:Frankenstein Meets the Wolf Man	Maria Ouspenskaya
+RWN15	T:Frankenstein Meets the Wolf Man	Lionel Atwill
+RWN20	T:Sherlock Holmes in Washington	Basil Rathbone
+RWN24	T:Sherlock Holmes Faces Death	Basil Rathbone
+RWN24	T:Sherlock Holmes Faces Death	Peter Lawford
+RWN26	T:Sherlock Holmes and the Spider Woman	Basil Rathbone
+RWN26	T:Sherlock Holmes and the Spider Woman	Angelo Rossitto
+RWN28	T:The Scarlet Claw	Basil Rathbone
+RWN30	T:The Pearl of Death	Basil Rathbone
+RWN32	T:The House of Fear	Basil Rathbone
+RWN32	T:The House of Fear	Aubrey Mather
+RWN34	T:The Woman in Green	Basil Rathbone
+RWN38	T:Pursuit to Algiers	Basil Rathbone
+RWN38	T:Pursuit to Algiers	Martin Kosleck
+RWN44	T:Terror by Night	Basil Rathbone
+RWN44	T:Terror by Night	Alan Mowbray
+RWN44	T:Terror by Night	Renee Godfrey
+RWN44	T:Terror by Night	Bill Bevan
+RWN44	T:Terror by Night	Mary Forbes
+RWN46	T:Dressed to Kill	Basil Rathbone
+RWN46	T:Dressed to Kill	Patricia Morrison
+RWs10	T:Hambone and Hillie	Lillian Gish
+RWs10	T:Hambone and Hillie	O.J. Simpson
+RWs10	T:Hambone and Hillie	Allan Hale
+RxI1	T:The Four Horsemen of the Apocalypse	Alice Terry
+RxI1	T:The Four Horsemen of the Apocalypse	Alan Hale
+RxI20	T:Sacaramouche	Ramon Novarro
+RxI30	T:Mare Nostrum	Alice Terry
+RxI30	T:Mare Nostrum	Antonio Moreno
+RyB4	T:The Girl with the Hatbox	Anna Sten
+RyB8	T:Rasputin and the Empress	Lionel Barrymore
+RyB9	T:Hollywood Party	Lupe Velez
+RyB9	T:Hollywood Party	Oliver Hardy
+RyB14	T:Metropolitan	Luis Alberni
+RyB16	T:Theodora Goes Wild	Melvyn Douglas
+RyB17	T:The Garden of Allah	Basil Rathbone
+RyB18	T:The Three Godfathers	William Robinson
+RyK12	T:School for Sex	Nosher Powell
+RYo10	TZ:Lassiter	Bob Hoskins
+RYo12	TZ:Gulag	Malcolm McDowell
+RyT55	T:The Spider's Web	Marc Lawrence
+RZe1	T:Used Cars	Alfonso Arau
+RZe1	T:Used Cars	Al Lewis
+RZe3	T:Romancing the Stone	Alfonso Arau
+RZe3	TZ:Romancing the Stone	Mary Ellen Trainor
+RZe10	T:Who Framed Roger Rabbit	Bob Hoskins
+RZe19	T:Forrest Gump	Mykelti Williamson
+RZe20	T:Contact	Michael Chaban
+RZL15	T:Susan Lenox, Her Fall and Rise	Alan Hale
+RZL19	T:Riff Raff	Mickey Rooney
+RZL20	T:The Great Ziegfield	Myrna Loy
+RZL20	T:The Great Ziegfield	Reginald Owen
+RZL20	T:The Great Ziegfield	Nat Pendleton
+RZL20	T:The Great Ziegfield	Ray Bolger
+RZL22	T:The Firefly	Billy Gilbert
+RZL24	T:The Girl of the Golden West	Nelson Eddy
+RZL24	T:The Girl of the Golden West	Olin Howland
+RZL25	T:New Moon	Nelson Eddy
+RZL25	T:New Moon	Mary Boland
+RZL26	T:Pride and Prejudice	Mary Boland
+RZL26	T:Pride and Prejudice	Melville Cooper
+RZL26	T:Pride and Prejudice	Ann Rutherford
+RZL26	T:Pride and Prejudice	Maureen OSullivan
+RZL26	T:Pride and Prejudice	Marsha Hunt
+RZL28	T:Ziegfeld Girl	Al Shean
+RZL28	T:Ziegfeld Girl	Philip DForn
+RZL28	T:Ziegfeld Girl	Paul Kelly
+RZL31	T:Weekend at the Waldorf	Phyllis Thaxter
+RZL35	T:B.F.'s Daughter	Barbara Stanwyk
+RZL39	T:The Duchess of Idaho	Paula Raymond
+RZL39	T:The Duchess of Idaho	Red Skelton
+S5	T:Last Command	Nicholas Soussanin
+S6	T:Docks of New York	Olga Baclanova
+S10	T:Morocco	Marlene Dietrich
+S13	T:Shanghai Express	Marlene Dietrich
+S13	T:Shanghai Express	Anna May Wong
+S13	T:Shanghai Express	Louise Closser Hall
+S14	T:Blonde Venus	Marlene Dietrich
+S15	T:The Scarlet Empress	Marlene Dietrich
+S15	T:The Scarlet Empress	Louise Dresser
+S17	T:The King Steps Out	Walter Connolly
+S21	T:The Shanghai Gesture	Phyllis Brooks
+SaD10	T:Robert Having His Nipple Pierced	Patti Smith
+SaF13	T:The Crimson Kimono	Anna Lee
+SaF13	T:The Crimson Kimono	Paul Dubov
+SaF19	T:Dead Pigeon on Beethoven Street	Anton Diffring
+SaF20	TZ:Big Red One	Mark Hamill
+SaP4	TZ:The Wild Bunch	Ben Johnson
+SaP11	T:The Getaway	Al Lettieri
+SaP11	T:The Getaway	Ben Johnson
+SaP13	TZ:Pat Garrett and Billy the Kid	Bob Dylan
+SaP15	T:Killer Elite	Arthur Hill
+SaP15	T:Killer Elite	Bo Hopkins
+SaP19	TZ:Cross of Iron	Maximilian Schell
+SaP25	TZ:Major Dundee	Michael Anderson~jr.
+SaP30	T:The Osterman Weekend	Meg Foster
+SaT15	T:Taming of the Shrew	Mary Pickford
+SaT17	T:Coquette	Louise Beavers
+SaT17	T:Coquette	Matt Moore
+SaT23	T:Nothing But Trouble	Oliver Hardy
+SaT23	T:Nothing But Trouble	Mary Boland
+SBd10	T:Executve Decision	Oliver Platt
+SBg10	T:The Picasso Summer	Albert Finney
+SBg10	T:The Picasso Summer	Luis Miguel Dominguin
+SBg10	T:The Picasso Summer	Peter Madden
+SBs10	TZ:Phase IV	Lynne Federicks
+SBs10	TZ:Phase IV	Michael Murphy
+ScH10	T:Shine	Armin Stahl
+ScM10	T:Waving, Not Drowning	Paul Abbott
+ScW10	T:'Til There Was You	Alan Drummond
+ScW10	T:'Til There Was You	Patrick Malahide
+SCz10	T:La Luna en el Espejo	Rafael Benavente
+SDr10	TZ:Mr.~Mom	Martin Mull
+SDr10	TZ:Mr.~Mom	Ann Jillian
+SE3	T:Strike	Maxim Strauch
+SE3	T:Strike	Mikhail Gomarov
+SE4	T:Bronenosets Potemkin	Aleksandr Antonov
+SE20	T:Alexander Nevsky	Nikolai Okhlopkov
+SE20	T:Alexander Nevsky	Andrei Abrikosov
+SE20	TZ:Alexander Nevsky	Olga Ivasheva
+SE25	T:Ivan the Terrible, part I	Nikolai Cheraskov
+SE25	T:Ivan the Terrible, part I	Mikhail Nazanov
+SE25	T:Ivan the Terrible, part I	Andrei Abrisokov
+SeL45	T:Once Upon A Time in the West	Paolo Stoppa
+SeL45	T:Once Upon A Time in the West	Lionel Stander
+SET1	T:Roulette	Norman Trevor
+SET1	T:Roulette	Maurice Costello
+SET1	T:Roulette	Mary Carr
+SET1	T:Roulette	Walter Booth
+SET1	T:Roulette	Montagu Love
+SET8	T:Du Barry, Woman of Passion	Norma Talmadge
+SfP6	T:Hotel Deutschland	Zorn
+SFr42	T:Private Lives	Norma Shearer
+SFr42	T:Private Lives	Reginald Denny
+SFr43	T:The Guardsman	Zasu Pitts
+SFr43	T:The Guardsman	Maude Eburne
+SFr43	T:The Guardsman	Ann Dvorak
+SFr50	T:Dark Angel	Merle Oberon
+SFr60	T:The Good Earth	Luise Rainer
+SFr60	T:The Good Earth	Walter Connolly
+SG33	T:Les Perles de la couronne	Marguerite Moreno
+SG54	T:La Poison	Pauline Carton
+SG69	T:Les Trois Font la Paire	Michel Simon
+SG69	T:Les Trois Font la Paire	Pauline Carton
+SGa10	T:Anthem	Rebecca Walker
+SGa10	T:Anthem	Micah Wagner
+SGa10	T:Anthem	Michael Stipe
+SGa10	T:Anthem	Michael Spinola
+SGa10	T:Anthem	Ralph Reed
+SGi3	T:The Rake's Progress	Lilli Palmer
+SGi3	T:The Rake's Progress	Margaret Johnson
+SGi3	T:The Rake's Progress	Marie Lohr
+SGi3	T:The Rake's Progress	Alan Wheatley
+SGi30	T:Endless Night	Lois Maxwell
+SGo10	TZ:Arthur	Liza Minnelli
+SGr10	TZ:Mad Dog	Marisa Mell
+SGu10	T:T:Judas Kiss	Alan Rickman
+SHa7	T:Night of the Eagle	Margaret Johnston
+SHa7	T:Night of the Eagle	Peter Wyngarde
+SHa7	T:Night of the Eagle	Anthony Nicholls
+SHa7	T:Night of the Eagle	Reginald Beckwith
+SHa10	T:The Trap	Blain Fairman
+SHa10	T:The Trap	Reginald MxReynolds
+SHL2	T:Bloody Morning	Zhao Jun
+SHo2	T:Taste of Fear	Ann Todd
+SHo4	T:The Nanny	Maurice Denham
+SHo4	T:The Nanny	Pamela Franklin
+SHp5	T:Predator II	Maria Conchita Alonso
+SHp5	T:Predator II	Bill Paxton
+SHS5	TZ:Devil and Max Devlin	Bill Cosby
+SHS10	T:Hostage Flight	Rene Enriquez
+SHS10	T:Hostage Flight	Mitch Ryan
+SIC10	T:No Orchids for Miss Blandish	Walter Crisham
+SIC10	T:No Orchids for Miss Blandish	Zoe Gail
+SiG10	T:Berlin in Berlin	Armin Block
+SiN10	TZ:New York Nights	Bobbie Burns
+SiN10	TZ:New York Nights	Peter Matthey
+SiN10	TZ:New York Nights	Nicholas Cortland
+SiN10	TZ:New York Nights	Marcia McBroom
+SiO10	T:From the Manger to the Cross	Percy Dyer
+SiO10	T:From the Manger to the Cross	Alice Hollister
+SiO10	T:From the Manger to the Cross	Montague Sidney
+SiO30	T:Monsieur Beaucaire	Bebe Daniels
+SiO30	T:Monsieur Beaucaire	Lois Wilson
+SiO30	T:Monsieur Beaucaire	Lowell Sherman
+SiW8	T:Free Willy	Michael Bacall
+SiW8	T:Free Willy	Michael Madsen
+SiW8	T:Free Willy	Michael Ironside
+SJF17	TZ:Lady Sings the Blues	Billy Dee Williams
+SJF19	T:Hit!	Billy Dee Williams
+SJF21	T:The Boys in Company C	Andrew Stevens
+SJF21	T:The Boys in Company C	Michael Lembeck
+SJF21	T:The Boys in Company C	Noble Willingham
+SJF22	T:The Entity	Alex Rocco
+SK2	T:Pride and the Passion	Philip vanZandt
+SK3	T:The Defiant Ones	Lon Chaney~jr
+SK4	T:On the Beach	Ava Gardner
+SK4	T:On the Beach	Anthony Perkins
+SK6	T:Judgement at Nuremberg	Maximilian Schell
+SK8	T:It's a Mad Mad Mad Mad World	Milton Berle
+SK8	T:It's a Mad Mad Mad Mad World	Mickey Rooney
+SK8	TZ:It's a Mad Mad Mad Mad World	Phil Silvers
+SK10	T:Ship of Fools	Michael Dunn
+SK12	T:Guess Who's Coming to Dinner	Beah Richards
+SK22	T:Bless the Beasts and Children	Barry Robin
+SK22	T:Bless the Beasts and Children	Miles Chapin
+SK26	T:The Domino Principle	Mickey Rooney
+SKe10	T:Vegas Vacation	Randy Quaid
+SKe10	T:Vegas Vacation	Wallace Shawn
+SKo1	T:The Fabulous Baker Boys	Michelle Pfeiffer
+SkT1	T:Kizino Kizi	Miyi Hana
+SkT1	TZ:Kizino Kizi	Louise Lasser
+SKw23	T:Actress	Maggie Cheung
+SL3	T:That Kind of Woman	Barbara Nicholas
+SL4	T:The Fugitive Kind	Marlon Brando
+SL4	T:The Fugitive Kind	Anna Magnani
+SL5	T:A View from the Bridge	Raymond Pellegrin
+SL5	T:A View from the Bridge	Morris Carnovsky
+SL7	T:Fail Safe	Walter Matthau
+SL10	T:The Group	Mary RobinRedd
+SL14	T:Bye Bye Braverman	Phyllis Newman
+SL14	T:Bye Bye Braverman	Zohra Lampert
+SL14	T:Bye Bye Braverman	Anthony Holland
+SL15	T:The Appointment	Anouk Aimee
+SL15	T:The Appointment	Lotte Lenya
+SL19	T:The Anderson Tapes	Martin Balsam
+SL19	T:The Anderson Tapes	Alan King
+SL20	T:Serpico	Bill McGuire
+SL21	T:Murder on the Orient Express	Albert Finney
+SL21	T:Murder on the Orient Express	Martin Balsam
+SL21	T:Murder on the Orient Express	Moffatt
+SL23	T:Network	Peter Finch
+SL23	T:Network	Ned Beatty
+SL26	T:Just Tell Me What You Want	Ali MacGraw
+SL26	T:Just Tell Me What You Want	Alan King
+SL26	T:Just Tell Me What You Want	Myrna Loy
+SL29	TZ:The Wiz	Michael Jackson
+SL29	TZ:The Wiz	Nipsey Russell
+SL29	TZ:The Wiz	Mabel King
+SL35	TZ:The Verdict	Paul Newman
+SL35	T:The Verdict	Lindsay crouse
+SL39	TZ:Daniel	Amanda Plummer
+SL39	TZ:Daniel	Mandy Patinkin
+SL39	TZ:Daniel	Lindsay Crouse
+SL44	T:The Morning After	Raoul Julia
+SL52	T:Q and A	Patrick ONeal
+SL52	T:Q and A	Armand Assante
+SL52	T:Q and A	Paul Calderon
+SL59	T:Night Falls on Manhattan	Andy Garcia
+SL59	T:Night Falls on Manhattan	Richard Dreyfus
+SL60	T:Critical Care	Anne Bancroft
+SL60	T:Critical Care	Albert Brooks
+SLa2	T:Moulin Rouge	Andrew Tombes
+SLa3	T:King of Burlesque	Mona Barrie
+SLa3	T:King of Burlesque	Arline Judge
+SLa10	T:Wake Up and Live	Ben Bernie
+SLa10	T:Wake Up and Live	Patsy Kelly
+SLa10	T:Wake Up and Live	Ned Sparks
+SLa10	T:Wake Up and Live	Walter Catlett
+SLa10	T:Wake Up and Live	Miles Mander
+SLa14	T:The Hound of the Baskervilles	Basil Rathbone
+SLa14	T:The Hound of the Baskervilles	Beryl Mercer
+SLa14	T:The Hound of the Baskervilles	Ralph Forbes
+SLa14	T:The Hound of the Baskervilles	Mary Gordon
+SLa20	T:My Favourite Blonde	Bob Hope
+SLa20	T:My Favourite Blonde	Madelaine Carroll
+SLa20	T:My Favourite Blonde	Lionel Royce
+SLa20	T:My Favourite Blonde	Walter Kingsford
+SLa22	T:The Meanest Man in the World	Piscilla Lane
+SLa22	T:The Meanest Man in the World	Anne Revere
+SlB10	T:Love Serenade	Miranda Otto
+SlD10	T:K\"uhle Wampe	Martha Wolter
+SlD10	T:K\"uhle Wampe	Max Schlotzki
+SLe10	T:Double Impact	Philip Chan Yan
+SlT10	TZ:Liquid Sky	Anne Carlisle
+SlT10	TZ:Liquid Sky	Paula Sheppard
+SM1	T:Whiskey Galore	Basil Radford
+SM3	T:The Man in The White Suit	Michael Gough
+SM4	T:Mandy	Phyllis Calvert
+SM4	T:Mandy	Mandy Miller
+SM7	T:The Sweet Smell of Success	Martin Milner
+SM7	T:The Sweet Smell of Success	Barbara Nichols
+SMa10	TZ:A Shining Season	Allyn Ann McLerie
+SMf10	T:The Apple	Azizeh Mohamadi
+SNe3	T:The Monster Maker	Ralph Morgan
+SNo10	T:Blade	N'Bushe Wright
+SNz10	T:Georgy Girl	Alan Bates
+SNz10	T:Georgy Girl	Bill Owen
+SNz10	T:Georgy Girl	Rachel Kempson
+SOe15	T:Nothing to Loose	Martin Lawrence
+SP25	T:Castle Keep	Peter Falk
+SP25	T:Castle Keep	Patrick ONeal
+SP25	T:Castle Keep	Al Freeman~jr
+SP33	T:This Property is Condemmed	Natalie Wood
+SP35	T:They Shoot Horses, Don't They?	Bonnie Bedelia
+SP35	T:They Shoot Horses, Don't They?	Red Buttons
+SP35	T:They Shoot Horses, Don't They?	Allyn Ann McLerie
+SP40	TZ:Jeremiah Johnson	Allyn Ann McLerie
+SP46	T:The Way We Were	Patrick ONeal
+SP46	T:The Way We Were	Lois Chiles
+SP46	T:The Way We Were	Bradford Dillman
+SP46	T:The Way We Were	Murray Hamilton
+SP49	TZ:Bobby Deerfield	Al Pacino
+SP49	TZ:Bobby Deerfield	Marthe Keller
+SP49	TZ:Bobby Deerfield	Ann Duprey
+SP55	T:Absence of Malice	Barry Primus
+SP55	T:Absence of Malice	Luther Adler
+SP61	T:Out of Africa	Meryl Streep
+SP61	T:Out of Africa	Malick Bowes
+SP61	T:Out of Africa	Malick Bowes
+SP65	T:Havana	Alan Arkin
+SP65	T:Havana	Raul Julia
+SP70	TZ:	Mark Rosenberg
+SP70	TZ:	Luis Mandoki
+SpJ1	T:She's Gotta Have It	Bill Lee
+SpJ3	T:Do The Right Thing	Bill Nunn
+SpJ3	T:Do The Right Thing	Ossie Davis
+SpJ4	T:`Mo' Better Blues	Bill Lee
+SpJ5	T:Jungle Fever	Anthony Quinn
+SpJ5	T:Jungle Fever	Ossie Davis
+SpJ7	T:Malcolm X	Ozzie Davis
+SpJ7	T:Malcolm X	Albert Hall
+SpJ11	T:He Got Game	Mille Jovovich
+SpJ11	T:He Got Game	Bill Nunn
+SpJ11	T:He Got Game	Zeloi Harris
+SpJ11	T:He Got Game	Lonette McKee
+SPo2	T:Let's Do it Again	Ossie Davis
+SPt10	T:Orlando	Quentin Crisp
+SPt10	T:Orlando	Lothaire Bluteau
+SPt10	T:Orlando	Billy Zane
+SPv10	T:The Waltz King	Peter Kraus
+SR15	T:Aparajito	Pinakaj Sengupta
+SR20	T:Jalsaghar	Padma Devi
+SR20	T:Jalsaghar	Pinakai Sen Gupta
+SR30	T:Devi	Purnendu Mukherjee
+SR32	T:Samapti	Aparna Das Gupta
+SR35	T:Charulata	Bholanath
+SR36	T:Kapurush o Mahapurush	Madhabi Mukherjee
+SR38	T:The Hero	Babita
+SRa5	T:The Buddy Holly Story	Paul Mooney
+SRa5	T:The Buddy Holly Story	Albert Popwell
+SRf20	TZ:The Ice Pirates	Mary Crosby
+SRf20	TZ:The Ice Pirates	Michael D. Roberts
+SRf21	TZ:The Philadelphia Experiment	Michael Pare
+SRf21	TZ:The Philadelphia Experiment	Nancy Allen
+SRf21	T:The Philadelphia Experiment	Bobby diCicco
+SRf21	T:The Philadelphia Experiment	Louise Latham
+SRi18	T:A Simple Plan	Billy Bob Thornton
+SRm1	T:Blood Bath	Marissa Mathes
+SRm1	T:Blood Bath	Patrick Magee
+SRo2	T:Road Hog	Richard Chulenkan
+SRo2	T:Road Hog	Brad Weston
+SRo3	T:Backward, Turn Backward	Phyllis Love
+SRo5	T:The Man With Two Faces	Bethel Leslie
+SRo20	T:Cool Hand Luke	Morgan Woodward
+SRo20	T:Cool Hand Luke	Ralph Waite
+SRo20	T:Cool Hand Luke	Lou Antonio
+SRo32	T:The Laughing Policeman	Lou Gossett
+SRo32	T:The Laughing Policeman	Anthony Zerbe
+SRo32	T:The Laughing Policeman	Mario Gallo
+SRo35	T:Drowning Pool	Paul Newman
+SRo35	T:Drowning Pool	Murray Hamilton
+SRo37	T:Voyage of the Damned	Max vonSydow
+SRo37	T:Voyage of the Damned	Oskar Werner
+SRo37	T:Voyage of the Damned	Malcolm McDowell
+SRo37	T:Voyage of the Damned	Orson Welles
+SRo37	T:Voyage of the Damned	Ben Gazzara
+SRo37	T:Voyage of the Damned	Luher Adler
+SRo37	T:Voyage of the Damned	Nehemiah Persoff
+SRo37	T:Voyage of the Damned	Maria Schell
+SRo37	T:Voyage of the Damned	Miriam Brickman
+SRo39	TZ:Amityville Horror	Margot Kidder
+SS5	TZ:The Sugarland Express	Ben Johnson
+SS6	T:Jaws	Lorraine Gary
+SS6	T:Jaws	Murray Hamilton
+SS7	T:Close Encounters of the Third Kind	Richard Dreyfuss
+SS7	T:Close Encounters of the Third Kind	Melinda Dillon
+SS7	T:Close Encounters of the Third Kind	Bob Balaban
+SS8	T:1941	Ned Beatty
+SS8	T:1941	Bobby DiCicco
+SS8	T:1941	Patti LuPone
+SS8	TZ:1941	Murray Hamilton
+SS8	TZ:1941	Lorraine Gary
+SS9	T:Raiders of the Lost Ark	Paul Freeman
+SS11	T:Twilight Zone	Albert Brooks
+SS11	TZ:Twilight Zone	Bill Quinn
+SS12	T:Indiana Jones and the Temple of Doom	Philip Stone
+SS13	T:The Color Purple	Oprah Winfrey
+SS15	T:Empire of the Sun	Miranda Richardson
+SS15	T:Empire of the Sun	Nigel Hawn
+SS20	T:Always	Brad Johnson
+SS20	T:Always	Audrey Hepburn
+SS24	T:Jurassic Park	Ariana Richards
+SS26	T:Schindler's List	Ben Kingsley
+SS26	T:Schindler's List	Ralph Fiennes
+SS29	T:To Wong Foo, Thanks for Everything, Julie Newmar	Patrick Swayze
+SS33	T:Amistad	Anthony Hopkins
+SS33	T:Amistad	Morgan Freeman
+SSa10	T:The Great Sioux Massacre	Philip Carey
+SSa10	T:The Great Sioux Massacre	Nancy Kovack
+SSC2l	T:Spring Break	Perry Lang
+SSC2l	T:Spring Break	Paul Land
+SSC2l	T:Spring Break	Richard B. Skull
+SSe10	TZ:Day of the Triffids	Nicole Maurey
+SSk1	T:Whatever	Liza Weil
+SSn1	T:Dream Wife	Betta St.John
+SSR10	T:Far North	Ann Woodsworth
+SSR15	T:Silent Tongue	Red Clay Ramblers
+SSS45	T:Rio Rita	Lou Costello
+SSS45	T:Rio Rita	Barry Nelson
+SSS55	T:Son of Lassie	Peter Lawford
+SSS55	T:Son of Lassie	Nigel Bruce
+SSu10	T:Wayne's World 2	Mike Myers
+SSu10	T:Wayne's World 2	Olivia dAbo
+StB2	T:Uncle Vanya	Michael Redgrave
+StB3	T:Othello	Maggie Smith
+StB3	T:Othello	Anthony Nicholls
+StB5	T:Julius Caesar	Richard Chamberlain
+StC10	T:Big Bad Mama	Angie Dickinson
+StC10	T:Big Bad Mama	William Shatner
+StC20	T:Eye for an Eye	Mako
+StC30	T:Lone Wolf McQuade	Barbara Carrera
+StD4	T:Royal Wedding	Albert Sharpe
+StD24	T:Deep in My Heart	Merle Oberon
+StD24	T:Deep in My Heart	Paul Stewart
+StD24	T:Deep in My Heart	Ann Miller
+StD33	T:Funny Face	Audrey Hepburn
+StD41	T:Indiscreet	Phyllis Calvert
+StD41	T:Indiscreet	Megs Jenkins
+StD45	T:The Grass is Greener	Moray Watson
+StD58	T:Arabesque	Alan Badel
+StD61	T:Bedazzled	Peter Cook
+StD62	T:Two for the Road	Nadia Grey
+StD72	T:Movie Movie	Red Buttons
+StD72	T:Movie Movie	Michael Kidd
+StD72	T:Movie Movie	Barbara Harris
+StD72	T:Movie Movie	Art Carney
+StD80	T:Blame it on Rio	Michelle Johnson
+StF4	T:Sammy and Rosie Get Laid	Ayub Khan Din
+StF5	T:Dangerous Liasons	Mildred Natwick
+StF10	T:The Grifters	Annette Bening
+StF10	T:The Grifters	Pat Hingle
+StG10	TZ:Paradise	Phoebe Cates
+StG10	TZ:Paradise	Willie Aames
+StH5	T:The Glass Key	Bonita Granville
+StH5	T:The Glass Key	Richard Denning
+StH5	T:The Glass Key	Moroni Olson
+StH10	T:Along Came Jones	Loretta Young
+StH13	T:Blue Skies	Billy deWolfe
+StH13	T:Blue Skies	Olga SanJuan
+StH15	T:Smash-Up	Marsha Hunt
+StH18	TZ:Tulsa	Pedro Armendariz
+StH18	T:Tulsa	Lloyd Gough
+StH20	T:Chain Lightning	Raymond Massey
+StH23	T:I died a Thousand Times	Lori Nelson
+StH23	T:I died a Thousand Times	Lon Chaney~jr.
+StH30	T:Hitler	Richard Basehart
+StH30	T:Hitler	Martin Kosleck
+StK4	T:Paths of Glory	Richard Anderson
+StK5	T:Spartacus	Nina Foch
+StK7	T:Dr.~Strangelove; Or How I learned to Stop Worrying and Love the Bomb	Peter Sellers
+StK7	T:Dr.~Strangelove; Or How I learned to Stop Worrying and Love the Bomb	Peter Sellers
+StK8	T:2001, A Space Odyssey	Margaret Tyzack
+StK9	T:A Clockwork Orange	Patrick Magee
+StK9	T:A Clockwork Orange	Miriam Karlin
+StK10	T:Barry Lyndon	Marisa Berenson
+StK10	T:Barry Lyndon	Patrick Magee
+StK10	T:Barry Lyndon	Philip Stone
+StK15	T:The Shining	Barry Nelson
+StK21	T:Eyes Wide Shut	Nicole Kidman
+StL10	TZ:Tron	Barnard Hughes
+STo10	T:Vera	Ana Beatriz Nogueira
+SvP10	TZ:Falling in Love Again	Michelle Pfeiffer
+StR5	T:One Sunday Afternoon	Neil Hamilton
+StS1	T:sex, lies, and videotape	Andie McDowell
+StS5	T:King of the Hill	Lisa Eichhorn
+StS10	T:Out of Sight	Nancy Allen
+StS10	T:Out of Sight	Paul Cadenou
+STu10	T:Big Night	Minnie Driver
+STu10	T:Big Night	Allison Janney
+STu10	T:Big Night	Louis Prima
+STu11	T:The Impostors	Billy Connolly
+STu11	T:The Impostors	Allen Corduner
+STu11	T:The Impostors	Allison Janney
+STu11	T:The Impostors	Matt McGrath
+STu11	T:The Impostors	Alfred Molina
+StW7	T:White Woman	Percy Kilbride
+STW10	T:Werewolf in London	Zeffie Tilbury
+StZ1	T:Searching for Bobbie Fisher	Max Pomeranc
+SuG20	T:Fortress	Loryn Lockwood
+SuG25	T:Lost in Space	Matt LeBlanc
+SuG25	T:Lost in Space	Peter Newman
+SuK10	T:A Man of no Importance	Michael Gambon
+SuR10	TZ:The Loners	Pat Stich
+SuR10	TZ:The Loners	Alex Dreier
+SuS10	TZ:Smithereens	Brad Rinn
+SuS12	T:Desperately Seeking Susan	Aidan Quinn
+SuS12	T:Desperately Seeking Susan	Anne Carslile
+SuS12	T:Desperately Seeking Susan	Ann Magnuson
+SuS16	T:Making Mr.~Right	Ann Magnuson
+SuS16	T:Making Mr.~Right	Ben Masters
+SuS16	T:Making Mr.~Right	Polly Bergen
+SuS25	T:The Dutch Master	Mira Sorvina
+SuS25	T:The Dutch Master	Aida Turturro
+SW2	T:Beyond the Rocks	Alec. B. Francis
+SW2	T:Beyond the Rocks	Mabel vanBuren
+SW6	T:Paid	Polly Moran
+SW12	T:A Day at the Races	Zeppo Marx
+SW12	T:A Day at the Races	Margaret Dumont
+SW12	T:A Day at the Races	Maureen OSullivan
+SW12	T:A Day at the Races	Allen Jones
+SW13	T:Madame X	Reginald Owen
+SW13	T:Madame X	Lynne Carver
+SW15	T:Goodbye Mr.~Chips	Paul Henreid
+SW18	T:Kitty Foyle	Mary Trees
+SW18	T:Kitty Foyle	Nella Walker
+SW21	T:King's Row	Ann Sheridan
+SW21	T:King's Row	Bob Cummings
+SW21	T:King's Row	Betty Field
+SW21	T:King's Row	Nancy Coleman
+SW21	T:King's Row	Maria Ouspenskaya
+SW22	T:For Whom the Bell Tolls	Akim Tamiroff
+SW22	T:For Whom the Bell Tolls	Arturo deCordova
+SW22	T:For Whom the Bell Tolls	Mikhail Rasumny
+SW22	T:For Whom the Bell Tolls	Alexander Granach
+SW25	T:Casanova Brown	Anita Louise
+SW25	T:Casanova Brown	Patricia Colinge
+SW25	T:Casanova Brown	Mary Treen
+SW30	T:Heartbeat	Basil Rathbone
+SW30	T:Heartbeat	Mikhail Rasumny
+SW30	T:Heartbeat	Melville Cooper
+SW30	T:Heartbeat	Mona Maris
+SWa10	T:Sinbad and the Eye of the Tiger	Margaret Whiting
+SyC10	T:My New Gun	Maddie Corman
+Sys2	T:Rocky III	Mr.~T
+TAF10	T:Don't Call Me Frankie	Peter vanNorden
+TAF10	T:Don't Call Me Frankie	Martin Beck
+TaH6	T:Against All Odds	Alex Karras
+TaH8	T:White Nights	Mikhail Baryshnikov
+TaH30	T:When We Were Kings	Muhammed Ali
+TaH30	T:When We Were Kings	Norman Mailer
+TB34	T:The Big City	Lon Chaney
+TB34	T:The Big City	Betty Compson
+TB34	T:The Big City	Marceline Day
+TB35	T:London After Midnight	Marceline Day
+TB35	T:London After Midnight	Polly Moran
+TB55	T:Dracula	Bela Lugosi
+TB60	T:Freaks	Olga Baclanova
+TB67	T:The Mark of the Vampire	Lionel Barrymore
+TB67	T:The Mark of the Vampire	Bela Lugosi
+TB67	T:The Mark of the Vampire	Lionel Atwill
+TBe1	T:Let's Talk About Sex	Randy Ingerman
+TBe1	T:Let's Talk About Sex	Paget Brewster
+TBi10	T:Star Trap	Nicky Henson
+TBl10	TZ:My Bodyguard	Martin Mull
+TBl10	TZ:My Bodyguard	Matt Dillon
+TBl15	TZ:Six Weeks	Mary Tyler Moore
+TBN10	T:Eye of God	Martha Plimpton
+TBr10	T:Trading Mom	Maureen Stapleton
+TBr10	T:Trading Mom	Andre the Giant
+TBs6	T:Capriccio	Nicola Warren
+TBs14	T:Nerosu Bianco	Anita Sanders
+TBs40	T:Caligula	Peter OToole
+TBu10	TZ:Attack Force Z	Mel Gibson
+TCh2	T:Cheech and Chong's Next Movie	Betty Kennedy
+TdC9	T:Johnny Suede	Brad Pitt
+TDe14	T:Beautiful Girls	Matt Dillon
+TDe14	T:Beautiful Girls	Michael Rappaport
+TDe14	T:Beautiful Girls	Noah Emmerich
+TDe14	T:Beautiful Girls	Mira Sorvino
+TDe14	T:Beautiful Girls	Max Perlich
+TDe14	T:Beautiful Girls	Martha Plimpton
+TDe14	T:Beautiful Girls	Natalie Portman
+TDe18	T:Monument Ave.	Billy Crudup
+TDS10	TZ:Hell Night	Linda Blair
+TDS15	TZ:The Concrete Jungle	Barbara Luna
+TDv10	T:Distant Voices, Still Lives	Angela Walsh
+TeB10	TZ:Slayground	Peter Coyote
+TeB10	T:Slayground	Billie Whitelaw
+TeB10	T:Slayground	Phillip Sayer
+TFi9	T:Dracula	Peter Cushing
+TFi9	T:Dracula	Michael Gough
+TFi9	T:Dracula	Miles Malleson
+TFi9	T:Dracula	Brad Starr
+TFi10	T:The Hound of the Baskervilles	Peter Cushing
+TFI10	T:The Hound of the Baskervilles	Andr\'e Morell
+TFi12	T:The Mummy	Peter Cushing
+TFi12	T:The Mummy	Raymond Huntley
+TFi15	T:Brides of Dracula	Martita Hunt
+TFi20	T:The Phantom of the Opera	Michael Gough
+TFi20	T:The Phantom of the Opera	Martin Miller
+TFi20	T:The Phantom of the Opera	Miriam Karlin
+TFi24	T:The Gorgon	Peter Cushing
+TFi24	T:The Gorgon	Barbara Shelley
+TFi24	T:The Gorgon	Patrick Throughton
+TFi30	T:Dracula, Prince of Darkness	Peter Cushing
+TFi33	T:Frankenstein Created Woman	Peter Cushing
+TFi35	T:Frankenstein Must Be Destroyed	Peter Cushing
+TFi40	T:Frankenstein and the Monster from Hell	Peter Cushing
+TFi40	T:Frankenstein and the Monster from Hell	Bernard Lee
+TFi40	T:Frankenstein and the Monster from Hell	Madeleine Smith
+TG11	T:China Seas	Akim Tamiroff
+TG19	T:Eternally Yours	Raymond Walburn
+TG20	T:Trade Winds	Ralph Bellamy
+TG20	T:Trade Winds	Ann Sothern
+TG21	T:Seven Sinners	Marlene Dietrich
+TG21	T:Seven Sinners	Albert Dekker
+TG21	T:Seven Sinners	Anna Lee
+TG21	T:Seven Sinners	Mischa Auer
+TG21	T:Seven Sinners	Billy Gilbert
+TG27	T:Mrs.~Parkinton	Agnes Morrehead
+TG30	T:The Postman Always Ring Twice	Audrey Totter
+TG30	T:The Postman Always Ring Twice	Alan Reed
+TG32	T:A Connecticut Yankee in King Arthur's Court	Bing Crosby
+TG32	T:A Connecticut Yankee in King Arthur's Court	Rhonda Fleming
+TG32	T:A Connecticut Yankee in King Arthur's Court	Murvyn Vye
+TGA10	T:Strawberry and Chocolate	Mirta Ibarra
+TgD1	T:The Adventures of Picasso	Birgitta Andersson
+TgD1	T:The Adventures of Picasso	Magnus H\"arenstam
+TGi1	T:Monty Python and the Holy Grail	Michael Palin
+TGi2	T:Jabberwocky	Michael Palin
+TGi4	T:Time Bandits	Michael Palin
+TGi4	T:Time Bandits	Peter Vaughan
+TGi5	T:Brazil	Michael Palin
+TGi5	T:Brazil	Peter Vaughn
+TGi5	T:Brazil	Bob Hoskins
+TGi6	T:The Adventures of Baron Munchhausen	Oliver Reed
+TGw10	T:A Walk on the Moon	Live Schreiber
+TGw10	T:A Walk on the Moon	Anna Paquin
+ThA10	T:The Silver Streak	Arthur Lake
+ThC40	T:Swing Kids	Barbara Hershey
+ThD50	T:The Secret People	Audrey Hepburn
+ThD50	T:The Secret People	Megs Jenkins
+ThD50	T:The Secret People	Athene Seyler
+ThD50	T:The Secret People	Reginald Tate
+ThF11	T:Love Affair	Astrid Allwyn
+ThF11	T:Love Affair	Barbara Leonard
+ThF11	T:Love Affair	Bradley Page
+ThF15	T:Flying Down to Rio	Blanche Frederici
+ThF15	T:Flying Down to Rio	Paul Porcasi
+ThF15	T:Flying Down to Rio	Luis Alberni
+ThF15	T:Flying Down to Rio	Betty Furness
+ThF17	T:George White's Scandals	Alice Faye
+ThF17	T:George White's Scandals	Arline judge
+ThF25	T:So This is London	Berton Churchill
+THg25	T:The Butcher's Wife	Max Perlich
+THg25	T:The Butcher's Wife	Miriam Margolyes
+ThI65	T:Custer's Last Fight	Anna Little
+ThI65	T:Custer's Last Fight	Art Acord
+THk16	T:From the Earth to the Moon	Mark Harmon
+THk16	T:From the Earth to the Moon	Ann Magnuson
+THk16	T:From the Earth to the Moon	Peter Scolari
+THo10	T:Vampire ... Did you say Vampire?	William Ragsdale
+ThR10	T:What a Life	Betty Field
+THu13	T:Tex	Ben Johnson
+THu13	TZ:Tex	Phil Brock
+THu25	T:Paint it Black	Monique vandeVen
+THu30	T:Sylvester	Michael Schoeffling
+ThS10	T:So I Married an Axe Murderer	Mike Myers
+ThS10	T:So I Married an Axe Murderer	Anthony LaPagia
+ThS10	T:So I Married an Axe Murderer	Phil Hartman
+ThS10	T:So I Married an Axe Murderer	Alan Arkin
+ThS10	T:So I Married an Axe Murderer	Amanda Plummer
+TiB5	T:Beetlejuice	Michael Keaton
+TiB6	T:Batman	Pat Hingle
+TiB6	T:Batman	Michael Gough
+TiB6	T:Batman	Billy Dee Williams
+TiB8	T:Edward Scissorhands	Alan Arkin
+TiB14	T:Ed Wood	Bill Murray
+TiB14	T:Ed Wood	Martin Landau
+TiB17	T:Mars Attacks	Annette Benning
+TiB17	T:Mars Attacks	Pierce Brosnan
+TiB17	T:Mars Attacks	Martin Short
+TiB17	T:Mars Attacks	Michael J. Fox
+TiB17	T:Mars Attacks	Lukas Haas
+TiB17	T:Mars Attacks	Natalie Portman
+TiB17	T:Mars Attacks	Lisa Marie
+TiB17	T:Mars Attacks	Pam Grier
+TiG12	TZ:Jabberwocky	Michael Palin
+TiG12	TZ:Jabberwocky	Max Wall
+TiG15	TZ:Time Bandits	Ralph Richardson
+TiH10	T:Digging to China	Mary Stuart Masterson
+TJk10	T:Slums of Beverly Hills	Natasha Lyonne
+TKa10	TZ:Bushido Blade	Richard Boone
+TKo15	TZ:North Dallas Forty	Mac Davis
+TKo15	TZ:North Dallas Forty	Nick Nolte
+TKo15	T:North Dallas Forty	Bo Swenson
+TKo19	TZ:Split Image	Michael OKeefe
+TKo22	TZ:Uncommon Valor	Reb Brown
+TKo22	T:Uncommon Valor	Reb Brown
+TKo22	T:Uncommon Valor	Randall Cobb
+TKo22	T:Uncommon Valor	Patrick Swayze
+TLo10	T:Chain of Desire	Malcolm McDowell
+TLW1	T:And the Sea Will Tell	Richard Crenna
+TLW1	T:And the Sea Will Tell	Rachel Ward
+TLW5	T:Holy Matrimony	Patricia Arquette
+TMa1	T:Badlands	Ramon Bieri
+TMa10	TZ:Days of Heaven	Linda Manz
+TMy10	TZ:Riddle of the Sands	Michael York
+TMy10	T:Riddle of the Sands	Alan Badel
+TNa10	T:Okoge	Misa Shimuzu
+TNu3	T:Hedda	Peter Eyre
+TNu3	T:Hedda	Patrick Stewart
+TNu10	T:Lady Jane	Patrick Stewart
+ToC10	T:And You Thought Your Parents Were Weird	Marcia Strassman
+ToG3	T:Will Penny	Ben Johnson
+ToG3	T:Will Penny	Anthony Zerbe
+ToG6	T:The Hawaiians	Alec McCowen
+ToG6	T:The Hawaiians	Mako
+ToG6	T:The Hawaiians	Ann Knight
+ToG6	T:The Hawaiians	Lyle Bettger
+ToG8	TZ:Glass House	Alan Alda
+ToG8	TZ:Glass House	Billy Dee Williams
+ToG9	TZ:Lady Ice	Patrick Macgee
+ToG10	TZ:Breakout	Randy Quaid
+ToG15	TZ:Breakheart Pass	Ben Johnson
+ToG20	TZ:QB VII	Ben Gazzara
+ToG20	TZ:QB VII	Anthony Hopkins
+ToG22	TZ:The Greatest	Muhammed Ali
+ToG22	TZ:The Greatest	Lloyd Hanes
+ToH1	T:The Texas Chain Saw Massacre	Marilyn Burns
+ToH1	T:The Texas Chain Saw Massacre	Alan Danziger
+ToH1	T:The Texas Chain Saw Massacre	Paul A. Partain
+ToH1	T:The Texas Chain Saw Massacre	William Vail
+ToH10	T:Eaten Alive	Mel Ferrer
+ToH10	T:Eaten Alive	Marilyn Burns
+ToH20	TZ:Poltergeist	Beatrice Straight
+ToH20	T:Poltergeist	Oliver Robbins
+ToH30	T:Invaders from Mars	Louise Fletcher
+ToL10	T:Billy Jack	Bert Freed
+ToP1	T:Testimony	Ben Kingsley
+ToS5	T:Top Gun	McGillis
+ToS5	T:Top Gun	Anthony Edwards
+ToS10	T:Days of Thunder	Randy Quaid
+ToS10	T:Days of Thunder	Nicole Kidman
+ToS12	T:Beverly Hills Cop II	Paul Reiser
+ToS15	T:True Romance	Patricia Arquette
+ToS21	T:Crimson Tide	Matt Craven
+ToS23	T:The Fan	Benicio delToro
+ToZ20	T:Guns and Fury	Peter Graves
+ToZ20	T:Guns and Fury	Albert Salmi
+TPo8	T:Hang 'Em High	Pat Hingle
+TPo8	T:Hang 'Em High	Ben Johnson
+TPo8	T:Hang 'Em High	Bob Steele
+TPo8	T:Hang 'Em High	Arlene Golonka
+TPo8	T:Hang 'Em High	Alan Hale~jr.
+TPo13	T:Magnum Force	Mitch Ryan
+TPo14	TZ:The Baby	Anjanette Comer
+TPo14	TZ:The Baby	Mariana Hill
+TPo16	T:The Harrad Summer	Patricia Rohmer
+TPo20	TZ:Go Tell the Spartans	Marc Singer
+TPo21	TZ:Good Guys Wear Black	Anne Archer
+TRb10	T:Bob Roberts	Alan Rickman
+TRb10	T:Bob Roberts	Ray Wise
+TrH10	T:The Scent of Green Papaya	Lu Man San
+TrJ10	T:Monty Python's Life of Brian	Michael Palin
+TrJ12	TZ:Secret Policeman's Ball	Michael Palin
+TrJ14	TZ:Secret Policeman's Other Ball	Michael Palin
+TrJ15	T:Monty Python's The Meaning of Life	Michael Palin
+TRs1	T:Look Back in Anger	Richard Burton
+TRs1	T:Look Back in Anger	Phyllis NeilsonTerry
+TRs3	T:The Entertainer	Alan Bates
+TRs3	T:The Entertainer	Albert Finney
+TRs4	T:A Taste of Honey	Paul Danwuah
+TRs8	T:The Loneliness of the Long-distance Runner	Michael Redgrave
+TRs8	T:The Loneliness of the Long-distance Runner	Avis Bunnage
+TRs8	T:The Loneliness of the Long-distance Runner	Alec McGowen
+TRs15	T:The Loved One	Ayllene Gibbons
+TRs15	T:The Loved One	Anajanette Comer
+TRs15	T:The Loved One	Lionel Stander
+TRs15	T:The Loved One	Paul Williams
+TRs17	T:Laughter in the Dark	Nicol Williamson
+TRs17	T:Laughter in the Dark	Anna Karina
+TRs17	T:Laughter in the Dark	Peter Bowles
+TRs18	T:Hamlet	Anthony Hopkins
+TRs18	T:Hamlet	Marianne Faithfull
+TRs18	T:Hamlet	Mark Dignam
+TRs18	T:Hamlet	Michael Pennington
+TRs22	TZ:Joseph Andrews	AnnMargret
+TRs22	TZ:Joseph Andrews	Peter Firth
+TRs22	TZ:Joseph Andrews	Michael Hordern
+TRs22	TZ:Joseph Andrews	Beryl Reid
+TRs22	T:Joseph Andrews	Peter Bull
+TRs25	T:The Hotel New Hampshire	Paul McCrane
+TRs25	T:The Hotel New Hampshire	Beau Bridges
+TRs25	T:The Hotel New Hampshire	Natassja Kinski
+TRs25	T:The Hotel New Hampshire	Wallace Shawn
+TRs32	T:The Phantom of the Opera	Andrea Ferreo
+TSy12	T:Patch Adams	Monica Potter
+TSy12	T:Patch Adams	Peter Coyote
+TSy12	T:Patch Adams	Phillip Seymor Hoffman
+TSz5	T:Welcome to the Dollhouse	Matthew Faber
+TTy10	T:Lola Rennt	Moritz Bleibtreu
+TTy10	T:Lola Rennt	Nina Petri
+TTz2	T:Fighting Father Dunne	Arthur Shields
+TTz4	T:Riff Raff	Pat OBrien
+TTz4	T:Riff Raff	percy Kilbride
+TTz8	T:Johnny Allegro	Nina Foch
+TTz9	T:The Window	Bobby Driscoll
+TTz11	T:Gambling House	Basil Ruysdael
+TTz20	T:Son of Sinbad	Mari Blanchard
+TVw10	T:Frisk	Michael Gunther
+TVw10	T:Frisk	Parker Posey
+TWa10	T:Foreign Affaires	Ralph Lynn
+TWa10	T:Foreign Affaires	Norma varden
+TWa10	T:Foreign Affaires	Marie Lohr
+TWh1	T:Safety Last	Mildred Davis
+TWh1	T:Safety Last	Norah Young
+TWh20	T:The Murder Man	Lucien Littlefield
+TWh37	T:The Mad Doctor	Barabara Allen
+TWh37	T:The Mad Doctor	Ralph Morgan
+TWh41	T:Seven Days Leave	Lucille Ball
+TWh41	T:Seven Days Leave	Mary Cortes
+TWh41	T:Seven Days Leave	Ralph Edwards
+TWh41	T:Seven Days Leave	Peter Lind Hayes
+TWh41	T:Seven Days Leave	Marcy McGuire
+TWh41	T:Seven Days Leave	Wallace Ford
+TWh45	T:Higher and Higher	Mary Wickes
+TWh45	T:Higher and Higher	Barbara Hale
+TWh45	TZ:Higher and Higher	Mickey Rooney
+TYg8	T:Safari	Orlando Martins
+TYg17	T:Dr.~No	Bernard Lee
+TYg17	T:Dr.~No	Anthony Dawson
+TYg17	T:Dr.~No	Michel Mok
+TYg17	T:Dr.~No	Reginald Carter
+TYg18	T:From Russia With Love	Pedro Armendariz
+TYg20	T:Thunderball	Luciana Paluzzi
+TYg20	T:Thunderball	Philip Locke
+TYg21	T:The Amorous Adventures of Moll Flanders	Michael Trubshawe
+TYg25	T:Wait Until Dark	Richard Crenna
+TYg40	T:Bloodline	Audrey Hepburn
+TYg40	T:Bloodline	Ben Gazzara
+TYg40	T:Bloodline	Michelle Phillips
+TYg40	T:Bloodline	Omar Sharif
+TyN10	T:Three Nuts in Search of a Bolt	Alvey Moore
+UEd20	T:Last Exit To Brooklyn	Alexis Arquette
+UEd20	T:Last Exit To Brooklyn	Maia Danziger
+UEd25	T:Body of Evidence	Madonna
+UEd25	T:Body of Evidence	Anne Archer
+UlO12	T:Ticket of no Return	Lutze Hagen
+UlO12	T:Ticket of no Return	Nina Hagen
+UrG10	T:The Aviator's Generosity	Poul Reumert
+USt10	T:Thrane's Method	Petronella Barker
+VCy10	T:The Inheritance	Miroslav Donutil
+VeZ10	TZ:Fade to Black	Linda Kerridge
+VeZ10	TZ:Fade to Black	Morgan Paull
+VDa10	T:The Benny Goodman Story	Berta Gersten
+VdS13	T:Stazione Termini	Richard Beymer
+VdS15	T:Two Women	Raf Vallone
+VdS17	T:Yesterday, Today and Tomorrow	Marcello Mastroianni
+VdS21	T:After the Fox	Peter Sellers
+VdS21	T:After the Fox	Martin Balsam
+VdS21	T:After the Fox	Paolo Stoppa
+VdS21	T:After the Fox	Akim Tamiroff
+VdS24	T:The Garden of the Finzi-Continis	Lino Capolicchio
+VF19	T:Mantrap	Lon Poff
+VF36	T:Treasure Island	Lionel Barrymore
+VF36	T:Treasure Island	Otto Kruger
+VF36	T:Treasure Island	Nigel Bruce
+VF37	T:Our Daily Bread	Barbara Pepper
+VF38	T:Bombshell	Pat OBrien
+VF38	T:Bombshell	Louise Beavers
+VF38	T:Bombshell	Mary Forbes
+VF39	T:Reckless	May Robson
+VF39	T:Reckless	Nat Pendleton
+VF41	T:Captains Courageous	Lionel Barrymore
+VF41	T:Captains Courageous	Mickey Rooney
+VF41	T:Captains Courageous	Melvyn Douglas
+VF41	T:Captains Courageous	Walter Kingsford
+VF43	T:The Wizard of Oz	Bert Lahr
+VF43	T:The Wizard of Oz	Allan Wolfe
+VF44	T:Gone With the Wind	Barbara ONeil
+VF44	T:Gone with the Wind	Mary Anderson
+VF44	T:Gone With the Wind	Ann Rutherford
+VF44	T:Gone With the Wind	Ona Munson
+VF47	T:A Guy Named Joe	Lionel Barrymore
+VF47	T:A Guy Named Joe	Barry Nelson
+VGa10	T:Buffalo '66	Ben Gazzara
+VGa10	T:Buffalo '66	Anjelica Houston
+VGl10	T:Der Brocken	Ben Becher
+VGu19	T:The Quatermass Experiment	Margia Dean
+VGu23	T:Quatermass II	Lohn Longden
+VGu23	T:Quatermass II	Percy Herbert
+VGu25	T:Up the Creek	Peter Sellers
+VGu25	T:Up the Creek	Michael Goodliffe
+VGu25	T:Up the Creek	Reginald Beckwith
+VGu25	T:Up the Creek	Lionel Jeffries
+VGu34	T:Jigsaw	Michael Goodliffe
+VGu36	T:The Beauty Jungle	Norman Bird
+ViH20	T:Animal Crackers	Louis Sorin
+ViS5	T:The Clodhopper	Margery Wilson
+ViS5	T:The Clodhopper	Lydia Knott
+ViS58	T:Forgotten Faces	Mary Bryan
+ViS58	T:Forgotten Faces	Olga Baclanove
+ViS58	T:Forgotten Faces	William Powell
+ViS83	T:Rhythm on the River	Bing Crosby
+ViS83	T:Rhythm on the River	Mary Martin
+ViS84	T:Road to Singapore	Anthony Quinn
+ViS86	T:Road to Zanzibar	Bing Crosby
+ViS86	T:Road to Zanzibar	Bob Hope
+ViW10	T:Map of the Human Heart	Anne Parillaud
+ViW15	T:What Dreams May Come	AnnaBella Sciorra
+ViW15	T:What Dreams May Come	Max vonSydow
+VJD2	T:Sunrise at Campobello	Anne Shoemaker
+VlM10	TZ:Moscow Does Not Believe in Tears	Raisa Ryazonova
+VM1	T:Cabin in the Sky	Louis Armstrong
+VM4	T:Meet Me in St.Louis	Marjorie Main
+VM5	T:The Clock	Lucile leason
+VM5	T:The Clock	Marshall Thompson
+VM7	T:Ziegfeld Follies	Lucille Ball
+VM7	T:Ziegfeld Follies	Red Skelton
+VM7	T:Ziegfeld Follies	Lucille Bremer
+VM7	T:Ziegfeld Follies	Marion Bell
+VM8	T:Madame Bovary	Louis Jordan
+VM9	T:Father of the Bride	Moroni Olson
+VM9	T:Father of the Bride	Melville Cooper
+VM11	T:The Bad and the Beautiful	Barry Sullivan
+VM11	T:The Bad and the Beautiful	Paul Stewart
+VM13	T:The Band Wagon	Oscar Levant
+VM19	T:Lust for Life	Pamela Brown
+VM19	T:Lust for Life	Niall mcGinnis
+VM19	T:Lust for Life	Noel Purcell
+VM19	T:Lust for Life	Lionel Jeffries
+VM19	T:Lust for Life	Madge Kennedy
+VM21	T:The Reluctant Debutante	Rex Harrison
+VM21	T:The Reluctant Debutante	Peter Meyers
+VM21	T:The Reluctant Debutante	Angela Lansbury
+VM22	T:Gigi	Maurice Chevalier
+VM33	T:A Matter of Time	Liza Minnelli
+VME9	T:The Brotherhood of Satan	Anna Capri
+VME9	T:The Brotherhood of Satan	Alvy moore
+VME11	T:One Little Indian	Pat Hingle
+VME11	T:One Little Indian	Morgan Woodard
+VME14	T:Treasure of Matecumbe	Peter Ustinov
+VME14	T:Treasure of Matecumbe	Billy Attmore
+VME15	T:Herbie Goes to Monte Carlo	Bernard Fox
+VME35	T:A Bird in the Hand	Peter Falk
+VNf10	T:Meine Tochter geh\"ort mir	Nadja Nebas
+VNu15	T:Ulee's Gold	Peter Fonda
+VoS32	T:Swann in Love	Ornella Muti
+VoS32	T:Swann in Love	Alain Delon
+VoS32	T:Swann in Love	MarieChristine Barrault
+VoS40	T:The Handmaid's Tale	Aidan Quinn
+VoS42	T:Voyager	Barbara Sukowa
+VoS48	T:Palmetto	Ralph Hoppe
+VoS49	T:The Ogre	Armin MuellerStahl
+VrM40	T:Oh Mr.~Porter	Moore Marriott
+VrM42	T:Convict 99	Moore Marriott
+VrM42	T:Convict 99	Basil Radford
+VrS20	T:Woman to Woman	Betty Compson
+VrS24	T:I was A Spy	Nigel Bruce
+VrS24	T:I was A Spy	Anthony Bushnell
+VrS24	T:I was A Spy	Marita Hunt
+VrS25	T:Friday the Thirteenth	Belle Chrystal
+VrS25	T:Friday the Thirteenth	Max Miller
+VrS25	T:Friday the Thirteenth	Alfred Drayton
+VrS25	T:Friday the Thirteenth	Mary Jerrold
+VrS25	T:Friday the Thirteenth	Marita Hunt
+VrS25	T:Friday the Thirteenth	Ralph Richardson
+VSa18	T:Powder	Ray Wise
+VSa18	T:Powder	Bradford Tatum
+VSa18	T:Powder	Brandon Smith
+VSh7	T:All Through the Night	Phil Silvers
+VSh9	T:The Hard Way	Paul Cavanagh
+VSh9	T:The Hard Way	Ann Doran
+VSh10	T:Old Acquaintenance	Bette Davis
+VSh10	T:Old Acquaintenance	Miriam Hopkins
+VSh10	T:Old Acquaintenance	Philip Reed
+VSh10	T:Old Acquaintenance	Anne Revere
+VSh15	T:Mr.~Skeffington	Betty Davis
+VSh15	T:Mr.~Skeffington	Walter Abel
+VSh23	T:The Adventures of Don Juan	Alan Hale
+VSh23	T:The Adventures of Don Juan	Ann Rutherford
+VSh23	T:The Adventures of Don Juan	Aubrey Mather
+VSh23	T:The Adventures of Don Juan	Raymond burr
+VSh25	T:The Hasty Heart	Patricia Neal
+VSh25	T:The Hasty Heart	Orlando Martins
+VSj5	T:He Who gets Slapped	Lon Chaney
+VSj6	T:The Scarlet Letter	Lillian Gish
+VSj7	T:The Divine Woman	Lowell Sherman
+VSj7	T:The Divine Woman	Polly Moran
+VSj8	T:The Wind	Montagu Love
+VyK10	T:Adam's Rib	Maria Golubkina
+VyK15	T:A Friend of the Deceased	Alexandre Lazarev
+W30	T:Wings	Richard Arlen
+W41	T:The Man I Love	Richard Arlen
+W50	T:The Public Enemy	Beryl Mercer
+W55	T:The Conquerors	Richard Dix
+W60	T:College Coach	Pat OBrien
+W60	T:College Coach	Ann Dvorak
+W60	T:College Coach	Arthur Byron
+W66	T:Call of the Wild	Loretta Young
+W66	T:Call of the Wild	Reginald Owen
+W70	T:Small Town Girl	Binnie Barnes
+W70	T:Small Town Girl	Andy Devine
+W74	T:Nothing Sacred	Maxie Rosenbloom
+W74	T:Nothing Sacred	Margaret Hamilton
+W74	T:Nothing Sacred	Monty Woolley
+W74	T:Nothing Sacred	Olin Howard
+W75	T:Men with Wings	Ray Milland
+W75	T:Men with Wings	Louise Campbell
+W75	T:Men with Wings	Andy Devine
+W75	T:Men with Wings	Lynne Overman
+W75	T:Men with Wings	Porter Hall
+W75	T:Men with Wings	Walter Abel
+W77	T:Beau Geste	Albert Dekker
+W78	T:The Light That Failed	Muriel Angelus
+W82	T:Lady of Burlesque	Barbara Stanwyk
+W82	T:Lady of Burlesque	Michael OShea
+W83	T:The Ox-bow Incident	Anthony Quinn
+W83	T:The Ox-bow Incident	Mary Beth Hughes
+W85	T:Buffalo Bill	Maureen OHara
+W85	T:Buffalo Bill	Linda Darnell
+W85	T:Buffalo Bill	Anthony Quinn
+W98	T:Island in the Sky	Lloyd Nolan
+W98	T:Island in the Sky	Walter Abel
+W98	T:Island in the Sky	Allyn Joslyn
+W98	T:Island in the Sky	Andy Devine
+W100	T:The High and the Mighty	Phil harris
+WA1	T:Take the Money and Run	Louise Lasser
+WA2	TZ:Bananas	Baron deBree
+WA3	T:Everything You Always Wanted to Know About Sex and Were Afraid to Ask	Louise Lasser
+WA3	T:Everything You Always Wanted to Know About Sex But Were Afraid To Ask	Lou Jacobi
+WA3	T:Everything You Always Wanted to Know About Sex But Were Afraid To Ask	Lynn Redgrave
+WA3	T:Everything You Always Wanted to Know About Sex But Were Afraid To Ask	Anthony Quayle
+WA5	T:Love and Death	Miriam Brickman
+WA6	T:Annie Hall	Marshall McLuhan
+WA7	T:Interiors	Mary Beth Hurt
+WA7	T:Interiors	Maureen Stapleton
+WA8	T:Manhattan	Meryl Streep
+WA9	T:Stardust Memories	MarieChristine Barrault
+WA11	T:Zelig	Mary Louise Wilson
+WA12	T:Broadway Danny Rose	Nick Apollo Forte
+WA13	T:Hannah and Her Sisters	Lloyd Nolan
+WA13	T:Hannah and Her Sisters	Maurenn OSullivan
+WA14	T:The Purple Rose of Cairo	Zoe Caldwell
+WA14	T:The Purple Rose of Cairo	Milo OShea
+WA15	T:Radio Days	Mia Farrow
+WA16	T:Another Woman	Betty Buckley
+WA16	T:Another Woman	Blythe Danner
+WA16	T:Another Woman	Philip Bosco
+WA17	TZ:Crimes and Misdemeanors	Nora Ephrom
+WA18	T:Alice	Bob Balaban
+WA18	T:Alice	Blythe Danner
+WA18	T:Alice	Bernadette Peters
+WA19	T:Shadows and Fog	Madonna
+WA19	T:Shadows and Fog	Lily Tomlin
+WA21	T:Manhattan Murder Mystery	Alan Alda
+WA21	T:Manhattan Murder Mystery	Melanie North
+WA22	T:Bullets Over Broadway	MarieLouise Parker
+WA25	T:Everyone Says I Love You	Alan Alda
+WA26	T:Deconstructing Harry	Richard Benjamin
+WA28	T:Celebrity	Melanie Griffith
+WaB10	TZ:Little Miss Marker	Bob Newhart
+WaF10	T:The Ghost Train	Ann Todd
+WaF10	T:The Ghost Train	Angela Baddeley
+WaF10	T:The Ghost Train	Allan Jeayes
+WaF15	T:Rome Express	Muriel Aked
+WaF25	T:Bulldog Jack	Ralph Richardson
+WaF25	T:Bulldog Jack	Athole Fleming
+WaF25	T:Bulldog Jack	Paul Graetz
+WaF40	T:The Ghost Train	Arthur Askey
+WaF40	T:The Ghost Train	Ricard Murdoch
+WaF40	T:The Ghost Train	Morland Graham
+WaF40	T:The Ghost Train	Linden Traver
+WaF40	T:The Ghost Train	Peter Murray Hill
+WaF48	T:Charley's Bighearted Aunt	Moore Marriott
+WAr40	T:Beach Party	Bob Cummins
+WAr40	T:Beach Party	Annette Funicello
+WAr40	T:Beach Party	Morey Amsterdam
+WAr40	T:Beach Party	Peter Falk
+WAr42	T:Johnny Cool	Brad Dexter
+WAr42	T:Johnny Cool	Mort Sahl
+WAr44	T:Muscle Beach Party	Annette Funicello
+WAr44	T:Muscle Beach Party	Morey Amsterdam
+WAr44	T:Muscle Beach Party	Little Stevie Wonder
+WAr44	T:Muscle Beach Party	Peter Lorre
+WAr46	T:Bikini Beach	Annette Funicello
+WAr46	T:Bikini Beach	Meredith McCrea
+WAr46	T:Bikini Beach	Boris Karloff
+WAr50	T:Beach Blanket Bingo	Annette Funicello
+WAS77	T:Sons of the Desert	Oliver Hardy
+WAS80	T:The Richest Girl in The World	Reginald Denny
+WAS80	T:The Richest Girl in The World	Beryl Mercer
+WAS82	T:If Only You Could Cook	Lionel Stander
+WAS83	T:Roberta	Randolph Scott
+WAS95	T:Room Service	Lucille Ball
+WAS95	T:Room Service	Ann Miller
+WAS95	T:Room Service	Philip Loeb
+WAS100	T:Three Blind Mice	Binnie Barnes
+WAS115	T:A Lady Takes a Chance	Phil Silvers
+WAS115	T:A Lady Takes a Chance	Mary Field
+WAS125	T:Lover Come Back	Raymond Walburn
+WAS125	T:Lover Come Back	Louise Beavers
+WaW3	T:Slam Dance	Mary Elizabeth Mastrantonio
+WaW10	T:The Joy Luck Club	MingNa Wen
+WaW15	T:Chinese Box	Michael Hui
+WBe2	T:Reds	Maureen Stapleton
+WBe2	T:Reds	Paul Sorvino
+WBe2	T:Reds	Max Wright
+WBe10	T:Dick Tracy	Mandy Patinkin
+WBe15	T:Bulworth	Oliver Platt
+WBe15	T:Bulworth	Paul Sorvino
+WBo10	T:Feuer, Eis, und Dynamit	Alfons Haider
+WBo10	T:Feuer, Eis, und Dynamit	Alan Delon
+WBo10	T:Feuer, Eis, und Dynamit	Marisa Mell
+WBz13	T:Immoral Tales	Lise Danvers
+WBz13	T:Immoral Tales	Paloma Picasso
+WCl19	T:Calling Philo Vance	Margot Stevenson
+WCl19	T:Calling Philo Vance	Ralph Forbes
+WCl19	T:Calling Philo Vance	Martin Kosleck
+WCM2	T:The Spider	Lois Mran
+WCM22	T:Address Unknown	Mady Christians
+WCM22	T:Address Unknown	Morris Carnovsky
+WCM32	T:Invaders From Mars	Arthur Franz
+WCr5	T:The Hills Have Eyes	Martin Speer
+WCr6	T:Stranger in Our House	Linda Blair
+WCr10	T:Swamp Thing	Nicholas Worth
+WCr15	T:A Nightmare on Elm Street	Amanda Wyss
+WCr15	T:A Nightmare on Elm Street	Nick Corri
+WCr22	T:Deadly Friend	Matt Loborteax Das
+WCr42	T:A Vampire in Brooklyn Craven	Angela Bassett
+WCr44	T:Scream	Neve Campbell
+WCr44	T:Scream	Matthew Lillard
+WCr46	T:Scream 2	Neve Campbell
+WDM3	T:The Ragamuffin	Agnes deMille
+WDT19	T:Johanna Enlists	Anne Schaefer
+WDT19	T:Johanna Enlists	Monte Blue
+WDT27	T:Anne of Green Gables	Mary Miles
+WeA10	T:Rushmore	Bill Murray
+WeA10	T:Rushmore	Luke Wilson
+WFr11	T:The McGregor Affair	Arthur Malet
+WFr11	T:The McGregor Affair	Michael Pate
+WFr35	T:The French Connection	Ann Rebbot
+WFr35	T:The French Connection	Pat McDermott
+WFr39	T:Sorcerer	Amidou
+WFr39	T:Sorcerer	Ramon Bieri
+WFr42	TZ:Cruising	Al Pacino
+WFr42	TZ:Cruising	Paul Sorvino
+WFx10	TZ:Bowery at Midnight	Bela Lugosi
+WGi5	T:Grizzly	Andrew Prine
+WGi10	T:Day of the Animals	Lynda Day George
+WGi10	T:Day of the Animals	Michael Ansara
+WGi15	TZ:The Manitou	Michael Ansara
+WGi15	TZ:The Manitou	Ann Sothern
+WGo10	T:Love Laughs at Andy Hardy	Bonita Granville
+WGr10	T:Daughter of the Mind	Pamelyn Ferdin
+WGr50	T:Are You in the House Alone?	Blythe Danner
+WGr50	T:Are You in the House Alone?	Alan Fudge
+WHB10	T:The Four Deuces	Martin Kove
+WH9	T:Nosferatu the Vampyre	Walter Ladengast
+WKH44	T:Vanessa, her Love Story	Otto Kruger
+WHl4	T:The Warriors	Michael Beck
+WHl4	T:The Warriors	Marcelino Sanchez
+WHl6	TZ:The Long Riders	Randy Quaid
+WHl6	TZ:The Long Riders	Nicholas Guest
+WHl6	TZ:The Long Riders	Pamela Reed
+WHl8	T:Southern Comfort	Powers Boothe
+WHl8	T:Southern Comfort	Peter Coyote
+WhR10	T:Handgun	Paul Schulze
+WhS5	T:The Last Days of Disco	Mackenzie Astin
+Whu1	T:Dr. Who: An Unearthly Child	William Russell
+WHu7	T:Quackser Fortune Has a Cousin in the Bronx	Margot Kidder
+WHu27	T:The Summer House	Padraig Casey
+WiB25	T:Little Annie Roonie	Mary Pickford
+WiB25	T:Little Annie Roonie	Walter James
+WiB100	T:Crazy Knights	Billy Gilbert
+WiB100	T:Crazy Knights	Maxie 'Slapsie' Rosenbloom
+WiB100	T:Crazy Knights	Minerva Urecal
+WiB199	T:Bela Lugosi Meets a Brooklyn Gorilla	Bela Lugosi
+WiC51	T:The Tingler	Philip Coolidge
+WiC55	T:Homicidal	Patricia Breslin
+WiC55	T:Homicidal	Alan Bunce
+WiC70	T:Shanks	Marcel Marceau
+WiC90	T:Project X	Monte Markham
+WiD10	TZ:Timerider "The Adventure of Lyle Swann"	Peter Coyote
+WiD10	TZ:Timerider "The Adventure of Lyle Swann"	Belinda Bauer
+WiD20	T:Angels in the Outfield	Ben Johnson
+WiF10	TZ:John and Julie	Peter Sellers
+WiF10	T:John and Julie	Moira Lister
+WiF10	T:John and Julie	Andrew Cruickshank
+WiG15	T:The Last Generation	Mercedes McCambridge
+WiG15	T:The Last Generation	Pearl Bailey
+WiG15	T:The Last Generation	Michael Rennie
+WiG15	T:The Last Generation	Phil Harris
+WiH10	TZ:Stalk the Wild Child	Benjamin Bottoms
+WiH10	TZ:Stalk the Wild Child	Allan Arbus
+WiH10	TZ:Stalk the Wild Child	Marcia Warner
+WiW4	T:The American Friend	Lisa Kreuzer
+WiW4	T:The American Friend	Nicholas Ray
+WiW9	T:Hammett	Peter Boyle
+WiW9	T:Hammett	R.G. Armstrong
+WiW9	T:Hammett	Richard Bradford
+WiW20	T:Wings of Desire	Otto Sandler
+WiW20	T:Wings of Desire	Peter Falk
+WiW25	T:Until the End of the World	Max vonSydow
+WiW27	T:The End of Violence	Bill Pullman
+WiW27	T:The End of Violence	Andy MacDowell
+WiW29	T:City of Angels	Nicolas Cage
+WiW29	T:City of Angels	Andre Braugher
+WKH14	T:The Valiant	Marguerite Churchill
+WKH35	T:The Power and The Glory	Ralph morgan
+WKH45	T:Mary Burns Fugitive	Melvyn Douglas
+WKH45	T:Mary Burns Fugitive	Alan Baxter
+WKH45	T:Mary Burns Fugitive	Pert Kelton
+WKH52	T:The Princess Comes Across	Alison Skipworth
+WKl10	T:Who Are You, Polly Magoo?	Philippe Noiret
+WKl30	T:The Model Couple	Andre Dussollier
+WKl40	T:Mode in France	Agnes B. Castelbajac
+WLa14	T:Wife, Doctor, and Nurse	Maurice Cass
+WLa14	T:Wife, Doctor, and Nurse	Minna Gombell
+WLa14	T:Wife, Doctor, and Nurse	Lon Chaney~jr.
+WLa18	T:The Little Princess	Anita Louise
+WLa18	T:The Little Princess	Arthur Treacher
+WLa18	T:The Little Princess	Mary Nash
+WLa18	T:The Little Princess	Miles Mander
+WLa18	T:The Little Princess	Marcia Mae Jones
+WLa18	T:The Little Princess	Beryl Mercer
+WLa19	T:The Blue Bird	Nigel Bruce
+WLa20	T:Star Dust	Mary Beth Hughes
+WLa21	T:The Great Profile	Mary Beth Hughes
+WLa21	T:The Great Profile	Anne Baxter
+WLa21	T:The Great Profile	Lionel Atwill
+WLa22	T:Tin Pan Alley	Allen Jenkins
+WLa27	T:Coney Island	Phil Silvers
+WLa27	T:Coney Island	Paul Hurst
+WLa38	T:On The Riviera	Marcel Dalio
+WLa41	T:There's no Business like Show Business	Mitzi Gaynor
+WLa42	T:The King and I	Martin Benson
+WLa42	T:The King and I	Alan Mowbray
+WLa45	T:Can Can	Maurice Chevalier
+WLa45	T:Can Can	Louis Jourdan
+WLa45	T:Can Can	Marcel Dalio
+WLa50	T:Snowwhite and the Three Stooges	Moe Howard
+WLa50	T:Snowwhite and the Three Stooges	Patricia Medina
+WlB10	T:Dick Tracy	Morgan Conway
+WlB10	T:Dick Tracy	Lyle Latell
+WlB14	T:Treasure of Monte Christo	Michael Whalen
+WlD5	T:The Last Flight	Richard Barthelmess
+WlD5	T:The Last Flight	Walter Byron
+WlD8	T:Her Majesty Love	Marilyn Miller
+WlD15	T:Adorable	Blanche Friderici
+WlD18	T:Firebird	Ricardo Cortez
+WlD18	T:Firebird	Lionel Attwill
+WlD18	T:Firebird	Anita Louise
+WlD18	T:Firebird	Nan Grey
+WlD19	T:Fog Over Frisco	Lyle Talbot
+WlD19	T:Fog Over Frisco	Arthur Byron
+WlD19	T:Fog Over Frisco	Alan Hale
+WlD20	T:Madame du Barry	Osgood Perkins
+WlD24	T:A Midsummernight's Dream	Olivia deHavilland
+WlD24	T:A Midsummernight's Dream	Anita Louise
+WlD29	T:Satan Met A Lady	Arthur Treacher
+WlD29	T:Satan Met A Lady	Wini Shaw
+WlD29	T:Satan Met A Lady	Marie Wilson
+WlD29	T:Satan Met A Lady	Porter Hall
+WlD33	T:The Life of Emile Zola	Paul Muni
+WlD33	T:The Life of Emile Zola	Morris Carnovsky
+WlD34	T:Blockade	Reginald Denny
+WlD35	T:Juarez	Bette Davis
+WlD35	T:Juarez	Pedro deCordoba
+WlD35	T:Juarez	Montagu Love
+WlD36	T:The Hunchback of Notre Dame	Walter Hampden
+WlD37	T:Dr.~Ehrlich's Magic Bullet	Otto Kruger
+WlD37	T:Dr.~Ehrlich's Magic Bullet	Maria Ouspenskaya
+WlD37	T:Dr.~Ehrlich's Magic Bullet	Montagu Love
+WlD37	T:Dr.~Ehrlich's Magic Bullet	Louis Calhern
+WlD37	T:Dr.~Ehrlich's Magic Bullet	Louis Jean Heydt
+WlD38	T:A Dispatch from Reuters	Otto Kruger
+WlD38	T:A Dispatch from Reuters	Montagu Love
+WlD38	T:A Dispatch from Reuters	Nigel Bruce
+WlD39	T:All That Money Can Buy	Anne Shirley
+WlD42	T:Kismet	Mary Duncan
+WlD45	T:Love Letters	Ann Richards
+WlD45	T:Love Letters	Anita Louise
+WlD45	T:Love Letters	Reginal Denny
+WlD45	T:Love Letters	Lumsden HGare
+WlD49	T:Portrait of Jennie	Lillian Gish
+WlD51	T:Rope of Sand	Paul Henreid
+WlD51	T:Rope of Sand	Peter Lorre
+WlD53	T:Dark City	Lizabeth Scott
+WlD58	T:The Turning Point	Alexis Smith
+WlD58	T:The Turning Point	Ray Neal
+WlD65	T:Magic Fire	Alan Badel
+WlH10	T:Bunker Bean	Lucille Ball
+WlH10	T:Bunker Bean	Berton Churchill
+WlH10	T:Bunker Bean	Louise Latimer
+WlN10	T:Mr.~Wong, Detective	Boris Karloff
+WlN12	T:Mr.~Wong in Chinatown	Boris Karloff
+WlN12	TZ:Mr.~Wong in Chinatown	Lotus Long
+WmH10	T:A Tale of Two Cities	Maurice Cstello
+WmH10	T:A Tale of Two Cities	Norma Talmadge
+WmK8	T:Babbitt	Nan Grey
+WmK14	T:Bullets or Ballots	Barton McLane
+WmK14	T:Bullets or Ballots	Louise Beavers
+WmK14	T:Bullets or Ballots	Norman Willis
+WmK16	T:The Green Pastures	Oscar Polk
+WmK18	T:The Prince and The Pauper	Alan Hale
+Wmk28	T:Four Wives	Lola Lane
+Wmk28	T:Four Wives	Priscilla Lane
+Wmk28	TZ:Four Wives	May Robson
+WmK31	T:The Man Who Came to Dinner	Billie Burke
+WmK15	T:The Singing Kid	Al Jolson
+WmK15	T:The Singing Kid	Allen Jenkins
+WmK15	T:The Singing Kid	Lyle Talbot
+WmK15	T:The Singing Kid	Beverly Roberts
+WoP12	T:The Plastic Nightmare	Bob Hoskins
+WoP14	T:Shattered	Bob Hoskins
+WoP20	T:Outbreak	Rene Russo
+WoP20	T:Outbreak	Morgan Freeman
+WoR20	TZ:Village of the Damned	Barbara Shelley
+WoR20	TZ:Village of the Damned	Martin Stephens
+WoR20	T:Village of the Damned	Michael Gwynn
+WPr10	T:Rock, Rock, Rock	Alan Freed
+WR31	T:Honey	Nancy Carrol
+WR31	T:Honey	Lillian Roth
+WR31	T:Honey	Zasu Pitts
+WR40	T:Cimarron	Richard Dix
+WR40	T:Cimarron	Nance ONeil
+WR40	T:I'm No Angel	Mae West
+WR72	T:Shoot the Works	Ben Bernie
+WR72	T:Shoot the Works	Arline Judge
+WR72	T:Shoot the Works	Allison Skipworth
+WR80	T:Bolero	Anne Sheridan
+WR86	T:The Gilded Lily	Ray Milland
+WR86	T:The Gilded Lily	Luis Alberni
+WR112	T:True Confessions	Porter Hall
+WR120	T:Too Many Husbands	Melvyn Douglas
+WR120	T:Too Many Husbands	Melville Cooper
+WRi20	T:A Night in the Life of Jimmy Reardon	Meredith Salberger
+WRi20	T:A Night in the Life of Jimmy Reardon	Louanne
+WRi20	T:A Night in the Life of Jimmy Reardon	Mathew L. Perry
+WSa5	T:The Incredible Melting Man	Alex Rebar
+WSa10	T:Galaxina	Avery Schreiber
+WSh1	T:Star Trek V: The Final Frontier	William Shatner
+WSh1	T:Star Trek V: The Final Frontier	Walter Koenig
+WSh1	T:Star Trek V: The Final Frontier	Nichel Nichols
+WSt10	T:Alice's Adventures in Wonderland	Ralph Richardson
+WTh3	T:Drei von der Tankstelle	Willy Fritsch
+WTh3	T:Drei von der Tankstelle	Oskar Karlweiss
+WTh3	T:Drei von der Tankstelle	Olga Tchekhova
+WTh10	T:The Jungle Princess	Ray Milland
+WTh10	T:The Jungle Princess	Akim Tamiroff
+WTh10	T:The Jungle Princess	Lynne Overman
+WTh10	T:The Jungle Princess	Molly Lamont
+WTh10	T:The Jungle Princess	Bogo
+WTh23	T:Madonna's Secret	Ann Rutherford
+WTN12	T:Hot Rod Hullabaloo	Arlen Dean Snyder
+WTN12	T:Hot Rod Hullabaloo	Marsha Mason
+WvD49	T:Forsaking All Others	Billie Burke
+WvD50	T:Manhattan Melodrama	Myrna Loy
+WvD51	T:The Thin Man	Maureen OSullivan
+WvD51	T:The Thin Man	Nat Pendleton
+WvD53	T:Naughty Marietta	Walter Kingsford
+WvD58	T:Rose Marie	Reginald Owen
+WvD58	T:Rose Marie	Allan Jones
+WvD58	T:Rose Marie	Lucien Littlefield
+WvD60	T:After The Thin Man	Myrna Loy
+WvD64	T:Marie Antoinette	Lionel Barrymore
+WvD67	T:It's A Wonderful World	Nat Pendleton
+WvD69	T:Another Thin Man	Otto Kruger
+WvD69	T:Another Thin Man	Nat Pendleton
+WvD69	T:Another Thin Man	Marjorie Main
+WvD75	T:Rage in Heaven	Lucile Watson
+WvD75	T:Rage in Heaven	Oscar Homolka
+WvD75	T:Rage in Heaven	Philip Merryvale
+WvD75	T:Rage in Heaven	Matthew Boulton
+WvD75	T:Rage in Heaven	Aubrey Mather
+WvD79	T:Cairo	Reginald Owen
+WvD79	T:Cairo	Lionel Atwill
+WvD79	T:Cairo	Mona Barrie
+WW30	T:Counsellor at Law	Bebe Daniels
+WW30	T:Counsellor at Law	Melvyn Douglas
+WW30	T:Counsellor at Law	Onslow Stevens
+WW30	T:Counsellor at Law	Mayo Methot
+WW42	T:Dodsworth	Mary Astor
+WW42	T:Dodsworth	Paul Lukas
+WW42	T:Dodsworth	Odette Myrtil
+WW44	T:Jezebel	Margaret Lindsay
+WW44	T:Jezebel	Richard Cromwell
+WW45	T:Wuthering Heights	Merle Oberon
+WW47	T:The Westerner	Paul Hurst
+WW48	T:The Little Foxes	Patricia Collinge
+WW63	T:The Best Years of our Lives	Ray Collins
+WW64	T:The Heiress	Ralph Richardson
+WW64	T:The Heiress	Miriam Hopkins
+WW64	T:The Heiress	Mona Freeman
+WW64	T:The Heiress	Ray Collins
+WW65	T:Detective Story	Luis VanRooten
+WW66	T:Carrie	Miriam Hopkins
+WW66	T:Carrie	Ray Teal
+WW66	T:Carrie	Barry Kelley
+WW66	T:Carrie	Mary Murphy
+WW67	T:Roman Holiday	Margaret Rawlings
+WW68	T:Desperate Hours	Arthur Kennedy
+WW68	T:Desperate Hours	Mary Murphy
+WW73	T:The Friendly Persuasion	Phyllis Love
+WW73	T:The Friendly Persuasion	Anthony Perkins
+WW73	T:The Friendly Persuasion	Marjorie Main
+WW73	T:The Friendly Persuasion	Walter Catlett
+WW80	T:The Big Country	Alfonso Bedaya
+WW82	T:The Children's Hour	Audrey Hepburn
+WW82	T:The Children's Hour	Miriam Hopkins
+WW84	T:How to Steal a Million	Peter OToole
+WW84	T:How to Steal a Million	Marcel Dalio
+WW85	T:Funny Girl	Anne Francis
+WW87	T:The Liberation of L.B. Jones	Lola Falana
+WW87	T:The Liberation of L.B. Jones	Anthony Zerbe
+WW87	T:The Liberation of L.B. Jones	Arch Johnson
+WWo10	T:The Hunchback of Notre Dame	Lon Chaney
+WWo10	T:The Hunchback of Notre Dame	Brandon Hurst
+WWi10	TZ:Tom Horn	Linda Evans
+WWi10	T:Tom Horn	Billy Green Bush
+WWn10	T:The Lone Ranger	Lynne Roberts
+WWn30	T:The Lone Ranger Rides Again	Ralph Dunn
+WWn35	T:The Drums of Fu Manchu	William Royle
+WWn35	T:The Drums of Fu Manchu	Olaf Hytten
+WWn35	T:The Drums of Fu Manchu	Luana Walters
+WWn35	T:The Drums of Fu Manchu	Anna May Wong
+WWn200	T:The Cool and the Crazy	Richard Bakalyan
+WWn205	T:Juvenile Jungle	Anne Whitfield
+WWn205	T:Juvenile Jungle	Richard Bakalyan
+xCm20	T:Ulysses	Anthony Quinn
+xCo10	T:The Plague	Raul Julia
+xGr10	TZ:The Count of Monte Cristo	Richard Chamberlain
+xGr10	TZ:The Count of Monte Cristo	Louis Jourdan
+xPr10	T:Virasat	Pooja Batra
+xPr10	T:Virasat	Amrish Puri
+xSt10	T:My Stepmother is an Alien	Lisa Croisette
+xSz10	T:Punchline	Mark Rydell
+xSz10	T:Punchline	Paul Mazurky
+YAl10	T:Les Orgeilleux	Michele Morgan
+yAn10	T:Johann Strauss, The King without a Crown	Oliver Tobias
+YlG10	T:Yol	Necmettin {\c}Cobanogl\"u
+YMZ26	T:To Live	N. Ben
+YuB14	T:Exit in Red	Mickey Rourke
+YuB14	T:Exit in Red	Anthony Michael Hall
+YvR6	T:Le Grand Blond avec une Chaussure Noire	Bernard Blier
+YvR6	T:Le Grand Blond avec une Chaussure Noire	Pierre Richard
+YvR10	T:Courage Fuyons	Philippe LeroyBeaulieu
+YYa60	T:Tora-San Goes to Vienna	Akira Emoto
+ZK2	T:Sanders of the River	Paul Robeson
+ZK3	T:The Four Feathers	Ralph Richardson
+ZK3	T:The Four Feathers	Allan Jeayes
+Zk5	T:Sahara	Lloyd Bridges
+Zk5	T:Sahara	Rex Ingram
+ZlK10	T:Two Moon Junction	Apul deLondres
+Z0310	T:Romero	Raul Julia
+Z1220	T:Within the Law	Alice Joyce
+Z1230	T:Within the Law	Norma Talmadge
+Z3910	T:Of Mice and Men	Lon Chaney~jr.
+Z4250	T:Tarzan the Tiger	Lillian Worth
+Z4250	T:Tarzan the Tiger	Al Ferguson
+Z4815	T:Vice Academy, part 2	Melissa Moore
+Z5020	T:Hollywood Bound	Betty Grable
+Z6650	T:Promise Her Anything	Bob Cummins
+Z7840	T:Rabbit Test	Billy Crystal
+Z8630	T:Say Yes	Mark Wenzel
+Z8720	T:Project X	Matthew Broderick
+Z9020	T:Black Magic Woman	Mark Hammil
+Z9020	T:Black Magic Woman	Bionnie Ebsen
+Z9020	T:Black Magic Woman	Marilyn Tvilla
+Z9030	T:Spies, Lies, and Naked Things	Raymond Singer
+Z9030	T:Spies, Lies, and Naked Things	Bert Carver
+Z9030	T:Spies, Lies, and Naked Things	Marius Mayrenet
+Z9110	T:Deadlock	Mimi Rogers
+Z9110	T:Deadlock	Bill Wallace
+Z9210	T:Beyond Justice	Omar Sharif
+Z9220	T:Shining Through	Michael Douglas
+Z9260	T:School Ties	Matt Damon
+Z9310	T:Life With Mikey	Michael J. Fox
+Z9330	T:Consenting Adults	Mary Elizabeth Mastroianni
+Z9340	T:The Man With Three Wives	Beau Bridges
+Z9350	T:Mr.~Baseball	Aya Takanashi
+Z9510	T:Once Were Warriors	Rena Owen
+Z9520	T:City of Joy	Om Puri
+Z9550	T:The Basketball Diaries	Mark Wahlberg
+Z9579	T:Dreamgirls	Lorretta Devine
+Z9610	T:Clueless	Wallace Shawn
+Z9610	T:Clueless	Alicia Silverstone
+Z9630	T:One Fine Day	Mae Whitman
+Z9630	T:One Fine Day	Michelle Pfeiffer
+Z9655	T:The Chain	Rez Cortez
+Z9661	T:Kiss of Death	Nicolas Cage
+Z9693	T:Bed of Roses	Mary Stuart Masterson
+Z9695	T:Pursuit	Morgan Freeman
+Z9750	T:Safe Home	Patrick Stewart
+Z9770	T:Copland	Ray Liotta
+Z9783	T:Lois and Clark	Louis Sinosi
+Z9810	T:The Scalper	Andy McDowell
+Z9810	T:The Scalper	Andy Garcia
+Z9830	T:Merlin	Martin Short
+Z9880	T:Permanent Midnight	Ben Stiller
+Z9895	T:One True Thing	Renee Zellweger
+Z9925	T:The Color of Courage	Lynn Whitfield
+Z9925	T:The Color of Courage	Linda Hamilrton
+Z9930	T:Sachem Farm	Minnie Driver
+Z9930	T:Sachem Farm	Nigel Hawthorne
+Z9935	T:Circle of Friends	Minnie Driver
+Z9937	T: Sleepers	Brad Pitt
+Z9939	T:An Ideal Husband	Minnie Driver

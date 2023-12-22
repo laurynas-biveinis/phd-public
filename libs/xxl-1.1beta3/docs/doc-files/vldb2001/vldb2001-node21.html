@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Implementation of new Index Structures</TITLE>
+<META NAME="description" CONTENT="Implementation of new Index Structures">
+<META NAME="keywords" CONTENT="vldb">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="vldb.css">
+
+<LINK REL="next" HREF="vldb2001-node22.html">
+<LINK REL="previous" HREF="vldb2001-node20.html">
+<LINK REL="up" HREF="vldb2001-node19.html">
+<LINK REL="next" HREF="vldb2001-node22.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html257"
+  HREF="vldb2001-node22.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html255"
+  HREF="vldb2001-node19.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html249"
+  HREF="vldb2001-node20.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html258"
+  HREF="vldb2001-node22.html">Available Functionality</A> <B> Up:</B> <A NAME="tex2html256"
+  HREF="vldb2001-node19.html">Index Structures</A> <B> Previous:</B> <A NAME="tex2html250"
+  HREF="vldb2001-node20.html">The Lower Interface of</A> <BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00062000000000000000">
+Implementation of new Index Structures</A>
+</H2>
+
+Although the tree framework seems to be very intricate, new index
+structures can be implemented fast. In general, it is sufficient
+to implement the interface <I>Descriptor</I> for index entries and
+to complete the implementation of the <I>Node</I> class whose
+objects refers to the specific nodes used in the target index
+structure.
+
+For sake of simplicity, let us consider an implementation of an
+R-tree. Then, the descriptor of an index entry refers to a window
+region of the multi-dimensional data space that covers all data
+objects stored in the corresponding subtree. In general, the
+interface <I>Descriptor</I> consists of the following methods:
+
+<PRE>
+interface Descriptor {
+    boolean overlaps (Descriptor descriptor);
+    boolean contains (Descriptor descriptor);
+    Descriptor union (Descriptor descriptor);
+    boolean equals (Object object);
+}
+</PRE>
+The predicate <code>overlaps</code>, <code>contains</code> and <code>equals</code> 
+are used for the comparison of descriptors, whereas <code>union</code> computes 
+the minimum enclosing descriptor. The semantics of theses methods seems to be 
+selfexplainable for a window region. Additionally to the implementation of a descriptor, 
+the implementation of the abstract class <I>Node</I> has to be completed. Most 
+of its functionality is already implemented in the generic predecessor classes 
+within the class hierarchy. Therefore, only the functionality has to be provided 
+that cannot be made available without specific knowledge about the target index 
+structure. This basically consists of the methods <code>chooseSubtree</code> and 
+<code>split</code>. <code>chooseSubtree</code> determines the subtree where the 
+descriptor should be inserted in, using a given descriptor and a set of subtrees. 
+The <code>split</code> method performs a node split and returns information about 
+the location of the split in the tree. Because our tree-based index structures 
+generally keep their nodes as blocks in containers, converters are required for 
+the descriptor and the nodes. Our R*-tree implementation (without re-insertion) 
+[<A
+ HREF="vldb2001-node30.html#BKSS90">BKSS90</A>] is a good example for a compact 
+implementation of an index structure. It only consists of less than <IMG
+ WIDTH="29" HEIGHT="17" ALIGN="BOTTOM" BORDER="0"
+ SRC="img4.png"
+ ALT="$200$"> lines of code because the cursor algebra is heavily used again. 
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html257"
+  HREF="vldb2001-node22.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html255"
+  HREF="vldb2001-node19.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html249"
+  HREF="vldb2001-node20.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html258"
+  HREF="vldb2001-node22.html">Available Functionality</A> <B> Up:</B> <A NAME="tex2html256"
+  HREF="vldb2001-node19.html">Index Structures</A> <B> Previous:</B> <A NAME="tex2html250"
+  HREF="vldb2001-node20.html">The Lower Interface of</A> 
+<!--End of Navigation Panel-->
+<ADDRESS>
+Bernhard Seeger
+2001-10-11
+</ADDRESS>
+</BODY>
+</HTML>

@@ -1,0 +1,67 @@
+#!/bin/bash
+
+# R-tree
+
+time ~/phd/bbpdias/BBPDIAS/Test --loadindex mesh_r-1by1_1m --numqueries 100000 --nocheck --queryspace 110 1220 94 436 1386 455
+time ~/phd/bbpdias/BBPDIAS/Test --loadindex mesh_r-1by1_2m --numqueries 100000 --nocheck --queryspace 110 1220 94 436 1386 455
+time ~/phd/bbpdias/BBPDIAS/Test --loadindex mesh_r-1by1_3m --numqueries 100000 --nocheck --queryspace 110 1220 94 436 1386 455
+time ~/phd/bbpdias/BBPDIAS/Test --loadindex mesh_r-1by1_4m --numqueries 100000 --nocheck --queryspace 110 1220 94 436 1386 455
+time ~/phd/bbpdias/BBPDIAS/Test --loadindex mesh_r-1by1_5m --numqueries 100000 --nocheck --queryspace 110 1220 94 436 1386 455
+time ~/phd/bbpdias/BBPDIAS/Test --loadindex mesh_r-1by1_6m --numqueries 100000 --nocheck --queryspace 110 1220 94 436 1386 455
+time ~/phd/bbpdias/BBPDIAS/Test --loadindex mesh_r-1by1_7m --numqueries 100000 --nocheck --queryspace 110 1220 94 436 1386 455
+time ~/phd/bbpdias/BBPDIAS/Test --loadindex mesh_r-1by1_8m --numqueries 100000 --nocheck --queryspace 110 1220 94 436 1386 455
+time ~/phd/bbpdias/BBPDIAS/Test --loadindex mesh_r-1by1_9m --numqueries 100000 --nocheck --queryspace 110 1220 94 436 1386 455
+time ~/phd/bbpdias/BBPDIAS/Test --loadindex mesh_r-1by1_10m --numqueries 100000 --nocheck --queryspace 110 1220 94 436 1386 455
+
+# Unlimited Hilbert
+
+time ~/phd/bbpdias/BBPDIAS/Test --loadindex mesh_uhilbert_1m --index unlimited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --loadindex mesh_uhilbert_2m --index unlimited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --loadindex mesh_uhilbert_3m --index unlimited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --loadindex mesh_uhilbert_4m --index unlimited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --loadindex mesh_uhilbert_5m --index unlimited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --loadindex mesh_uhilbert_6m --index unlimited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --loadindex mesh_uhilbert_7m --index unlimited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --loadindex mesh_uhilbert_8m --index unlimited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --loadindex mesh_uhilbert_9m --index unlimited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --loadindex mesh_uhilbert_10m --index unlimited-b-hilbert --nocheck --noqueries
+
+
+# Limited Hilbert, 32 bits
+
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_32_1m --data mesh --limit 1000000 --index limited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_32_2m --data mesh --limit 2000000 --index limited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_32_3m --data mesh --limit 3000000 --index limited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_32_4m --data mesh --limit 4000000 --index limited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_32_5m --data mesh --limit 5000000 --index limited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_32_6m --data mesh --limit 6000000 --index limited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_32_7m --data mesh --limit 7000000 --index limited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_32_8m --data mesh --limit 8000000 --index limited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_32_9m --data mesh --limit 9000000 --index limited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_32_10m --data mesh --limit 10000000 --index limited-b-hilbert --nocheck --noqueries
+
+# Limited Hilbert, 16 bits
+
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_16_1m --data mesh --limit 1000000 --index limited-b-hilbert --nocheck --noqueries --keysize 16
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_16_2m --data mesh --limit 2000000 --index limited-b-hilbert --nocheck --noqueries --keysize 16
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_16_3m --data mesh --limit 3000000 --index limited-b-hilbert --nocheck --noqueries --keysize 16
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_16_4m --data mesh --limit 4000000 --index limited-b-hilbert --nocheck --noqueries --keysize 16
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_16_5m --data mesh --limit 5000000 --index limited-b-hilbert --nocheck --noqueries --keysize 16
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_16_6m --data mesh --limit 6000000 --index limited-b-hilbert --nocheck --noqueries --keysize 16
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_16_7m --data mesh --limit 7000000 --index limited-b-hilbert --nocheck --noqueries --keysize 16
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_16_8m --data mesh --limit 8000000 --index limited-b-hilbert --nocheck --noqueries --keysize 16
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_16_9m --data mesh --limit 9000000 --index limited-b-hilbert --nocheck --noqueries --keysize 16
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_16_10m --data mesh --limit 10000000 --index limited-b-hilbert --nocheck --noqueries --keysize 16
+
+# Limited Hilbert, 64 bits
+
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_64_1m --data mesh --limit 1000000 --index limited-b-hilbert --nocheck --noqueries --keysize 64
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_64_2m --data mesh --limit 2000000 --index limited-b-hilbert --nocheck --noqueries --keysize 64
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_64_3m --data mesh --limit 3000000 --index limited-b-hilbert --nocheck --noqueries --keysize 64
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_64_4m --data mesh --limit 4000000 --index limited-b-hilbert --nocheck --noqueries --keysize 64
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_64_5m --data mesh --limit 5000000 --index limited-b-hilbert --nocheck --noqueries --keysize 64
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_64_6m --data mesh --limit 6000000 --index limited-b-hilbert --nocheck --noqueries --keysize 64
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_64_7m --data mesh --limit 7000000 --index limited-b-hilbert --nocheck --noqueries --keysize 64
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_64_8m --data mesh --limit 8000000 --index limited-b-hilbert --nocheck --noqueries --keysize 64
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_64_9m --data mesh --limit 9000000 --index limited-b-hilbert --nocheck --noqueries --keysize 64
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_lhilbert_64_10m --data mesh --limit 10000000 --index limited-b-hilbert --nocheck --noqueries --keysize 64

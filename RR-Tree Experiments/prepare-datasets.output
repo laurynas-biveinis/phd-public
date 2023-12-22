@@ -1,0 +1,254 @@
+Buildfile: build.xml
+Trying to override old definition of task javac
+
+create-spf:
+     [java] SPF postprocessor:
+     [java]     Input list: /home/lauris/SPF/spf28.in
+     [java]     Output: /home/lauris/SPF/spf28mod1.out
+     [java]     Hour period: 1
+     [java]     Postprocessing... 
+     [java] Reading SPF2006-05.csv... in 6562ms, 139772.7826882048 records/s
+     [java] Reading SPF2006-06.csv... in 10542ms, 127667.52039461203 records/s
+     [java] Reading SPF2006-07.csv... in 36027ms, 111634.24653731922 records/s
+     [java] Reading SPF2006-08.csv... in 56761ms, 94904.58237169888 records/s
+     [java] Saving partial output to temp file... in 10721ms, 1082833.9707116873 records/s
+     [java] Reading SPF2006-09.csv... in 54142ms, 125086.62406265008 records/s
+     [java] Reading SPF2006-10.csv... in 64140ms, 93784.98596819458 records/s
+     [java] Saving partial output to temp file... in 13801ms, 925740.4535903196 records/s
+     [java] Reading SPF2006-11.csv... in 48784ms, 120883.8348638898 records/s
+     [java] Saving partial output to temp file... in 6392ms, 921309.9186483104 records/s
+     [java] Reading SPF2006-12.csv... in 64118ms, 119144.1560872142 records/s
+     [java] Saving partial output to temp file... in 10263ms, 739177.5309363734 records/s
+     [java] Reading SPF2007-01.csv... in 58779ms, 127558.20956464043 records/s
+     [java] Reading SPF2007-02.csv... in 69781ms, 100967.99988535562 records/s
+     [java] Saving partial output to temp file... in 18742ms, 770799.3810692562 records/s
+     [java] Reading SPF2007-03.csv... in 69768ms, 124127.5226464855 records/s
+     [java] Saving partial output to temp file... in 8974ms, 964121.2391352797 records/s
+     [java] Reading SPF2007-04.csv... in 82344ms, 117429.92810648013 records/s
+     [java] Saving partial output to temp file... in 8706ms, 1110683.66643694 records/s
+     [java] Reading SPF2007-05.csv... in 101459ms, 115105.27405158734 records/s
+     [java] Saving partial output to temp file... in 10369ms, 1126281.608641142 records/s
+     [java] Reading SPF2007-06.csv... in 156647ms, 113479.568711817 records/s
+     [java] Saving partial output to temp file... in 16978ms, 1045610.967133938 records/s
+     [java] Reading SPF2007-07.csv... in 179037ms, 116087.54614967856 records/s
+     [java] Saving partial output to temp file... in 25468ms, 808988.5738966546 records/s
+     [java] Reading SPF2007-08.csv... in 274342ms, 77712.01274321832 records/s
+     [java] Saving partial output to temp file... in 40842ms, 520015.4742666863 records/s
+     [java] Reading SPF2007-09.csv... in 321704ms, 47736.997364036506 records/s
+     [java] Saving partial output to temp file... in 22289ms, 686508.1430301942 records/s
+     [java] Reading SPF2007-10.csv... in 185355ms, 87069.06207008174 records/s
+     [java] Saving partial output to temp file... in 19825ms, 812049.9369482977 records/s
+     [java] Reading SPF2007-11.csv... in 150862ms, 104531.24047142421 records/s
+     [java] Saving partial output to temp file... in 20719ms, 740759.2065254115 records/s
+     [java] Reading SPF2007-12.csv... in 346551ms, 40746.24514140775 records/s
+     [java] Saving partial output to temp file... in 43547ms, 319901.09536822286 records/s
+     [java] Reading SPF2008-01.csv... in 542257ms, 26706.81798483007 records/s
+     [java] Saving partial output to temp file... in 248174ms, 58347.248301594846 records/s
+     [java] Reading SPF2008-02.csv... in 368563ms, 32314.40486429729 records/s
+     [java] Saving partial output to temp file... in 89423ms, 132589.1101841808 records/s
+     [java] Reading SPF2008-03.csv... in 264795ms, 45480.14501784399 records/s
+     [java] Saving partial output to temp file... in 17193ms, 699350.5496422963 records/s
+     [java] Reading SPF2008-04.csv... in 1041696ms, 12680.507556907198 records/s
+     [java] Saving partial output to temp file... in 78763ms, 167134.88566966722 records/s
+     [java] Reading SPF2008-05.csv... in 1292488ms, 9122.575219267026 records/s
+     [java] Saving partial output to temp file... in 217427ms, 54087.215479218314 records/s
+     [java] Reading SPF2008-06.csv... in 678093ms, 15998.155120315354 records/s
+     [java] Saving partial output to temp file... in 137235ms, 78877.37093307101 records/s
+     [java] Reading SPF2008-07.csv... in 1431066ms, 6025.235733362402 records/s
+     [java] Saving partial output to temp file... in 12047ms, 709007.3877313854 records/s
+     [java] Reading SPF2008-08.csv... in 367656ms, 23774.37060730683 records/s
+     [java] Saving partial output to temp file... in 47805ms, 182691.14109402781 records/s
+     [java] Records read: 295460254
+     [java] Throughput: 35493.62464364953 records/s
+     [java] Externally sorting and outputing updates... in 2380107ms
+     [java] Throughput: 123508.91115399433 records/s
+     [java] Different objects in output: 270811
+     [java] Skipped nonpositive record: 1495830
+     [java] done.
+
+threshold-filter.init:
+
+lib-workload.init:
+
+build-common.init:
+
+xxl-core.init:
+
+xxl-core.make:
+
+lib-workload.make:
+
+threshold-filter.make:
+
+apply-threshold-filter:
+     [java] Threshold filter:
+     [java] Threshold filter:
+     [java]     Input: /home/lauris/SPF/spf28mod1.out
+     [java]     Input: /home/lauris/SPF/spf28mod1.out
+     [java]     Output: /home/lauris/SPF/spf28mod1t10m.out
+     [java]     Output: /home/lauris/SPF/spf28mod1t1km.out
+     [java]     Threshold: 10 meters
+     [java]     Threshold: 1000 meters
+     [java]     Verbose: true
+     [java]     Verbose: true
+     [java] Total operations: 587658037
+     [java] Written operations: 5780307, 0.9836174%
+     [java] Filtered operations: 581877730, 99.01639%
+     [java] Total operations: 587658037
+     [java] Written operations: 336910939, 57.33112%
+     [java] Filtered operations: 250747098, 42.66888%
+
+query-postprocessor.init:
+
+query-postprocessor.make:
+
+prepare-10m-spf:
+     [java] Query postprocessor:
+     [java] Query postprocessor:
+     [java] Query postprocessor:
+     [java] Query postprocessor:
+     [java]     Input: /home/lauris/SPF/spf28mod1t10m.out
+     [java]     Input: /home/lauris/SPF/spf28mod1t10m.out
+     [java]     Input: /home/lauris/SPF/spf28mod1t10m.out
+     [java]     Output: /home/lauris/SPF/spf28mod1t10m4.out
+     [java]     Output: /home/lauris/SPF/spf28mod1t10m3.out
+     [java]     Query ratio: 10000
+     [java]     Output: /home/lauris/SPF/spf28mod1t10m1.out
+     [java]     Query ratio: 10000
+     [java]     Query ratio: 10000
+     [java]     Input: /home/lauris/SPF/spf28mod1t10m.out
+     [java]     Query region size: 0.01
+     [java]     Query region size: 0.01
+     [java]     Query region size: 0.01
+     [java]     Total number of operations: 1200000
+     [java]     Total number of operations: 10000000
+     [java]     Total number of operations: 2500000
+     [java]     Output: /home/lauris/SPF/spf28mod1t10m2.out
+     [java]     Query ratio: 10000
+     [java]     Query region size: 0.01
+     [java]     Total number of operations: 5000000
+     [java]     Postprocessing...  maximum possible operations: 336910939
+     [java] World boundaries: Lower left: x = 444290.0, y = 6058775.0, upper right: x = 700000.0, y = 6531096.0
+     [java]     Postprocessing...  maximum possible operations: 336910939
+     [java] World boundaries: Lower left: x = 444290.0, y = 6058775.0, upper right: x = 700000.0, y = 6531096.0
+     [java]     Postprocessing...  maximum possible operations: 336910939
+     [java] World boundaries: Lower left: x = 444290.0, y = 6058775.0, upper right: x = 700000.0, y = 6531096.0
+     [java]     Postprocessing...  maximum possible operations: 336910939
+     [java] World boundaries: Lower left: x = 444290.0, y = 6058775.0, upper right: x = 700000.0, y = 6531096.0
+     [java] Queries generated: 249
+     [java] done.
+     [java] Query postprocessor:
+     [java]     Input: /home/lauris/SPF/spf28mod1t10m.out
+     [java]     Output: /home/lauris/SPF/spf28mod1t10m5.out
+     [java]     Query ratio: 10000
+     [java]     Query region size: 0.01
+     [java]     Total number of operations: 600000
+     [java] Queries generated: 119
+     [java] done.
+     [java] Query postprocessor:
+     [java]     Input: /home/lauris/SPF/spf28mod1t10m.out
+     [java]     Output: /home/lauris/SPF/spf28mod1t10m6.out
+     [java]     Query ratio: 10000
+     [java]     Query region size: 0.01
+     [java]     Total number of operations: 300000
+     [java] Queries generated: 499
+     [java] done.
+     [java] Query postprocessor:
+     [java]     Input: /home/lauris/SPF/spf28mod1t10m.out
+     [java]     Output: /home/lauris/SPF/spf28mod1t10m7.out
+     [java]     Query ratio: 10000
+     [java]     Query region size: 0.01
+     [java]     Total number of operations: 150000
+     [java] Queries generated: 999
+     [java] done.
+     [java]     Postprocessing...  maximum possible operations: 336910939
+     [java] World boundaries: Lower left: x = 444290.0, y = 6058775.0, upper right: x = 700000.0, y = 6531096.0
+     [java]     Postprocessing...  maximum possible operations: 336910939
+     [java] World boundaries: Lower left: x = 444290.0, y = 6058775.0, upper right: x = 700000.0, y = 6531096.0
+     [java] Queries generated: 14
+     [java] done.
+     [java] Queries generated: 29
+     [java] done.
+     [java]     Postprocessing...  maximum possible operations: 336910939
+     [java] World boundaries: Lower left: x = 444290.0, y = 6058775.0, upper right: x = 700000.0, y = 6531096.0
+     [java] Queries generated: 59
+     [java] done.
+
+prepare-1km-spf:
+     [java] Query postprocessor:
+     [java] Query postprocessor:
+     [java] Query postprocessor:
+     [java]     Input: /home/lauris/SPF/spf28mod1t1km.out
+     [java] Query postprocessor:
+     [java]     Input: /home/lauris/SPF/spf28mod1t1km.out
+     [java]     Output: /home/lauris/SPF/spf28mod1t1km3.out
+     [java]     Query ratio: 10000
+     [java]     Input: /home/lauris/SPF/spf28mod1t1km.out
+     [java]     Input: /home/lauris/SPF/spf28mod1t1km.out
+     [java]     Output: /home/lauris/SPF/spf28mod1t1km2.out
+     [java]     Query ratio: 10000
+     [java]     Output: /home/lauris/SPF/spf28mod1t1km1.out
+     [java]     Output: /home/lauris/SPF/spf28mod1t1km4.out
+     [java]     Query ratio: 10000
+     [java]     Query region size: 0.01
+     [java]     Query region size: 0.01
+     [java]     Total number of operations: 1000000
+     [java]     Total number of operations: 2000000
+     [java]     Query ratio: 10000
+     [java]     Query region size: 0.01
+     [java]     Total number of operations: 500000
+     [java]     Query region size: 0.01
+     [java]     Total number of operations: 2400000
+     [java]     Postprocessing...  maximum possible operations: 5780307
+     [java] World boundaries: Lower left: x = 444290.0, y = 6058878.0, upper right: x = 700000.0, y = 6531096.0
+     [java]     Postprocessing...  maximum possible operations: 5780307
+     [java] World boundaries: Lower left: x = 444290.0, y = 6058878.0, upper right: x = 700000.0, y = 6531096.0
+     [java]     Postprocessing...  maximum possible operations: 5780307
+     [java] World boundaries: Lower left: x = 444290.0, y = 6058878.0, upper right: x = 700000.0, y = 6531096.0
+     [java]     Postprocessing...  maximum possible operations: 5780307
+     [java] World boundaries: Lower left: x = 444290.0, y = 6058878.0, upper right: x = 700000.0, y = 6531096.0
+     [java] Queries generated: 49
+     [java] done.
+     [java] Query postprocessor:
+     [java]     Input: /home/lauris/SPF/spf28mod1t1km.out
+     [java]     Output: /home/lauris/SPF/spf28mod1t1km5.out
+     [java]     Query ratio: 10000
+     [java]     Query region size: 0.01
+     [java]     Total number of operations: 250000
+     [java] Queries generated: 99
+     [java] done.
+     [java] Query postprocessor:
+     [java]     Input: /home/lauris/SPF/spf28mod1t1km.out
+     [java]     Output: /home/lauris/SPF/spf28mod1t1km6.out
+     [java]     Query ratio: 10000
+     [java]     Query region size: 0.01
+     [java]     Total number of operations: 125000
+     [java] Queries generated: 199
+     [java] done.
+     [java] Query postprocessor:
+     [java]     Input: /home/lauris/SPF/spf28mod1t1km.out
+     [java]     Output: /home/lauris/SPF/spf28mod1t1km7.out
+     [java]     Query ratio: 10000
+     [java]     Query region size: 0.01
+     [java]     Total number of operations: 60000
+     [java] Queries generated: 239
+     [java] done.
+     [java]     Postprocessing...  maximum possible operations: 5780307
+     [java] World boundaries: Lower left: x = 444290.0, y = 6058878.0, upper right: x = 700000.0, y = 6531096.0
+     [java]     Postprocessing...  maximum possible operations: 5780307
+     [java] World boundaries: Lower left: x = 444290.0, y = 6058878.0, upper right: x = 700000.0, y = 6531096.0
+     [java] Queries generated: 24
+     [java] done.
+     [java] Queries generated: 12
+     [java] done.
+     [java]     Postprocessing...  maximum possible operations: 5780307
+     [java] World boundaries: Lower left: x = 444290.0, y = 6058878.0, upper right: x = 700000.0, y = 6531096.0
+     [java] Queries generated: 5
+     [java] done.
+
+apply-query-postprocessor:
+
+prepare-datasets:
+
+BUILD SUCCESSFUL
+Total time: 308 minutes 5 seconds

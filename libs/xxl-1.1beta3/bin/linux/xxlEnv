@@ -1,0 +1,40 @@
+#!/bin/csh
+#
+# Checks if XXL-variables are set and (if necessary) sets additional variables.
+# See $XXLROOTPATH/INSTALL.txt for explanation of variables
+#
+
+if( $?XXLOUTPATH == 0 ) then
+	echo "Please provide the XXLOUTPATH variable!"
+	exit
+endif
+
+if( $?XXLROOTPATH == 0 ) then
+	echo "Please provide the XXLROOTPATH variable!"
+	exit
+endif
+
+# Check and set additional variables:
+
+if( $?XXLJAVAHOME == 0 ) then
+	if( $?JAVA_HOME != 0 ) then
+		setenv XXLJAVAHOME $JAVA_HOME
+	else
+		echo "Please provide the XXLJAVAHOME variable!"
+		exit
+	endif
+endif
+
+if( $?XXLCLASSPATH == 0 ) then
+	setenv XXLCLASSPATH $XXLOUTPATH/class
+endif
+
+if( $?XXLSOURCEPATH == 0 ) then
+	setenv XXLSOURCEPATH $XXLROOTPATH/src
+endif
+
+if ( $?LD_LIBRARY_PATH == 0 ) then
+	setenv LD_LIBRARY_PATH $XXLROOTPATH/bin/linux
+else
+	setenv LD_LIBRARY_PATH "${LD_LIBRARY_PATH}:${XXLROOTPATH}/bin/linux"
+endif

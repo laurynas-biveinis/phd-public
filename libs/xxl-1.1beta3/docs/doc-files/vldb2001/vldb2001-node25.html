@@ -1,0 +1,122 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Connectivity to Cloudscape</TITLE>
+<META NAME="description" CONTENT="Connectivity to Cloudscape">
+<META NAME="keywords" CONTENT="vldb">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="vldb.css">
+
+<LINK REL="next" HREF="vldb2001-node26.html">
+<LINK REL="previous" HREF="vldb2001-node24.html">
+<LINK REL="up" HREF="vldb2001-node24.html">
+<LINK REL="next" HREF="vldb2001-node26.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html298"
+  HREF="vldb2001-node26.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html296"
+  HREF="vldb2001-node24.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html290"
+  HREF="vldb2001-node24.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html299"
+  HREF="vldb2001-node26.html">Experiments on Spatial Data</A> <B> Up:</B> <A NAME="tex2html297"
+  HREF="vldb2001-node24.html">Applications</A> <B> Previous:</B> <A NAME="tex2html291"
+  HREF="vldb2001-node24.html">Applications</A> <BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00081000000000000000"></A>
+<A NAME="Connectivity"></A>
+<BR>
+Connectivity to Cloudscape
+</H2>
+
+Cloudscape&nbsp;[<A
+ HREF="vldb2001-node30.html#Cloudscape">Inf01</A>], a commercial DBMS of Informix, 
+is a Java- and SQL-based object-relational database management system, written 
+in 100% pure Java. It can directly be embedded in a Java application, or used 
+in a classical client-server or Web-server mode. Data access is realized via SQL-92E 
+calls by using the standard Java Database Connectivity (JDBC) protocol. Cloudscape 
+extends this functionality by the feature to store arbitrary serializable Java 
+objects. In that way, it is possible to define an attribute of a table directly 
+as a Java data type. Physically the Java object is stored in its byte format. 
+However, when the Java object is read from and written into the database, it is 
+automatically deserialized and serialized, respectively. Furthermore, Java is 
+used for implementing stored procedures and triggers. XXL communicates with Cloudscape 
+in two directions. The first and more obvious direction is accessing the DBMS 
+via JDBC calls and SQL statements. This functionality guarantees that XXL is able 
+to create, drop and alter tables as well as to evaluate queries on tables. Executed 
+SELECT statements return a <I>ResultSet</I> (see Section&nbsp;<A HREF="vldb2001-node10.html#ResultSet">3.5</A>) 
+whose rows are consumed by XXL's <I>ResultSetCursor</I>. Each output object of 
+this cursor is created by calling a user-defined function on each row. Therefore, 
+XXL processes arbitrary objects of the interface <I>ResultSet</I> in a demand-driven 
+fashion and provides a smooth integration of them into the cursor algebra. The 
+second direction refers to the feature of Cloudscape that a <I>ResultSet</I> can 
+directly be used in the FROM clause of a SQL statement. This is also termed the 
+<I>Virtual Table Interface (VTI)</I>. As far as the other parts of the SQL statement 
+are concerned, there is no difference between an ordinary table and an object 
+satisfying VTI. This feature is beneficial for a seamless integration of external 
+functionality into the DBMS. In particular, it is very appealing to XXL since 
+an operator tree is able to deliver its results wrapped as a <I>ResultSet</I>. 
+Currently, there is still the limitation that the FROM clause only accepts a constructor 
+call of a <I>ResultSet</I> that makes it difficult to use a previously created 
+<I>ResultSet</I>. Moreover, VTI only accepts those constructors with primitive 
+parameter types. In order to alleviate these deficiencies, XXL provides the class 
+<I>VirtualTable</I> which is a proxy for an object of the interface <I>ResultSet</I>. 
+An example of an SQL statement employing the VTI is given by: 
+<PRE>
+    SELECT Emp.Name
+    FROM NEW VirtualTable() AS Emp
+    WHERE Emp.Salary &gt; 100000
+</PRE>
+As shown in our example, attributes of a virtual table are treated
+like attributes of an ordinary table. In comparison to the
+overhead of implementing data blades, this is a very convenient
+way to integrate arbitrary data sources and user-defined
+functionality.
+
+Currently, XXL is limited to read-only virtual tables. In the
+future XXL will also allow read-write access with the intention to
+support INSERT and DELETE statements based on virtual tables.
+Furthermore, a generic wrapper will be developed that transforms a
+cursor into a <I>ResultSet</I> by adding meta data information.
+Therefore, XXL will offer the possibility to integrate data from a
+variety of sources into a Cloudscape database as well as to handle
+these sources in SQL statements.
+
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html298"
+  HREF="vldb2001-node26.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html296"
+  HREF="vldb2001-node24.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html290"
+  HREF="vldb2001-node24.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html299"
+  HREF="vldb2001-node26.html">Experiments on Spatial Data</A> <B> Up:</B> <A NAME="tex2html297"
+  HREF="vldb2001-node24.html">Applications</A> <B> Previous:</B> <A NAME="tex2html291"
+  HREF="vldb2001-node24.html">Applications</A> 
+<!--End of Navigation Panel-->
+<ADDRESS>
+Bernhard Seeger
+2001-10-11
+</ADDRESS>
+</BODY>
+</HTML>

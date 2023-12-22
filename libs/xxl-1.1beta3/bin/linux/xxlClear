@@ -1,0 +1,21 @@
+#!/bin/csh
+#
+# Removes output directories for documentation and class files.
+#
+
+####################################################################
+# environment variable checks:
+####################################################################
+source $XXLROOTPATH/bin/linux/xxlEnv
+
+####################################################################
+# script code:
+####################################################################
+
+echo "Deleting sub-directories for XXL project-files..."
+
+rm -rf $XXLCLASSPATH
+rm -rf $XXLOUTPATH/xxl.jar
+
+echo
+echo "Done."

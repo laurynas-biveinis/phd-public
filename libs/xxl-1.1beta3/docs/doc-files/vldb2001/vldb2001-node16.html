@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Converters</TITLE>
+<META NAME="description" CONTENT="Converters">
+<META NAME="keywords" CONTENT="vldb">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="vldb.css">
+
+<LINK REL="next" HREF="vldb2001-node17.html">
+<LINK REL="previous" HREF="vldb2001-node15.html">
+<LINK REL="up" HREF="vldb2001-node15.html">
+<LINK REL="next" HREF="vldb2001-node17.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html206"
+  HREF="vldb2001-node17.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html204"
+  HREF="vldb2001-node15.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html198"
+  HREF="vldb2001-node15.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html207"
+  HREF="vldb2001-node17.html">Buffers &amp; Blocks</A> <B> Up:</B> <A NAME="tex2html205"
+  HREF="vldb2001-node15.html">I/O</A> <B> Previous:</B> <A NAME="tex2html199"
+  HREF="vldb2001-node15.html">I/O</A> <BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00051000000000000000">
+Converters</A>
+</H2>
+
+An important mechanism required for I/O operations is
+serialization, i.e., the conversion of objects to streams of
+binary data. The Java API already provides a serialization
+mechanism. However, this mechanism has drawbacks with respect to
+the usage in databases. When applying Java's serialization
+mechanism, additional meta data is written to the output stream.
+Java requires this meta data for deserialization. Note that the
+size of the meta data is not predictable.
+
+This behaviour is generally not intended in the context of
+databases for the following reasons. First, storing meta data may
+cause a considerable storage overhead. Second, the size of a
+serialized object depends on the time of serialization. This is a
+particular problem when the number of objects fitting in a block
+of fixed size has to be computed. Third, objects can only be
+serializable when all of the subobjects are also serializable. For
+these reasons, XXL provides the interfaces <I>Convertable</I> and
+<I>Converter</I> as an alternative to the Java API's serialization
+mechanism.
+
+Convertable classes have to implement a <code>read</code> and a
+<code>write</code> method. These methods offer complete control over the
+format and contents of the data being serialized. If a class does
+not implement <I>Convertable</I>, a converter object can still be
+used for serialization. Hence, a converter separates a class from
+its converting mechanism. The package <I>xxl.io</I> contains a
+large set of converters supporting primitive data types and
+arrays. Note that Java's serialization mechanism can also be used
+in conjunction with XXL.
+
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html206"
+  HREF="vldb2001-node17.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html204"
+  HREF="vldb2001-node15.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html198"
+  HREF="vldb2001-node15.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html207"
+  HREF="vldb2001-node17.html">Buffers &amp; Blocks</A> <B> Up:</B> <A NAME="tex2html205"
+  HREF="vldb2001-node15.html">I/O</A> <B> Previous:</B> <A NAME="tex2html199"
+  HREF="vldb2001-node15.html">I/O</A> 
+<!--End of Navigation Panel-->
+<ADDRESS>
+Bernhard Seeger
+2001-10-11
+</ADDRESS>
+</BODY>
+</HTML>

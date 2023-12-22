@@ -1,0 +1,22 @@
+#!/bin/csh
+#
+# Creates output directories for documentation and class files.
+#
+#
+
+####################################################################
+# environment variable checks:
+####################################################################
+source $XXLROOTPATH/bin/linux/xxlEnv
+
+####################################################################
+# script code:
+####################################################################
+
+if ( -e $XXLOUTPATH ) then
+	echo "Creating sub-directories for project-files..."
+	mkdir -v $XXLOUTPATH/class
+else
+	echo "Error: XXLOUTPATH does not exist!"
+	exit
+endif

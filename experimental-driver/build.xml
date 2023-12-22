@@ -1,0 +1,49 @@
+<!--
+     Copyright (C) 2009 Laurynas Biveinis
+
+     This file is part of RR-Tree.
+
+     RR-Tree is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation, either version 3 of the License, or
+     (at your option) any later version.
+
+     RR-Tree is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with RR-Tree.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<project name="exp-driver" default="exp-driver.make">
+    <dirname property="exp-driver.root" file="${ant.file.exp-driver}"/>
+
+    <import file="../build-common.xml"/>
+    <import file="../libworkload/build.xml"/>
+    <import file="../rr-tree/build.xml"/>
+
+    <property name="exp-driver.src" location="${exp-driver.root}/src"/>
+    <property name="exp-driver.dest" location="${out-production}/Experimental-driver"/>
+
+    <path id="exp-driver.compile.classpath">
+        <pathelement location="${xxl-core.dest}"/>
+        <pathelement location="${rr-tree.dest}"/>
+	    <pathelement location="${lib-workload.dest}"/>
+        <pathelement location="${jopt-simple}"/>
+        <pathelement location="${xxl-core.jar}"/>
+    </path>
+
+    <target name="exp-driver.init">
+        <mkdir dir="${exp-driver.dest}"/>
+    </target>
+
+    <target name="exp-driver.clean" description="Removes experimental driver output files and directories">
+        <delete dir="${exp-driver.dest}"/>
+    </target>
+
+    <target name="exp-driver.make" depends="exp-driver.init,rr-tree.make" description="Makes experimental driver">
+        <javac srcdir="${exp-driver.src}" destdir="${exp-driver.dest}" classpathref="exp-driver.compile.classpath"
+               optimize="on" debug="on" debuglevel="lines,vars,source"/>
+    </target>
+</project>

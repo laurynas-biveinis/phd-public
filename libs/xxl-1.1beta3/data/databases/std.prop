@@ -1,0 +1,3 @@
+driver=sun.jdbc.odbc.JdbcOdbcDriver
+url=jdbc:odbc:michel
+askForPassword=false

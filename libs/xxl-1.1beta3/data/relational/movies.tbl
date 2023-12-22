@@ -1,0 +1,3030 @@
+filmid	title	year	director
+VARCHAR	VARCHAR	SMALLINT	VARCHAR
+
+H45	T:Rope	1948	D:Hitchcock
+H46	T:Under Capricorn	1949	D:Hitchcock
+H50	T:Dial M for Murder	1954	D:Hitchcock
+H51	T:Rear Window	1954	D:Hitchcock
+H52	T:To Catch a Thief	1955	D:Hitchcock
+H53	T:The Trouble with Harry	1956	D:Hitchcock
+H57	T:The Man Who Knew Too Much	1956	D:Hitchcock
+H65	T:Vertigo	1958	D:Hitchcock
+H69	T:North by Northwest	1959	D:Hitchcock
+H79	T:The Birds	1963	D:Hitchcock
+H81	T:Torn Curtain	1966	D:Hitchcock
+H82	T:Topaz	1969	D:Hitchcock
+H83	T:Frenzy	1972	D:Hitchcock
+ALu4	T:Le Gouter de B\'eb\'e	1895	D:A.Lumiere
+ALu5	T:L'Arroseur arross\'e	1895	D:A.Lumiere
+ALu6	T:Barque Quittant le Port	1895	D:A.Lumiere
+ALu7	T:Boules	1895	D:A.Lumiere
+ALu30	T:L'assissinatat du Duc de Guise	1908	D:A.Lumiere
+GMs4	T:Cinderella	1900	D:Melies
+GMs6	T:Le voyage dans la lune	1902	D:Melies
+CPa1	T:La Passion	1902	D:Pathe
+DWG10	T:The Life of Edgar Allen Poe	1909	D:Griffith
+DWG11	T:The Curtain Pole	1909	D:Griffith
+DWG40	T:The Raven	1912	D:Griffith
+DWG80	T:Abraham Lincoln	1930	D:Griffith
+ThB55	T:Hobson's Choice	1931	D:Bentley
+ADw70	T:Cattle Queen of Montana	1954	D:Dwan
+ADw72	T:Passion	1954	D:Dwan
+ADw75	T:Tennessee's Partner	1954	D:Dwan
+ADw78	T:Pearl of the South Pacific	1955	D:Dwan
+AEG60	T:The Jolson Story	1946	D:A.E.Green
+AEG70	T:The Eddie Cantor Story	1953	D:A.E.Green
+JCw41	T:Bringing Up Father	1928	D:Conway
+MSt40	T:The Saga of Gosta Berlin	1924	D:M.Stiller
+MSt50	T:The Blizzard	1926	D:M.Stiller
+CDM77	T:Unconquered	1947	D:DeMille
+CDM80	T:The Ten Commandments	1956	D:DeMille
+GBS30	T:Velvet Fingers	1921	D:Seitz
+GBS40	T:The Sky Ranger	1925	D:Seitz
+GBS90	T:The Woman in his Life	1935	D:Seitz
+AK40	T:The Private Life of Helen of Troy	1927	D:A.Korda
+AK49	T:The Princess and the Plumber	1931	D:A.Korda
+AK50	T:Marius	1931	D:A.Korda
+AK57	T:The Private Life of Henry VIII	1933	D:A.Korda
+CC50	T:Shangheid	1916	D:Chaplin
+CC52	T:A Night at the Show	1916	D:Chaplin
+EL52	T:Paramount on Parade	1930	D:Lubitsch
+EL54	T:The Smiling Luitenant	1931	D:Lubitsch
+EL62	T:Angel	1937	D:Lubitsch
+EL63	T:Bluebeard's Eighth Wife	1938	D:Lubitsch
+EL68	T:Heaven Can Wait	1943	D:Lubitsch
+ASa14	T:Bluebeard's Seven Wives	1926	D:Santell
+ASa29	T:The Sea Wolf	1930	D:Santell
+ASa30	T:Body and Soul	1931	D:Santell
+ASa41	T:Winterset	1936	D:Santell
+ASa47	T:Our Leading Citizen	1939	D:Santell
+ASa49	T:Betond the Blue Horizon	1942	D:Santell
+ASa50	T:Jack London	1943	D:Santell
+ASa51	T:The Hairy Ape	1944	D:Santell
+ECa64	T:New Moon	1930	D:Carewe
+RaW73	T:One Sunday Afternoon	1949	D:Walsh
+RaW78	T:Blackbeard the Pirate	1952	D:Walsh
+RaW80	T:Gun Fury	1953	D:Walsh
+RaW82	T:Battle Cry	1954	D:Walsh
+RaW85	T:Band of Angels	1957	D:Walsh
+SG33	T:The Pearls of the Crown	1937	D:Guitry
+SG71	T:Assassins et Voleurs	1957	D:Guitry
+AG10	T:J'accuse	1919	D:Gance
+AG30	T:La Fin du Monde	1930	D:Gance
+AG50	T:J'accuse	1937	D:Gance
+AG65	T:Magirama	1955	D:Gance
+AG70	T:Austerlitz	1960	D:Gance
+HK75	T:The Black Swan	1942	D:H.King
+HK80	T:Captain from Castile	1947	D:H.King
+HK83	T:The Gunfighter	1950	D:H.King
+HK86	T:David and Bathsheeba	1950	D:H.King
+HK89	T:The Snows of Kilimandjaro	1952	D:H.King
+HK91	T:Love is a many Splendored Thing	1955	D:H.King
+HK92	T:Untamed	1955	D:H.King
+HK94	T:The Sun also Rises	1957	D:H.King
+FLl7	T:Les Mis\'erables	1918	D:F.Lloyd
+GM190	T:The Goldwyn Follies	1938	D:Geo.Marshall
+GM222	T:Incendiary Blonde	1945	D:Geo.Marshall
+GM237	T:Houdini	1953	D:Geo.Marshall
+GM240	T:Red Garters	1954	D:Geo.Marshall
+GM300	T:Destry	1954	D:Geo.Marshall
+GM305	T:The Gazebo	1959	D:Geo.Marshall
+GM310	T:Papa's Delicate Condition	1963	D:Geo.Marshall
+IF75	T:Judge Priest	1934	D:J.Ford
+IF88	T:Drums Along the Mohawk	1939	D:J.Ford
+IF100	T:The Three Godfathers	1948	D:J.Ford
+IF111	T:Mr.~Roberts	1955	D:J.Ford
+IF112	T:The Searchers	1956	D:J.Ford
+IF125	Tm:Donovan's Reef	1963	D:J.Ford
+IF135	T:Seven Women	1966	D:J.Ford
+ISR10	T:Dr.~Jekyll and Mr.~Hyde	1920	D:Robertson
+ISR20	T:Captain of the Guard	1930	D:Robertson
+RyB17	T:The Garden of Allah	1936	D:Boleslawski
+ViS60	T:Redskin	1929	D:Schertzinger
+ViS81	T:The Mikado	1939	D:Schertzinger
+FrN4	T:The Three Musketeers	1921	D:Niblo
+IMS60	T:Leave Her to Heaven	1945	D:Stahl
+KV41	T:The Citadel	1938	D:K.Vidor
+KV42	T:Northwest Passage	1939	D:K.Vidor
+KV50	T:An American Romance	1944	D:K.Vidor
+KV54	T:Cover Girl	1944	D:K.Vidor
+KV56	T:Duel in the Sun	1946	D:K.Vidor
+KV60	T:Ruby Gentry	1952	D:K.Vidor
+KV61	T:The Man Without a Star	1955	D:K.Vidor
+KV62	T:Love Me Or Leave Me	1955	D:K.Vidor
+KV64	T:War and Peace	1956	D:K.Vidor
+TB70	T:The Devil Doll	1936	D:T.Browning
+WvD65	T:Sweethearts	1938	D:VanDyke
+WvD72	T:Bitter Sweet	1939	D:VanDyke
+WvD75	T:Rage in Heaven	1941	D:VanDyke
+WvD76	T:Shadow of the Thin Man	1941	D:VanDyke
+C106	Tm:Charge of the Light Brigade	1936	D:Curtiz
+C112	T:The Adventures of Robin Hood	1938	D:Curtiz
+C118	T:The Private Lives of Elizabeth and Essex	1939	D:Curtiz
+C119	T:Dodge City	1939	D:Curtiz
+C157	T:The Jazz Singer	1953	D:Curtiz
+C160	T:We're No Angels	1954	D:Curtiz
+C161	T:White Christmas	1954	D:Curtiz
+C165	T:The Vagabond King	1956	D:Curtiz
+C171	T:The Adventures of Huckleberry Finn	1960	D:Curtiz
+FL23	T:Western Union	1941	D:F.Lang
+FL26	T:Hangmen Also Die	1942	D:F.Lang
+JuD12	T:Lydia	1941	D:Duvivier
+JuD13	T:Tales of Manhattan	1942	D:Duvivier
+RhS1	T:Around The World in 80 Days	1919	D:Schunzel
+RhS15	T:Die Dreigroschenoper	1931	D:Schunzel
+CBw10	T:The Goose Woman	1925	D:Cl.Brown
+CBw35	T:Idiot's Delight	1939	D:Cl.Brown
+CBw38	T:Come Live With Me	1941	D:Cl.Brown
+CBw43	T:The Yearling	1946	D:Cl.Brown
+CuB37	T:The Merry Widow	1952	D:Bernhardt
+CuB39	T:Miss Sadie Thompson	1953	D:Bernhardt
+CuB40	T:Beau Brummel	1954	D:Bernhardt
+GCt27	T:Woman to Woman	1926	D:Cutts
+GCt50	T:Three Men in a Boat	1933	D:Cutts
+HWx17	T:Sixty Glorious Years	1938	D:H.Wilcox
+HWx55	T:Lilacs in the Spring	1954	D:H.Wilcox
+SW8	T:Hold Your Man	1933	D:S.Wood
+SW22	T:For Whom the Bell Tolls	1943	D:S.Wood
+SW28	T:Saratoga Trunk	1945	D:S.Wood
+VF43	T:The Wizard of Oz	1939	D:V.Fleming
+VF44	T:Gone with the Wind	1939	D:V.Fleming
+VF46	T:Tortilla Flat	1942	D:V.Fleming
+VF48	T:Joan of Arc	1948	D:V.Fleming
+PRo80	T:Charlie Chan in the Secret Service	1944	D:Rosen
+PRo83	T:The Chinese Cat	1944	D:Rosen
+PRo86	T:Charlie Chan in Black Magic	1944	D:Rosen
+PRo90	T:The Jade Mask	1945	D:Rosen
+PRo93	T:The Scarlet Clue	1945	D:Rosen
+PRo96	T:The Red Dragon	1945	D:Rosen
+GP4	T:Secrets of a Soul	1926	D:G.W.Pabst
+GP6	T:The Love of Jeanne Ney	1927	D:G.W.Pabst
+GP11	T:Westfront 1918	1930	D:Pabst
+GP18	T:Feuertaufe	1933	D:Pabst
+GP21	T:M\"adchen in Uniform	1939	D:Pabst
+GP25	T:Der Proze\ss	1948	D:Pabst
+GP100	T:M\"adchen in Uniform	1957	D:Pabst
+KGr40	T:Abdul the Damned	1935	D:Grune
+KGr50	T:Pagliacci	1935	D:Grune
+KMz40	T:Woman of Osaka	1940	D:Mizoguchi
+KMz70	T:Ugetsu Monogatari	1952	D:Mizoguchi
+MRa3	T:L'Etoile de mer	1929	D:Man~Ray
+TWh25	T:The Divorce of Lady X	1937	D:Whelan
+WiB180	T:The Chinese Ring	1947	D:Beaudine
+WiB183	T:The Shanghai Chest	1948	D:Beaudine
+WiB186	T:The Mystery of the Golden Eye	1948	D:Beaudine
+WiB190	T:The Feathered Serpent	1948	D:Beaudine
+W73	T:A Star is Born	1937	D:Wellman
+W74	T:Nothing Sacred	1937	D:Wellman
+W75	T:Men with Wings	1938	D:Wellman
+W100	T:The High and the Mighty	1954	D:Wellman
+JR92	T:The Golden Coach	1952	D:J.Renoir
+SE1	T:Glumov's Diary	1924	D:Eisenstein
+SE6	T:Oktober	1927	D:Eisenstein
+SE8	T:The General Line	1928	D:Eisenstein
+SE10	T:Mysery and Fortune of Women	1929	D:Eisenstein
+SE15	T:Que Viva Mexico	1932	D:Eisenstein
+SE26	T:Ivan the Terrible, part II	1946	D:Eisenstein
+SE27	T:Ivan the Terrible, part III	1946	D:Eisenstein
+AES80	T:The Flying Deuces	1939	D:A.E.Sutherland
+CLa117	T:Ma and Pa Kettle in Paris	1953	D:Lamont
+CLa120	T:Untamed Heiress	1954	D:Lamont
+CLa127	T:Dance With me, Henry	1956	D:Lamont
+CLa135	T:The Kettles in the Ozarks	1956	D:Lamont
+GLC11	T:She Married Her Boss	1935	D:LaCava
+IGB40	T:Charlie Chan's Chance	1932	D:Blystone
+IrC81	T:That Night in Rio	1941	D:I.Cummings
+IrC86	T:Sweet Rosie O'Grady	1943	D:I.Cummings
+LM38.	T:Mutiny on the Bounty	1962	D:Milestone
+LM110	T:Ocean's Eleven	1960	D:Milestone
+S24.	T:The Saga of Anatahan	1953	D:Sternberg
+ThD30	T:Gaslight	1939	D:Dickinson
+ThD35	T:The Prime Minister	1941	D:Dickinson
+ThD36	T:Next of Kin	1941	D:Dickinson
+ThD40	T:Men of Two Worlds	1945	D:Dickinson
+ThD50	T:The Secret People	1952	D:Dickinson
+WW12	T:Hell's Heroes	1929	D:Wyler
+WW23	T:A House Divided	1931	D:Wyler
+WW30	T:Counsellor at Law	1933	D:Wyler
+WW41	T:These Three	1936	D:Wyler
+WW42	T:Dodsworth	1936	D:Wyler
+WW43	T:Dead End	1937	D:Wyler
+WW44	T:Jezebel	1938	D:Wyler
+WW45	T:Wuthering Heights	1939	D:Wyler
+WW46	T:The Letter	1940	D:Wyler
+WW47	T:The Westerner	1940	D:Wyler
+WW48	T:The Little Foxes	1941	D:Wyler
+WW60	T:The Memphis Belle	1944	D:Wyler
+WW63	T:The Best Years of our Lives	1946	D:Wyler
+WW65	T:Detective Story	1951	D:Wyler
+WW66	T:Carrie	1952	D:Wyler
+WW67	T:Roman Holiday	1953	D:Wyler
+WW73	T:Desperate Hours	1955	D:Wyler
+WW80	T:The Big Country	1958	D:Wyler
+WW81	T:Ben Hur	1959	D:Wyler
+WW85	T:Funny Girl	1968	D:Wyler
+WW87	T:The Liberation of L.B. Jones	1970	D:Wyler
+ACa40	T:Went the Day Well?	1942	D:Cavalcanti
+ACa60	T:Nicholas Nickleby	1947	D:Cavalcanti
+ACa95	T:Yerma	1962	D:Cavalcanti
+AM15	T:Bordertown	1934	D:Mayo
+AM18	T:The Petrified Forest	1936	D:Mayo
+AM21	T:Black Legion	1937	D:Mayo
+AM27	T:The House Across the Bay	1940	D:Mayo
+AM29	T:Charley's Aunt	1941	D:Mayo
+AM31	T:Orchestra Wives	1942	D:Mayo
+AM35	T:A Night in Casablanca	1945	D:Mayo
+AM36	T:Angel On My Shoulder	1946	D:Mayo
+ASR15	T:Carnival Boat	1926	D:Rogell
+ASR40	T:The Black Cat	1941	D:Rogell
+EBS30	T:The Four Feathers	1929	D:Schoedsack
+EBS50	T:King Kong	1933	D:Schoedsack
+EBS60	T:Son of Kong	1934	D:Schoedsack
+FC15	T:Rain or Shine	1931	D:Capra
+FC17	T:The Miracle Woman	1931	D:Capra
+FC22	T:American Madness	1932	D:Capra
+FC23	T:The Bitter Tea of General Yen	1933	D:Capra
+FC24	T:Lady For a Day	1933	D:Capra
+FC25	T:It Happened One Night	1934	D:Capra
+FC26	T:Mr.~Deeds Goes to Town	1936	D:Capra
+FC27	T:Lost Horizon	1937	D:Capra
+FC28	T:You Can't Take It With You	1938	D:Capra
+FC29	T:Mr.~Smith goes to Washington	1939	D:Capra
+FC34	T:Arsenic and Old Lace	1944	D:Capra
+FC35	T:It's a Wonderful Life	1946	D:Capra
+FC36	T:State of the Union	1948	D:Capra
+FC38	T:A Hole in the Head	1959	D:Capra
+FC40	T:A Pocketful of Miracles	1961	D:Capra
+Gmy25	T:Extase	1933	D:Machaty
+Gmy35	T:Within the Law	1939	D:Machaty
+GMy45	T:Jealousy	1945	D:Machaty
+HH9	T:Dawn Patrol	1930	D:Hawks
+HH12	T:Scarface	1932	D:Hawks
+HH13	T:Tiger Shark	1932	D:Hawks
+HH14	T:Today We Live	1933	D:Hawks
+HH15	T:Twentieth Century	1934	D:Hawks
+HH22	T:Only Angels Have Wings	1939	D:Hawks
+HH23	T:His Girl Friday	1940	D:Hawks
+HH25	T:Ball of Fire	1944	D:Hawks
+HH27	T:To Have and Have Not	1944	D:Hawks
+HH28	T:The Big Sleep	1946	D:Hawks
+HH29	T:A Song is Born	1948	D:Hawks
+HH30	T:Red River	1948	D:Hawks
+HH31	T:I Was A Male War Bride	1949	D:Hawks
+HH34	T:Gentlemen Prefer Blondes	1953	D:Hawks
+HH37	T:Hatari!	1961	D:Hawks
+LlB21	T:Moby Dick	1930	D:Bacon
+LlB35	T:Footlight Parade	1933	D:Bacon
+LlB40	T:Wonder Bar	1934	D:Bacon
+LlB50	T:The Goldiggers of 1937	1937	D:Bacon
+LlB53	T:Marked Woman	1937	D:Bacon
+LlB55	T:San Quentin	1937	D:Bacon
+LlB57	T:A Slight Case of Murder	1938	D:Bacon
+LlB61	T:Wings of the Navy	1939	D:Bacon
+LlB64	T:Invisible Stripes	1939	D:Bacon
+LlB67	T:Knut Rockne --- All-American	1940	D:Bacon
+LlB68	T:Brother Orchid	1940	D:Bacon
+LlB83	T:Wake Up and Dream	1946	D:Bacon
+LlB90	T:Miss Grant Takes Richmond	1950	D:Bacon
+LlB95	T:Golden Girl	1951	D:Bacon
+LlB97	T:She Couldn't Say No	1952	D:Bacon
+LlB100	T:The French Line	1954	D:Bacon
+RVL10	T:The Count of Monte Christo	1934	D:R.V.Lee
+RVL14	T:The Three Musketeers	1935	D:R.V.Lee
+RVL16	T:Love From A Stranger	1936	D:R.V.Lee
+RVL17	T:The Toast of New York	1937	D:R.V.Lee
+RVL25	T:Mother Carey's Chickens	1938	D:R.V.Lee
+RVL28	T:The Son of Frankenstein	1939	D:R.V.Lee
+RVL30	T:Tower of London	1939	D:R.V.Lee
+RVL32	T:The Son of Monte Christo	1941	D:R.V.Lee
+RyT55	T:The Spider's Web	1938	D:Ray~Taylor
+WlD5	T:The Last Flight	1931	D:Dieterle
+WlD6	T:Ihre Majestaet Befehlt	1931	D:Dieterle
+WlD7	T:La majeste demande	1931	D:Dieterle
+WlD8	T:Her Majesty Love	1931	D:Dieterle
+WlD9	T:Satan meets a Lady	#	D:Dieterle
+WlD10	T:Lawyer Man	1932	D:Dieterle
+WlD15	T:Adorable	1933	D:Dieterle
+WlD18	T:Firebird	1934	D:Dieterle
+WlD19	T:Fog Over Frisco	1934	D:Dieterle
+WlD20	T:Madame du Barry	1934	D:Dieterle
+WlD24	T:A Midsummernight's Dream	1935	D:Dieterle
+WlD25	T:The Story of Louis Pasteur	1935	D:Dieterle
+WlD29	T:Satan Met A Lady	1936	D:Dieterle
+WlD34	T:Blockade	1938	D:Dieterle
+WlD35	Tm:Juarez	1939	D:Dieterle
+WlD36	T:The Hunchback of Notre Dame	1939	D:Dieterle
+WlD37	T:Dr.~Ehrlich's Magic Bullet	1940	D:Dieterle
+WlD38	T:A Dispatch from Reuters	1940	D:Dieterle
+WlD39	T:All That Money Can Buy	1941	D:Dieterle
+WlD43	T:I'll Be Seeing You	1944	D:Dieterle
+WlD49	T:Portrait of Jennie	1948	D:Dieterle
+WlD51	T:Rope of Sand	1949	D:Dieterle
+WlD53	T:Dark City	1950	D:Dieterle
+WlD58	T:The Turning Point	1952	D:Dieterle
+WlD61	T:Elephant Walk	1954	D:Dieterle
+WlD65	T:Magic Fire	1956	D:Dieterle
+Z5510	T:Mademoiselle from Armentieres	1926	D:Unknown55
+Z5512	T:Lili Marlene	1927	D:Unknown55
+BuB10	T:Moskow In October	1927	D:Barret
+ByH5	T:I Walk Alone	1947	D:Haskin
+ByH8	T:Treasure Island	1950	D:Haskin
+ByH10	T:Tarzan's Peril	1951	D:Haskin
+ByH13	Tm:War of the Worlds	1953	D:Haskin
+ByH15	T:The Naked Jungle	1954	D:Haskin
+CBm60	T:Movie Crazy	1932	D:Bruckman
+DaB3	T:Sunny Side Up	1929	D:D.Butler
+DaB4	T:Just Imagine	1930	D:D.Butler
+DaB8	T:The Littlest Rebel	1935	D:Butler
+DaB11	T:Captain January	1936	D:Butler
+DaB13	T:You're a Sweetheart	1937	D:Butler
+DaB17	T:Playmates	1941	D:D.Butler
+DaB19	T:Road to Morocco	1942	D:D.Butler
+DaB20	T:They Got Me Covered	1943	D:D.Butler
+DaB21	T:Thank Your Lucky Stars	1943	D:D.Butler
+DaB23	T:Two Guys From Milwaukee	1946	D:D.Butler
+DaB28	T:Tea for Two	1950	D:D.Butler
+DaB29	T:The Daughter of Rosie O'Grady	1950	D:D.Butler
+DaB30	T:Painting the Clouds with Sunshine	1951	D:D.Butler
+DaB31	T:Lullaby of Broadway	1951	D:D.Butler
+DaB32	T:April in Paris	1952	D:D.Butler
+DaB33	T:Where's Charley?	1952	D:D.Butler
+DAz5	T:The Wild Party	1929	D:Arzner
+DAz6	T:Sarah and Son	1930	D:Arzner
+DAz17	T:Merrily We Go to Hell	1932	D:Arzner
+DAz21	T:Christopher Strong	1933	D:Arzner
+DAz23	T:Nana	1934	D:Arzner
+DAz27	T:Craig's Wife	1936	D:Arzner
+DAz35	T:Dance Girl Dance	1940	D:Arzner
+DMD25	T:Desert Victory	1943	D:D.MacDonald
+DMD35	T:The Brothers	1947	D:D.MacDonald
+DMD40	T:Christopher Columbus	1949	D:D.MacDonald
+DMD50	T:The Moonraker	1958	D:D.MacDonald
+FTu10	T:True to the Navy	1930	D:Tuttle
+FTu19	T:The Big Broadcast	1933	D:Tuttle
+FTu20	T:Roman Scandals	1933	D:Tuttle
+Ftu23	T:Here Is My Heart	1934	D:Tuttle
+Ftu25	T:The Glass Key	1935	D:Tuttle
+FTu40	T:True to the Army	1940	Tuttle?
+FTu50	T:This Gun for Hire	1942	D:Tuttle
+FTu60	T:Don Juan Quilligan	1955	D:Tuttle
+HDA6	T:Laughter	1930	D:DArrast
+HDA7	T:Topaze	1933	D:DArrast
+HoB50	T:The Trap	1947	D:Bretherton
+JTg4	T:Charlie Chan in Shanghai	1935	D:Tinling
+JTg5	T:Under the Pampas Moon	1935	D:Tinling
+JTg7	T:Mr.~Moto's Gamble	1938	D:Tinling
+LoM2	T:The Marriage Playground	1929	D:Mendes
+LoM6	T:Payment Deferred	1932	D:Mendes
+LoM10	T:Jew Suss	1934	D:Mendes
+LoM12	T:The Man Who Could Work Miracles	1936	D:Mendes
+LoM17	T:The International Squadron	1941	D:Mendes
+LoM20	T:Flight for Freedom	1943	D:Mendes
+LvK10	T:The Journalist	1927	D:Kuleshov
+LwS130	T:Charlie Chan in Paris	1935	D:Seiler
+LwS160	T:You Can't Get Away With Murder	1939	D:Seiler
+LwS166	T:It All Came True	1940	D:Seiler
+LwS180	T:Pittsburgh	1942	D:Seiler
+LwS190	T:Something for the Boys	1944	D:Seiler
+MLR4	T:Little Caesar	1930	D:M.LeRoy
+MLR7	T:Three on A Match	1932	D:M.LeRoy
+MLR8	T:I am Fugitive from a Chain Gang	1932	D:M.LeRoy
+MLR12	T:Three on a Match	1933	D:M.LeRoy
+MLR14	T:Gold Diggers of 1933	1933	D:M.LeRoy
+MLR16	T:I Found Stella Parrish	1935	D:M.LeRoy
+MLR17	T:Oil For The Lamps of China	1935	D:M.LeRoy
+MLR18	T:Anthony Adverse	1936	D:M.LeRoy
+MLR22	T:Waterloo Bridge	1940	D:M.LeRoy
+MLR23	T:Escape	1940	D:M.LeRoy
+MLR27	T:Random Harvest	1942	D:M.LeRoy
+MLR29	T:Thirty Seconds over Tokyo	1944	D:M.LeRoy
+MLR30	Tm:Without Reservations	1946	D:M.LeRoy
+MLR31	T:Desire Me	1947	D:M.LeRoy
+MLR32	T:Little Women	1949	D:M.LeRoy
+MLR35	T:Quo Vadis	1951	D:M.LeRoy
+MLR40	T:Lovely To Look At	1952	D:M.LeRoy
+MLR43	T:The Bad Seed	1956	D:M.LeRoy
+MLR50	T:The Devil at Four o'clock	1960	D:M.LeRoy
+RFl3	T:The Battle of Paris	1929	D:Florey
+RFl10	T:One Hour of Love	1929	D:Florey
+RFl20	T:Murders in the Rue Morgue	1932	D:Florey
+RFl28	T:The Raven	1935	D:Florey
+RFl30	T:The Woman in Red	1935	D:Florey
+RFl33	Tm:Hollywood Boulevard	1936	D:Florey
+RFl40	T:The Magnificent Fraud	1939	D:Florey
+RFl48	T:Flesh and Fantasy	1943	D:Florey
+RFl50	T:God is my Co-Pilot	1944	D:Florey
+RFl60	T:The Beast with Five Fingers	1946	D:Florey
+RFl70	T:Monsieur Verdoux	1947	D:Florey
+RFl75	T:Tarzan and the Mermaids	1948	D:Florey
+REn6	T:Dames	1934	D:Enright
+REn18	T:China Clipper	1936	D:Enright
+REn20	T:Earthworm Tractors	1936	D:Enright
+REn30	T:The Singing Marine	1937	D:Enright
+REn32	T:Slim	1937	D:Enright
+REn45	T:Angels Wash Their Faces	1939	D:Enright
+REn50	T:Law of the Tropics	1941	D:Enright
+REn53	T:The Spoilers	1942	D:Enright
+REn55	T:The Iron Major	1943	D:Enright
+REn60	T:Man Alive	1945	D:Enright
+RWa12	T:Seven Days Leave	1929	D:Ri.Wallace
+RWa50	T:Young at Heart	1938	D:Ri.Wallace
+RWa65	T:A Girl, a Guy, and a Gob	1941	D:Ri.Wallace
+RWa72	T:A Night to Remember	1943	D:Ri.Wallace
+RWa90	T:Sinbad the Sailor	1946	D:Ri.Wallace
+RZL5	T:The Divorcee	1930	D:Leonard
+RZL15	T:Susan Lenox, Her Fall and Rise	1931	D:Leonard
+RZL17	T:Dancing Lady	1932	D:Leonard
+RZL19	T:Riff Raff	1935	D:Leonard
+RZL20	T:The Great Ziegfeld	1936	D:Leonard
+RZL22	T:The Firefly	1937	D:Leonard
+RZL24	T:The Girl of the Golden West	1938	D:Leonard
+RZL25	T:New Moon	1940	D:Leonard
+RZL26	T:Pride and Prejudice	1940	D:Leonard
+RZL28	T:Ziegfeld Girl	1942	D:Leonard
+RZL31	T:Weekend at the Waldorf	1945	D:Leonard
+RZL39	T:The Duchess of Idaho	1950	D:Leonard
+VrS20	T:Woman to Woman	1929	D:V.Saville
+VrS24	T:I was A Spy	1933	D:V.Saville
+VrS25	T:Friday the Thirteenth	1933	D:V.Saville
+VrS26	T:Evergreen	1934	D:V.Saville
+VrS27	T:The Iron Duke	1936	D:V.Saville
+VrS28	T:Dark Journey	1937	D:V.Saville
+VrS29	T:South Riding	1938	D:V.Saville
+VrS30	T:Tonight and Every Night	1944	D:V.Saville
+VrS31	T:The Green Years	1946	D:V.Saville
+VrS32	T:If Winter Comes	1947	D:V.Saville
+VrS34	T:The Long Wait	1954	D:V.Saville
+VrS40	T:Evergreen	1934	D:V.Saville
+WLa14	T:Wife, Doctor, and Nurse	1937	D:W.Lang
+WLa18	Tm:The Little Princess	1939	D:W.Lang
+WLa20	T:Star Dust	1940	D:W.Lang
+WLa21	T:The Great Profile	1940	D:W.Lang
+WLa22	T:Tin Pan Alley	1940	D:W.Lang
+WLa23	T:Moon over Miami	1941	D:W.Lang
+WLa24	T:Weekend in Havana	1941	D:W.Lang
+WLa27	T:Coney Island	1943	D:W.Lang
+WLa29	T:State Fair	1945	D:W.Lang
+WLa38	T:On The Riviera	1951	D:W.Lang
+WLa41	T:There's no Business like Show Business	1954	D:W.Lang
+WLa42	T:The King and I	1956	D:W.Lang
+WLa43	T:The Desk Set	1957	D:W.Lang
+WLa45	T:Can Can	1960	D:W.Lang
+WLa50	T:Snowwhite and the Three Stooges	1961	D:W.Lang
+YOz7	T:Thi Night's Wife	1930	D:Ozu
+YOz8	T:I Flunked, But ...	1930	D:Ozu
+YOz9	T:Walk Cheerfully	1930	D:Ozu
+YOz10	T:The Lady and the Beard	1931	D:Ozu
+YOz11	T:Chorus of Tokyo	1931	D:Ozu
+YOz12	T:I Was Born, But ...	1932	D:Ozu
+YOz16	T:Passing Fancy	1933	D:Ozu
+YOz18	T:A Mother should be Loved	1934	D:Ozu
+YOz22	T:An Inn in Tokyo	1935	D:Ozu
+YOz40	T:Late Spring	1949	D:Ozu
+YOz45	T:Early Summer	1951	D:Ozu
+YOz50	T:The Flavor of Green Tea Over Rice	1952	D:Ozu
+YOz55	T:Tokyo Monogatari	1953	D:Dr{Ozu
+YOz65	T:Early Spring	1956	D:Ozu
+YOz85	T:Late Autumn	1961	D:Ozu
+YOz95	T:Early Autumn	1962	D:Ozu
+AA13	T:Pygmalion	1938	D:Asquith
+AA14	T:French Without Tears	1939	D:Asquith
+AA16	T:Quiet Wedding	1940	D:Asquith
+AA29	T:The Importance of Being Earnest	1951	D:Asquith
+AA37	T:Libel	1960	D:Asquith
+AA38	T:The Millionairess	1961	D:Asquith
+AA41	T:The VIPs	1963	D:Asquith
+FeF8	T:George White's Scandals	1945	D:Feist
+FeF85	T:Donovan's Brain	1953	D:Feist
+HLa35	T:Charlie Chan at the Circus	1936	D:Lachman
+HLaD55	T:Murder over New York	1940	D:Lachman
+HLa60	T:Dead Men Tell	1941	D:Lachman
+HLa65	T:Charlie Chan in Rio	1941	D:Lachman
+HLa75	T:Castle in the Desert	1942	D:Lachman
+LB27	T:Simon of the Desert	1965	D:Bunuel
+LB30	T:La Voie Lact\'ee	1968	D:Bunuel
+LB32	T:Tristana	1970	D:Bunuel
+LB33	T:The Discreet Charm of the Bourgeousie	1972	D:Bunuel
+LB34	T:Le Fantome de la Liberte	1974	D:Bunuel
+LuH10	T:Mysterious Island	1929	D:Hubbard
+NT55	T:The Adventures of Tom Sawyer	1938	D:Taurog
+NT75	T:Young Tom Edison	1940	D:Taurog
+NT110	T:Living it Up	1954	D:Taurog
+NT120	T:Bundle of Joy	1957	D:Taurog
+NT127	Tm:Blue Hawaii	1961	D:Taurog
+RTh35	T:The Prisoner of Zenda	1953	D:R.Thorpe
+RTh37	T:Ivanhoe	1953	D:R.Thorpe
+RTh40	T:Knights of the Round Table	1954	D:R.Thorpe
+RTh42	T:The Student Prince	1954	D:R.Thorpe
+TG32	T:A Connecticut Yankee in King Arthur's Court	1949	D:Garnett
+TG39	T:The Black Knight	1954	D:Garnett
+WD101	T:Snow White and the Seven Dwarfs	1937	D:Disney
+WD102	T:Pinocchio	1939	D:Disney
+WD103	T:Fantasia	1940	D:Disney
+WD105	T:The Three Caballeros	1945	D:Disney
+AD30	T:Ivan	1932	D:Dovzhenko
+AD50	T:Life in Blossom	1947	D:Dovzhenko
+RdR10	T:Gold Diggers of Broadway	1929	D:delRuth
+RdR76	T:Stop! You're Killing Me	1952	D:delRuth
+RdR80	T:Phantom of the Rue Morgue	1954	D:delRuth
+RM3	T:Dr.~Jekyll and Mr.~Hyde	1932	D:Mamoulian
+RM--	T:Oklahoma	1934	D:Mamoulian
+RM8	T:Becky Sharp	1935	D:Mamoulian
+RM9	T:The Gay Desperado	1936	D:Mamoulian
+RM11	T:Golden Boy	1939	D:Mamoulian
+RM13	T:Blood and Sand	1940	D:Mamoulian
+RM14	T:Rings on her Fingers	1942	D:Mamoulian
+RM15	T:Summer Holiday	1948	D:Mamoulian
+RM16	T:Silk Stockings	1957	D:Mamoulian
+RSi18	T:Cobra Woman	1944	D:R.Siodmak
+GC39	T:A Star is Born	1954	D:Cukor
+GC40	T:Bhowani Junction	1956	D:Cukor
+GC41	T:Les Girls	1957	D:Cukor
+GC44	T:Song Without End	1960	D:Cukor
+GC45	T:Let's Make Love	1960	D:Cukor
+GC48	T:My Fair Lady	1963	D:Cukor
+GC52	T:The Blue Bird	1976	D:Cukor
+GC54	T:Rich and Famous	1981	D:Cukor
+HHu2	T:The Outlaw	1948	D:H.Hughes
+HMF30	T:Second Hand Wife	1933	D:MacFadden
+IB16	T:The Undying Monster	1942	D:Brahm
+IB17	T:Tonight We Raid Calais	1942	D:Brahm
+IB19	T:The Lodger	1944	D:Brahm
+IB22	T:The Locket	1946	D:Brahm
+IB30	T:The Mad Magician	1954	D:Brahm
+IB150	T:Hot Rods to Hell	1967	D:Brahm
+JC1	T:Le Sang d'un Po\'ete	1930	D:Cocteau
+LSw10	T:Follow Thru	1930	D:Schwab
+NGr20	T:Before I Hang	1940	D:Grinde
+ELC2	T:Law and Order	1932	D:E.L.Cahn
+JNm30	T:This Island Earth	1955	D:J.Newman
+MAl2	T:Fanny	1932	D:M.Allegret
+NML21	T:The Kid from Brooklyn	1946	D:McLeod
+NML22	T:The Secret Life of Walter Mitty	1947	D:McLeod
+NML23	T:The Paleface	1947	D:McLeod
+NML31	T:Casanova's Big Night	1954	D:McLeod
+WCM32	T:Invaders From Mars	1954	D:Menzies
+xFl10	T:Luise, K\"onigin von Preussen	1931	D:Frohlich
+AL22	T:The Snake Pit	1948	D:Litvak
+AL26	T:Anastasia	1956	D:Litvak
+AL27	T:The Journey	1959	D:Litvak
+AlH24	T:Here Comes Mr.~Jordan	1941	D:A.Hall
+AlH38	T:Let's do it Again	1953	D:A.Hall
+EBz75	T:Aint Misbehavin'	1955	D:Buzzell
+EBz80	T:Mary Had a Little	1961	D:Buzzell
+ElN20	T:Just for You	1952	D:Nugent
+ELM2	T:The Death Kiss	1932	D:E.Marin
+ELM8	T:The Casino Murder Case	1935	D:E.Marin
+ELu49	T:Caribbean	1952	D:Ludwig
+HBH10	T:Charlie Chan at the Racetrack	1936	D:Humberstone
+HBH15	T:Charlie Chan at the Opera	1936	D:Humberstone
+HBH20	T:Charlie Chan at the Olympics	1937	D:Humberstone
+HBH25	T:Charlie Chan in Honolulu	1937	D:Humberstone
+HBH31	T:I Wake up Screaming	1941	D:Humberstone
+HBH45	T:Three Little Girls in Blue	1946	D:Humberstone
+HBH68	T:Tarzan and the Lost Safari	1957	D:Humberstone
+HBH70	T:Tarzan's Fight for Life	1958	D:Humberstone
+HBH90	T:Without a Trace	1983	D:Humberstone
+HeE10	T:Scrooge	1935	D:H.Edwards
+HHa3	T:Man of the Forest	1933	D:Hathaway
+Hha5	T:Arabian Nights	1993	D:Wanger
+HHa10	Tm:Now and Forever	1934	D:Hathaway
+HHa12	T:Lives of a Bengal Lancer	1935	D:Hathaway
+HHa13	T:Peter Ibbetson	1935	D:Hathaway
+HHa15	T:Go West Young Man	1936	D:Hathaway
+HHa16	T:The Trail of the Lonesome Pine	1936	D:Hathaway
+HHa20	T:Brigham Young, Frontiersman	1940	D:Hathaway
+HHa21	T:Johnny Apollo	1940	D:Hathaway
+HHa22	T:Sheppard of the Hills	1941	D:Hathaway
+HHa27	T:Nob Hill	1945	D:Hathaway
+HHa28	T:The House on 92nd Street	1945	D:Hathaway
+HHa31	T:Kiss of Death	1947	D:Hathaway
+HHa32	T:Call Northside 777	1948	D:Hathaway
+HHa38	T:The Desert Fox	1951	D:Hathaway
+HHa39	T:Fourteen Hours	1951	D:Hathaway
+HHa43	T:Niagra	1952	D:Hathaway
+HHa47	T:Prince Valiant	1954	D:Hathaway
+HHa50	T:Legend of the Lost	1957	D:Hathaway
+HHa54	T:How the West Was Won	1963	D:Hathaway
+HHa56	T:Of Human Bondage	1964	D:Hathaway
+HHa60	T:The Last Safari	1967	D:Hathaway
+HHa65	T:True Grit	1969	D:Hathaway
+HHa72	T:Shootout	1971	D:Hathaway
+IrP1	T:The Most Dangerous Game	1932	D:Pichel
+IrP3	T:She	1935	D:Pichel
+IrP11	T:The Man I Married	1940	D:Pichel
+IrP12	T:Hudson's Bay	1940	D:Pichel
+IrP15	Tm:The Pied Piper	1942	D:Pichel
+IrP18	T:Happy Land	1943	D:Pichel
+IrP19	T:and Now Tomorrow	1944	D:Pichel
+IrP21	T:Tomorrow is Forever	1946	D:Pichel
+IrP27	T:They Won't Believe Me	1947	D:Pichel
+KFr1	T:The Mummy	1932	D:Freund
+KFr10	T:Mad Love	1935	D:Freund
+KuN4	T:The Big Cage	1933	D:K.Neumann
+KuN5	T:The Secret of the Blue Room	1933	D:K.Neumann
+KuN12	Tm:Island of Lost Men	1939	D:K.Neumann
+KuN30	T:Tarzan and the Amazons	1945	D:K.Neumann
+KuN33	T:Tarzan and the Leopard Woman	1946	D:K.Neumann
+KuN36	T:Tarzan and the Huntress	1947	D:K.Neumann
+KuN40	T:Son Of Ali Baba	1952	D:K.Neumann
+KuN42	T:Tarzan and the She-Devil	1953	D:K.Neumann
+KuN45	T:Carnival Story	1954	D:K.Neumann
+KuN46	T:Rummelplatz der Liebe	1954	D:K.Neumann
+KuN14	T:The Fly	1958	D:K.Neumann
+LeR10	T:Triumph of the Will	1934	D:Riefenstahl
+MGe5	T:Madame Butterfly	1932	D:Gering
+MGe10	T:Jennie Gerhardt	1933	D:Gering
+MGe12	T:Thirty-Day Princess	1934	D:Gering
+MGe50	T:Sarumba	1950	D:Gering
+OP8	T:Laura	1944	D:Preminger
+OP13	T:Forever Amber	1947	D:Preminger
+OP14	T:Daisy Kenyon	1947	D:Preminger
+OP15	Tm:The Fan	1949	D:Preminger
+OP17	T:Whirlpool	1950	D:Preminger
+OP18	T:Where the Sidewalk Ends	1950	D:Preminger
+OP20	T:Angel Face	1952	D:Preminger
+OP23	T:River of No Return	1961	D:Preminger
+OP24	T:Carmen Jones	1954	D:Preminger
+OP26	T:The Man with the Golden Arm	1956	D:Preminger
+OP30	T:Anatomy of a Murder	1959	D:Preminger
+OP40	T:Tell Me That You Love Me, Junie Moon	1969	D:Preminger
+OP50	T:The Human Factor	1979	D:Preminger
+PCz25	T:As You Like It	1936	D:Czinner
+PCz30	T:Dreaming Lips	1937	D:Czinner
+RoS3	T:Tudor Rose	1936	D:Stevenson
+RoS6	T:King Solomon's Mines	1937	D:Stevenson
+RoS11	T:Tom Brown's Schooldays	1940	D:Stevenson
+RoS13	T:Back Street	1941	D:Stevenson
+RoS17	T:To the Ends of the Earth	1948	D:Stevenson
+RoS60	T:Old Yeller	1957	D:R.Stevenson
+RoS65	T:Darby O'Gill and the Little People	1959	D:Stevenson
+RoS68	T:The Shaggy Dog	1959	D:Stevenson
+RoS85	T:The Absent-Minded Professor	1961	D:Stevenson
+RoS90	T:Mary Poppins	1964	D:Stevenson
+RoS94	Tm:Gnome-Mobile	1967	D:Stevenson
+RoS95	Tm:Blackbeard's Ghost	1967	D:Stevenson
+RoS98	T:The Love Bug	1969	D:Stevenson
+RoS100	T:Bedknobs and Broomsticks	1971	D:Stevenson
+RoS112	T:The Shaggy DA	1976	D:Stevenson
+RoS120	T:Island at the Top of the World	1981	D:Stevenson
+SLa2	T:Moulin Rouge	1934	D:Lanfield
+SLa3	T:King of Burlesque	1935	D:Lanfield
+SLa10	T:Wake Up and Live	1939	D:Lanfield
+SLa14	T:The Hound of the Baskervilles	1939	D:Lanfield
+SLa18	T:You'll Never Get Rich	1941	D:Lanfield
+SLa20	T:My Favorite Blonde	1942	D:Lanfield
+SLa22	T:The Meanest Man in the World	1943	D:Lanfield
+SLa30	T:Sorrowful Jones	1949	D:Lanfield
+StR5	T:One Sunday Afternnon	1933	D:S.Roberts
+StR10	T:The Ex-Mrs.~Bradford	1936	D:S.Roberts
+VHa10	T:White Zombie	1932	D:Halperin
+VrM40	T:Oh Mr.~Porter	1938	D:Mr.Varnel
+VrM42	T:Convict 99	1938	D:Mr.Varnel
+WmK15	T:The Singing Kid	1936	D:Keighley
+WmK18	T:The Prince and The Pauper	1937	D:Keighley
+WmK27	T:Torrid Zone	1940	D:Keighley
+WmK28	T:Four Mothers	1940	D:Keighly
+WmK31	T:The Man Who Came to Dinner	1942	D:Keighley
+xTo10	T:L'Aiglon	1932	D:Tourjansky
+ZK1	T:Cash	1932	D:Z.Korda
+ZK2	T:Sanders of the River	1935	D:Z.Korda
+ZK3	T:The Four Feathers	1939	D:Z.Korda
+ZK4	T:The Jungle Book	1942	D:Z.Korda
+Zk5	T:Sahara	1943	D:Z.Korda
+BW1	T:Mauvaise Graine	1933	D:B.Wilder
+BW2	T:The Major and the Minor	1942	D:B.Wilder
+BW3	T:Five Graves to Cairo	1943	D:B.Wilder
+BW4	T:Double Indemnity	1944	D:B.Wilder
+BW5	T:The Lost Weekend	1945	D:B.Wilder
+BW7	T:A Foreign Affair	1948	D:B.Wilder
+BW8	T:Sunset Boulevard	1950	D:B.Wilder
+BW9	T:The Big Carnival	1951	D:B.Wilder
+BW10	T:Stalag 17	1953	D:B.Wilder
+BW11	T:Sabrina	1954	D:B.Wilder
+BW12	T:The Seven Year Itch	1955	D:B.Wilder
+BW14	T:Love In The Afternoon	1957	D:B.Wilder
+BW16	T:Some Like It Hot	1959	D:B.Wilder
+BW17	T:The Apartment	1960	D:B.Wilder
+BW18	T:One, Two, Three	1961	D:B.Wilder
+BW19	T:Irma la Douce	1963	D:B.Wilder
+BW30	T:Buddy Buddy	1981	D:B.Wilder
+CAL15	T:Le Diable au Corps	1946	D:AutantLara
+CAL20	T:Occupe-Toi d'Amelie	1949	D:AutantLara
+CAL25	T:L'Auberge Rouge	1951	D:AutantLara
+CAL36	T:Le Rouge et Le Noir	1954	D:AutantLara
+CAL50	T:The Count of Monte Christo	1961	D:AutantLara
+DeD18	T:Destination Tokyo	1943	D:Daves
+DeD30	T:Hollywood Canteen	1944	D:Daves
+DeD42	T:Dark Passage	1947	D:Daves
+DeD50	T:Broken Arrow	1950	D:Daves
+DeD60	T:Jubal	1956	D:Daves
+DeD62	T:3:10 to Yuma	1956	D:Daves
+DeD65	T:The Badlanders	1958	D:Daves
+EuF50	T:Charlie Chan's Murder Cruise	1940	D:E.Forde
+GSt7	T:Vivacious Lady	1938	D:G.Stevens~sr.
+GSt17	T:Shane	1953	D:G.Stevens~sr.
+GSt20	T:The Greatest Story Ever Told	1965	D:G.Stevens~sr.
+GSt30	T:The Only Game in Town	1970	D:G.Stevens~sr.
+ML18	T:The Lady is Willing	1942	D:Leisen
+ML21	T:Lady in the Dark	1944	D:Leisen
+xCm20	T:Ulysses	1954	D:Camerini
+ABW40	T:Busman's Honeymoon	1940	D:A.Woods
+ArL17	T:Risky Business	1938	D:Lubin
+ArL22	T:Black Friday	1940	D:Lubin
+ArL26	T:San Francisco Docks	1941	D:Lubin
+ArL28	T:Buck Privates	1941	D:Lubin
+ArL29	T:Hold That Ghost	1941	D:Lubin
+ArL36	T:The Phantom of the Opera	1943	D:Lubin
+ArL39	T:The Spider Woman Strikes Back	1946	D:Lubin
+ArL58	T:Thief of Bagdad	1961	D:Lubin
+ChE1	T:Call It Murder	1934	D:Erskine
+ChE2	T:The Egg and I	1947	D:Erskine
+CdG1	T:Tarzan and his Mate	1934	D:C.Gibbons
+CR10	T:The Night Train to Munich	1940	D:C.Reed
+CR12	T:Kipps	1941	D:C.Reed
+CR14	T:The Way Ahead	1944	D:C.Reed
+CR15	T:The True Glory	1945	D:C.Reed
+CR16	T:Odd Man Out	1946	D:C.Reed
+CR17	T:The Fallen Idol	1948	D:C.Reed
+CR18	T:The Third Man	1949	D:C.Reed
+DBr5	T:Lady by Choice	1934	D:D.Burton
+DBr10	T:The Man Who Wouldn't Talk	1940	D:D.Burton
+DSk48	T:The Sign of the Pagan	1954	D:Sirk
+DSk49	T:Magnificent Obsession	1954	D:Sirk
+DSk69	T:Imitation of Life	1959	D:Sirk
+EGU20	T:Detour	1946	D:Ulmer
+EGU30	T:Ruthless	1954	D:Ulmer
+EGU70	T:The Naked Dawn	1960	D:Ulmer
+HY10	T:Little Tough Guy	1934	D:H.Young
+HY17	T:There's One Born Every Minute	1942	D:H.Young
+HY20	T:Jungle Captive	1944	D:H.Young
+LeG23	T:The Mummy's Tomb	1942	D:Goodwins
+JN2	T:Singapore Woman	1941	D:Negulesco
+JN3	T:The Mark of Dimitrios	1944	D:Negulesco
+JN10	T:Johnny Belinda	1948	D:Negulesco
+JN12	T:The Mudlark	1950	D:Negulesco
+JN15	T:Phone Call from a Stranger	1952	D:Negulesco
+JN16	T:Lure of The Wilderness	1952	D:Negulesco
+JN19	T:Titanic	1953	D:Negulesco
+JN20	T:How to Marry a Millionaire	1953	D:Negulesco
+JN21	T:Three Coins in the Fountain	1954	D:Negulesco
+JN23	T:Daddy Longlegs	1955	D:Negulesco
+JN25	T:The Rains of Ranchipur	1955	D:Negulesco
+JN31	T:The Pleasure Seekers	1964	D:Negulesco
+LoS2	T:She Done Him Wrong	1933	D:L.Sherman
+LoS3	T:Morning Glory	1933	D:L.Sherman
+LoS10	T:Born to Be Bad	1941	D:L.Sherman
+MhR1	T:Boule de Suif	1934	D:Romm
+MhR5	T:Lenin in October	1937	D:Romm
+MhR10	T:Lenin in 1918	1938	D:Romm
+MhR20	T:Nine Days of One Year	1961	D:Romm
+MPa1	T:C\'esar	1934	D:Pagnol
+MPa5	T:La Fille du Puisatier	1946	D:Pagnol
+MPa7	T:Manon des Sources	1952	D:Pagnol
+PaM10	T:Orient Express	1934	D:P.Martin
+RWB10	T:The October Man	1947	D:R.W.Baker
+RWB20	T:Morning Departure	1950	D:R.W.Baker
+RWB25	T:I'll Never Forget You	1951	D:R.W.Baker
+RWB42	T:The One that got Away	1957	D:R.W.Baker
+RWB45	T:A Night to Remember	1958	D:R.W.Baker
+RWB58	T:Quatermass and the Pit	1967	D:R.W.Baker
+RWB73	T:The Vault of Horror	1973	D:Francis
+ThA10	T:The Silver Streak	1934	D:Atkins
+BBe1	T:The Goldiggers of 1935	1935	D:Berkeley
+BBe14	T:Babes in Arms	1939	D:Berkeley
+BBe17	T:Strike Up the Band	1940	D:Berkeley
+BBe19	T:Babes on Broadway	1941	D:Berkeley
+BBe20	T:For Me and My Gal	1942	D:Berkeley
+BBe21	T:The Gang's All Here	1943	D:Berkeley
+BBe23	T:Take Me Out To The Ball Game	1949	D:Berkeley
+BeH1	T:The Scoundrel	1935	D:Hecht
+CMA1	T:Crime Without Passion	1935	D:MacArthur
+EdK10	T:The New Adventures of Tarzan	1935	D:Kull
+EdK15	T:Tarzan and the Green Goddess	1935	D:Kull
+EDm18	T:Tender Comrade	1943	D:Dmytryk
+EDm20	T:Captive Wild Woman	1943	D:Dmytryk
+EDm22	T:Murder, My Sweet	1944	D:Dmytryk
+EDm24	T:Cornered	1945	D:Dmytryk
+EDm25	T:Till the End of Time	1946	D:Dmytryk
+EDm26	T:Crossfire	1947	D:Dmytryk
+EDm34	T:The Caine Mutiny	1954	D:Dmytryk
+EDm35	T:Broken Lance	1954	D:Dmytryk
+EDm37	T:Soldier of Fortune	1955	D:Dmytryk
+EDm38	T:The Left Hand of God	1955	D:Dmytryk
+EDm39	T:The Mountain	1956	D:Dmytryk
+EDm40	T:Raintree County	1958	D:Dmytryk
+EDm43	T:The Blue Angel	1959	D:Dmytryk
+EDm58	T:Bluebeard	1972	D:Dmytryk
+GNj1	T:Anne of Green Gables	1934	D:Nicholls
+GWh10	T:George White's 1935 Scandals	1935	D:G.White
+LoK20	T:Bulldog Drummond Comes Back	1937	D:L.King
+LoK30	T:The Way of All Flesh	1940	D:L.King
+LoK50	T:Dangerous Mission	1954	D:L.King
+MxR10	T:A Midsummer Night's Dream	1935	D:M.Reinhardt
+TWa10	T:Foreign Affaires	1935	D:Walls
+xMe10	T:Invitation to the Waltz	1935	D:Merzbach
+BDH10	T:The Tenth Man	1936	D:Hurst
+FMD20	T:Along the Navajo Trail	1946	D:F.McDonald
+GDo23	T:Rogues of Sherwood Forest	1950	D:G.Douglas
+GDo39	T:The McConnell Story	1955	D:G.Douglas
+GDo49	T:Bombers B-52	1958	D:G.Douglas
+GDo50	T:The Fiend Who Walked the West	1958	D:G.Douglas
+GDo71	T:Harlow	1965	D:G.Douglas
+GDo74	T:Stagecoach	1966	D:G.Douglas
+GDo79	T:The Detective	1968	D:G.Douglas
+GDo83	Tm:They Call Me Mr.~Tibbs	1970	D:G.Douglas
+GDo92	Tm:Viva Knievel	1977	D:G.Douglas
+HaF35	T:The Man Who Watched Trains Go By	1952	D:H.French
+HaF37	T:Rob Roy the Highland Rogue	1953	D:H.French
+HCP1	T:Beloved Enemy	1936	D:Porter
+HCP5	T:Congo Maisie	1938	D:H.Potter
+HCP6	T:The Story of Vernon and Irene Castle	1939	D:H.Potter
+HCP10	T:Helzapoppin	1942	D:H.Potter
+HCP11	T:Victory through Air Power	1943	D:H.Potter
+HCP12	T:Mr.~Lucky	1943	D:H.Potter
+HCP22	T:The Farmer's Daughter	1947	D:H.Potter
+HCP24	T:Mr.~Baldings Builds His Dream House	1948	D:H.Potter
+HCP28	T:Three for the Show	1955	D:H.Potter
+HeM20	T:Strange Boarders	1938	D:Mason
+HeM30	T:Back Room Boy	1941	D:Mason
+HKo10	T:First Love	1939	D:Koster
+HKo12	T:Spring Parade	1940	D:Koster
+HKo13	T:It Started with Eve	1941	D:Koster
+HKo17	T:Luck of the Irish	1947	D:Koster
+HKo21	T:The Inspector General	1949	D:Koster
+HKo22	T:Wabash Avenue	1950	D:Koster
+HKo23	T:My Blue Heaven	1950	D:Koster
+HKo24	T:Harvey	1950	D:Koster
+HKo26	T:No Highway in the Sky	1951	D:Koster
+HKo29	T:The Robe	1953	D:Koster
+HKo30	T:D\'esir\'ee	1954	D:Koster
+HKo36	T:My Man Godfrey	1957	D:Koster
+HKo39	T:The Naked Maja	1959	D:Koster
+HKo41	T:Flower Drum Song	1960	D:Koster
+HKo43	T:Mr. Hobbs Takes a Vacation	1962	D:Koster
+HWa9	T:Where No Vultures Fly	1951	D:Watt
+JFll	T:We're Only Human	1936	D:Flood
+LaH10	T:Dracula's Daughter	1936	D:Hillyer
+LeS80	T:The Vampire's Ghost	1946	D:Selander
+LeS90	T:Belle Starr's Daughter	1948	D:Selander
+LeS100	T:Sky Dragon	1949	D:Selander
+LeS110	T:Fort Algiers	1953	D:Selander
+MC2	T:Drole de Drames	1937	D:Carne
+MC3	T:Quai des Brumes	1938	D:Carne
+MC5	T:Le Jour se L\`eve	1939	D:Carne
+MC6	T:Les Visiteur du Soir	1942	D:Carne
+MC7	T:Les Enfants du Paradis	1944	D:Carne
+NF1	T:I Cover Chinatown	1936	D:N.Foster
+NF3	T:Think Fast, Mr.~Moto	1937	D:N.Foster
+NF4	T:Thank You, Mr.~Moto	1937	D:N.Foster
+NF6	T:Mr.~Moto Takes a Chance	1938	D:N.Foster
+NF7	T:Mysterious Mr.~Moto	1938	D:N.Foster
+NF9	T:Charlie Chan in Reno	1939	D:N.Foster
+NF10	T:Mr.~Moto's Last Warning	1939	D:N.Foster
+NF12	T:Mr.~Moto Takes a Vacation	1939	D:N.Foster
+NF13	T:Charlie Chan at Treasure Island	1939	D:N.Foster
+NF14	T:Charlie Chan in Panama	1940	D:N.Foster
+NF16	T:Journey into Fear	1942	D:N.Foster
+NF21	Tm:Davy Crockett	1955	D:N.Foster
+NF25	Tm:Davy Crockett and the River Pirates	1958	D:N.Foster
+NF27	T:The Sign of Zorro	1960	D:N.Foster
+NF30	T:The Return of Mr.~Moto	1965	D:N.Foster
+VtH5	T:Kreuzer Sonata	1936	D:Harlan
+VtH10	T:Jew Suss	1940	D:Harlan
+VtH15	T:Der Grosse Konig	1941	D:Harlan
+VtH20	T:Opfergang	1943	D:Harlan
+VtH23	T:Kolberg	1943	D:Harlan
+VtH25	T:Die Baue Stunde	1951	D:Harlan
+VtH30	T:The Third Sex	1957	D:Harlan
+WCl14	T:Nancy Drew Detective	1938	D:Clemens
+WCl15	T:Nancy Drew Reporter	1939	D:Clemens
+WCl16	T:Nancy Drew Trouble Shooter	1939	D:Clemens
+WCl17	T:Nancy Drew and the Hidden Staircase	1939	D:Clemens
+WCl18	T:The Dead End Kids on Dress Parade	1940	D:Clemens
+WCl19	T:Calling Philo Vance	1938	D:Clemens
+WCl28	T:The Falcon in Danger	1943	D:Clemens
+WCl29	T:The Falcon and The Co-Eds	1943	D:Clemens
+WCl30	T:The Falcon Out West	1944	D:Clemens
+WCl31	T:Crime By Night	1944	D:Clemens
+WlH10	T:Bunker Bean	1936	D:W.Hamilton
+xWi1	T:Charlie Chan's Secret	1936	D:Wiles
+AKi1	T:Keep Fit	1937	D:Kimmins
+AKi7	T:It's in the Air	1938	D:Kimmins
+AKi25	T:Mr.~Denning Drives North	1951	D:Kimmins
+AKi30	T:The Captain's Paradise	1953	D:Kimmins
+AKi40	T:The Amorous Prawn	1962	D:Kimmins
+AMx5	T:Sierra de Teruel	1938	D:A.Malraux
+GrR1	T:Lancer Spy	1937	D:Ratoff
+GrR3	T:Intermezzo	1939	D:Ratoff
+GrR4	T:Barricade	1939	D:Ratoff
+GrR5	T:Daytime Wife	1939	D:Ratoff
+GrR6	T:Rose of Washington Square	1939	D:Ratoff
+GrR7	T:Wife, Husband and Friend	1939	D:Ratoff
+GrR10	T:I was an Adventuress	1940	D:Ratoff
+GrR15	T:Irish Eyes are Smiling	1944	D:Ratoff
+IBt20	T:Happy is the Bride	1957	D:J.Boulting
+IBt24	T:I'm Allright Jack	1959	D:J.Boulting
+IFa8	T:Broadway Musketeers	1938	D:Farrow
+IFa14	T:A Bill of Divorcement	1940	D:Farrow
+IFa17	T:China	1943	D:Farrow
+IFa18	T:The Hitler Gang	1944	D:Farrow
+IFa24	T:Calcutta	1947	D:Farrow
+IFa25	T:The Big Clock	1948	D:Farrow
+IFa28	T:Alias Nick Beal	1949	D:Farrow
+IFa34	T:Hondo	1954	D:Farrow
+IFa45	T:The Unholy Wife	1957	D:Farrow
+JPH2	T:Ebb Tide	1938	D:J.Hogan
+DvH10	T:Snow White and the Seven Dwarfs	1937	D:Hand
+GeS29	T:Last of the Redmen	1947	D:G.Sherman
+MP4	T:The Thief of Bagdad	1940	D:M.Powell
+MP8	T:The Life and Death of Colonel Blimp	1943	D:M.Powell
+MP12	T:A Matter of Life and Death	1946	D:M.Powell
+MP13	T:Black Narcissus	1946	D:M.Powell
+MP15	T:The Red Shoes	1946	D:M.Powell
+MP17	T:Gone to Earth	1950	D:M.Powell
+MP18	T:The Elusive Pimpernel	1951	D:M.Powell
+MP20	T:The Wild Heart	1952	D:M.Powell
+MP25	T:Oh Rosalinda!!	1955	D:M.Powell
+MP31	T:The Battle of the River Plate	1956	D:M.Powell
+MP35	T:Peeping Tom	1960	D:M.Powell
+MP47	T:The Age of Consent	1969	D:M.Powell
+ChJ25	T:Bluebeard	1951	D:ChristianJaque
+GaK20	Tm:Some Kind of Hero	1982	D:Kanin
+GWg23	T:The Climax	1944	D:Waggner
+JoL2	T:Picnic	1956	D:J.Logan
+JoL3	T:Bus Stop	1956	D:J.Logan
+JoL4	T:Sayonara	1957	D:J.Logan
+AnS3	T:Stormy Weather	1942	D:And.Stone
+ChV26	T:The Loves of Carmen	1948	D:Ch.Vidor
+ChV46	T:A Farewell to Arms	1957	D:Ch.Vidor
+DFl10	T:Gulliver's Travels	1939	D:D.Fleischer
+DFl11	T:Mr.~Bug goes to Town	1941	D:D.Fleischer
+JqT7	T:Out of the Past	1947	D:J.Tourneur
+JVK35	T:Two Tickets to Broadway	1951	D:Kern
+PGy16	T:Barricade	1950	D:Godfrey
+RRw35	T:Hit the Deck	1955	D:Rowland
+ADT18	T:House of Wax	1953	D:deToth
+ADT23	T:Tanganyika	1954	D:deToth
+CJo20	T:Duck Amuck	1945	D:Ch.Jones
+CJo30	T:What's Opera, Doc?	1957	D:Ch.Jones
+CJo40	T:Gay Puree	1962	D:Ch.Jones
+GPa2.	T:Caesar and Cleopatra	1945	D:G.Pascal
+IgR2	T:I'm Still Alive	1940	D:Reis
+IgR5	T:The Big Street	1942	D:Reis
+IgR10	T:The Bachelor and the Bobbysoxer	1947	D:Reis
+IgR14	T:Dancing in the Dark	1949	D:Reis
+IgR15	T:Three Husbands	1950	D:Reis
+IgR19	T:New Mexico	1952	D:Reis
+IHw10	T:Spellbound	1940	D:Harlow
+JnD10	T:Symphonie Pastorale	1946	D:Delannoy
+JnD11	T:Les Jeux Sont Faits	1947	D:Delannoy
+JnD33	T:Notre Dame de Paris	1956	D:Delannoy
+JnD36	T:Inspector Maigret	1957	D:Delannoy
+LSh1	T:Charlie Chan at the Wax Museum	1940	D:Shores
+NSm10	T:Calling All Husbands	1940	D:N.Smith
+OW1	T:Citizen Kane	1940	D:Welles
+OW2	T:The Magnificent Ambersons	1942	D:Welles
+OW3	T:It's all True	1942	D:Welles
+OW4	T:The Stranger	1946	D:Welles
+OW5	T:The Lady From Shanghai	1947	D:Welles
+OW6	T:Macbeth	1948	D:Welles
+OW7	T:Othello	1951	D:Welles
+OW8	T:Confidential Report	1955	D:Welles
+OW9	T:A Touch of Evil	1958	D:Welles
+OW10	T:The Trial	1962	D:Welles
+OW11	T:Chimes at Midnight	1966	D:Welles
+PS1	T:The Great McGinty	1940	D:P.Sturges
+PS2	T:Christmas in July	1940	D:P.Sturges
+PS3	T:Sullivan's Travels	1941	D:P.Sturges
+PS4	T:The Lady Eve	1941	D:P.Sturges
+PS5	T:The Palm Beach Story	1942	D:P.Sturges
+PS7	T:The Miracle of Morgan's Creek	1943	D:P.Sturges
+PS8	T:Hail the Conquering Hero	1944	D:P.Sturges
+PS20	T:Unfaithfully Yours	1948	D:P.Sturges
+PS21	T:The Beautiful Blonde from Bashful Bend	1949	D:P.Sturges
+PS22	T:Les Carnets de Major Thompson	1950	D:P.Sturges
+TBs40	Tm:Caligula	1980	D:Brass
+BaD13	T:The Blue Lamp	1950	D:B.Dearden
+BaD22	T:Who Done It	1956	D:B.Dearden
+BaD26	T:The League of Gentlemen	1960	D:B.Dearden
+BaD28	T:All Night Long	1961	D:B.Dearden
+BaD29	T:Victim	1961	D:B.Dearden
+BaD35	T:Masquerade	1965	D:B.Dearden
+BaD39	T:The Man who Haunted Himself	1970	D:B.Dearden
+BSh10	T:Dumbo	1941	D:Sharpsteen
+DBy1	T:Perr Gynt	1941	D:Bradley
+DBy2	T:Julius Ceasar	1950	D:Bradley
+DBy4	T:Talk About a Stranger	1952	D:Bradley
+DBy10	T:They Saved Hitler's Brain	1963	D:Bradley
+DMi15	T:Love Happy	1949	D:D.Miller
+DMi25	T:The Opposite Sex	1956	D:D.Miller
+DMi27	T:The Story of Esther Costello	1957	D:D.Miller
+DMi28	T:Happy Anniversary	1959	D:D.Miller
+DMi32	T:Back Street	1961	D:D.Miller
+DMi35	T:Lonely Are the Brave	1962	D:D.Miller
+GSy4	T:Anchors Aweigh	1945	D:Sidney
+GSy7	T:The Three Musketeers	1948	D:Sidney
+GSy10	T:Showboat	1951	D:Sidney
+GSy11	T:Sacaramouche	1952	D:Sidney
+GSy13	T:Kiss Me Kate	1953	D:Sidney
+GSy16	T:Jeanne Eagles	1957	D:Sidney
+GSy17	T:Pal Joey	1957	D:Sidney
+GSy30	T:Bye Bye Birdie	1963	D:Sidney
+GSy40	T:Half a Sixpence	1967	D:Sidney
+IrR6	T:Now, Voyager	1942	D:Rapper
+IrR8	T:The Adventures of Mark Twain	1944	D:Rapper
+IrR10	T:The Corn is Green	1945	D:Rapper
+IrR12	T:Rhapsody in Blue	1945	D:Rapper
+IrR16	T:Deception	1946	D:Rapper
+IrR27	T:The Brave One	1958	D:Rapper
+IrR32	T:The Miracle	1959	D:Rapper
+IrR50	Tm:Born Again	1978	D:Rapper
+IH1	T:The Maltese Falcon	1941	D:J.Huston
+IH2	T:This is our Life	1942	D:J.Huston
+IH3	T:Across the Pacific	1942	D:J.Huston
+IH4	T:The Battle of San Pietro	1943	D:J.Huston
+IH11	T:The Treasure of the Sierra Madre	1948	D:J.Huston
+IH12	T:Key Largo	1948	D:J.Huston
+IH14	T:The Asphalt Jungle	1950	D:J.Huston
+IH15	T:Red Badge of Courage	1951	D:J.Huston
+IH16	T:The African Queen	1951	D:J.Huston
+IH17	T:Moulin Rouge	1952	D:J.Huston
+IH18	T:Beat the Devil	1954	D:J.Huston
+IH19	T:Moby Dick	1956	D:J.Huston
+IH20	T:Heaven Knows Mr.~Allison	1957	D:J.Huston
+IH22	T:The Unforgiven	1960	D:J.Huston
+IH23	T:The Misfits	1961	D:J.Huston
+IH26	T:The List of Adrian Messenger	1963	D:J.Huston
+IH27	T:The Night of the Iguana	1964	D:J.Huston
+IH28	T:The Bible	1966	D:J.Huston
+IH29	T:Casino Royale	1967	D:J.Huston
+IH30	T:Reflections in a Golden Eye	1967	D:J.Huston
+IH35	T:Fat City	1972	D:J.Huston
+IH42	Tm:Victory	1981	D:J.Huston
+IH47	T:Prizzi's Honor	1985	D:J.Huston
+KuH10	T:Quax der Bruchpilot	1941	D:K.Hoffman
+KuH20	T:I think often of Piroschka	1955	D:K.Hoffman
+KuH25	T:The Confessions of Felix Krull	1957	D:K.Hoffman
+KuH29	T:Wir Wunderkinder	1958	D:K.Hoffman
+LaC20	T:Great Day	1945	D:Comfort
+LaC25	T:Silent Dust	1948	D:Comfort
+LaC35	T:Eight O'Clock Walk	1948	D:Comfort
+LHo2	T:The First of the Few	1942	D:L.Howard
+PaJ2	T:Ferry Pilot	1941	D:P.Jackson
+PaJ5	T:Western Approaches	1944	D:P.Jackson
+PaJ10	T:Shadow on the Wall	1948	D:P.Jackson
+ReC5	T:Romeo and Juliet	1953	D:Castellani
+RMp13	T:Night Plane from Chungking	1942	D:R.Murphy
+StH5	T:The Glass Key	1942	D:Heisler
+StH13	T:Blue Skies	1945	D:Heisler
+StH15	T:Smash-Up	1947	D:Heisler
+StH18	T:Tulsa	1949	D:Heisler
+StH20	T:Chain Lightning	1950	D:Heisler
+StH23	T:I died a Thousand Times	1955	D:Heisler
+StH30	T:Hitler	1961	D:Heisler
+TTz2	T:Fighting Father Dunne	1942	D:Tetzlaff
+TTz4	T:Riff Raff	1946	D:Tetzlaff
+TTz8	T:Johnny Allegro	1948	D:Tetzlaff
+TTz9	T:The Window	1949	D:Tetzlaff
+TTz10	T:The White Tower	1950	D:Tetzlaff
+TTz11	T:Gambling House	1950	D:Tetzlaff
+TTz20	T:Son of Sinbad	1955	D:Tetzlaff
+VdS2	T:I Bambini ci Guardino	1942	D:deSica
+VdS4	T:Sciusci\`a	1946	D:deSica
+VdS5	T:Bicycle Thieves	1948	D:deSica
+VdS7	T:Umberto D	1952	D:deSica
+VdS15	T:Two Women	1961	D:deSica
+VdS24	T:The Garden of the Finzi-Continis	1971	D:deSica
+WlM10	T:Mr.~District Attorney	1941	D:W.Morgan
+ALe4	T:Pandora and the Flying Dutchman	1951	D:Lewin
+ALe7	T:Saadia	1953	D:Lewin
+AnM16	T:The Furies	1950	D:Ant.Mann
+AnM25	T:The Glenn Miller Story	1954	D:Ant.Mann
+AnM35	T:Cimarron	1960	D:Ant.Mann
+AnM37	T:El Cid	1961	D:Ant.Mann
+AnM40	T:The Fall of the Roman Empire	1964	D:Ant.Mann
+ASj15	T:Hets	1942	D:Sjoberg
+ChF7	T:Scott of The Antarctic	1948	D:Frend
+DL1	T:In Which We Serve	1942	D:Lean
+DL3	T:Blithe Spirit	1945	D:Lean
+DL4	T:Brief Encounter	1946	D:Lean
+DL5	T:Great Expectations	1946	D:Lean
+DL7	T:Passionate Friends	1948	D:Lean
+DL9	T:The Sound Barrier	1951	D:Lean
+DL10	T:Hobson's Choice	1954	D:Lean
+DL11	T:Summertime	1955	D:Lean
+DL12	T:The Bridge on the River Kwai	1957	D:Lean
+DL13	T:Lawrence of Arabia	1962	D:Lean
+DL14	T:Dr. Zhivago	1965	D:Lean
+DL15	T:Ryan's Daughter	1970	D:Lean
+DL16	T:A Passage to India	1984	D:Lean
+FZ8	T:The Men	1945	D:Zinneman
+FZ10	T:High Noon	1952	D:Zinneman
+FZ11	T:The Member of the Wedding	1953	D:Zinneman
+FZ12	T:From Here to Eternity	1953	D:Zinneman
+FZ13	T:Oklahoma!	1955	D:Zinneman
+FZ14	T:The Nun's Story	1960	D:Zinneman
+FZ15	T:The Sundowners	1960	D:Zinneman
+FZ19	T:Day of the Jackal	1973	D:Zinneman
+FZ20	T:Julia	1977	D:Zinneman
+FZ21	T:Five Days One Summer	1982	D:Zinneman
+GLa2	T:Le Journal Tombe a Cinq Heures	1942	D:Lacombe
+GLa10	T:Martin Roumagnac	1946	D:Lacombe
+HGC3	T:Quai des Orf\`evres	1947	D:Clouzot
+HGC5	T:L'Assassin habite au 21	1947	D:Clouzot
+HGC6	T:Jenny Lamour	1947	D:Clouzot
+HGC16	T:Le Salaire de la Peur	1952	D:Clouzot
+HGC17	T:Les Diaboliques	1954	D:Clouzot
+IRa4	T:The Great Impersonation	1942	D:Rawlins
+IRa5	T:Sherlock Holmes and the Voice of Terror	1942	D:Rawlins
+IRa10	T:Dick Tracy vs. Cueball	1946	D:Rawlins
+IRa12	T:Dick Tracy's Dilemma	1947	D:Rawlins
+IRa14	T:Dick Tracy Meets Gruesome	1947	D:Rawlins
+JD7	T:Brute Force	1947	D:Dassin
+JD8	T:The Naked City	1948	D:Dassin
+JD10	T:Night and the City	1950	D:Dassin
+JD12	T:Rififi	1954	D:Dassin
+JD15	T:Never on Sunday	1959	D:Dassin
+JeY10	T:The Naughty Nineties	1945	D:Yarborough
+JeY30	T:Abbott and Costello Lost in Alaska	1952	D:Yarborough
+JqB5	T:Goupi Mains Rouges	1942	D:J.Becker
+JqB15	T:Antoine et Antoinette	1947	D:J.Becker
+JqB18	T:Rendevouz de Julliet	1949	D:J.Becker
+JqB20	T:Edouard et Caroline	1951	D:J.Becker
+JqB22	T:Casque d'Or	1952	D:J.Becker
+JqB25	T:Touchez pas au Grisbi	1953	D:J.Becker
+JqB38	T:Le Trou	1960	D:J.Becker
+LAr4	Tm:Wicked Lady	1945	D:Arliss
+LAr5	T:A Man about the House	1947	D:Arliss
+LuV1	T:Ossessione	1942	D:Visconti
+LuV2	T:La Terra Trema	1948	D:Visconti
+LuV3	T:Bellisima	1951	D:Visconti
+LuV20	T:Senso	1953	D:Visconti
+LuV30	T:Rocco and His Brothers	1960	D:Visconti
+LuV50	T:Il gattopardo	1963	D:Visconti
+MiG3	T:Crime Doctor	1943	D:M.Gordon
+MiG5	T:Crime Doctor's Strangest Case	1943	D:M.Gordon
+MiG7	T:Crime Doctor's Strangest Case	1943	D:M.Gordon
+MiG9	T:Shadows in the Night	1944	D:M.Gordon
+MiG11	T:Crime Doctor's Courage	1944	D:M.Gordon
+MiG13	T:Crime Doctor's Warning	1945	D:M.Gordon
+MiG15	T:Crime Doctor's Manhunt	1946	D:M.Gordon
+MiG17	T:Just Before Dawn	1946	D:M.Gordon
+MiG19	T:the Millerson Case	1947	D:M.Gordon
+MiG21	T:The Web	1947	D:M.Gordon
+MiG23	T:Crime Doctor's Gamble	1948	D:M.Gordon
+MiG25	T:Another Part of the Forest	1948	D:M.Gordon
+MiG27	T:An Act of Murder	1948	D:M.Gordon
+MiG29	T:Crime Doctor's Diary	1949	D:M.Gordon
+MiG30	T:Cyrano de Bergerac	1950	D:M.Gordon
+MiG32	T:I can get it for you Wholesale	1951	D:M.Gordon
+MiG35	T:Pillow Talk	1959	D:Mi.Gordon
+MiG39	T:Move Over, Darling	1963	D:M.Gordon
+MiG45	T:A Very Special Favor	1965	D:M.Gordon
+MiG50	T:The Impossible Years	1968	D:M.Gordon
+VSh7	T:All Through the Night	1942	D:V.Sherman
+VSh9	T:The Hard Way	1943	D:V.Sherman
+VSh10	T:Old Acquaintenance	1943	D:V.Sherman
+VSh15	T:Mr.~Skeffington	1943	D:V.Sherman
+VSh23	T:The Adventures of Don Juan	1949	D:V.Sherman
+VSh25	T:The Hasty Heart	1949	D:V.Sherman
+VSh27	T:The Damned Don't Cry	1950	D:V.Sherman
+WFx10	T:Bowery at Midnight	1942	D:W.Fox
+AkK9	T:Stray Dog	1949	D:Kurosawa
+AkK11	T:Rashomon	1950	D:Kurosawa
+AkK12	T:Ugetsu	1951	D:Kurosawa
+AkK13	T:Ikiru	1952	D:Kurosawa
+AkK14	T:Shichinin no Samurai	1954	D:Kurosawa
+AkK20	T:Yojimbo	1961	D:Kurosawa
+AkK21	T:Sanjuro	1962	D:Kurosawa
+AkK22	T:High and Low	1963	D:Kurosawa
+AkK25	T:Tora, Tora, Tora	1970	D:Fleischer
+AkK26	T:Derzu Uzala	1975	D:Kurosawa
+AkK29	T:Akira Kurosawa Dreams	1990	D:Kurosawa
+AkK30	T:Rhapsody in August	1991	D:Kurosawa
+ChW2	T:Good News	1947	D:Walters
+ChW3	T:Easter Parade	1947	D:Walters
+ChW4	T:The Barkleys of Broadway	1949	D:Walters
+ChW6	T:Lili	1953	D:Walters
+ChW7	T:Dangerous when Wet	1953	D:Walters
+ChW8	T:The Tender Trap	1955	D:Walters
+ChW12	T:High Society	1956	D:Walters
+ChW16	T:Ask any Girl	1959	D:Walters
+ChW18	T:Please Dont Eat the Daisies	1960	D:Walters
+ChW22	T:The Unsinkable Molly Brown	1964	D:Walters
+ChW25	T:Walk, Don't Run	1966	D:Walters
+FLd10	T:I see a Dark Stranger	1945	D:Launder
+FLd18	T:The Blue Lagoon	1948	D:Launder
+FLd20	T:The Happiest Day of Your Life	1950	D:Launder
+FWx10	T:Lassie Come Home	1943	D:F.M.Wilcox
+FWx15	T:Courage of Lassie	1946	D:F.M.Wilcox
+FWx18	T:The Hills of Home	1948	D:F.M.Wilcox
+HeL23	T:The President's Lady	1953	D:Levin
+HeL30	T:Journey to the Center of the Earth	1959	D:Levin
+HeL33	Tm:Where the Boys Are	1960	D:Levin
+HSc5	T:My Friend Flicka	1943	D:Schuster
+HSc7	T:Thunderhead --- Son of Flicka	1945	D:Schuster
+HSc15	T:Tarzan's Hidden Jungle	1955	D:Schuster
+HSh5	T:Watch on the Rhine	1945	D:Shumlin
+HSh10	T:Confidential Agent	1945	D:Shumlin
+HuJ5	T:The Silent Village	1943	D:Jennings
+HuJ10	T:A Diary for Timothy	1945	D:Jennings
+MRs1	T:The Seventh Victim	1943	D:Robson
+MRs2	T:The Ghost Ship	1943	D:Robson
+MRs13	T:Isle of the Dead	1949	D:Robson
+MRs25	T:The Bridges at Toko-Ri	1954	D:Robson
+MRs21	T:Peyton Place	1958	D:Robson
+MRs32	T:Inn of the Sixth Happiness	1958	D:Robson
+MRs36	T:The Prize	1963	D:Robson
+MRs41	T:Happy Birthday, Wanda June	1971	D:Robson
+MRb43	T:Earthquake	1974	D:Robson
+PHy15	T:Running Scared	1986	D:Hyams
+PHy20	T:Presidio	1988	D:Hyams
+RCl5	T:Les Jeux Interdits	1951	D:Clement
+RtB8	T:Journal d'un Cur\'e de Campagne	1950	D:Bresson
+RtB10	T:Pickpocket	1959	D:Bresson
+RtB12	T:The Trial of Joan of Arc	1962	D:Bresson
+RtB15	T:Un Condamn\'e \`a Mort s'est Echapp\'e	1966	D:Bresson
+RtB16	T:Au Hazard, Balthazar	1966	D:Bresson
+RtB30	T:Lancelot du Lac	1975	D:Bresson
+SGi3	T:The Rake's Progress	1945	D:Gilliat
+SGi8	T:State Secret	1950	D:Gilliat
+SGi30	Tm:Endless Night	1982	D:Gilliat
+VGu19	T:The Quatermass Experiment	1955	D:V.Guest
+VGu23	T:Quatermass II	1957	D:V.Guest
+VGu25	Tm:Up the Creek	1958	D:V.Guest
+VGu34	T:Jigsaw	1963	D:V.Guest
+VGu36	T:The Beauty Jungle	1964	D:V.Guest
+VM1	T:Cabin in the Sky	1943	D:Minnelli
+VM3	T:Ziegfeld Follies	1944	D:Minnelli
+VM4	T:Meet Me in St.Louis	1944	D:Minnelli
+VM5	T:The Clock	1944	D:Minnelli
+VM7	T:Ziegfeld Follies	1994	D:Minnelli
+VM9	T:Father of the Bride	1950	D:Minnelli
+VM10	T:An American in Paris	1951	D:Minnelli
+VM11	T:The Bad and the Beautiful	1952	D:Minnelli
+VM13	T:The Band Wagon	1953	D:Minnelli
+VM19	T:Lust for Life	1956	D:Minnelli
+VM22	T:Gigi	1958	D:Minnelli
+VM33	T:A Matter of Time	1976	D:Minnelli
+WiC30	T:Macabre	1943	D:W.Castle
+WiC50	T:House on Haunted Hill	1959	D:W.Castle
+WiC55	T:Homicidal	1961	D:W.Castle
+WiC60	T:Strait-Jacket	1964	D:W.Castle
+WiC70	T:Shanks	1974	D:W.Castle
+WiC90	T:Project X	1974	D:W.Castle
+ChC4	T:Hue and Cry	1946	D:Ch.Crichton
+ChC9	T:The Lavender Hill Mob	1951	D:Ch.Crichton
+ChC11	T:The Titfield Thunderbolt	1953	D:Ch.Crichton
+DSy1	T:Act One	1963	D:Schary
+EAB8	T:Between Two Worlds	1944	D:Blatt
+EAB10	T:Escape in the Desert	1945	D:Blatt
+JeD10	T:Don't Take it to Heart	1944	D:Dell
+LAl2	T:The Uninvited	1944	D:L.Allan
+LOl1	T:Henry V	1944	D:L.Olivier
+LOl2	T:Hamlet	1945	D:L.Olivier
+LOl3	T:Richard III	1956	D:L.Olivier
+LOl4	T:The Prince and the Showgirl	1958	D:L.Olivier
+PhK4	T:Shanghai Cobra	1945	D:Karlson
+PhK7	T:Dark Alibi	1946	D:Karlson
+PhK11	T:Ladies of the Chorus	1949	D:Karlson
+PhK46	T:Hornet's Nest	1969	D:Karlson
+PhK50	Tm:Walking Tall	1973	D:Karlson
+RBt6	T:The Guinea Pig	1948	D:R.Boulting
+RBt17	T:There's a Girl in My Soup	1970	D:R.Boulting
+RLB9	T:The Mummy's Ghost	1944	D:LeBorg
+RLB12	T:Jungle Woman	1944	D:LeBorg
+RWh8	T:Blonde Fever	1944	D:Whorf
+RWh10	Tm:Till the Clouds Roll By	1946	D:Whorf
+RWh15	T:Love From A Stranger	1947	D:Whorf
+RWh20	Tm:Champagne for Caesar	1950	D:Whorf
+RWi1	T:Mademoiselle Fifi	1944	D:R.Wise
+RWi2	T:The Curse of the Cat People	1944	D:R.Wise
+RWi3	T:The Body Snatchers	1945	D:R.Wise
+RWi4	T:A Game of Death	1945	D:R.Wise
+RWi9	T:The Set-Up	1949	D:R.Wise
+RWi12	T:The House on Telegraph Hill	1951	D:R.Wise
+RWi13	T:The Day the Earth Stood Still	1951	D:R.Wise
+RWi24	T:I Want To Live	1958	D:R.Wise
+RWi25	T:Run Silent, Run Deep	1958	D:R.Wise
+RWi28	T:West Side Story	1961	D:R.Wise
+RWi29	T:The Haunting	1963	D:R.Wise
+RWi33	T:Star!	1968	D:R.Wise
+RWi34	T:The Andromeda Strain	1970	D:R.Wise
+RWi36	T:The Hindenburg	1975	D:R.Wise
+SNe10	T:The Lost Continent	1951	D:Newfield
+CoB3	T:The Years Between	1946	D:Bennett
+CoB6	T:King Solomon's Mines	1950	D:Bennett
+CoB15	T:How to Undress in Public Without Undue Embarrassement	1965	D:Bennett
+DS1	T:Hitler Lives	1945	D:D.Siegel
+DS5	T:Night unto Night	1945	D:D.Siegel
+DS6	T:The Verdict	1946	D:D.Siegel
+DS8	T:The Big Steal	1949	D:D.Siegel
+DS13	T:The Invasion of the Body Snatchers	1956	D:D.Siegel
+DS28	T:Death of a Gunfighter	1969	D:D.Siegel
+DS30	Tm:The Beguiled	1970	D:D.Siegel
+DS32	T:Dirty Harry	1972	D:D.Siegel
+DS33	T:Charley Varrick	1973	D:D.Siegel
+DS36	Tm:Telefon	1977	D:D.Siegel
+DS38	Tm:Rough Cut	1980	D:D.Siegel
+DS40	T:Jinxed!	1982	D:D.Siegel
+DS49	T:Marathon	1987	D:D.Siegel
+EK1	T:A Tree Grows in Brooklyn	1945	D:E.Kazan
+EK3	T:Boomerang	1947	D:E.Kazan
+EK4	T:Gentleman's Agreement	1947	D:E.Kazan
+EK5	T:Panic in the Streets	1950	D:E.Kazan
+EK6	T:A Streetcar Named Desire	1951	D:E.Kazan
+EK9	T:On the Waterfront	1954	D:E.Kazan
+EK10	T:East of Eden	1955	D:E.Kazan
+EK11	T:Baby Doll	1956	D:E.Kazan
+EK12	T:A Face in the Crowd	1957	D:E.Kazan
+EK15	T:The Arrangement	1969	D:E.Kazan
+FdC14	T:Bedtime for Bonzo	1951	D:deCordova
+FdC16	T:Little Egypt	1951	D:deCordova
+GS6	T:For Heaven's Sake	1950	D:Seaton
+GS7	T:The Big Lift	1950	D:Seaton
+GS9	T:The Country Girl	1954	D:Seaton
+GS16	T:Airport	1970	D:Seaton
+HaW9	T:Road to Bali	1952	D:Walker
+InB32	Tm:The Touch	1971	D:I.Bergman
+InB41	T:Fanny and Alexander	1982	D:I.Bergman
+IBe16	T:The Bad News Bears Go to Japan	1978	D:Berry
+RHa9	T:To Paris With Love	1955	D:Hamer
+RRo1	T:Open City	1945	D:Rossellini
+WRh10	T:Song of Scheherazade	1945	D:Reisch
+ISt24	T:Gunfight at the OK Corral	1957	D:J.Sturges
+ISt26	T:The Old Man and the Sea	1958	D:J.Sturges
+ISt29	T:The Magnificent Seven	1960	D:J.Sturges
+ISt30	T:By Love Possessed	1961	D:J.Sturges
+ISt31	T:Sergeants Three	1961	D:J.Sturges
+ISt33	T:The Great Escape	1963	D:J.Sturges
+ISt38	Tm:Joe Kidd	1972	D:JSturges
+JLM10	T:No Way Out	1950	D:J.L.Mankiewicz
+JLM17	T:Cleopatra	1963	D:J.L.Mankiewicz
+KeA19	T:Three Men in a Boat	1956	D:Anakin
+KeA23	T:Swiss Family Robinson	1960	D:Annakin
+KeA31	T:Those Magnificent Men in Their Flying Machines	1964	D:Annakin
+KeA34	T:Those Daring Young Men in Their Jaunty Jalopies	1969	D:Anakin
+KeA36	T:Call of the Wild	1972	D:Annakin
+KeA38	T:Fifth Musketeer	1978	D:Annakin
+PUs4	T:Romanoff and Juliet	1961	D:Ustinov
+PUs6	T:Lady L.	1965	D:Ustinov
+RiF13	T:Twenty Thousand Leagues Under the Sea	1954	D:R.Fleischer
+RiF15	T:The Girl in the Red Velvet Swing	1955	D:R.Fleischer
+RiF18	T:The Vikings	1957	D:R.Fleischer
+RiF22	T:Barrabas	1962	D:R.Fleischer
+RiF24	T:Fantastic Voyage	1966	D:R.Fleischer
+RiF25	T:Doctor Dolittle	1967	D:R.Fleischer
+RiF28	T:Tora! Tora! Tora!	1970	D:R.Fleischer
+RiF33	Tm:Soylent Green	1973	D:R.Fleischer
+RiF35	T:Mr.~Majestyk	1974	D:R.Fleischer
+RiF36	T:Mandingo	1975	D:R.Fleischer
+RiF39	T:Crossed Swords	1978	D:R.Fleischer
+RiF47	Tm:Amityville	1983	D:R.Fleischer
+BrW5	T:June Bride	1949	D:Windust
+BrW10	T:The Enforcer	1951	D:Windust
+DHa7	T:Mr. Imperium	1951	D:Hartman
+JaH16	T:A Study in Terror	1965	D:J.Hill
+JaH20	T:Born Free	1966	D:J.Hill
+JaH22	T:Captain Nemo and the Underwater City	1969	D:J.Hill
+LGt23	T:Alfie	1966	D:L.Gilbert
+LGt25	T:You Only Live Twice	1967	D:L.Gilbert
+LGt31	T:The Spy Who Loved Me	1977	D:L.Gilbert
+LGt32	T:Moonraker	1979	D:L.Gilbert
+LGt40	T:Shirley Valentine	1989	D:L.Gilbert
+LGt45	T:Stepping Out	1991	D:L.Gilbert
+NR10	T:Johnny Guitar	1953	D:N.Ray
+NR11	T:Rebel Without a Cause	1955	D:N.Ray
+NR19	T:King of Kings	1961	D:N.Ray
+NR20	T:55 Days at Peking	1961	D:N.Ray
+RoN5	T:The Man Who Never Was	1956	D:Neame
+RoN8	T:The Horse's Mouth	1959	D:Neame
+RoN9	T:Tunes of Glory	1960	D:Neame
+RoN16	T:The Prime of Miss Jean Brodie	1968	D:Neame
+RoN28	T:Meteor	1979	D:Neame
+RoN30	Tm:Hopscotch	1980	D:Neame
+RoN32	T:First Monday in October	1981	D:Neame
+RoR3	T:The Brave Bulls	1950	D:Rossen
+RoR5	T:Alexander the Great	1956	D:Rossen
+RoR6	T:Island in the Sun	1957	D:Rossen
+JPM10	T:Bob Le Flambeur	1955	D:Melville
+TFi9	T:Dracula	1958	D:Fisher
+TFi12	T:The Mummy	1959	D:Fisher
+TFi20	T:The Phantom of the Opera	1962	D:Fisher
+TFi24	T:The Gorgon	1964	D:Fisher
+TFi25	T:The Curse of the Mummy's Tomb	1964	D:Fisher
+APo40	T:Rosemary's Baby	1968	D:Polonsky
+APo43	T:Tell Them Willie Boy is Here	1969	D:Polonsky
+HCs1	T:Passport to Pimlico	1948	D:Cornelius
+JLo25	Tm:Romantic Englishwoman	1975	D:Losey
+JLo30	Tm:Steel	1980	D:Losey
+LRF15	T:Hong Kong	1951	D:L.R.Foster
+LRF20	T:Tropic Zone	1953	D:L.R.Foster
+RaT9	T:Appointment with Venus	1948	D:R.Thomas
+RaT16	T:Doctor at Sea	1955	D:R.Thomas
+RaT26	T:The Thirty-nine Steps	1959	D:R.Thomas
+RdM18	T:Second Chance	1953	D:Mate
+RdM30	T:The 300 Spartans	1962	D:Mate
+TYg8	T:Safari	1956	D:T.Young
+TYg17	T:Dr.~No	1962	D:T.Young
+TYg18	T:From Russia With Love	1963	D:T.Young
+TYg20	T:Thunderball	1965	D:T.Young
+TYg21	T:The Amorous Adventures of Moll Flanders	1965	D:T.Young
+TYg25	T:Wait Until Dark	1967	D:T.Young
+TYg40	T:Bloodline	1967	D:T.Young
+xAb1	T:Docks of New Orleans	1948	D:Abrahams
+ACy20	Tm:Eye for an Eye	1956	D:Cayatte
+ACy38	T:Verdict	1974	D:Cayatte
+GFr35	T:Les Yeux sans Visage	1959	D:Franju
+GKe1	T:On the Town	1949	D:Gene~Kelly
+GKe2	T:Singin' in the Rain	1952	D:Gene~Kelly
+GKe3	T:Invitation to the Dance	1956	D:Gene~Kelly
+GKe5	T:The Tunnel of Love	1958	D:Gene~Kelly
+GKe6	T:Gigot	1968	D:Gene~Kelly
+GKe8	T:Hello Dolly	1969	D:Gene~Kelly
+GKe9	T:The Cheyenne Social Club	1970	D:Gene~Kelly
+HKl17	T:The Unguarded Moment	1956	D:Keller
+HKl30	T:Tammy tell me True	1961	D:Keller
+HKl40	T:Tammy and the Doctor	1963	D:Keller
+IGu18	T:Tarzan Goes to India	1962	D:Guillermin
+IGu21	T:The Blue Max	1966	D:Guillermin
+IGu26	T:Shaft in Africa	1973	D:Guillermin
+IGu28	T:The Towering Inferno	1974	D:Guillermin
+IGu29	T:King Kong	1976	D:Guillermin
+IGu31	T:Death on the Nile	1978	D:Guillermin
+JT3	T:Mon Oncle	1958	D:Tati
+JT4	T:Playtime	1968	D:Tati
+JT5	T:Traffic	1971	D:Tati
+LLa20	T:Man in The Dark	1953	D:Landers
+SaF19	T:Dead Pigeon on Beethoven Street	1972	D:Fuller
+SM6	T:The Ladykillers	1955	D:Mackendrick
+SM8	T:Sammy Going South	1962	D:Mackendrick
+StD4	T:Royal Wedding	1951	D:Donen
+StD7	T:Seven Brides for Seven Brothers	1954	D:Donen
+StD24	T:Deep in My Heart	1954	D:Donen
+StD33	T:Funny Face	1957	D:Donen
+StD35	T:The Pajama Game	1957	D:Donen
+StD41	T:Indiscreet	1958	D:Donen
+StD42	T:Damn Yankees	1958	D:Donen
+StD45	T:The Grass is Greener	1960	D:Donen
+StD51	T:Charade	1963	D:Donen
+StD58	T:Arabesque	1966	D:Donen
+StD61	T:Bedazzled	1967	D:Donen
+StD62	T:Two for the Road	1967	D:Donen
+WlJ12	T:Cinderella	1949	D:W.Jackson
+WlJ14	T:Alice In Wonderland	1951	D:W.Jackson
+FF2	T:The White Sheik	1951	D:Fellini
+FF12	T:Satyricon	1969	D:Fellini
+FF15	T:Amacord	1974	D:Fellini
+FF18	T:Casanova	1974	D:Fellini
+GoG10	T:Room to Let	1950	D:Grayson
+HFr30	T:Man in the Attic	1954	D:Fregonese
+HFr50	T:Appaches Last Battle	1964	D:Fregonese
+IdL4	T:The Hitch Hiker	1953	D:Lupino
+IdL5	T:The Bigamist	1953	D:Lupino
+IdL20	T:The Trouble With Angels	1966	D:Lupino
+JDh5	Tm:Babes in Toyland	1961	D:Donohue
+JLT12	T:Flame over India	1959	D:LeeThompson
+JLT15	T:The Guns of Navarone	1961	D:LeeThompson
+JLT24	T:Before Winter Comes	1968	D:LeeThompson
+JLT27	T:Conquest of the Planet of the Apes	1972	D:LeeThompson
+JLT29	T:Huckleberry Finn	1974	D:LeeThompson
+JLT32	T:St. Ives	1976	D:LeeThompson
+JLT34	T:The Greek Tycoon	1978	D:LeeThompson
+JLT39	Tm:Ten to Midnight	1983	D:LeeThompson
+JLT50	T:King Solomon's Mines	1985	D:LeeThompson
+JoP20	T:Foxfire	1955	D:Pevney
+JoP28	T:Tammy and the Bachelor	1957	D:Pevney
+MA6	T:The Passenger	1963	D:Antonioni
+MFr29	T:A Touch of Class	1972	D:Frank
+MFr33	Tm:Prisoner of 2nd Avenue	1975	D:Frank
+MiA8	T:Around the World in 80 Days	1956	D:M.Anderson
+MiA11	T:The Wreck of the Mary Deare	1959	D:M.Anderson
+MiA18	T:The Shoes of the Fisherman	1968	D:M.Anderson
+MiA21	T:Conduct Unbecoming	1975	D:M.Anderson
+MiA25	Tm:Orca the Killer Whale	1979	D:M.Anderson
+RcB13	T:Cat on a Hot Tin Roof	1958	D:R.Brooks
+RcB14	T:Elmer Gantry	1960	D:R.Brooks
+RcB16	T:Lord Jim	1965	D:R.Brooks
+RcB17	T:The Professionals	1966	D:R.Brooks
+AR4	T:Hiroshima Mon Amour	1959	D:Resnais
+CyE8	T:Try and Get Me	1951	D:Endfield
+CyE10	T:Tarzan's Savage Fury	1952	D:Endfield
+CyE30	Tm:Mysterious Island	1961	D:Endfield
+LBu1	T:Alice In Wonderland	1951	D:Bunin
+MZa23	Tm:Now and Forever	1955	D:Zampi
+RiQ23	T:Paris When it Sizzles	1964	D:Quine
+RiQ30	T:How to Murder Your Wife	1965	D:Quine
+RiQ35	T:The Prisoner of Zenda	1979	D:Quine
+RrS5	T:Meet Me After the Show	1951	D:Sale
+RrS10	T:Gentlemen Prefer Brunettes	1955	D:Sale
+RSn10	T:The Titan: Story of Michelangelo	1951	D:Snyder
+RSn100	T:Michelangelo	1989	D:Snyder
+BF5	T:Sweet Charity	1968	D:Fosse
+BF6	T:Cabaret	1972	D:Fosse
+BF8	T:All That Jazz	1979	D:Fosse
+BF9	T:Star 80	1983	D:Fosse
+CNy15	T:First to Fight	1967	D:Nyby
+DaM6	T:Butterfield Eight	1960	D:Dan.Mann
+DaM7	T:The Last Angry Man	1959	D:Dan.Mann
+DaM10	T:Ada	1961	D:Dan.Mann
+DaM30	T:Journey into Fear	1976	D:Dan.Mann
+DaM35	Tm:Matilda	1978	D:Dan.Mann
+FrQ10	T:Johann Mouse	1952	D:Quimby
+FrT5	T:Son of Paleface	1958	D:Tashlin
+FrT7	T:Susan Slept Here	1954	D:Tashlin
+FrT10	T:Artists and Models	1955	D:Tashlin
+FrT13	T:The Girl Can't Help It	1957	D:Tashlin
+FrT16	T:Will Success Spoil Rock Hunter?	1957	D:Tashlin
+FrT20	T:Rock a Bye Baby	1958	D:Tashlin
+FrT22	T:Say One For Me	1959	D:Tashlin
+FrT23	T:Cinderfella	1960	D:Tashlin
+FrT25	T:The Disorderly Orderly	1960	D:Tashlin
+FrT30	T:The Alphabet Murders	1965	D:Tashlin
+FrT32	T:The Glass Bottom Boat	1966	D:Tashlin
+GH12	T:Goldfinger	1964	D:G.Hamilton
+GH15	T:Diamonds are Forever	1971	D:G.Hamilton
+GH16	T:Live and Let Die	1972	D:G.Hamilton
+GH17	T:The Man with the Golden Gun	1974	D:G.Hamilton
+GH25	Tm:Force 10 From Navarone	1978	D:G.Hamilton
+GH30	T:The Mirror Cracked	1980	D:G.Hamilton
+JHo20	T:One Desire	1953	D:J.Hopper
+JHo24	T:Toy Tiger	1956	D:J.Hopper
+KHu18	T:Chitty Chitty Bang Bang	1969	D:K.Hughes
+KHu19	T:Cromwell	1970	D:K.Hughes
+KHu21	Tm:Oh Alfie	1975	D:K.Hughes
+KHu22	Tm:Sextette	1978	D:K.Hughes
+MuB5	T:The Beachcomber	1954	D:Box
+NJu3	T:Law and Order	1953	D:Juran
+NJu12	T:The Seventh Voyage of Sinbad	1958	D:Juran
+PeB10	T:The Mahabharata	1989	D:Brook
+DkP3	T:You Can't Run Away From It	1956	D:D.Powell
+DkP4	T:The Enemy Below	1957	D:D.Powell
+DkP5	T:The Hunters	1958	D:D.Powell
+HoC10	Tm:Captain Scarlett	1953	D:Carr
+JHi7	T:The Spoilers	1955	D:Hibbs
+JIv6	T:Shakespeare Wallah	1965	D:Ivory
+JIv8	T:Bombay Talkie	1970	D:Ivory
+JIv10	T:Helen --- Queen of the Nautch Girls	1972	D:Ivory
+JIv15	T:The Wild Party	1974	D:Ivory
+JIv20	T:Maurice	1975	D:Ivory
+JIv21	T:The Slaves of New York	1975	D:Ivory
+LiA20	T:If ...	1968	D:L.Anderson
+LiA30	T:O Lucky Man	1972	D:L.Anderson
+MCy3	T:The Girl in Black	1955	D:Cacoyannis
+MCy8	T:Zorba the Greek	1965	D:Cacoyannis
+MCy11	T:Iphigenia	1976	D:Cacoyannis
+NuJ1	T:Night People	1954	D:Nunally~J.
+NuJ2	T:Black Widow	1954	D:Nunally~J.
+NuJ3	T:How to Be Very Very Popular	1955	D:Nunally~J.
+NuJ4	T:The Man in The Gray Flannel Suit	1956	D:Nunally~J.
+NuJ7	T:The Man Who Understood Women	1957	D:Nunally~J.
+RDW2	Tm:Beneath the 12-Mile Reef	1953	D:R.D.Webb
+RDW7	T:Caribbean Mystery	1954	D:R.D.Webb
+RoA4	T:Vera Cruz	1953	D:Aldrich
+RoA26	T:The Flight of the Phoenix	1965	D:Aldrich
+RoA28	T:Dirty Dozen	1966	D:Aldrich
+RoA32	T:The Legend of Lylah Clare	1968	D:Aldrich
+RoA41	T:Grissom Gang	1971	D:Aldrich
+RoA57	Tm:Hustle	1975	D:Aldrich
+RoA68	T:The Frisco Kid	1979	D:Aldrich
+RoA70	T:All the Marbles	1981	D:Aldrich
+StK5	T:Spartacus	1960	D:Kubrick
+StK10	T:Barry Lyndon	1975	D:Kubrick
+AMa61	T:Around the World Under the Sea	1966	D:Marton
+GGr8	T:SOS Pacific	1959	D:Guy~Green
+HLS10	T:Gog	1954	D:Strock
+JWe3	T:Pete Kelly's Blues	1955	D:J.Webb
+KoI5	T:The Heart	1954	D:Ichikawa
+KoI8	T:The Punishment Room	1955	D:Ichikawa
+KoI15	T:Odd Obsessions	1958	D:Ichikawa
+KoI20	T:Fires on the Plain	1959	D:Ichikawa
+KoI25	T:The Sin	1961	D:Ichikawa
+KoI30	T:An Actor's Revenge	1963	D:Ichikawa
+KoI35	T:Alone in the Pacific	1966	D:Ichikawa
+KoI40	T:To Love Again	1971	D:Ichikawa
+KoI45	T:The Wanderers	1973	D:Ichikawa
+KoI50	T:I am a Cat	1975	D:Ichikawa
+KoI55	T:The Inugami Family	1976	D:Ichikawa
+KoI60	T:Matababi	1977	D:Ichikawa
+KoI65	T:Queen Bee	1978	D:Ichikawa
+KoI67	T:Devil's Island	1978	D:Ichikawa
+KoI70	T:The Phoenix	1977	D:Ichikawa
+PeG3	T:Summer and Smoke	1960	D:Glenville
+PeG4	T:Becket	1964	D:Glenville
+PtF5	T:Attilo Flagello di Dio	1954	D:Francisci
+PtF10	T:Le Fatiche di Ercole	1957	D:Francisci
+YvR3	T:Men Only Think of That	1954	D:Y.Robert
+YvR10	T:Courage Fuyons	1979	D:Y.Robert
+BE7	T:Breakfast at Tiffany's	1961	D:B.Edwards
+BE10	T:The Pink Panther	1963	D:B.Edwards
+BE12	T:The Great Race	1964	D:B.Edwards
+BE16	T:The Party	1968	D:B.Edwards
+BE20	T:The Return of the Pink Panther	1974	D:B.Edwards
+BE21	T:The Pink Panther Strikes Again	1976	D:B.Edwards
+BE34	T:Victor/Victoria	1982	D:B.Edwards
+BE35	T:Trail of the Pink Panther	1982	D:B.Edwards
+BE37	T:The Man Who Loved Women	1983	D:B.Edwards
+CoW3	T:Lancelot and Guinevere	1963	D:C.Wilde
+CoW5	T:Beach Red	1967	D:C.Wilde
+DeM4	T:Desire Under the Elms	1958	D:Del.Mann
+DeM8	T:Lover Come Back	1961	D:Del.Mann
+DeM10	T:That Touch of Mink	1962	D:Del.Mann
+DeM17	Tm:Night Crossing	1980	D:Del.Mann
+DeM20	T:Separate Tables	1983	D:Del.Mann
+DM230	T:The Organization	1971	D:Medford
+GFj15	T:I Was a Teenage Werewolf	1957	D:Fowler
+HeH10	T:The Bar Sinister	1955	D:H.Hoffman
+HLu10	T:Lady and the Tramp	1955	D:Luske
+HWo1	T:Drei von der Tankstelle	1955	D:Wolff
+InA10	T:Animal World	1955	D:I.Allen
+InA15	T:The Story of Mankind	1957	D:I.Allen
+JCn6	T:The Great Gatsby	1974	D:Clayton
+JCn20	T:Something Wicked This Way Comes	1983	D:Clayton
+MvS1	T:The Seven Little Foys	1955	D:Shavelson
+MvS2	T:Beau James	1957	D:Shavelson
+MvS3	T:Houseboat	1958	D:Shavelson
+MvS4	T:The Five Pennies	1959	D:Shavelson
+MvS6	T:On the Double	1961	D:Shavelson
+MvS12	T:A New Kind of Love	1963	D:Shavelson
+NPa3	T:The Court Jester	1956	D:Panama
+PhD2	T:A View from Pompey's Head	1955	D:Ph.Dunne
+PhD9	Tm:Wild in the Country	1961	D:Ph.Dunne
+RAl55	T:The Happy Ending	1969	D:Altman
+RAl56	T:M*A*S*H	1970	D:Altman
+RAl62	T:Brewster McCloud	1971	D:Altman
+RAl68	T:McCabe and Mrs.~Miller	1971	D:Altman
+RAl69	T:Images	1972	D:Altman
+RAl70	T:The Long Goodbye	1973	D:Altman
+RAl71	T:Thieves Like Us	1973	D:Altman
+RAl72	T:California Split	1974	D:Altman
+RAl73	T:Nashville	1975	D:Altman
+RAl85	T:Come Back to the Five and Dime, Jimmy Dean, Jimmy Dean	1982	D:Altman
+RAl87	T:Streamers	1983	D:Altman
+RCo26	T:House of Usher	1960	D:Corman
+RCo32	T:The Premature Burial	1962	D:Corman
+RCo37	T:The Terror	1963	D:Corman
+RCo41	T:The Masque of the Red Death	1964	D:Corman
+RCo43	T:The Tomb of Ligeia	1965	D:Corman
+RCo48	T:Gas-s-s!	1970	D:Corman
+RCo60	T:Streetwalkin'	1980	D:Corman
+RCo70	T:Watchers II	1987	D:Corman
+RMl1	T:A Man Alone	1955	D:Milland
+SK2	T:Pride and the Passion	1957	D:St.Kramer
+SK12	T:Guess Who's Coming to Dinner	1967	D:St.Kramer
+SK26	T:The Domino Principle	1977	D:St.Kramer
+ToG6	T:The Hawaiians	1970	D:Gries
+ToG15	Tm:Breakheart Pass	1976	D:Gries
+VDa10	T:The Benny Goodman Story	1955	D:V.Davies
+WiF10	Tm:John and Julie	1955	D:Fairchild
+AVL10	T:Bandolero!	1968	D:McLaglen
+AVL11	T:The Undefeated	1969	D:McLaglen
+AVL30	T:The Wild Geese	1978	D:McLaglen
+AVL35	Tm:The Sea Wolves	1980	D:McLaglen
+CD8	T:What's New Pussycat?	1965	D:C.Donner
+CD28	T:The Thief of Bagdad	1981	D:C.Donner
+CD29	T:Charlie Chan and the Curse of the Dragon Queen	1981	D:C.Donner
+DMG2	T:The Delicate Delinquent	1957	D:McGuire
+FrL10	Tm:Great Locomotive Chase	1956	D:Lyon
+GeP18	T:Murder Ahoy	1964	D:Pollock
+GeP25	T:Ten Little Indians	1965	D:Pollock
+GeP40	Tm:The Electric Horseman	1979	D:Pollock
+HuC7	T:The Night of the Following Day	1969	D:Cornfield
+JNs210	Tm:Summer Magic	1963	D:Neilson
+JqR20	T:L'Amour Fou	1968	D:Rivette
+JqR23	T:Out 1	1971	D:Rivette
+LMa18	T:Souffle au Coeur	1971	D:Malle
+LMa24	T:Atlantic City	1981	D:Malle
+LMa30	T:Au Revoir Les Enfants	1988	D:Malle
+LMa35	T:May Fools	1990	D:Malle
+MFe40	T:Tales of Ordinary Madness	1981	D:Ferreri
+MR13	T:The Brotherhood	1968	D:Ritt
+MR14	T:The Great White Hope	1970	D:Ritt
+MR15	T:The Molly Macguires	1970	D:Ritt
+MR17	T:Pete 'n Tillie	1972	D:Ritt
+MR19	T:The Front	1976	D:Ritt
+MR21	T:Norma Rae	1979	D:Ritt
+MR25	T:Back Roads	1980	D:Ritt
+MR29	T:Cross Creek	1983	D:Ritt
+MR30	T:Nuts	1987	D:Ritt
+MR34	T:Iris and Stanley	1989	D:Ritt
+RoL10	T:Anything Goes	1956	D:R.Lewis
+RoV1	T:And God Created Woman	1956	D:Vadim
+RoV2	T:Heaven Fell That Night	1957	D:Vadim
+RoV7	T:La Ronde	1964	D:Vadim
+RoV10	T:Barbarella	1968	D:Vadim
+RoV13	T:Pretty Maids All in a Row	1971	D:Vadim
+TPo12	T:The Harrad Experiment	1973	D:Post
+ArH101	T:Flight to the East	1958	D:Hiller
+ArH102	T:Disappearing Trick	1958	D:Hiller
+ArH103	T:The Festive Season	1958	D:Hiller
+ArH104	T:Post-Mortem	1958	D:Hiller
+ArH106	T:The Jokester	1958	D:Hiller
+ArH107	T:And the Desert Shall Blossom	1958	D:Hiller
+ArH108	T:Mrs.~Herman and Mrs.~Fenimore	1958	D:Hiller
+ArH109	T:The Morning of the Bride	1959	D:Hiller
+ArH110	T:The Right Price	1959	D:Hiller
+ArH111	T:Not the Running Type	1960	D:Hiller
+ArH112	T:Across the Threshold	1960	D:Hiller
+ArH113	T:Forty Detectives Later	1960	D:Hiller
+ArH116	T:The Baby Blue Expression	1960	D:Hiller
+ArH207	T:The Out-of-Towners	1970	D:Hiller
+ArH210	T:The Hospital	1971	D:Hiller
+ArH215	T:Silver Streak	1977	D:Hiller
+ArH216	T:The In-Laws	1979	D:Hiller
+ArH218	Tm:Making Love	1982	D:Hiller
+ArH220	Tm:Romantic Comedy	1983	D:Hiller
+ArH227	T:Teacher	1984	D:Hiller
+ArH230	T:See No Evil, Hear No Evil	1989	D:Hiller
+DTa150	T:Ride the Wild Surf	1964	D:D.Taylor
+DTa210	T:Great Scout and Cathouse Thursday	1976	D:D.Taylor
+DTa211	T:The Island of Dr.~Moreau	1977	D:D.Taylor
+DTa212	T:Damien: Omen II	1978	D:D.Taylor
+DTa215	Tm:The Final Countdown	1980	D:D.Taylor
+EMo20	T:La Cage Au Folles	1978	D:Molinaro
+EMo25	T:La Cage Au Folles II	1980	D:Molinaro
+FrR20	T:Carmen	1984	D:Rosi
+GTh12	T:Carry On Nurse	1959	D:G.Thomas
+GTh14	T:Carry On Teacher	1960	D:G.Thomas
+GTh16	T:Carry On Constable	1960	D:G.Thomas
+GTh18	T:Carry On Regardless	1961	D:G.Thomas
+GTh20	T:Carry On Cruising	1961	D:G.Thomas
+GTh22	T:Carry On Cabby	1962	D:G.Thomas
+GTh23	T:Twice Round the Daffodils	1962	D:G.Thomas
+GTh24	T:Carry On Jack	1964	D:G.Thomas
+GTh26	T:Carry On Spying	1964	D:G.Thomas
+GTh28	T:Carry On Cleo	1964	D:G.Thomas
+GTh30	T:Carry On Cowboy	1966	D:G.Thomas
+GTh32	T:Carry On Screamming	1966	D:G.Thomas
+GTh36	T:Follow that Camel	1967	D:G.Thomas
+GTh37	T:Don't Loose Your Head	1966	D:G.Thomas
+GTh38	T:Carry On Doctor	1967	D:G.Thomas
+GTh40	T:Carry On Up The Khyber	1968	D:G.Thomas
+GTh42	T:Carry On Camping	1968	D:G.Thomas
+GTh44	T:Carry On Again Doctor	1969	D:G.Thomas
+GTh46	T:Carry On Loving	1970	D:G.Thomas
+GTh48	T:Carry On Up the Jungle	1970	D:G.Thomas
+GTh50	T:Carry On Henry	1971	D:G.Thomas
+GTh52	T:Carry On At Your Convenience	1971	D:G.Thomas
+GTh54	T:Carry On Matron	1972	D:G.Thomas
+GTh55	T:Carry On Abroad	1972	D:G.Thomas
+GTh56	T:Carry On Girls	1973	D:G.Thomas
+GTh57	T:Carry On Dick	1974	D:G.Thomas
+GTh58	T:Carry On Behind	1974	D:G.Thomas
+GTh60	T:Carry On England	1976	D:G.Thomas
+GTh62	T:Carry On Emanuelle	1977	D:G.Thomas
+IFr12	T:The Gypsy Moths	1969	D:Frankenheimer
+IFr18	T:The French Connection II	1975	D:Frankenheimer
+IFr25	Tm:Prophecy	1979	D:Frankenheimer
+IFr30	Tm:The Challenge	1982	D:Frankenheimer
+IFr35	T:52 Pickup	1986	D:Frankenheimer
+JBC14	T:The Big Show	1960	D:J.B.Clark
+MiW12	T:The Jokers	1966	D:Winner
+MiW20	Tm:The Mechanic	1972	D:Winner
+MiW22	T:Death Wish	1974	D:Winner
+MiW30	Tm:The Big Sleep	1978	D:Winner
+MRe7	T:Rockets Galore	1957	D:Relph
+RDa25	T:The Man With Bogart's Face	1980	D:R.Day
+RMu7	T:The Spiral Road	1962	D:Mulligan
+RMu25	T:Up the Down Staircase	1967	D:Mulligan
+RMu41	Tm:Bloodbrothers	1978	D:Mulligan
+RMu46	Tm:Kiss Me Goodbye	1983	D:Mulligan
+SJF17	T:Lady Sings the Blues	1972	D:Furie
+SJF20	T:Gable and Lombard	1976	D:Furie
+SJF22	T:The Entity	1982	D:Furie
+SL10	T:The Group	1965	D:Lumet
+SL19	T:The Anderson Tapes	1971	D:Lumet
+SL21	T:Murder on the Orient Express	1974	D:Lumet
+SL33	T:Prince of the City	1981	D:Lumet
+SL35	T:The Verdict	1982	D:Lumet
+SL37	T:Death Trap	1982	D:Lumet
+SL39	T:Daniel	1983	D:Lumet
+SL44	T:The Morning After	1986	D:Lumet
+SL49	T:Family Business	1989	D:Lumet
+SL50	T:Running on Empty	1989	D:Lumet
+SL52	T:Q and A	1990	D:Lumet
+SS5	T:The Sugarland Express	1973	D:Spielberg
+SS6	T:Jaws	1975	D:Spielberg
+SS7	T:Close Encounters of the Third Kind	1975	D:Spielberg
+SS9	T:Raiders of the Lost Ark	1981	D:Spielberg
+SS10	T:E.T.	1983	D:Spielberg
+SS12	T:Indiana Jones and the Temple of Doom	1984	D:Spielberg
+SS13	T:The Color Purple	1985	D:Spielberg
+xMb10	T:Mother India	1957	D:Mehboob
+ArP5	T:Bonnie and Clyde	1967	D:A.Penn
+ArP15	T:Night Moves	1975	D:A.Penn
+ArP16	T:The Missouri Breaks	1976	D:A.Penn
+ClC20	T:Les Biches	1968	D:Chabrol
+ClC21	T:La Femme Infidele	1969	D:Chabrol
+ClC49	T:Stille Tage in Clichy	1990	D:Chabrol
+ClC50	T:Story of Women	1990	D:Chabrol
+DLR5	T:Madame X	1965	D:Rich
+DLR10	T:The Concorde --- Airport 79	1979	D:Rich
+DvS3	T:The Parent Trap	1961	D:Swift
+DvS10	T:How To Succed in Business Without Really Trying	1967	D:Swift
+FT8	T:La Marie Etait En Noir	1967	D:Truffaut
+FT15	T:La Nuit Americaine	1973	D:Truffaut
+FT16	T:L'histoire d'Ad\`ele H.	1975	D:Truffaut
+FT20	T:l'homme qui aimait les femmes	1977	D:Truffaut
+IGi20	T:Fury at Smuggler's Bay	1958	D:Gilling
+IGi25	T:The Mummy's Shroud	1966	D:Gilling
+IGi30	T:Blood from the Mummy's Tomb	1971	D:Gilling
+IrK14	T:The Empire Strikes Back	1980	D:Kershner
+IrK15	T:Never Say Never Again	1983	D:Kershner
+JCa7	T:My Geisha	1962	D:Cardiff
+JCa9	T:The Liquidator	1965	D:Cardiff
+JCv10	T:To Sir With Love	1965	D:Clavell
+JCv16	Tm:The Last Valley	1971	D:Clavell
+JFe20	T:State Fair	1962	D:J.Ferrer
+KRz40	T:Sweet Dreams	1985	D:Reisz
+MCm1	T:Black Orpheus	1958	D:Camus
+MdC10	T:Auntie Mame	1958	D:daCosta
+MdC16	T:The Music Man	1962	D:daCosta
+MPi45	T:Under the Sun of Satan	1987	D:Pialat
+AnT6	T:Mirror	1978	D:Tarkovsky
+DoS12	Tm:Psychomania	1971	D:D.Sharp
+DoS16	T:The Thirty-nine Steps	1978	D:D.Sharp
+DPt2	T:Raisin in the Sun	1961	D:Petrie
+DPt6	T:The Spy with a Cold Nose	1967	D:Petrie
+DPt19	T:The Betsy	1978	D:Petrie
+DPt21	T:Fort Apache, The Bronx	1981	D:Petrie
+DPt23	T:Six Pack	1982	D:Petrie
+DPt33	T:Toy Soldiers	1990	D:Petrie
+ERr20	T:Ma Nuit Chez Maude	1969	D:Rohmer
+ERr33	T:Perceval Le Gallois	1978	D:Rohmer
+JLG1	T:A Bout de Souffle	1959	D:Godard
+JLG11	T:Band of Outsiders	1964	D:Godard
+JLG14	T:Masculine Feminine	1965	D:Godard
+JLG15	T:Alphaville	1965	D:Godard
+JLG21	T:La Chinoise	1967	D:Godard
+JLG22	T:Two Or Three Things I Know About Her	1967	D:Godard
+JLG25	T:Le Gai Savoir	1968	D:Godard
+PWe2	T:Gidget	1959	D:Wendkos
+PWe10	T:Special Delivery	1976	D:Wendkos
+RuM30	T:Faster Pussycat! Kill! Kill!	1965	D:Russ~Meyer
+RuM37	T:Beyond the Valley of the Dolls	1970	D:Russ~Meyer
+RuM40	T:The Seven Minutes	1971	D:Russ~Meyer
+SB1	T:Destiny of Man	1959	D:Bondartchuk
+SRo20	T:Cool Hand Luke	1967	D:Rosenberg
+SRo32	T:The Laughing Policeman	1973	D:Rosenberg
+SRo35	T:Drowning Pool	1975	D:Rosenberg
+SRo37	T:Voyage of the Damned	1976	D:S.Rosenberg
+SRo40	Tm:Brubaker	1980	D:Rosenberg
+TRs1	T:Look Back in Anger	1959	D:T.Richardson
+TRs3	T:The Entertainer	1960	D:T.Richardson
+TRs4	T:A Taste of Honey	1961	D:T.Richardson
+TRs8	T:The Loneliness of the Long-distance Runner	1962	D:T.Richardson
+TRs12	T:Tom Jones	1963	D:T.Richardson
+TRs15	T:The Loved One	1965	D:T.Richardson
+TRs16	T:The Charge of the Light Brigade	1968	D:T.Richardson
+TRs17	T:Laughter in the Dark	1969	D:T.Richardson
+TRs18	T:Hamlet	1969	D:T.Richardson
+TRs19	T:Ned Kelly	1970	D:T.Richardson
+TRs20	T:A Delicate Balance	1973	D:T.Richardson
+TRs21	T:Dead Cert	1974	D:T.Richardson
+TRs22	Tm:Joseph Andrews	1977	D:T.Richardson
+TRs23	Tm:The Border	1981	D:T.Richardson
+TRs25	T:The Hotel New Hampshire	1984	D:T.Richardson
+TRs32	T:The Phantom of the Opera	1990	D:T.Richardson
+VJD2	T:Sunrise at Campobello	1960	D:Donehue
+AlZ4	T:College Confidential	1960	D:Zugsmith
+AlZ25	T:On Her Bed of Roses	1966	D:Zugsmith
+BiK10	T:Ma Barker's Killer Brood	1960	D:Karn
+DuC10	T:Under Ten Flags	1960	D:Coletti
+DSm10	Tm:Pollyanna	1960	D:D.Smith
+FCo10	T:El Fantasma de la Opera	1960	D:Cortes
+FCo20	T:En Este Pueblo No Hay Ladrones	1964	D:Cortes
+GeR1	T:Craig's Will	1960	D:G.Reynolds
+GiP10	T:The Battle of Algiers	1966	D:Pontocorvo
+GiP20	T:Burn!	1970	D:Pontocorvo
+GPl10	T:The Time Machine	1960	D:Pal
+GSj1	T:The Little Man Who Was There	1960	D:G.Stevens~jr.
+GSj2	T:Coming, Mama	1961	D:G.Stevens~jr.
+HAG1	T:Party Line	1960	D:H.S.Green
+IMx10	T:Foxhole in Cairo	1960	D:Moxey
+IS2	T:A Kind of Loving	1962	D:Schlesinger
+IS5	T:Far from the Madding Crowd	1967	D:Schlesinger
+IS6	T:Midnight Cowboy	1969	D:Schlesinger
+IS7	T:Sunday, Bloody Sunday	1972	D:Schlesinger
+IS8	T:The Day of the Locust	1975	D:Schlesinger
+IS9	T:Marathon Man	1976	D:Schlesinger
+IS10	T:Yanks	1979	D:Schlesinger
+IS11	T:Honky Tonk Freeway	1981	D:Schlesinger
+IS25	T:Pacific Heights	1990	D:Schlesinger
+JL5	T:The Bellboy	1960	D:J.Lewis
+JL10	Tm:The Errand Boy	1961	D:J.Lewis
+JL13	T:The Nutty Professor	1963	D:J.Lewis
+JL15	Tm:The Patsy	1964	D:J.Lewis
+JqD1	T:Lola	1960	D:J.Demy
+JqD4	T:Les Parpluies de Cherbourg	1964	D:J.Demy
+JqD7	T:The Pied Piper	1971	D:J.Demy
+JWa1	T:The Alamo	1960	D:J.Wayne
+JWa2	T:The Green Berets	1968	D:J.Wayne
+LSt10	T:Private Property	1960	D:L.Stevens
+MeW10	T:Code of Silence	1960	D:M.Welles
+MeW30	T:Lady Frankenstein	1972	D:M.Welles
+RiD1	T:The Schartz-Metterklume Method	1960	D:Dunlap
+RMD10	T:The Subterraneans	1960	D:MacDougall
+RRu15	Tm:Freebie and the Bean	1974	D:Rush
+RRu20	Tm:The Stunt Man	1980	D:Rush
+RtP10	T:L'Amante del Vampiro	1960	D:Polselli
+StB2	T:Uncle Vanya	1962	D:Burge
+StB3	T:Othello	1965	D:Burge
+StB5	T:Julius Caesar	1970	D:Burge
+BFo1	T:Whistle Down the Wind	1962	D:B.Forbes
+BFo12	T:The Stepford Wives	1974	D:B.Forbes
+BFo14	T:International Velvet	1978	D:B.Forbes
+FrF35	T:Tales from the Crypt	1972	D:Francis
+GeW3	T:World's Greatest Lover	1977	D:G.Wilder
+GeW5	T:The Woman in Red	1984	D:G.Wilder
+GnN10	T:Hand of Death	1961	D:Gn.Nelson
+GoH51	T:Scream and Scream Again	1964	D:Hessler
+GoH54	Tm:The Golden Voyage of Sinbad	1974	D:Hessler
+GxR03	T:Comrade X	1940	D:unknown
+GxR05	T:Command Decision	1948	D:unknown
+GxR06	T:The Great Sinner	1949	D:unknown
+GxR07	T:The Red Badge of Courage	1951	D:unknown
+GxR10	T:Betrayed	1954	D:G.Reinhardt
+HiT15	T:Suna no Onna	1964	D:Teshigahara
+HrC10	T:Une Aussi Longue Absence	1961	D:Colpi
+HrR10	T:Die Unsichtbaren Krallen des Dr.~Mabuse	1961	D:Reinl
+HrR12	T:Im Stahlnetz des Dr.~Mabuse	1962	D:Reinl
+ICs1	T:Shadows	1961	D:JCassavetes
+JGf10	T:Something Wild	1961	D:Garfein
+JoQ10	T:The Roman Spring of Mrs Stone	1961	D:Quintero
+MBd10	Tm:One Eyed Jacks	1961	D:Brando
+PaP15	T:Il Vangelo Secondo Matteo	1964	D:Pasolini
+PdB3	T:Cartouche	1961	D:DeBroca
+PdB10	T:King of Hearts	1967	D:DeBroca
+PEt10	T:Happy Anniversary	1961	D:Etaix
+PMo1	T:sm	1961	D:Morrissey
+PMo3	T:Mary Martin Does It	1963	D:Morrissey
+PMo5	T:Civilization and its Discontents	1964	D:Morrissey
+PlT50	T:Good Morning, Babylon	1987	D:Taviani
+RDL3	T:A Hard Day's Night	1964	D:R.Lester
+RDL4	T:The Knack	1965	D:R.Lester
+RDL5	T:Help!	1965	D:R.Lester
+RDL6	T:A Funny Thing Happened on the Way to The Forum	1966	D:R.Lester
+RDL11	T:Juggernaut	1974	D:Lester
+RDL12	T:The Four Musketeers	1975	D:R.Lester
+RDL13	T:Royal Flash	1975	D:Lester
+RDL15	T:Robin and Marian	1976	D:Lester
+RDL17	T:Butch and Sundance, the Early Days	1979	D:Lester
+RDL18	Tm:Cuba	1979	D:R.Lester
+RDL19	T:Superman II	1980	D:R.Lester
+RDL24	T:Finders Keepers	1984	D:Lester
+RMe12	T:The Cat and the Canary	1978	D:R.Metzger
+RoP2	T:Repulsion	1965	D:Polanski
+RoP4	T:The Fearless Vampire Killers	1967	D:Polanski
+RoP5	T:Rosemary's Baby	1968	D:Polanski
+RoP6	T:Macbeth	1971	D:Polanski
+RoP8	T:Chinatown	1974	D:Polanski
+RoP9	T:Le Locataire	1976	D:Polanski
+RoP15	T:Frantic	1988	D:Polanski
+SaP4	T:The Wild Bunch	1969	D:Peckinpah
+SaP6	Tm:The Ballad of Cable Hogue	1970	D:Peckinpah
+SaP11	T:The Getaway	1972	D:Peckinpah
+SaP20	Tm:Convoy	1978	D:Peckinpah
+SeL55	T:Once Upon A Time in America	1984	D:S.Leone
+WRe20	T:The Jungle Book	1967	D:Reitherman
+WRe25	T:The Aristocats	1970	D:Reitherman
+WRe35	T:The Many Adventures of Winnie-the-Pooh	1983	D:Reitherman
+WRe38	T:The Great Mouse Detective	1986	D:Reitherman
+WRe40	T:Daffy Duck's Quackbusters	1988	D:Reitherman
+ARG2	T:Trans-Europe Express	1966	D:RobbeGrillet
+AVo10	T:Die T\"ur mit den Sieben Schl\:ossern	1962	D:Vohrer
+BB5	T:The Spider's Stratagem	1970	D:Bertolucci
+BB7	T:Last Tango in Paris	1972	D:Bertolucci
+BB8	T:Novecento	1976	D:Bertolucci
+BB9	T:Luna	1977	D:Bertolucci
+CJ2	T:Anne of a Thousand Days	1970	D:Jarrot
+CJ4	T:Lost Horizon	1973	D:Jarrot
+CJ6	T:the Other Side of Midnight	1977	D:Jarrot
+CJ8	Tm:Last Flight of Noah's Ark	1981	D:Jarrot
+CJ9	Tm:Condor Man	1981	D:Jarrott
+FPy1	T:David and Lisa	1962	D:F.Perry
+FPy8	T:Last Summer	1969	D:F.Perry
+FPy10	Tm:Diary of a Mad Housewife	1970	D:F.Perry
+FPy20	Tm:Mommie Dearest	1981	D:F.Perry
+FPy22	T:Monsignor	1982	D:F.Perry
+GgE10	T:The Ugly American	1962	D:Englund
+GRH1	T:Period of Adjustment	1962	D:G.R.Hill
+GRH3	T:The World of Henry Orient	1964	D:G.R.Hill
+GRH4	T:Hawaii	1966	D:G.R.Hill
+GRH5	T:Thoroughly Modern Millie	1967	D:G.R.Hill
+GRH6	T:Butch Cassidy and the Sundance Kid	1969	D:G.R.Hill
+GRH9	T:The Great Waldo Pepper	1975	D:G.R.Hill
+GRH10	T:Slap Shot	1977	D:G.R.Hill
+GRH11	T:A Little Romance	1979	D:G.R.Hill
+HHe1	T:Carnival of Souls	1962	D:Herk
+LHM1	T:PT-109	1962	D:Martinson
+LHM3	T:Batman	1962	D:Martinson
+PY1	T:Summer Holiday	1962	D:Yates
+PY3	T:Robbery	1967	D:Yates
+PY4	T:Bullit	1968	D:Yates
+PY11	T:Breaking Away	1979	D:Yates
+PY19	Tm:Krull	1983	D:Yates
+RD4	T:The Omen	1976	D:R.Donner
+RD5	T:Superman	1978	D:R.Donner
+RNe1	T:Requiem for A Heavyweight	1962	D:R.Nelson
+RNe10	T:Charly	1968	D:R.Nelson
+SP5	T:The Black Curtain	1962	D:S.Pollack
+SP6	T:Diagnosis: Danger	1963	D:S.Pollack
+SP25	T:Castle Keep	1964	D:S.Pollack
+SP31	T:The Slender Thread	1965	D:S.Pollack
+SP40	Tm:Jeremiah Johnson	1972	D:S.Pollack
+SP45	T:The Yakuza	1975	D:S.Pollack
+SP46	T:The Way We Were	1975	D:S.Pollack
+SP47	T:Three Days of the Condor	1976	D:S.Pollack
+SP49	Tm:Bobby Deerfield	1977	D:S.Pollack
+SP55	T:Absence of Malice	1981	D:S.Pollack
+SP61	T:Out of Africa	1985	D:S.Pollack
+AMk10	T:Pasazerka	1963	D:Munk
+ASe10	T:All The Way Home	1963	D:A.Segal
+BdY4	T:Inspector Clouseau	1968	D:Bud~Yorkin
+BoW4	T:Elvira Madigan	1967	D:Widerberg
+BoW6	T:Joe Hill	1971	D:Widerberg
+BuT10	T:The Strangler	1963	D:Topper
+CuH20	T:Mata Hari	1985	D:Harrington
+DCh10	T:Jason and the Argonauts	1963	D:Chaffey
+FFC1	T:Dementia 13	1963	D:Coppola
+FFC3	T:Finian's Rainbow	1968	D:Coppola
+FFC6	T:The Conversation	1974	D:Coppola
+FFC8	T:Apocalypse Now	1979	D:Coppola
+FFC12	T:The Cotton Club	1984	D:Coppola
+FFC15	T:Peggy Sue Got Married	1986	D:Coppola
+FFC24	T:The Godfather, Part III	1990	D:Coppola
+FJS2	T:The Best Man	1964	D:Schaffner
+FJS3	T:The War Lord	1965	D:Schaffner
+FJS5	T:The Double Man	1967	D:Schaffner
+FJS13	T:Patton	1970	D:Schaffner
+FJS16	T:Papillon	1973	D:Schaffner
+FJS18	T:The Boys From Brazil	1973	D:Schaffner
+FJS22	T:Islands in The Stream	1976	D:Schaffner
+FJS29	T:Sphinx	1980	D:Schaffner
+FJS35	T:Yes, Giorgio	1982	D:Schaffner
+GLt10	T:La Cage Au Folles III	1985	D:Lautner
+HvH10	T:Terror at Northfield	1963	D:Hart
+HvH11	T:Lonely Place	1964	D:Hart
+HvH12	T:Triumph	1964	D:Hart
+HvH13	T:Death Scene	1965	D:Hart
+HvH14	T:Power of Attorney	1965	D:Hart
+ILa32	T:National Lampoon's Animal House	1978	D:Landis
+ILa33	T:Blues Brothers	1980	D:Landis
+ILa38	T:Trading Places	1983	D:Landis
+ILa40	T:Into the Night	1985	D:Landis
+ILa50	T:Oscar	1991	D:Landis
+ILa55	T:Coming to America	1991	D:Landis
+JaS10	T:What Really Happened	1963	D:Smight
+JaS11	T:The Paragon	1963	D:Smight
+JaS12	T:The Lonely Hour	1963	D:Smight
+JaS13	T:The Dark Pool	1963	D:Smight
+JaS20	T:I'd Rather be Rich	1964	D:Smight
+JaS38	T:No Way to Treat a Lady	1968	D:Smight
+JaS40	Tm:The Secret War of Harry Frigg	1968	D:Smight
+JaS46	T:Airport 75	1974	D:Smight
+JaS48	T:Midway	1976	D:Smight
+JaS65	Tm:Loving Couples	1981	D:Smight
+JSn10	T:I'll Be The Judge, I'll Be The Jury	1963	D:JSheldon
+KgD10	T:Promises! Promises!	1963	D:D.F.Taylor
+LiW8	T:All Screwed Up	1974	D:Wertmuller
+LiW9	T:Swept Away	1975	D:Wertmuller
+NJ7	T:In the Heat of the Night	1967	D:Jewison
+NJ8	T:The Thomas Crown Affair	1968	D:Jewison
+NJ11	T:Fiddler on the Roof	1971	D:Jewison
+NJ13	T:Rollerball	1975	D:Jewison
+NJ16	T:Best Friends	1982	D:Jewison
+NJ20	T:Agnes of God	1985	D:Jewison
+NJ25	T:Moonstruck	1987	D:Jewison
+NMa10	T:The Three Stooges Go Around the World in A Daze	1963	D:Maurer
+PdR10	T:Allegro Ma Troppo	1963	D:deRoubais
+PK3	Tm:White Dawn	1975	D:Ph.Kaufman
+PK6	Tm:The Wanderers	1980	D:Ph.Kaufman
+PK7	T:The Right Stuff	1983	D:Ph.Kaufman
+RtD10	T:The Long Silence	1963	D:R.Douglas
+RtD11	T:You'll Be the Death of Me	1963	D:R.Douglas
+RtD12	T:Behind the Locked Door	1964	D:R.Douglas
+RtD13	T:Sign of Satan	1964	D:R.Douglas
+SPv10	T:The Waltz King	1963	D:Previn
+SSe10	Tm:Day of the Triffids	1963	D:Sekely
+WHu7	Tm:Quackser Fortune Has a Cousin in the Bronx	1970	D:W.Hussein
+WHu10	T:Henry VIII and His Six Wives	1972	D:W.Hussein
+BeW12	T:The Saboteur, Code Name Morituri	1965	D:Wicki
+IvP20	T:Crime and Passion	1976	D:Passer
+IvP24	Tm:Silver Bears	1978	D:Passer
+JEu15	T:Bad Company	1969	D:Eustache
+JGs6	T:A Man Named Gannon	1964	D:Goldstone
+JGs20	T:Winning	1969	D:Goldstone
+JGs31	T:Rollercoaster	1977	D:Goldstone
+KRu2	T:Women in Love	1969	D:K.Russell
+KRu4	T:The Devils	1971	D:K.Russell
+KRu6	T:The Boyfriend	1971	D:K.Russell
+KRu7	T:Mahler	1974	D:K.Russell
+KRu10	T:Valentino	1977	D:K.Russell
+LwT20	T:The Lady in Red	1978	D:Teague
+LwT30	T:Fighting Back	1983	D:Teague
+LwT33	T:Cujo	1983	D:Teague
+LwT39	T:Jewel of the Nile	1985	D:Teague
+MAp24	T:Agatha	1979	D:Apted
+MAp25	T:Coal Miner's Daughter	1980	D:Apted
+MAp27	Tm:Continental Divide	1981	D:Apted
+MAp29	T:Gorky Park	1983	D:Apted
+MAp39	T:Gorillas in the Mist	1988	D:Apted
+MF2	T:Lasky Jedne Plavovlasky	1965	D:Forman
+MF3	T:Fireman's Ball	1967	D:Forman
+MF6	T:Hair	1979	D:Forman
+MF7	T:Ragtime	1981	D:Forman
+MF8	T:Amadeus	1983	D:Forman
+MF9	T:Valmont	1989	D:Forman
+MZ1	T:Loving Couples	1964	D:Zetterling
+PTw1	T:Sunday in New York	1964	D:Tewkesbury
+UbR10	T:The Last Man on Earth	1964	D:Ragona
+WFr10	T:Change of Address	1964	D:Friedkin
+WFr11	T:The McGregor Affair	1964	D:Friedkin
+WFr12	T:Crimson Witness	1965	D:Friedkin
+WFr13	T:Thou Still Unravished Bride	1965	D:Friedkin
+WFr14	T:Off Season	1965	D:Friedkin
+WFr35	T:The French Connection	1971	D:Friedkin
+WFr36	T:The Exorcist	1971	D:Friedkin
+WFr38	T:The Boys in the Band	1976	D:Friedkin
+WFr39	T:Sorcerer	1977	D:Friedkin
+WFr42	T:Cruising	1980	D:Friedkin
+WFr45	T:Deal of the Century	1983	D:Friedkin
+AlM10	T:The Photographer and the Undertaker	1965	D:March
+CCG1	T:The Sleeping Car Murders	1965	D:CostaGavras
+CCG3	T:Z	1969	D:Costa-Gravas
+CCG4	T:L'Aveu	1970	D:CostaGavras
+CCG7	T:Missing	1982	D:CostaGavras
+CCG8	T:Hannah K	1983	D:CostaGavras
+CCG15	T:Music Box	1989	D:CostaGavras
+EtS3	T:The Pizza Triangle	1970	D:Scola
+FrC1	T:A Thousand Clowns	1965	D:F.Coe
+FrP10	T:King of the Gypsies	1978	D:Pierson
+HCo10	T:Night Fever	1965	Coleman
+IBo5	T:Deliverance	1972	D:Boorman
+IBo7	T:Exorcist II: The Heretic	1973	D:Boorman
+IBo20	T:Excalibur	1981	D:Boorman
+IBo27	T:The Emerald Forest	1985	D:Boorman
+IBo35	T:The General	1998	D:Boorman
+JBH10	T:The Bedford Incident	1965	D:J.B.Harris
+JBH20	Tm:Some Call it Loving	1973	D:J.B.Harris
+JBw10	T:Wally the Beard	1965	D:J.Brown
+JTl9	T:Hurricane	1979	D:Troell
+LiS10	T:Licensed to Kill	1965	D:Shonteff
+MBe2	T:China is Near	1967	D:Bellocchio
+MBe10	T:Devil in the Flesh	1987	D:Bellocchio
+MBe18	T:The Conviction	1994	D:Bellocchio
+MRv6	T:Witchfinder General	1968	D:Reeves
+NoT3	T:The Ugly Dachshund	1965	D:Tokar
+NoT5	T:The Happiest Millionaire	1967	D:Tokar
+NoT10	Tm:Apple Dumpling Gang	1975	D:Tokar
+NoT12	Tm:Snowball Express	1975	D:Tokar
+NoT15	Tm:Cat from Outer Space	1978	D:Tokar
+RKp10	T:The Eleanor Roosevelt Story	1965	D:R.Kaplan
+SiM10	T:Tammy and the Millionaire	1969	D:S.Miller
+SkT1	T:Kizino Kizi	1965	D:Taniguchi
+WCo10	T:Two on a Guillotine	1965	D:Conrad
+WTN10	T:Thunder in Dixie	1965	D:Naud
+BBw10	T:Endless Summer	1966	D:Br.Brown
+BBw20	T:Bruce Brown's The Endless Summer II	1966	D:Br.Brown
+DoH10	T:Beau Geste	1966	D:Heyes
+FZe1	T:The Taming of the Shrew	1966	D:Zefferelli
+FZe2	T:Romeo and Juliet	1968	D:Zeffirelli
+FZe3	T:Brother Sun and Sister Moon	1973	D:Zefferelli
+FZe6	T:Endless Love	1981	D:Zeffirelli
+FZe7	T:La Traviata	1983	D:Zefferelli
+FZe10	T:Otello	1986	D:Zefferelli
+GAd5	T:Lord Love a Duck	1966	D:G.Axelrod
+GAd10	T:The Secret Life of an American Wife	1968	D:G.Axelrod
+GiG10	Tm:Rage	1966	D:Gazcon
+HyA10	T:Suppose They Gave a War	1970	D:Averback
+JeH10	T:The Shooting	1966	D:J.Hellman
+JeH30	Tm:Promises in the Dark	1980	D:J.Hellman
+JNe20	T:Czeslaw Milosz: the Poet Remebers	1989	D:Nemec
+JSg18	T:MacArthur	1977	D:Sargent
+JSg22	Tm:Coast-to-Coast	1980	D:Sargent
+MlC15	T:The Lost Continent	1968	D:Carreras
+MeG12	Tm:Lepke	1977	D:Golan
+MeG30	T:Over the Brooklyn Bridge	1983	D:Golan
+MN1	T:Who's afraid of Virginia Woolf	1966	D:M.Nichols
+MN2	T:The Graduate	1967	D:M.Nichols
+MN11	T:Heartburn	1986	D:M.Nichols
+MN15	T:Working Girl	1989	D:M.Nichols
+MiS3	T:Myra Breckenridge	1969	D:Sarne
+PlM1	T:Sinderella and the Golden Bra	1966	D:Mart
+REM5	T:Any Wednesday	1966	D:R.E.Miller
+SNz10	T:Georgy Girl	1966	D:Narizzano
+SRm1	T:Blood Bath	1966	D:Rothman
+VoS40	T:The Handmaid's Tale	1990	D:Schlondorff
+BuK5	T:The War Wagon	1967	D:Kennedy
+BuK10	Tm:Support Your Local Sheriff	1969	D:Kennedy
+CaR1	T:Enter Laughing	1967	D:C.Reiner
+CaR5	T:The Comic	1969	D:C.Reiner
+CaR7	T:Where's Poppa?	1970	D:C.Reiner
+CaR15	T:Oh, God	1977	D:C.Reiner
+CaR20	T:Dead Men Don't Wear Plaid	1982	D:C.Reiner
+CaR30	T:Show-Biz Nose	1989	D:C.Reiner
+GSs1	T:Barefoot in the Park	1967	D:Saks
+IAv4	Tm:Joe	1970	D:J.G.Avildsen
+IAv7	T:Save the Tiger	1973	D:J.G.Avildsen
+IAv10	T:Rocky	1976	D:J.G.Avildsen
+IAv16	Tm:The Formula	1981	D:J.G.Avildsen
+IAv18	T:Happy New Year	1987	D:J.G.Avildsen
+IAv20	T:Karate Kid III	1989	D:J.G.Avildsen
+IAv21	T:Rocky V	1990	D:J.G.Avildsen
+JSi10	T:Ulysses	1967	D:Strick
+LaJ13	T:Lipstick	1976	D:L.Johnson
+LaJ20	Tm:Spacehunter: Adventures in the Forbidden Zone	1983	D:L.Johnson
+MRt5	T:The Candidate	1972	D:M.Ritchie
+MRt6	T:Smile	1975	D:M.Ritchie
+MRt7	T:The Bad News Bears	1976	D:M.Ritchie
+MRt11	Tm:The Island	1980	D:M.Ritchie
+MRt18	T:Fletch	1986	D:M.Ritchie
+PCo11	T:And Then There Were None	1974	D:Collinson
+PCo12	T:The Spiral Staircase	1975	D:Collinson
+PCo17	Tm:The Earthling	1980	D:Collinson
+ToL10	Tm:Billy Jack	1971	D:T.Laughlin
+WBz13	T:Immoral Tales	1974	D:Borowczyck
+WH9	T:Nosferatu the Vampyre	1978	D:Herzog
+AHv10	T:The Lion in Winter	1968	D:A.Harvey
+AnP8	T:The Lady Vanishes	1979	D:A.Page
+BKo10	T:Krakatoa, East of Java	1968	D:Kowalski
+BdP1	T:unknown	1968	D:B.dePalma
+BdP2	T:Hi, Mom!	1970	D:B.dePalma
+BdP8	Tm:Sisters	1973	D:B.dePalma
+BdP10	T:Phantom of The Paradise	1974	D:B.dePalma
+BdP11	T:Obsession	1976	D:B.dePalma
+BdP13	T:The Fury	1979	D:B.dePalma
+BdP14	T:Dressed to Kill	1980	D:B.dePalma
+BdP15	T:Blow Out	1981	D:B.dePalma
+BdP16	T:Scarface	1983	D:B.dePalma
+BdP17	T:Body Double	1984	D:B.dePalma
+BdP18	T:Wise Guys	1984	D:B.dePalma
+BzK8	T:Riot	1968	D:Kulik
+BzK20	T:The Hunter	1980	D:Kulik
+CPR10	T:A Challenge for Robin Hood	1968	D:PenningtonRichards
+GgD10	T:Yellow Submarine	1968	D:Dunning
+GiC3	T:I Never Sang for my Father	1968	D:Cates
+GiC10	Tm:Last Married Couple in America	1980	D:Cates
+GiC12	Tm:Oh God, Book II	1980	D:Cates
+GRo1	T:The Night of The Living Dead	1968	D:Romero
+GRo5	Tm:Season of the Witch	1972	D:Romero
+GRo15	T:Dawn of the Dead	1979	D:Romero
+GRo20	T:Creepshow	1982	D:Romero
+GRo30	T:The Night of The Living Dead - the Remake	1990	D:Romero
+HMo10	Tm:With Six You Get Eggroll	1968	D:H.Morris
+JOC10	T:The Valley of Gwangi	1968	D:OConnelly
+JFr15	T:Venus in Furs	1970	D:Franco
+JFr22	T:Jack the Ripper	1976	D:Franco
+JGo10	T:Man Friday	1976	D:Gold
+JGo13	Tm:The Medusa Touch	1978	D:Gold
+JiC20	Tm:Madhouse	1974	D:J.Clark
+KBi10	T:The Light at the Edge of the World	1971	D:Billington
+MB2	Tm:The Twelve Chairs	1970	D:Mel~Brooks
+MB3	T:Blazing Saddles	1974	D:Mel~Brooks
+MB5	T:Silent Movie	1976	D:Mel~Brooks
+MB6	T:High Anxiety	1978	D:Mel~Brooks
+MgT10	Tm:Battle Beneath the Earth	1968	D:Tully
+MRy1	T:The Fox	1968	D:Rydell
+MRy21	T:Intersection	1994	D:Rydell
+NoB3	T:Pretty Poison	1968	D:N.Black
+PBo5	T:What's Up, Doc?	1972	D:Bogdanovich
+PBo9	T:Nickelodeon	1976	D:Bogdanovich
+PBo11	T:They All Laughed	1982	D:Bogdanovich
+PBo15	T:The Mask	1985	D:Bogdanovich
+PlB2	T:Marlowe	1968	D:P.Bogart
+PlB12	T:The Skin Game	1971	D:P.Bogart
+PlB20	Tm:Class of '44	1973	D:P.Bogart
+PNe4	T:The Glass Menagerie	1987	D:P.Newman
+UlG3	T:Straight Time	1978	D:Grosbard
+YYa1	T:Otoko wa Tsurayo	1968	D:Yamada
+YYa58	T:Otoko wa Tsurayo	1989	D:Yamada
+YYa59	T:Tora-San, the Memorial Day of Salad	1989	D:Yamada
+YYa60	T:Tora-San Goes to Vienna	1989	D:Yamada
+BSc2	T:More	1969	D:Schroeder
+BSc5	T:The Valley	1972	D:Schroeder
+BSc7	T:General Idi Amin	1974	D:Schroeder
+BSc9	T:Maitresse	1975	D:Schroeder
+BSc11	T:Koko, the Talking Gorilla	1977	D:Schroeder
+BSc20	T:Barfly	1987	D:Schroeder
+BSc28	T:Single White Female	1992	D:Schroeder
+DCa10	T:Demon Seed	1977	D:Cammell
+HbR1	T:Goodbye Mr.~Chips	1969	D:H.Ross
+HbR4	T:Play it Again, Sam	1972	D:H.Ross
+HbR5	Tm:The Last of Sheila	1973	D:H.Ross
+HbR6	T:Funny Lady	1975	D:H.Ross
+HbR8	T:The Seven-Per-Cent Solution	1976	D:H.Ross
+HbR10	T:California Suite	1978	D:H.Ross
+HbR18	T:I Ought to be in Pictures	1982	D:H.Ross
+HbR21	Tm:Footloose	1984	D:H.Ross
+HbR22	T:Protocol	1984	D:H.Ross
+HbR30	T:Steel Magnolias	1989	D:H.Ross
+HbR34	T:Boys on The Side	1995	D:H.Ross
+HJL10	Tm:The Candy Man	1969	D:Leder
+IDx5	T:The Virgin Soldiers	1969	D:Dexter
+IWa30	T:Hairspray	1988	D:Waters
+IWa35	T:Cry-Baby	1990	D:Waters
+NiR3	T:Don't Look Now	1973	D:Roeg
+NiR30	T:Eureka	1983	D:Roeg
+NiR40	T:Castaway	1986	D:Roeg
+PHt1	T:On Her Majesty's Secret Service	1969	D:Hunt
+PHt11	T:Gold	1974	D:Hunt
+PHt13	T:Gulliver's Travels	1976	D:Hunt
+PHt20	T:Wild Geese II	1985	D:Hunt
+RA2	T:Young Winston	1972	D:Attenborough
+RA3	T:A Bridge too Far	1977	D:Attenborough
+RA5	T:Gandhi	1982	D:Attenborough
+RA8	T:A Chorus Line	1985	D:Attenborough
+RWF22	T:Chinese Roulette	1976	D:Fassbinder
+RWF26	T:Despair	1978	D:Fassbinder
+RWF27	T:The Marriage of Maria Braun	1978	D:Fassbinder
+RWF32	T:Berlin-Alexanderplatz	1979	D:Fassbinder
+RWF37.	T:Querelle	1982	D:Fassbinder
+SBg10	T:The Picasso Summer	1969	D:Bourgignon
+WA1	T:Take the Money and Run	1969	D:Woody~Allen
+WA2	T:Bananas	1971	D:Woody~Allen
+WA3	T:Everything You Always Wanted to Know About Sex and Were Afraid to Ask	1972	D:Woody~Allen
+WA4	T:Sleeper	1973	D:Woody~Allen
+WA5	T:Love and Death	1976	D:Woody~Allen
+WA6	T:Annie Hall	1977	D:Woody~Allen
+WA7	T:Interiors	1978	D:Woody~Allen
+WA8	T:Manhattan	1979	D:Woody~Allen
+WA10	T:A Midsummernights Sex Comedy	1982	D:Woody~Allen
+WA12	T:Broadway Danny Rose	1984	D:Woody~Allen
+WA13	T:Hannah and Her Sisters	1985	D:Woody~Allen
+WA14	T:The Purple Rose of Cairo	1985	D:Woody~Allen
+WA15	T:Radio Days	1987	D:Woody~Allen
+WA18	T:Alice	1990	D:Woody~Allen
+WA19	T:Shadows and Fog	1992	D:Woody~Allen
+WA21	T:Manhattan Murder Mystery	1993	D:Woody~Allen
+WA22	T:Bullets Over Broadway	1994	D:Woody~Allen
+AML1	T:The Incredible Two-headed Monster	1970	D:Lanza
+BGH10	Tm:Kelly's Heroes	1970	D:B.Hutton
+BGH20	Tm:First Deadly Sin	1980	D:B.Hutton
+BGH26	T:High Road to China	1983	D:B.Hutton
+BRf1	T:Five Easy Pieces	1970	D:Rafelson
+BRf4	T:Stay Hungry	1976	D:Rafelson
+BRf20	T:The Postman Always Rings Twice	1981	D:Rafelson
+DaA1	T:The Bird with the Crystal Plumage	1970	D:Argento
+DaA5	T:Suspira	1976	D:Argento
+DCs12	T:Burnt Offerings	1976	D:D.Curtis
+DCR15	Tm:Scanners	1980	D:Cronenberg
+DCr20	T:The Fly	1986	D:Cronenberg
+DHe10	Tm:Dunwich Horror	1970	D:D.Haller
+EdA5	T:Rush to Judgement	1970	D:deAntonio
+EdA10	T:Point of Order	1975	D:deAntonio
+EdA15	T:In the Year of the pig	1980	D:deAntonio
+EdA20	T:Mr.~Hoover and I	1989	D:deAntonio
+EMa10	T:A New Leaf	1970	D:E.May
+EMa15	T:Heartbreak Kid	1972	D:E.May
+FSc1	T:The Priest	1970	D:Schepisi
+FSc5	T:The Chant of Jimmy Blacksmith	1978	D:Schepisi
+FSc10	T:Barbarosa	1982	D:Schepisi
+FSc15	T:Plenty	1985	D:Schepisi
+HAs2	T:Harold and Maude	1971	D:Ashby
+HAs3	T:The Last Detail	1974	D:Ashby
+HAs4	T:Shampoo	1975	D:Ashby
+HAs5	T:Bound for Glory	1975	D:Ashby
+HAs7	T:Being There	1979	D:Ashby
+HWe10	T:Medium Cool	1970	D:Wexler
+HPr10	T:Something for Everyone	1970	D:Prince
+HPr20	T:A Little Night Music	1977	D:Prince
+JaB2	T:The Paper Chase	1973	D:Bridges
+JaB5	T:The China Syndrome	1979	D:Bridges
+JSb3	T:Puzzle of a Downfall Child	1970	D:Schatzberg
+JSb5	T:Panic in Needle Park	1971	D:Schatzberg
+JSb10	T:The Seduction of Joe Tynan	1979	D:Schatzberg
+JSb13	Tm:Honeysuckle Rose	1980	D:Schatzberg
+KCo15	T:The Land that Time Forgot	1974	D:Connor
+KCo20	T:Trial by Combat	1976	D:Connor
+KCo22	T:The People that Time Forgot	1977	D:Connor
+LJe1	T:The Railway Children	1970	D:Jeffries
+LJe2	T:The Amazing Mr.~Blunden	1972	D:Jeffries
+MS4	T:Alice Doesn't Live Here Anymore	1974	D:Scorsese
+MS7	Tm:New York, New York	1977	D:Scorsese
+MS10	T:The Last Waltz	1978	D:Scorsese
+MS19	T:The King of Comedy	1982	D:Scorsese
+MS20	T:After Hours	1985	D:Scorsese
+MWa10	Tm:Wolfen	1981	D:Wadleigh
+PaS10	T:The Black Train	1970	D:Schiffer
+PeS3	T:Countess Dracula	1970	D:Sasdy
+PeS5	T:Hands of the Ripper	1971	D:Sasdy
+PM1	T:Bob and Carol and Ted and Alice	1970	D:Mazursky
+PM3	T:Blume in Love	1973	D:Mazursky
+PM10	T:Down and Out in Beverly Hills	1986	D:Mazursky
+PM12	T:Enemies, A Love Story	1989	D:Mazursky
+PM15	T:Scenes from a Mall	1991	D:Mazursky
+RBe2	T:The Late Show	1977	D:Benton
+RBe3	T:Kramer vs. Kramer	1979	D:Benton
+RBe5	Tm:Still of the Night	1982	D:Benton
+RFu10	T:Wuthering Height	1970	D:Fuest
+RFu11	T:The Abominable Dr. Phibes	1971	D:Fuest
+RFu12	T:Dr. Phibes Rises Again	1972	D:Fuest
+VME8	Tm:Gus	1970	D:McEveety
+VME9	T:The Brotherhood of Satan	1971	D:McEveety
+VME11	T:One Little Indian	1972	D:McEveety
+VME13	T:Herbie Rides Again	1974	D:McEveety
+VME14	T:Treasure of Matecumbe	1976	D:McEveety
+VME15	T:Herbie Goes to Monte Carlo	1977	D:McEveety
+VME18	T:The Apple Dumpling Gang Rides Again	1979	D:McEveety
+VME20	T:Herbie Goes Bananas	1980	D:McEveety
+WCr10	T:Swamp Thing	1981	D:W.Craven
+WCr15	T:A Nightmare on Elm Street	1984	D:W.Craven
+WCr20	T:The Return of the Swamp Thing	1986	D:W.Craven
+WCr40	T:New Nightmare	1994	D:W.Craven
+AJP1	T:Klute	1971	D:Pakula
+AJP2	T:The Parallax View	1974	D:Pakula
+AJP3	T:All the President's Men	1976	D:Pakula
+AJP5	T:Starting Over	1980	D:Pakula
+AJP7	T:Sophie's Choice	1982	D:Pakula
+ATa5	T:La Salamandre	1971	D:Tanner
+ATa10	T:Jonah Who Will Be 25 in the Year 2000	1976	D:Tanner
+CEa1	T:Play Misty for Me	1971	D:Eastwood
+CEa2	T:High Plains Drifter	1973	D:Eastwood
+CEa3	T:The Outlaw Josey Wales	1976	D:Eastwood
+CEa4	T:The Gauntlet	1977	D:Eastwood
+CEa6	T:The Eiger Sanction	1981	D:Eastwood
+CEa7	T:Firefox	1982	D:Eastwood
+CEa9	Tm:Sudden Impact	1983	D:Eastwood
+CEa12	T:Bird	1988	D:Eastwood
+CEa14	T:White Hunter, Black Heart	1990	D:Eastwood
+CEa15	T:Rookie	1990	D:Eastwood
+CEa18	T:Bridges of Madison County	1995	D:Eastwood
+CH5	T:Anthony and Cleopatra	1971	D:Heston
+CoH1	T:Foul Play	1978	D:Higgins
+CoH3	T:Best Little Whorehouse in Texas	1982	D:Higgins
+CWr3	T:A Day in the Life of Ivan Denisovitch	1971	D:Wrede
+CWr10	Tm:Ransom	1984	D:Wrede
+DTr3	T:Silent Running	1971	D:Trumbull
+DTr10	T:Brainstorm	1983	D:Trumbull
+EPe10	T:Zeppelin	1971	D:Perier
+GgL2	T:American Graffiti	1973	D:G.Lucas
+GgL3	T:Star Wars	1977	D:G.Lucas
+GPk10	T:Shaft	1971	D:Parks
+GPk14	T:Shaft's Big Score	1972	D:Parks
+HJ1	T:A Safe Place	1971	D:Jaglom
+HJ5	T:Can She Bake a Cherry Pie?	1983	D:Jaglom
+HJ7	Tm:Sitting Ducks	1980	D:Jaglom
+IBa7	T:The Bingo Long Traveling All-Stars	1976	D:Badham
+IBa10	T:Dracula	1979	D:Badham
+IBa12	T:War Games	1983	D:Badham
+IBa13	T:Blue Thunder	1983	D:Badham
+IHk20	Tm:Brass Target	1978	D:Hough
+IHk30	Tm:Triumphs of a Man Called Horse	1982	D:Hough
+IvR23	T:Father's Day	1996	D:Reitman
+LTu10	T:Marriage of A young Stockbroker	1971	D:Turman
+LTu30	Tm:Second Thoughts	1982	D:Turman
+MiT3	T:Mister Quilp	1975	D:Tuchner
+MSL15	T:Strange Invaders	1984	D:M.Laughlin
+MvC10	Tm:Evel Knievel	1971	D:Chomsky
+MvC30	Tm:Tank	1984	D:Chomsky
+PWr2	T:The Cars That Ate Paris	1971	D:Weir
+PWr3	T:Picnic at Hanging Rock	1975	D:Weir
+PWr5	T:Gallipoli	1981	D:Weir
+PWr6	T:The Year of Living Dangerously	1982	D:Weir
+PWr8	T:Witness	1985	D:Weir
+PWr10	T:The Mosquito Coast	1986	D:Weir
+PWr14	T:Green Card	1989	D:Weir
+RBa1	T:Fritz the Cat	1971	D:Bakshi
+RBa2	T:Heavy Traffic	1973	D:Bakshi
+RBa3	T:The Nine Lives of Fritz the Cat	1975	D:Bakshi
+RBa4	T:Coonskin	1975	D:Bakshi
+RBa5	T:Wizards	1977	D:Bakshi
+RBa6	T:Lord of The Ring	1978	D:Bakshi
+RBa7	T:American Pop	1981	D:Bakshi
+RBa8	T:Hey Good Lookin'	1982	D:Bakshi
+RBB10	Tm:Made for Each Other	1971	D:Bean
+RSa5	T:Vanishing Point	1971	D:Sarafin
+RSfl0	Tm:The Man Who Loved Cat Dancing	1973	D:Sarafian
+RSf20	Tm:Sunburn	1979	D:Sarafian
+SPo2	T:Let's Do It Again	1975	D:Poitier
+Spo8	T:Hanky Panky	1982	D:Poitier
+StF5	T:Dangerous Liasons	1987	D:Frears
+StF12	T:Hero	1992	D:Frears
+StF14	T:The Snapper	1993	D:Frears
+BaP10	T:Cool Breeze	1972	D:B.Pollack
+BCl4	T:Murder by Decree	1979	D:B.Clark
+CAN10	T:Charlotte's Web	1972	D:C.Nichols
+DaH1	T:Running Scared	1972	D:Hemmings
+DuW10	T:Some Will, Some Won't	1972	D:Wood
+EgM10	Tm:Bad Man's River	1972	D:E.Martin
+EgM12	T:Horror Express	1973	D:E.Martin
+ELh1	T:Portnoy's Complaint	1972	D:E.Lehman
+EuM10	Tm:Pancho Villa	1972	D:Eu.Marin
+GCS10	T:Rage	1972	D:G.C.Scott
+GBl10	Tm:To Kill a Clown	1972	D:Bloomfield
+GBl20	Tm:Nothing Personal	1980	D:Bloomfield
+GrD10	T:Deep Throat	1972	D:Damiano
+JeJ10	T:Airport '77	1977	D:Jameson
+JeJ15	T:Raise the Titanic!	1980	D:Jameson
+PBa4	T:Cannonball	1976	D:Bartel
+PBa8	T:Lust in the Dust	1985	D:Bartel
+PMe10	Tm:The Ruling Class	1972	D:Medak
+PMe20	T:Zorro, the Gay Blade	1981	D:Medak
+RAC10	T:Fuzz	1972	D:Colla
+RAC20	Tm:Battlestar Galactica	1978	D:Colla
+WlC10	T:Blacula	1972	D:Crain
+WSt10	T:Alice's Adventures in Wonderland	1972	D:Sterling
+AMy18	T:Police Academy 5	1988	D:Myerson
+APa5	T:Bugsy Malone	1977	D:A.Parker
+APa7	T:Fame	1979	D:A.Parker
+APa24	T:Come See the Paradise	1990	D:A.Parker
+APa25	T:The Commitments	1991	D:A.Parker
+CSe6	T:But What Do Women Want	1978	D:Serreau
+CSe10	T:Three Men and a Cradle	1985	D:Serreau
+CSe15	T:Mama, There's a Man in Your Bed	1989	D:Serreau
+EdC10	T:Hitler: The Last Ten Days	1973	D:deConcini
+GlJ40	Tm:Only When I Laugh	1980	D:G.Jordan
+IMi1	T:Dillinger	1973	D:Milius
+IMi4	T:Conan the Barbarian	1982	D:Milius
+IMi10	Tm:Red Dawn	1984	D:Milius
+IWo35	T:Hard Target	1993	D:Woo
+JCJ10	T:The Nelson Affair	1973	D:J.C.Jones
+KrD10	T:Scalawag	1973	D:K.Douglas
+MCi1	T:Thunderbolt and Lightfoot	1974	D:Cimino
+MiC5	T:Westworld	1976	D:M.Crichton
+MiC11	T:The First Great Train Robbery	1978	D:M.Crichton
+MiC15	T:Coma	1978	D:M.Crichton
+MiC20	T:Looker	1981	D:M.Crichton
+RbC10	T:Enter the Dragon	1973	D:Clouse
+RbC17	T:Amsterdam Kill	1977	D:Clouse
+RCm10	Tm:Macon County Line	1973	D:Compton
+TMa10	T:Days of Heaven	1978	D:Malick
+CWh10	Tm:That'll be the Day	1974	D:Whatham
+DaG3	T:The Count of Monte Christo	1974	D:D.Greene
+DaG6	T:Gray Lady Down	1978	D:D.Greene
+ERz3	T:In Danger and Dire Distress the Middle Road Leads to Death	1974	D:Reitz
+GNe5	T:Freaky Friday	1976	D:Gary~Nelson
+GPC5	T:The Cassandra Crossing	1977	D:Cosmatos
+GPC10	Tm:Escape to Athena	1979	D:Cosmatos
+GPC20	T:Rambo: First Blood Part Two	1985	D:Cosmatos
+ICa9	T:The Thing	1982	D:Carpenter
+ICa20	T:Memoirs of an Invisible Man	1991	D:Carpenter
+JDe1	T:Caged Heat	1974	D:J.Demme
+JDe5	Tm:Fighting Mad	1976	D:J.Demme
+JDe8	T:Last Embrace	1980	D:J.Demme
+JDe10	T:Melvin and Howard	1980	D:J.Demme
+JDe12	T:Something Wild	1982	D:J.Demme
+JDe15	T:Swing Shift	1984	D:J.Demme
+JHr20	T:That's Dancin'	1985	D:Haley
+JSz3	T:Jaws 2	1980	D:Szwarc
+JSz4	T:Somewhere in Time	1980	D:Szwarc
+JuJ1	T:Emmanuelle	1974	D:Jaeckin
+KBu50	T:Frank Lloyd Wright	1997	D:Burns
+SBs10	Tm:Phase IV	1974	D:Bass
+StC10	T:Big Bad Mama	1974	D:S.Carver
+StC12	T:Drum	1967	D:S.Carver
+StC20	T:Eye for an Eye	1981	D:S.Carver
+StC30	T:Lone Wolf McQuade	1983	D:S.Carver
+ToH1	T:The Texas Chain Saw Massacre	1974	D:T.Hooper
+ToH20	T:Poltergeist	1982	D:T.Hooper
+ToH30	T:Invaders from Mars	1986	D:T.Hooper
+DRi10	T:Farewell My Lovely	1975	D:Richards
+DRi14	Tm:March or Die	1977	D:Richards
+DRi20	Tm:Man, Woman and Child	1983	D:Richards
+HeB1	T:King of the Night	1975	D:Babenco
+HeB3	T:Lucio Flavio: Passenger of Agony	1978	D:Babenco
+HeB5	T:Pixote	1980	D:Babenco
+HeB10	T:Kiss of the Spider Woman	1985	D:Babenco
+HeB12	T:Ironweed	1986	D:Babenco
+JCT1	T:Cousin, Cousine	1975	D:Tacchella
+JKp18	T:Heart Like a Wheel	1982	D:J.Kaplan
+JKp33	T:Love Field	1992	D:J.Kaplan
+NSg10	Tm:The Happy Hooker	1975	D:Sgarro
+RaK5	T:Grease	1978	D:Kleiser
+RaK7	T:The Blue Lagoon	1981	D:Kleiser
+TgG1	T:Monty Python and the Holy Grail	1975	D:Gilliam
+TGi4	T:Time Bandits	1981	D:Gilliam
+TNu3	T:Hedda	1975	D:Nunn
+TNu10	T:Lady Jane	1986	D:Nunn
+WHl2	T:The Driver	1978	D:W.Hill
+WHl4	T:The Warriors	1979	D:W.Hill
+WHl10	T:48 Hrs.	1982	D:W.Hill
+WHl20	T:Another 48 Hrs.	1982	D:W.Hill
+WWi10	Tm:Tom Horn	1975	D:Wiard
+ARu4	T:Welcome to L.A.	1976	D:Rudolph
+ARu10	T:Choose Me	1984	D:Rudolph
+ARu20	T:`L'Amour poursuite'	1989	D:Rudolph
+BaK1	T:Harlan County, USA	1976	D:Kopple
+BaK20	T:American Dream	1992	D:Kopple
+BBa1	T:Dona Flor and Her Two Husbands	1976	D:B.Barreto
+BRB3	Tm:Don's Party	1976	D:Beresford
+BrB5	T:Breaker Morant	1979	D:Beresford
+BRB7	Tm:The Getting of Wisdom	1980	D:Beresford
+BrB10	Tm:Tender Mercies	1983	D:Beresford
+CkB10	Tm:Gumball Rally	1976	D:Bail
+ClM30	T:The Little Thief	1989	D:C.Miller
+ClM40	T:The Accompanist	1993	D:C.Miller
+GeB3	T:Pumping Iron	1976	D:G.Butler
+GeB10	T:In the Blood	1989	D:G.Butler
+IFy20	Tm:Defiance	1980	D:J.Flynn
+JFg10	T:The Enforcer	1976	D:Fargo
+JFg20	Tm:Forced Vengance	1982	D:Fargo
+JoD11	T:The Howling	1980	D:Dante
+JoD20	T:Innerspace	1987	D:Dante
+JoD30	T:Gremlins 2, The New Batch	1990	D:Dante
+JsF10	Tm:The Big Bus	1976	D:Frawley
+LIC10	T:Sailor Who Fell from Grace With the Sea	1976	D:Carlino
+LIC20	Tm:The Great Santini	1980	D:Carlino
+LIC30	Tm:Class	1983	D:Carlino
+MAk10	T:Mohammad, Messenger of God	1976	D:Akkad
+MLH5	T:Nasty Habits	1976	D:LindsayHogg
+MMi10	T:Jackson County Jail	1976	D:M.Miller
+MMi21	T:National Lampoon's Class Reunion	1982	D:M.Miller
+MSz11	Tm:Greased Lightning	1977	D:Schultz
+MxB10	Tm:Ode to Billy Joe	1976	D:Baer
+RbM1	T:Murder by Death	1976	D:R.Moore
+RbM10	T:Chapter Two	1979	D:R.Moore
+RHf10	T:Futureworld	1976	D:Heffron
+RHo5	T:Night Shift	1982	D:R.Howard
+RHo10	T:Splash	1984	D:R.Howard
+RHo12	T:Cocoon	1985	D:R.Howard
+SRf21	Tm:The Philadelphia Experiment	1984	D:Rafill
+TKo15	Tm:North Dallas Forty	1979	D:Kotcheff
+TKo20	T:First Blood	1982	D:Kotcheff
+TKo22	Tm:Uncommon Valor	1983	D:Kotcheff
+WGi5	Tm:Grizzly	1976	D:Girdler
+WGi10	Tm:Day of the Animals	1977	D:Girdler
+WGi15	Tm:The Manitou	1978	D:Girdler
+WiW1	T:Kings of the Road	1976	D:Wenders
+WiW2	T:Alice in the Cities	1977	D:Wenders
+WiW4	T:The American Friend	1977	D:Wenders
+WiW9	T:Hammett	1982	D:Wenders
+WiW20	T:Wings of Desire	1988	D:Wenders
+WiW25	T:Until the End of the World	1992	D:Wenders
+CSr10	T:Carmen	1983	D:Saura
+CSr20	T:The Obscure Night	1989	D:Saura
+EMt10	T:Cauchemares	1977	D:Matalon
+FrS10	T:The Chicken Chronicles	1977	D:F.Simon
+HNe10	Tm:Smokey and the Bandit	1977	D:H.Needham
+HNe15	Tm:Smokey and the Bandit II	1980	D:H.Needham
+HNe17	T:The Cannonball Run	1981	D:H.Needham
+HNe25	Tm:Cannonball Run II	1984	D:H.Needham
+JNi10	T:Goin' South	1978	D:J.Nicholson
+MPr1	T:The Bad News Bears in Breaking Training	1977	D:M.Pressman
+MPr6	T:Some Kind of Hero	1981	D:M.Pressman
+MPr11	T:Pirates of Penzance	1983	D:M.Pressman
+NCh10	T:Stand Up Virgin Soldiers	1977	D:N.Cohen
+OlH1	T:Tentacles	1977	D:O.Hellman
+RDo10	T:The Bounty	1984	D:Donaldson
+SCo10	Tm:The Disappearance	1977	D:S.Cooper
+SWa10	Tm:Sinbad and the Eye of the Tiger	1977	D:Wanamaker
+CBP10	Tm:Norseman	1978	D:C.B.Pierce
+CBP12	Tm:The Evictors	1979	D:C.B.Pierce
+DLy5	Tm:Dune	1984	D:D.Lynch
+DLy8	T:Blue Velvet	1986	D:D.Lynch
+DLy12	T:Wild at Heart	1990	D:D.Lynch
+DWr10	T:Ice Castles	1978	D:Wrye
+ErM1	T:Gates of Heaven	1978	D:E.Morris
+ErM2	T:Vernon, Florida	1981	D:E.Morris
+ErM3	T:The Thin Blue Line	1988	D:E.Morris
+FMx10	T:American Hot Wax	1978	D:Mutrux
+GeM5	Tm:The Man from Snowy River	1982	D:Geo.Miller
+GeM17	T:The Witches of Eastwick	1987	D:Geo.Miller
+HoZ10	Tm:House Calls	1978	D:Zieff
+HoZ12	T:The Main Event	1979	D:Zieff
+HSu10	Tm:Deathsport	1978	D:Suso
+JCm10	T:Aliens	1986	D:J.Cameron
+JCm13	T:The Abyss	1989	D:J.Cameron
+JTo3	T:Exposed	1983	D:Toback
+JTo5	T:The Pick-up Artist	1986	D:Toback
+JTo7	T:The Big Bang	1990	D:Toback
+LBe10	T:La Femme Nikita	1991	D:Besson
+LCh4	T:The Private Files of J. Edgar Hoover	1978	D:L.Cohen
+LCh10	Tm:Q	1982	D:L.Cohen
+LCh15	T:God Told Me So	1985	D:L.Cohen
+PSc1	T:Blue Collar	1978	D:Schrader
+PSc10	T:Hardcore	1979	D:Schrader
+PSc12	T:American Gigolo	1979	D:Schrader
+PSc20	T:Cat People	1982	D:Schrader
+RBu15	Tm:Night of the Juggler	1980	D:R.Butler
+RHy10	Tm:The Wicker Man	1978	D:R.Hardy
+RoE10	Tm:Stevie	1978	D:Enders
+RS2	T:Alien	1979	D:R.Scott
+RS3	T:Blade Runner	1981	D:R.Scott
+RS8	T:Legend	1985	D:R.Scott
+RS9	T:Alien 2	1986	D:R.Scott
+RS15	T:Thelma and Louise	1989	D:R.Scott
+SRa5	T:The Buddy Holly Story	1978	D:Steven Rash
+TCh2	T:Cheech and Chong's Next Movie	1980	D:Chong
+TMy10	Tm:Riddle of the Sands	1978	D:Maylam
+WBe1	T:Heaven Can Wait	1978	D:Beatty
+WBe2	T:Reds	1981	D:Beatty
+AAl6	T:The Four Seasons	1981	D:Alda
+AAr20	Tm:Heartbeeps	1981	D:Arkush
+BBi10	Tm:North Avenue Irregulars	1979	D:Bilson
+BWN1	T:More American Graffiti	1979	D:Norton
+DLD10	T:Hot Stuff	1979	D:DeLuise
+MBr10	T:Beverly Hills Cop	1984	D:Brest
+MCh5	Tm:Hussy	1979	D:Ma.Chapman
+MM10	Tm:Thief	1979	D:M.Mann
+MM20	T:The Keep	1983	D:M.Mann
+MRb10	Tm:Corvette Summer	1979	D:Robbins
+MRb15	Tm:The Dragonslayer	1981	D:Robbins
+NiM12	T:Star Trek II: The Wrath of Khan	1982	D:N.Meyer
+SDr10	T:Mr.~Mom	1983	D:Dragoti
+SyS1	T:Rocky II	1979	D:Stallone
+SyS2	T:Rocky III	1979	D:Stallone
+Sys3	T:Rocky IV	1985	D:Stallone
+TrJ10	T:Monty Python's Life of Brian	1979	D:T.Jones
+TrJ15	T:Monty Python's the Meaning of Life	1983	D:T.Jones
+TrJ20	T:Personal Services	1987	D:T.Jones
+ALi10	Tm:Where the Buffalo Roam	1980	D:Linson
+BBr10	T:Tatoo	1980	D:B.Brooks
+EBi10	Tm:The Fan	1980	D:Bianchi
+GBo5	Tm:The Hearse	1980	D:Bowers
+GBo15	Tm:My Tutor	1983	D:Bowers
+GMx5	T:The Kidnapping of the President	1980	D:Mendelux
+GNs10	Tm:The Black Hole	1980	D:G.Nelson
+HaR10	T:National Lampoon's Vacation	1983	D:Ramis
+HaR25	T:Multiplicity	1996	D:Ramis
+IBy10	Tm:Heartbeat	1980	D:Byrum
+IIr32	T:A Month by the Lake	1996	D:Irvin
+ITr1	T:Middle-age Crazy	1980	D:John Trent
+JfW5	T:Die Laughing	1980	D:J.Werner
+JiA1	T:Airplane!	1980	D:J.Abrahams
+JiA5	T:Hero	1984	D:J.Abrahams
+JoS1	T:The Incredible Shrinking Woman	1980	D:Schumacher
+JoS5	Tm:D.C. Cab	1984	D:Schumacher
+JoS12	T:Flatliners	1990	D:Schumacher
+JsC10	T:Hide in Plain Sight	1980	D:Caan
+JTM10	T:Battle Beyond the Stars	1980	D:Murakami
+MBm1	T:Simon	1980	D:M.Brickman
+MBm3	T:The Manhattan Project	1985	D:M.Brickman
+MDa10	Tm:Yellowbeard	1983	D:Damski
+MNe25	T:Four Weddings and a Funeral	1994	D:Newell
+PAl2	T:Dark Passion	1981	D:Almodovar
+PAl3	T:Labyrinth of Passion	1982	D:Almodovar
+PAl4	T:Matador	1985	D:Almodovar
+PHa10	T:Fiendish Plot of Fu Manchu	1980	D:Haggard
+PHa15	T:Venom	1981	D:Haggard
+RFM10	T:Little Darlings	1980	D:R.Maxwell
+RGr10	T:Xanadu	1980	D:R.Greenwald
+RKa10	Tm:Carny	1980	D:Kaylor
+RLi6	T:Just Before Dawn	1980	D:Lieberman
+RLi10	Tm:Table for Five	1982	D:Lieberman
+RR1	T:Ordinary People	1980	D:Redford
+RSc10	Tm:How to Beat the High Cost of Living	1980	D:Scheerer
+RSp10	Tm:Under Fire	1983	D:Spottiswoode
+RSp20	T:and the Band Played On	1993	D:Spottiswoode
+SSC1	T:Friday the 13th	1980	D:Cunningham
+TaH2	Tm:The Idolmaker	1980	D:Hackford
+TaH5	T:An Officer and a Gentleman	1982	D:Hackford
+TaH6	T:Against All Odds	1983	D:Hackford
+TaH8	T:White Nights	1986	D:Hackford
+TaH15	T:Chuck Berry Hail! Hail! Rock 'n' Roll	1991	D:Hackford
+TCl10	Tm:McVicar	1980	D:Clegg
+THu20	T:River's Edge	1987	D:T.Hunter
+WaB10	Tm:Little Miss Marker	1980	D:W.Bernstein
+AnB10	Tm:So Fine	1981	D:A.Bergman
+BDC8	Tm:Galaxy of Terror	1981	D:B.D.Clark
+BiP10	T:Serial	1981	D:Persky
+CaG1	T:Caveman	1981	D:Gottlieb
+DDa10	T:Clash of the Titans	1981	D:Davis
+DSt10	Tm:Paternity	1981	D:D.Steinberg
+DuM5	Tm:Montenegro	1981	D:Makavejev
+FRo10	Tm:Lords of Discipline	1981	D:Roddam
+FRo20	T:K2	1991	D:Roddam
+GrB4	Tm:The Final Conflict	1981	D:G.Baker
+GrB10	T:Alien Nation	1988	D:G.Baker
+IG1	T:For Your Eyes Only	1981	D:Glen
+IG5	T:License Revoked	1988	D:Glen
+JnT10	T:All Night Long	1981	D:Tramont
+MCb10	Tm:Butterfly	1981	D:Cimber
+OlS3	T:The Hand	1986	D:Ol.Stone
+OlS9	T:Platoon	1986	D:Ol.Stone
+OzS10	Tm:Bustin' Loose	1981	D:O.Scott
+PAd1	T:Celeste	1981	D:Adlon
+QMa12	T:The Stud	1982	D:Masters
+RFr15	T:Psycho II	1983	D:R.Franklin
+RiR10	Tm:Halloween II	1981	D:Rick~Rosenthal
+RMq5	T:Eye of the Needle	1981	D:Marquand
+RMq8	T:Return of The Jedi	1985	D:Marquand
+RMq10	T:Jagged Edge	1985	D:Marquand
+RoM1	T:Imagine the Sound	1981	D:Ron.Mann
+RoM2	T:Poetry in Motion	1982	D:Ron.Mann
+RoM3	T:Comic Book Confidential	1989	D:Ron.Mann
+RZe5	T:Back to the Future	1985	D:Zemeckis
+RZe12	T:Back to the Future Part II	1989	D:Zemeckis
+RZe14	T:Back to the Future Part III	1990	D:Zemeckis
+SGo10	T:Arthur	1981	D:S.Gordon
+SHS5	Tm:Devil and Max Devlin	1981	D:Stern
+Smi5	T:Friday the 13th Part III	1982	D:Miner
+TDS10	Tm:Hell Night	1981	D:DeSimone
+WoP12	T:The Plastic Nightmare	1990	D:Petersen
+WoP14	T:Shattered	1991	D:Petersen
+AmH10	T:Fast Times at Ridgemont High	1982	D:Heckerling
+AmH20	T:National Lampoon's European Vacation	1985	D:Heckerling
+APy10	Tm:The Sword and the Sorcerer	1982	D:Pyun
+ARo10	Tm:Endangered Species	1982	D:A.Roberts
+BLe1	T:Diner	1982	D:B.Levinson
+BrP10	T:A Little Sex	1982	D:Paltrow
+CDe10	T:The Escape Artist	1982	D:Deschanel
+DaV1	T:Le Retour de Martin Guerre	1982	D:Vigne
+GrC1	T:Frances	1982	D:Clifford
+GyM4	T:Young Doctors in Love	1982	D:Gey.Marshall
+GyM20	T:Pretty Woman	1990	D:Gey.Marshall
+GyM24	T:unknown	1992	D:Gey.Marshall
+HuH15	T:Greystoke: The Legend of Tarzan, Lord of the Apes	1984	D:Hudson
+HuH20	T:Revolution	1984	D:Hudson
+JPK10	Tm:The Chosen	1982	D:Kagan
+JPK15	Tm:The Sting II	1983	D:Kagan
+JMl1	T:That Championship Season	1982	D:Js.Miller
+JSo15	T:A Nightmare on Elm Street Part Two: Freddy's Revenge	1985	D:Sholder
+LaK1	T:Body Heat	1982	D:L.Kasdan
+LaK13	T:The Accidental Tourist	1989	D:L.Kasdan
+MCa10	Tm:Fighting Back	1982	D:Caulfield
+NeJ10	T:Angel	1982	D:N.Jordan
+NeJ14	T:Mona Lisa	1986	D:N.Jordan
+NeJ16	T:We're No Angels	1989	D:N.Jordan
+NeJ22	T:The Crying Game	1992	D:N.Jordan
+PaB10	T:Grease 2	1982	D:Birch
+RiB1	T:My Favourite Year	1982	D:Benjamin
+RiB15	Tm:Racing with the Moon	1984	D:Benjamin
+RiB25	T:Made in America	1993	D:Benjamin
+RLo10	Tm:Brimstone and Treacle	1982	D:Loncraine
+StL10	Tm:Tron	1982	D:Lisberger
+SuS12	T:Desperately Seeking Susan	1985	D:Seidelman
+SuS20	T:Cookie	1989	D:Seidelman
+TAv1	T:Things Are Tough All Over	1982	D:T.Avildsen
+WaW1	T:Chan is Missing	1982	D:Wang
+WaW2	T:Diem Sum	1984	D:Wang
+WaW4	T:Eat a Bowl of Tea	1989	D:Wang
+WaW5	T:Life is Cheap, but Toilet Paper is Expensive	1989	D:Wang
+xHe10	T:Stuck on You!	1982	D:Herz
+AdL5	T:Flashdance	1983	D:Lyne
+AdL6	T:Nine 1/2 Weeks	1986	D:Lyne
+AHu1	T:Boat People	1983	D:Hui
+AHu5	T:Song of the Exile	1990	D:Hui
+AJo10	T:Love Letters	1983	D:A.Jones
+AKa5	T:Ariel	1983	D:Kaurismaki
+AKa10	T:Hamlet Goes Business	1985	D:Kaurismaki
+AKa15	T:The Match Factory Girl	1989	D:Kaurismaki
+AlJ1	T:To Be or Not To Be	1983	D:A.Johnson
+BMs10	T:Mickey's Christmas Carol	1983	D:Mattinsson
+DLo10	T:Smokey and the Bandit III	1983	D:Lowry
+DWi10	Tm:Silver Dream Racer	1983	D:Wickes
+GoR1	T:Koyaanisqatsi	1983	D:Reggio
+IoA10	T:We of the Never Never	1983	D:Auzins
+JKw5	Tm:Eddie Macon's Run	1983	D:Kanew
+JKw10	T:Tough Guys	1986	D:Kanew
+LyL1	T:Testament	1983	D:Littman
+MaC1	Tm:Valley Girl	1983	D:Coolidge
+MaC4	T:Glory Days	1987	D:Coolidge
+MaC8	T:Rambling Rose	1991	D:Coolidge
+PRb1	Tm:Lovesick	1983	D:P.Rosenberg
+RbR1	T:This is Spinal Tap	1983	D:R.Reiner
+RbR2	T:Stand By Me	1986	D:R.Reiner
+RbR14	T:A Few Good Men	1992	D:R.Reiner
+RMw10	T:Overexposed	1991	D:Markowitz
+RMw13	T:Afterburn	1992	D:Markowitz
+RoD10	Tm:The Black Stallion Returns	1983	D:Dalva
+RPe12	T:Country	1984	D:Pearce
+RPe20	T:The Long Walk Home	1991	D:Pearce
+RPe22	T:Leap of Faith	1992	D:Pearce
+PBm1	T:Risky Business	1983	D:P.Brickman
+TeB10	Tm:Slayground	1983	D:Bedford
+ToS1	T:The Hunger	1983	D:T.Scott
+ToS10	T:Days of Thunder	1986	D:T.Scott
+WTMx	T:The Old Well	1983	D:Tianming
+ChS10	Tm:Irreconcilable Differences	1984	D:Shyer
+EPy5	T:Sugar Cane Alley	1984	D:Palcy
+EPy10	T:A Dry White Season	1989	D:Palcy
+FKi10	T:Children of the Corn	1984	D:Kiersch
+HuW10	T:Police Academy	1984	D:H.Wilson
+HuW12	T:Police Academy 2	1984	D:Wilson
+HuW15	T:Police Academy 3	1986	D:Wilson
+IHu5	T:Sixteen Candles	1984	D:J.Hughes
+IHu11	T:The Breakfast Club	1985	D:J.Hughes
+IHu15	T:Planes, Trains, and Automobiles	1987	D:J.Hughes
+IHu18	T:Ferris Buellers Day off	1988	D:J.Hughes
+IHu22	T:Uncle Buck	1989	D:J.Hughes
+JCi12	T:An Angel at my Table	1991	D:Campion
+JRu2	T:The Stepfather	1987	D:J.Ruben
+JSe0	Tm:Breakin'	1984	D:Silberg
+LeN3	T:Star Trek III: The Search For Spock	1984	D:Nimoy
+LeN4	T:Star Trek IV: The Voyage Home	1986	D:Nimoy
+LeN8	T:Three Men and A Baby	1987	D:Nimoy
+LeN12	T:Funny About Love	1990	D:Nimoy
+NiC10	T:The Last Starfighter	1984	D:N.Castle
+NIs10	Tm:Bachelor Party	1984	D:Israel
+PeC10	Tm:Highpoint	1984	D:P.Carter
+RTu1	T:Tightrope	1984	D:Tuggle
+TMk10	T:The Price of Love	1984	D:Marketaki
+AKo15	T:The Inner Circle	1992	D:Konchalovsky
+JuI10	T:No Life King	1985	D:J.Ichikawa
+JVm17	T:The Harmonists	1999	D:Vilsmaier
+MDi10	T:Heaven Help Us	1985	D:Dinner
+MoT1	T:Verleitung, Die Grausame Frau	1985	D:Treut
+OSo10	T:Orion's Belt	1985	D:Solum
+THo10	T:Vampire ... Did you say Vampire?	1985	D:T.Holland
+THo20	T:The Wizard	1989	D:T.Holland
+TiB5	T:Beetlejuice	1988	D:T.Burton
+TiB6	T:Batman	1989	D:T.Burton
+WTa10	Tm:Flashpoint	1985	D:Tannen
+ABu10	T:Just Between Friends	1986	D:A.Burns
+BrG10	T:Poltergeist II	1986	D:B.Gibson
+BrG28	T:The Juror	1986	D:B.Gibson
+DBl10	T:An American Tail	1986	D:Bluth
+DBl15	T:An American Tail 2: Fievel Goes West	1991	D:Bluth
+DBl24	T:Anastasia	1997	D:Bluth
+GaM10	T:Dreamchild	1986	D:G.Millar
+HoD10	T:Pretty in Pink	1986	D:Deutsch
+JeL10	T:Rent-a-Cop	1986	D:London (sp?)
+MrD1	T:Signs of Wonder	1986	D:Donovan
+MrD2	T:Apartment Zero	1989	D:Donovan
+PFa10	T:Dutch	1991	D:Faiman
+RMa10	T:F/X	1986	D:Mandel
+PtM10	T:The Trip to Bountiful	1986	D:Masterson
+RnF14	T:Baraka	1992	D:Fricke
+Z8610	T:I'll Take Manhattan	1986	D:Unknown86
+ATu1	T:Celia	1987	D:Turner
+DMa10	T:Things Change	1988	D:Mamet
+DMa12	T:The Adventures of Charlie Chan	1991	D:Mamet
+JWy10	T:The Haunting of Morella	1990	D:Wynorski
+KYo1	T:Twilight of the Cockroaches	1987	D:K.Yoshida
+NMv1	T:Dark Eyes	1987	D:Mikhalkov
+NMv3	T:Oblomov	1989	D:Mikhalkov
+RHv10	T:Critters 4	1991	D:R.Harvey
+ABi10	T:Burning Secret	1988	D:Birkin
+ADv15	T:Under Siege	1992	D:A.Davis
+ADv22	T:A Perfect Murder	1998	D:A.Davis
+BiA1	T:Pelle the Conqueror	1988	D:August
+CCr10	T:Off Limits	1988	D:Ch.Crowe
+CCr12	T:Whispers in the Dark	1988	D:Ch.Crowe
+CEd10	T:Little Dorrit	1988	D:Edzard
+ClD1	T:Chocolat	1988	D:Denis
+DGr1	T:Buster	1988	D:David~Green
+GvS1	T:Mala Noche	1988	D:vanSant
+GvS5	T:My Own Private Idaho	1991	D:vanSant
+HBo10	T:Fictitious Marriage	1988	D:Bouzagio
+IMT20	T:Medicine Man	1992	D:McTiernan
+JrB10	T:The Wizards of Loneliness	1988	D:Bowen
+KSR20	T:Married With Children	1989	D:K.S.Ruben
+KSR30	T:Streets	1990	D:K.S.Ruben
+POC25	T:Inventing the Abbots	1997	D:OConnor
+RSh10	T:Blaze	1989	D:Shelton
+RSh15	T:White Men Can't Jump	1992	D:Shelton
+TAF7	T:Purple Haze	1989	D:Fucci
+xSz10	T:Punchline	1988	D:Seltzer
+Z0320	T:Entertaining Angels: The Dorothy Day Story	1996	PN: Ellwood Bud Kieser
+BHo10	T:Raggedy Rawney	1989	D:Hoskins
+BNu1	T:Camille Claudel	1989	D:Nuytten
+CaB1	T:36 Fillette	1989	D:Breillat
+CCw2	T:Singles	1992	D:C.Crowe
+ChG10	T:Attack of the 50-foot Woman	1993	D:Ch.Guest
+DHL1	T:Phantom of the Opera	1989	D:Little
+IsJ10	T:Looking for Langston	1989	D:Julien
+JSh1	T:My Left Foot	1989	D:Sheridan
+JSh2	T:The Field	1991	D:Sheridan
+JSh4	T:In the Name of The Father	1993	D:Sheridan
+KBr1	T:Henry V	1989	D:Branagh
+MCJ1	T:Scandal	1989	D:CatonJones
+MCJ12	T:Doc Hollywood	1991	D:CatonJones
+MLa10	T:Pet Sematary	1989	D:Lambert
+PAR10	T:Field of Dreams	1989	D:P.A.Robinson
+PhN17	T:Sliver	1993	D:Noyce
+SKo1	T:The Fabulous Baker Boys	1989	D:Kloves
+Z8910	T:Meet the Applegates	1989	D:UnYear89
+AGo10	T:Eau/Ganga	1990	D:Gopalakrishnan
+GSl12	T:The Vanishing	1993	D:Sluizer
+IDa14	T:Red Rock West	1992	D:Dahl
+IDa19	T:Rounders	1998	D:Dahl
+IsF10	T:Desert Kickboxer	1991	D:Florentine
+JMe1	T:Of Flesh and Blood	1990	D:Mentges
+JnL10	T:Nuns on the Run	1990	D:Lynn
+JnL12	T:My Cousin Vinny	1992	D:Lynn
+KeC1	T:Dances with Wolves	1990	D:Costner
+NGp10	T:The Pathfinder	1990	D:Gaup
+ReH10	T:Die Hard 2	1990	D:Harlin
+TSt1	T:Rosenkrantz and Guildenstern are Dead	1990	D:Stoppard
+Z9030	T:Spies, Lies, and Naked Things	1990	D:UnYear90
+AGl10	T:The Mambo Kings	1991	D:Glimcher
+AGl12	T:Just Cause	1995	D:Glimcher
+BDu2	T:A Rage in Harlem	1991	D:B.Duke
+BSo1	T:The Addams Family	1991	D:Sonnenveld
+BSo4	T:For Love or Money	1993	D:Sonnenveld
+BSo5	T:Addams' Family Values	1993	D:Sonnenveld
+DZu12	T:The Naked Gun 2 1/2: The Smell of Fear	1991	D:D.Zucker
+SLe10	T:Double Impact	1991	D:Lettich
+SLe12	T:Lionheart	1992	D:Lettich
+THg25	T:The Butcher's Wife	1991	D:T.Hughes
+TLW5	T:Holy Matrimony	1994	D:Wallace
+VNf10	T:Meine Tochter geh\"ort mir	1991	D:Naefe
+Z9110	T:Deadlock	1991	D:UnYear91
+DvR10	T:Politics	1992	D:Roe
+JeC10	T:Benny and Joon	1992	D:Chechik
+NoE1	T:This is my Life	1992	D:N.Ephron
+xNa10	T:Killer Instinct	1992	D:Napier
+JDB10	T:Speed	1994	D:DeBont
+MtC12	T:GoldenEye	1995	D:M.Campbell
+PRJ10	T:Baby's Day Out	1994	D:P.R.Johnson
+BTh13	T:Dr.Dolittle	1998	D:B.Thomas
+DSa10	T:Grand Avenue	1995	D:Sackheim
+EBu8	T:She's the One	1996	D:E.Burns
+IGy10	T:The Glimmerman	1996	D:J.Gray
+SBd10	T:Executve Decision	1996	D:Baird
+Z9630	T:One Fine Day	1996	D:UnYear96
+GVe10	T:Mouse Hunt	1997	D:Verbinski
+MmL12	T:Deep Impact	1998	D:M.Leder
+Z9895	T:One True Thing	1998	D:UnYear98

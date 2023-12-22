@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Cursors</TITLE>
+<META NAME="description" CONTENT="Cursors">
+<META NAME="keywords" CONTENT="vldb">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="vldb.css">
+
+<LINK REL="next" HREF="vldb2001-node11.html">
+<LINK REL="previous" HREF="vldb2001-node2.html">
+<LINK REL="up" HREF="vldb2001.html">
+<LINK REL="next" HREF="vldb2001-node4.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html67"
+  HREF="vldb2001-node4.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html65"
+  HREF="vldb2001.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html59"
+  HREF="vldb2001-node2.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html68"
+  HREF="vldb2001-node4.html">Iterators</A> <B> Up:</B> <A NAME="tex2html66"
+  HREF="vldb2001.html">XXL - A Library</A> <B> Previous:</B> <A NAME="tex2html60"
+  HREF="vldb2001-node2.html">Functions</A> <BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H1><A NAME="SECTION00030000000000000000"></A>
+<A NAME="Cursors"></A>
+<BR>
+Cursors
+</H1>
+
+A cursor is an abstract concept for manipulating objects within a
+stream. The cursors provided in XXL are independent from the
+specific structure of the objects as well as from the kind of
+storage representation of the underlying stream. This property is
+closely related to the notion of <I>physical independence</I>
+which is one of the key concepts of database systems. XXL offers
+an algebra of cursors which is suitable for defining complex
+queries in a declarative fashion similar to SQL. In addition, our
+cursor algebra is also beneficial for a very compact
+implementation of low-level core functionality (e.g. index
+structures).
+
+In the following, we start with a brief review of the concept of
+iterators which is already available in the Java API.
+Thereafter, we present the interface <I>Cursor</I> of XXL that
+corresponds to a specialized kind of iterators.
+
+<BR><HR>
+<!--Table of Child-Links-->
+<A NAME="CHILD_LINKS"><STRONG>Subsections</STRONG></A>
+
+<UL>
+  <LI><A NAME="tex2html69"
+  HREF="vldb2001-node4.html">Iterators</A> 
+  <LI><A NAME="tex2html70"
+  HREF="vldb2001-node5.html">Cursor Interface</A> 
+  <LI><A NAME="tex2html71"
+  HREF="vldb2001-node6.html">Input Operators</A> 
+  <LI><A NAME="tex2html72"
+  HREF="vldb2001-node7.html">Processing Operators</A> 
+    <UL>
+      <LI><A NAME="tex2html73"
+  HREF="vldb2001-node8.html">Demand-driven Operators</A> 
+      <LI><A NAME="tex2html74"
+  HREF="vldb2001-node9.html">Strict and Hybrid Operators</A> 
+    </UL>
+<BR>
+  <LI><A NAME="tex2html75"
+  HREF="vldb2001-node10.html">ResultSet versus Cursor</A> 
+</UL>
+<!--End of Table of Child-Links-->
+<BR><HR>
+<ADDRESS>
+Bernhard Seeger
+2001-10-11
+</ADDRESS>
+</BODY>
+</HTML>

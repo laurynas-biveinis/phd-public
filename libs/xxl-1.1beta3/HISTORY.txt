@@ -1,0 +1,72 @@
+=========================================================
+XXL - eXtensible and fleXible Library for data processing
+=========================================================
+
+History of versions:
+
+2006/03/31:
+	Version: 1.0
+	Build: 20060331
+	Date of release: 2006/03/31
+
+	- a lot of new classes
+	- package structure
+	- needs SDK 1.5
+	- extensions to PIPES
+
+2004/05/13:
+	Version: 1.0
+	Build: 20040513
+	Date of release: 2004/05/13
+
+	- a lot of new classes
+	- package structure
+	- full documentation
+	- needs SDK 1.4
+	- open()-method introduced in Cursor algebra
+	- improved record manager
+
+2003/03/07:
+	Version: 0.99
+	Build: 20030307
+	Date of release: 2003/03/07
+
+	- XML-support
+	- record manager
+	- applications for index structures, including range queries and nearest neighbor queries
+	- raw devices with fat implementation
+
+2002/08/05:
+	Version: 0.99
+	Build: 20020805
+	Date of release: 2002/08/05
+
+	- Bugs concerning kernel bandwidths fixed
+	- Framework for complex, adaptive Aggregations integrated
+	- Updates for index structures: changed Splits for some trees, RTreeTest modified
+
+2002/02/13:
+	Version: 0.99 
+	Build: 20020213
+	Date of release: 2002/02/13
+
+	- New directory structure established
+	- Modified scripts to work with new directory structure.
+	- Now at least 2 environment variables are needed for using the scripts shipped with xxl.
+	  Refer to "INSTALL.txt" for more details!
+	- Framework for Cumulative Distribution Functions integrated
+	- Functionality for Pseudo Random Number Generators added
+
+2002/01/14:
+	Version: 0.99 
+	Build: 20020114
+	Date of release: 2002/01/14
+
+	- First supported release of XXL shipped with full documentation (except
+	  the package xxl.indexStructures).
+	- New implementation of relational operators in package xxl.relationalNEU.
+	- Package xxl.relational will be removed till the next major release.
+
+2001/01/26
+	(Ver. 2001/01/26):
+	First public release of XXL used at VLDB 2001

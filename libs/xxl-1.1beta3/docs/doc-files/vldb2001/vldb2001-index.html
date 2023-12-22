@@ -1,0 +1,162 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>XXL - A Library Approach to Supporting Efficient Implementations of Advanced Database Queries </TITLE>
+<META NAME="description" CONTENT="XXL - A Library Approach to Supporting Efficient Implementations of Advanced Database Queries ">
+<META NAME="keywords" CONTENT="vldb">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="vldb.css">
+
+<LINK REL="next" HREF="vldb2001-node1.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html6"
+  HREF="vldb2001-node1.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"> <BR>
+<B> Next:</B> <A NAME="tex2html7"
+  HREF="vldb2001-node1.html">Introduction</A> <BR>
+<BR>
+<!--End of Navigation Panel-->
+<H1 ALIGN="CENTER">XXL - A Library Approach to Supporting Efficient Implementations of Advanced Database Queries
+</H1>
+<P ALIGN="CENTER"><STRONG>Jochen van den Bercken, Bj&#246;rn Blohsfeld, Jens-Peter Dittrich, J&#252;rgen Kr&#228;mer,
+<BR>
+Tobias Sch&#228;fer, Martin Schneider, Bernhard Seeger</STRONG></P>
+
+<H3>Abstract:</H3>
+<DIV>
+<FONT SIZE="-1">Today's DBMS are still too inflexible to adapt fast enough to the
+query processing needs of new
+applications&nbsp;[<A
+ HREF="vldb2001-node30.html#DBLP:conf_vldb_ChaudhuriW00">CW00</A>]. Instead of using
+the cumbersome functionality of a monolithic DBMS, it is not
+uncommon that users implement their own functionality on top of
+the system. For such a scenario, the implementation would be
+substantially facilitated through a powerful library.
+
+<BR>
+This paper introduces XXL (eXtensible and fleXible Library), a
+high-level, easy-to-use, platform independent Java library
+supporting the implementation of new query functionality. XXL
+provides framework implementations as well as toolboxes whose
+applications are independent from the underlying data types and
+data structures.
+
+<BR>
+We introduce the most important concepts of XXL and discuss
+different application scenarios where XXL has been used recently.
+In particular, we show how an implementation of an efficient
+algorithm for processing spatial joins can easily be integrated
+into a commercial database system (Cloudscape).
+</FONT></DIV>
+<P>
+
+<BR><HR>
+<!--Table of Child-Links-->
+<A NAME="CHILD_LINKS"></A>
+
+<UL>
+  <LI><A NAME="tex2html8"
+  HREF="vldb2001-node1.html">Introduction</A>
+  <LI><A NAME="tex2html9"
+  HREF="vldb2001-node2.html">Functions</A>
+  <LI><A NAME="tex2html10"
+  HREF="vldb2001-node3.html">Cursors</A>
+    <UL>
+      <LI><A NAME="tex2html11"
+  HREF="vldb2001-node4.html">Iterators</A>
+      <LI><A NAME="tex2html12"
+  HREF="vldb2001-node5.html">Cursor Interface</A>
+      <LI><A NAME="tex2html13"
+  HREF="vldb2001-node6.html">Input Operators</A>
+      <LI><A NAME="tex2html14"
+  HREF="vldb2001-node7.html">Processing Operators</A>
+        <UL>
+          <LI><A NAME="tex2html15"
+  HREF="vldb2001-node8.html">Demand-driven Operators</A>
+          <LI><A NAME="tex2html16"
+  HREF="vldb2001-node9.html">Strict and Hybrid Operators</A>
+        </UL>
+      <LI><A NAME="tex2html17"
+  HREF="vldb2001-node10.html">ResultSet versus Cursor</A>
+    </UL>
+<BR>
+  <LI><A NAME="tex2html18"
+  HREF="vldb2001-node11.html">Collections</A>
+    <UL>
+      <LI><A NAME="tex2html19"
+  HREF="vldb2001-node12.html">Bags</A>
+      <LI><A NAME="tex2html20"
+  HREF="vldb2001-node13.html">Queues</A>
+      <LI><A NAME="tex2html21"
+  HREF="vldb2001-node14.html">Containers</A>
+    </UL>
+<BR>
+  <LI><A NAME="tex2html22"
+  HREF="vldb2001-node15.html">I/O</A>
+    <UL>
+      <LI><A NAME="tex2html23"
+  HREF="vldb2001-node16.html">Converters</A>
+      <LI><A NAME="tex2html24"
+  HREF="vldb2001-node17.html">Buffers &amp; Blocks</A>
+      <LI><A NAME="tex2html25"
+  HREF="vldb2001-node18.html">External Collections &amp; Input Iterators</A>
+    </UL>
+<BR>
+  <LI><A NAME="tex2html26"
+  HREF="vldb2001-node19.html">Index Structures</A>
+    <UL>
+      <LI><A NAME="tex2html27"
+  HREF="vldb2001-node20.html">The Lower Interface of Index Structures</A>
+      <LI><A NAME="tex2html28"
+  HREF="vldb2001-node21.html">Implementation of new Index Structures</A>
+      <LI><A NAME="tex2html29"
+  HREF="vldb2001-node22.html">Available Functionality</A>
+    </UL>
+<BR>
+  <LI><A NAME="tex2html30"
+  HREF="vldb2001-node23.html">Spatial</A>
+  <LI><A NAME="tex2html31"
+  HREF="vldb2001-node24.html">Applications</A>
+    <UL>
+      <LI><A NAME="tex2html32"
+  HREF="vldb2001-node25.html">Connectivity to Cloudscape</A>
+      <LI><A NAME="tex2html33"
+  HREF="vldb2001-node26.html">Experiments on Spatial Data</A>
+      <LI><A NAME="tex2html34"
+  HREF="vldb2001-node27.html">Online Aggregation of Large Data Sets</A>
+    </UL>
+<BR>
+  <LI><A NAME="tex2html35"
+  HREF="vldb2001-node28.html">Related Work</A>
+  <LI><A NAME="tex2html36"
+  HREF="vldb2001-node29.html">Conclusions</A>
+  <LI><A NAME="tex2html37"
+  HREF="vldb2001-node30.html">Bibliography</A>
+  <LI><A NAME="tex2html38"
+  HREF="vldb2001-node31.html">About this document ...</A>
+</UL>
+<!--End of Table of Child-Links-->
+<BR><HR>
+<ADDRESS>
+Bernhard Seeger
+2001-10-11
+</ADDRESS>
+</BODY>
+</HTML>

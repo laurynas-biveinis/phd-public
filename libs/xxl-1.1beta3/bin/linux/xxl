@@ -1,0 +1,19 @@
+#!/bin/csh
+#
+# Executes a given class file
+#
+# Last change Martin Schneider (03/08/2004)
+#
+
+####################################################################
+# environment variable checks:
+####################################################################
+source $XXLROOTPATH/bin/linux/xxlEnv
+
+
+####################################################################
+# script code:
+####################################################################
+
+$XXLJAVAHOME/bin/java -classpath .:$XXLCLASSPATH -Dxxlrootpath=$XXLROOTPATH -Dxxloutpath=$XXLOUTPATH $*
+

@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Containers</TITLE>
+<META NAME="description" CONTENT="Containers">
+<META NAME="keywords" CONTENT="vldb">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="vldb.css">
+
+<LINK REL="previous" HREF="vldb2001-node13.html">
+<LINK REL="up" HREF="vldb2001-node11.html">
+<LINK REL="next" HREF="vldb2001-node15.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html183"
+  HREF="vldb2001-node15.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html181"
+  HREF="vldb2001-node11.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html177"
+  HREF="vldb2001-node13.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html184"
+  HREF="vldb2001-node15.html">I/O</A> <B> Up:</B> <A NAME="tex2html182"
+  HREF="vldb2001-node11.html">Collections</A> <B> Previous:</B> <A NAME="tex2html178"
+  HREF="vldb2001-node13.html">Queues</A> <BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00043000000000000000">
+Containers</A>
+</H2>
+
+A container is an implementation of a map. A container generates a unique <I>ID</I> 
+for each object and stores a tuple, namely <IMG
+ WIDTH="88" HEIGHT="34" ALIGN="MIDDLE" BORDER="0"
+ SRC="img2.png"
+ ALT="$(ID,object)$">. If an object is inserted into a container, a new ID is 
+created and returned. An object of a container can only be retrieved via the corresponding 
+ID. A container supports the removal and update of objects as well as the retrieval 
+of its elements through an iterator. The main intent of the abstract class <I>Container</I> 
+is to provide buffered access to objects (typically stored in secondary memory). 
+Therefore, every access method provides a flag that allows to fix and unfix the 
+accessed object (to request the insertion of objects into the buffer and the removal, 
+respectively). Furthermore, buffered objects can be flushed, i.e., the buffer 
+is forced to write back any modified object to its underlying container. The package 
+<I>xxl.collections</I> contains only a few implementations of the <I>Container</I> 
+interface, e.g. a <I>MapContainer</I>. Most of the interesting containers are 
+designed for external data management. These implementations (e.g. <I>BlockFileContainer</I>, 
+<I>BufferedContainer</I> and <I>BufferedRandomAccessFileContainer</I>) are in 
+the package <I>xxl.io</I>. <BR>
+<HR>
+<ADDRESS>
+Bernhard Seeger
+2001-10-11
+</ADDRESS>
+</BODY>
+</HTML>

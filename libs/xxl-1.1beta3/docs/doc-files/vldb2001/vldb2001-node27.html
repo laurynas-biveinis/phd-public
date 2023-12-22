@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Online Aggregation of Large Data Sets</TITLE>
+<META NAME="description" CONTENT="Online Aggregation of Large Data Sets">
+<META NAME="keywords" CONTENT="vldb">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="vldb.css">
+
+<LINK REL="previous" HREF="vldb2001-node26.html">
+<LINK REL="up" HREF="vldb2001-node24.html">
+<LINK REL="next" HREF="vldb2001-node28.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html316"
+  HREF="vldb2001-node28.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html314"
+  HREF="vldb2001-node24.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html310"
+  HREF="vldb2001-node26.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html317"
+  HREF="vldb2001-node28.html">Related Work</A> <B> Up:</B> <A NAME="tex2html315"
+  HREF="vldb2001-node24.html">Applications</A> <B> Previous:</B> <A NAME="tex2html311"
+  HREF="vldb2001-node26.html">Experiments on Spatial Data</A> <BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00083000000000000000"></A>
+<A NAME="sub:aggregator"></A>
+<BR>
+Online Aggregation of Large Data Sets
+</H2>
+
+In XXL we provide a generic aggregation operator that can be used with user defined 
+functions to aggregate the objects of a given iterator. The operator returns the 
+intermediate value of the aggregate for the input that has been consumed so far. 
+To get the final value just call <code>aggregator.last()</code> to consume the 
+entire iterator the aggregator is based on. We provide e.g. standard deviation, 
+variance, and three different kind of average functions. <I>Average</I> just computes 
+the average value repetitively, while two other operators additionally compute 
+a confidence interval for the intermediate results. The evaluation of the confidence 
+interval in one operator is according to Hoeffding's inequality and holds for 
+every number <IMG
+ WIDTH="56" HEIGHT="34" ALIGN="MIDDLE" BORDER="0"
+ SRC="img16.png"
+ ALT="$(n \geq 1)$"> of already processed objects. The other operator is based 
+upon central limit theorems and only holds for large <IMG
+ WIDTH="15" HEIGHT="17" ALIGN="BOTTOM" BORDER="0"
+ SRC="img17.png"
+ ALT="$n$">. Furthermore, the given input iterator must provide the objects to 
+aggregate in randomly distributed order thus the already processed objects could 
+be considered as a sequence of independent and identically distributed (<I>i.i.d.</I>) 
+random variables&nbsp;[<A
+ HREF="vldb2001-node30.html#HHW97">HHW97</A>]. In our experiments we used the 
+operator based upon central limit theorems to compute the average area of the 
+rectangles of the LA_ST dataset. In Figure&nbsp;<A HREF="node27.html#fig:aggregator">3</A>a 
+we show the average aggregation of the area processing the input data in originally 
+order. Figure&nbsp;<A HREF="node27.html#fig:aggregator">3</A>b shows the aggregation 
+with randomly shuffled rectangles using our <I>ShuffleCursor</I>. The bounds of 
+the computed confidence interval are denoted as <I>lower bound</I> and <I>upper 
+bound</I>. Obviously, Figure&nbsp;<A HREF="node27.html#fig:aggregator">3</A>a 
+shows a correlation between the lower x value and the area. Therefore the sequence 
+of already processed objects could not be considered as a (<I>i.i.d.</I>) sample 
+whereas shuffling provides a useful intermediate aggregation value for just processing 
+a few objects. This shows dramatically the importance of ensuring the assumption 
+of having a randomly distributed sequence as input for online aggregation. Nonetheless 
+online aggregation could be a powerful tool for processing large aggregation queries 
+where approximate answers are sufficient. So it is very surprising that today's 
+common DBMS do not support such a useful instrument (except Informix to the best 
+of our knowledge). With XXL it is easy to use your own aggregation functions for 
+online aggregation purposes even with additionally features such as computing 
+confidence bounds. In [<A
+ HREF="vldb2001-node30.html#HHW97">HHW97</A>] actually confidence bounds for other 
+aggregation functions like variance and standard deviation have been developed. 
+<P></P>
+<DIV ALIGN="CENTER"><A NAME="fig:aggregator"></A><A NAME="363"></A>
+<TABLE>
+<CAPTION ALIGN="BOTTOM"><STRONG>Figure 3:</STRONG>
+Online aggregator for large data sets</CAPTION>
+<TR>
+      <TD><IMG
+ WIDTH="552" HEIGHT="218" BORDER="0"
+ SRC="img18.png"
+ ALT="\begin{figure*}
+\subfigure[Original input order]{\epsfig{file=eps/aggregatorUn...
+...]{\epsfig{file=eps/aggregatorShuffle.eps, width=.48\linewidth}}
+\end{figure*}"></TD>
+    </TR>
+</TABLE>
+</DIV><P></P>
+
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html316"
+  HREF="vldb2001-node28.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html314"
+  HREF="vldb2001-node24.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html310"
+  HREF="vldb2001-node26.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html317"
+  HREF="vldb2001-node28.html">Related Work</A> <B> Up:</B> <A NAME="tex2html315"
+  HREF="vldb2001-node24.html">Applications</A> <B> Previous:</B> <A NAME="tex2html311"
+  HREF="vldb2001-node26.html">Experiments on Spatial Data</A> 
+<!--End of Navigation Panel-->
+<ADDRESS>
+Bernhard Seeger
+2001-10-11
+</ADDRESS>
+</BODY>
+</HTML>

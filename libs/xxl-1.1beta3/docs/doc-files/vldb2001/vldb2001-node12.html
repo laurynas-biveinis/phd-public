@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Bags</TITLE>
+<META NAME="description" CONTENT="Bags">
+<META NAME="keywords" CONTENT="vldb">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="vldb.css">
+
+<LINK REL="next" HREF="vldb2001-node13.html">
+<LINK REL="previous" HREF="vldb2001-node11.html">
+<LINK REL="up" HREF="vldb2001-node11.html">
+<LINK REL="next" HREF="vldb2001-node13.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html165"
+  HREF="vldb2001-node13.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html163"
+  HREF="vldb2001-node11.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html157"
+  HREF="vldb2001-node11.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html166"
+  HREF="vldb2001-node13.html">Queues</A> <B> Up:</B> <A NAME="tex2html164"
+  HREF="vldb2001-node11.html">Collections</A> <B> Previous:</B> <A NAME="tex2html158"
+  HREF="vldb2001-node11.html">Collections</A> <BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00041000000000000000">
+Bags</A>
+</H2>
+
+A bag is an implementation of a mathematical multiset, i.e., it
+represents a set of objects that might contain duplicate objects.
+No order is specified on the objects of a bag. Objects can be
+added to the bag, but there is no efficient way to check whether a
+bag contains an object or not. The only way to access objects of
+the bag is to inspect its entire content using an iterator. The
+bag supports the insertion of single objects as well as bulk
+insertion.
+
+For those cases when a bag is able to guarantee an order on its
+objects, it should implement a marker interface. The marker
+interface contains an additional method returning a cursor which
+iterates over the objects of the bag in the specified order (e.g.
+FIFO, LIFO, Priority). The order determines the relationship
+between insertion and iteration over the bag's objects. The
+package <I>xxl.collections</I> contains several implementations of
+the <I>Bag</I> interface, e.g. <I>ArrayBag</I>,
+<I>DynamicArrayBag</I> and <I>ListBag</I>.
+
+<BR><HR>
+<ADDRESS>
+Bernhard Seeger
+2001-10-11
+</ADDRESS>
+</BODY>
+</HTML>

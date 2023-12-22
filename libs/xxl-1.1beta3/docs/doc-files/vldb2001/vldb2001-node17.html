@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Buffers &amp; Blocks</TITLE>
+<META NAME="description" CONTENT="Buffers &amp; Blocks">
+<META NAME="keywords" CONTENT="vldb">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="vldb.css">
+
+<LINK REL="next" HREF="vldb2001-node18.html">
+<LINK REL="previous" HREF="vldb2001-node16.html">
+<LINK REL="up" HREF="vldb2001-node15.html">
+<LINK REL="next" HREF="vldb2001-node18.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html216"
+  HREF="vldb2001-node18.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html214"
+  HREF="vldb2001-node15.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html208"
+  HREF="vldb2001-node16.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html217"
+  HREF="vldb2001-node18.html">External Collections &amp; Input</A> <B> Up:</B> 
+<A NAME="tex2html215"
+  HREF="vldb2001-node15.html">I/O</A> <B> Previous:</B> <A NAME="tex2html209"
+  HREF="vldb2001-node16.html">Converters</A> <BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00052000000000000000">
+Buffers &amp; Blocks</A>
+</H2>
+
+Buffering is an important technique for making I/O operations
+efficient. In general, buffering means keeping some blocks of
+serialized data in main memory in order to prevent additional I/O
+if data is required again. However, it is also desirable to buffer
+deserialized objects in order to avoid expensive conversions.
+XXL provides a buffer class which allows the creation of multiple
+buffers. A buffer contains a certain number of slots. Every slot
+is able to store a reference to an object that is kept in main
+memory. Because of storing object references instead of serialized
+data, the associated data of a slot does not have a fixed size.
+
+There is an m:n-relationship between buffers and containers where
+each instance corresponds to an object of the class
+<I>BufferedContainer</I>. An object of the class
+<I>BufferedContainer</I> satisfies a request by consulting the
+buffer first. If this is unsuccessful, the request is delegated to
+the underlying container. Therefore, different implementations of
+buffers can be exchanged for efficiency or debugging purposes. For
+using a <I>traditional</I> buffer that stores blocks of serialized
+data, XXL provides the <I>Block</I> class. Blocks are objects that
+offer to store a certain amount of binary data and to create input
+and output streams of the data. Currently, XXL supports the LRU
+buffer replacement strategy, but it is not difficult to implement
+other ones.
+
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html216"
+  HREF="vldb2001-node18.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html214"
+  HREF="vldb2001-node15.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html208"
+  HREF="vldb2001-node16.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html217"
+  HREF="vldb2001-node18.html">External Collections &amp; Input</A> <B> Up:</B> 
+<A NAME="tex2html215"
+  HREF="vldb2001-node15.html">I/O</A> <B> Previous:</B> <A NAME="tex2html209"
+  HREF="vldb2001-node16.html">Converters</A> 
+<!--End of Navigation Panel-->
+<ADDRESS>
+Bernhard Seeger
+2001-10-11
+</ADDRESS>
+</BODY>
+</HTML>

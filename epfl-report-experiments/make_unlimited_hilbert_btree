@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# 1st pass: checking, no queries, hilbert values
+
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_uhilbert_1m --data mesh --limit 1000000 --index unlimited-b-hilbert --hilbertvalues mesh_1m_uhilbert.data --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_uhilbert_2m --data mesh --limit 2000000 --index unlimited-b-hilbert --hilbertvalues mesh_2m_uhilbert.data --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_uhilbert_3m --data mesh --limit 3000000 --index unlimited-b-hilbert --hilbertvalues mesh_3m_uhilbert.data --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_uhilbert_4m --data mesh --limit 4000000 --index unlimited-b-hilbert --hilbertvalues mesh_4m_uhilbert.data --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_uhilbert_5m --data mesh --limit 5000000 --index unlimited-b-hilbert --hilbertvalues mesh_5m_uhilbert.data --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_uhilbert_6m --data mesh --limit 6000000 --index unlimited-b-hilbert --hilbertvalues mesh_6m_uhilbert.data --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_uhilbert_7m --data mesh --limit 7000000 --index unlimited-b-hilbert --hilbertvalues mesh_7m_uhilbert.data --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_uhilbert_8m --data mesh --limit 8000000 --index unlimited-b-hilbert --hilbertvalues mesh_8m_uhilbert.data --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_uhilbert_9m --data mesh --limit 9000000 --index unlimited-b-hilbert --hilbertvalues mesh_9m_uhilbert.data --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_uhilbert_10m --data mesh --limit 10000000 --index unlimited-b-hilbert --hilbertvalues mesh_10m_uhilbert.data --noqueries
+
+# 2nd pass: no checking, no queries, no hilbert values, index build performance
+
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_uhilbert_1m --data mesh --limit 1000000 --index unlimited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_uhilbert_2m --data mesh --limit 2000000 --index unlimited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_uhilbert_3m --data mesh --limit 3000000 --index unlimited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_uhilbert_4m --data mesh --limit 4000000 --index unlimited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_uhilbert_5m --data mesh --limit 5000000 --index unlimited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_uhilbert_6m --data mesh --limit 6000000 --index unlimited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_uhilbert_7m --data mesh --limit 7000000 --index unlimited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_uhilbert_8m --data mesh --limit 8000000 --index unlimited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_uhilbert_9m --data mesh --limit 9000000 --index unlimited-b-hilbert --nocheck --noqueries
+time ~/phd/bbpdias/BBPDIAS/Test --input ~/phd/data/bbp/testcircuit/BlueConfig --output mesh_uhilbert_10m --data mesh --limit 10000000 --index unlimited-b-hilbert --nocheck --noqueries

@@ -1,0 +1,76 @@
+<!-- 
+     Copyright (C) 2007, 2008, 2009, 2010 Laurynas Biveinis
+
+     This file is part of RR-Tree.
+
+     RR-Tree is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation, either version 3 of the License, or
+     (at your option) any later version.
+
+     RR-Tree is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with RR-Tree.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<project name="build-common">
+    <dirname property="rootdir" file="${ant.file.build-common}"/> 
+
+    <property name="out" location="${rootdir}/out"/>
+    <property name="out-production" location="${out}/production"/>
+    <property name="out-test" location="${out}/test"/>
+    <property name="out-coverage" location="${out}/coverage"/>
+
+    <property name="libs" location="${rootdir}/libs"/>
+    <property name="junit" location="${libs}/junit-4.10.jar"/>
+    <property name="jmock" location="${libs}/jmock-2.5.1/jmock-2.5.1.jar"/>
+    <property name="hamcrest-core" location="${libs}/jmock-2.5.1/hamcrest-core-1.1.jar"/>
+    <property name="hamcrest-library" location="${libs}/jmock-2.5.1/hamcrest-library-1.1.jar"/>
+    <property name="jmockjunit" location="${libs}/jmock-2.5.1/jmock-junit4-2.5.1.jar"/>
+    <property name="jopt-simple" location="${libs}/jopt-simple-4.3/jopt-simple-4.3.jar"/>
+    <property name="csvreader" location="${libs}/javacsv2.0/javacsv.jar"/>
+
+    <property name="cobertura.root" value="${libs}/cobertura-1.9.4.1"/>
+
+    <path id="cobertura.classpath">
+        <fileset dir="${cobertura.root}">
+            <include name="cobertura.jar" />
+            <include name="lib/**/*.jar" />
+        </fileset>
+    </path>
+
+    <taskdef classpathref="cobertura.classpath" resource="tasks.properties"/>
+
+    <property name="cobertura.data" location="${rootdir}/cobertura.ser"/>
+
+    <presetdef name="javac">
+        <javac includeantruntime="no" debug="true" debuglevel="lines,vars,source"/>
+    </presetdef>
+
+    <property name="spf.queries" value="${spf.path}/spf-queries-1pct-size-1.out"/>
+
+    <target name="build-common.init">
+        <mkdir dir="${out}"/>
+        <mkdir dir="${out-production}"/>
+    </target>
+
+    <target name="build-common.test-init" depends="build-common.init">
+        <mkdir dir="${out-test}"/>
+    </target>
+
+    <target name="build-common.coverage-init" depends="build-common.init">
+        <delete file="${cobertura.data}"/>
+        <mkdir dir="${out-coverage}"/>
+    </target>
+
+    <target name="build-common.clean">
+        <delete file="${cobertura.data}"/>
+        <delete dir="${out-coverage}"/>
+        <delete dir="${out-test}"/>
+        <delete dir="${out-production}"/>
+        <delete dir="${out}"/>
+    </target>
+</project>

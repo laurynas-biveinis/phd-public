@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Collections</TITLE>
+<META NAME="description" CONTENT="Collections">
+<META NAME="keywords" CONTENT="vldb">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="vldb.css">
+
+<LINK REL="next" HREF="vldb2001-node15.html">
+<LINK REL="previous" HREF="vldb2001-node3.html">
+<LINK REL="up" HREF="vldb2001.html">
+<LINK REL="next" HREF="vldb2001-node12.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html152"
+  HREF="vldb2001-node12.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html150"
+  HREF="vldb2001.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html144"
+  HREF="vldb2001-node10.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html153"
+  HREF="vldb2001-node12.html">Bags</A> <B> Up:</B> <A NAME="tex2html151"
+  HREF="vldb2001.html">XXL - A Library</A> <B> Previous:</B> <A NAME="tex2html145"
+  HREF="vldb2001-node10.html">ResultSet versus Cursor</A> <BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H1><A NAME="SECTION00040000000000000000"></A>
+<A NAME="Collections"></A>
+<BR>
+Collections
+</H1>
+
+<I>xxl.collections</I> is a package that contains interfaces and
+classes for storing objects. The Java API already contains the
+interface <I>Collection</I>. However, the <I>Collection</I>
+interface is a <I>fat</I> interface, i.e., it specifies many
+optional methods. This is not desirable because users are forced
+to implement methods that are not required. Another drawback of
+Java's <I>Collection</I> interface is the lack of a <code>close</code>
+method. This functionality however is needed to release resources
+when a collection is based on an external resource, e.g. a file
+or a JDBC connection. Furthermore, many important collections like
+<I>Queues</I> are not part of the Java API.
+
+For these reasons, we provide a new, redesigned set of
+<I>collection</I> interfaces. The interface is broken up into
+several <I>small</I> interfaces containing only a few essential
+methods. This allows a fast implementation of these interfaces.
+
+The package <I>xxl.collections</I> depends on three fundamental
+interfaces: <I>Bag</I>, <I>Queue</I> and <I>Container</I>.
+
+<BR><HR>
+<!--Table of Child-Links-->
+<A NAME="CHILD_LINKS"><STRONG>Subsections</STRONG></A>
+
+<UL>
+  <LI><A NAME="tex2html154"
+  HREF="vldb2001-node12.html">Bags</A> 
+  <LI><A NAME="tex2html155"
+  HREF="vldb2001-node13.html">Queues</A> 
+  <LI><A NAME="tex2html156"
+  HREF="vldb2001-node14.html">Containers</A> 
+</UL>
+<!--End of Table of Child-Links-->
+<BR><HR>
+<ADDRESS>
+Bernhard Seeger
+2001-10-11
+</ADDRESS>
+</BODY>
+</HTML>

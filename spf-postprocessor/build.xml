@@ -1,0 +1,52 @@
+<!--
+     Copyright (C) 2009 Laurynas Biveinis
+
+     This file is part of RR-Tree.
+
+     RR-Tree is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation, either version 3 of the License, or
+     (at your option) any later version.
+
+     RR-Tree is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with RR-Tree.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<project name="spf-postprocessor" default="spf-postprocessor.make">
+    <dirname property="spf-postprocessor.root" file="${ant.file.spf-postprocessor}"/>
+
+    <import file="../build-common.xml"/>
+    <import file="../libworkload/build.xml"/>
+
+    <property name="spf-postprocessor.src" location="${spf-postprocessor.root}/src"/>
+    <property name="spf-postprocessor.dest" location="${out-production}/SPFPostprocessor"/>
+
+    <path id="spf-postprocessor.compile.classpath">
+        <pathelement location="${lib-workload.dest}"/>
+        <pathelement location="${jopt-simple}"/>
+        <pathelement location="${csvreader}"/>
+    </path>
+
+    <path id="spf-postprocessor.run.classpath">
+        <path refid="spf-postprocessor.compile.classpath"/>
+        <pathelement location="${spf-postprocessor.dest}"/>
+    </path>
+
+    <target name="spf-postprocessor.init">
+        <mkdir dir="${spf-postprocessor.dest}"/>
+    </target>
+
+    <target name="spf-postprocessor.clean" description="Removes SPF postprocessor output files and directories">
+        <delete dir="${spf-postprocessor.dest}"/>
+    </target>
+
+    <target name="spf-postprocessor.make" depends="spf-postprocessor.init,lib-workload.make"
+            description="Builds the threshold filter">
+        <javac srcdir="${spf-postprocessor.src}" destdir="${spf-postprocessor.dest}"
+               classpathref="spf-postprocessor.compile.classpath"/>
+    </target>
+</project>

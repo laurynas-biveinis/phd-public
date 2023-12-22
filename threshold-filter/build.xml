@@ -1,0 +1,52 @@
+<!--
+     Copyright (C) 2009 Laurynas Biveinis
+
+     This file is part of RR-Tree.
+
+     RR-Tree is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation, either version 3 of the License, or
+     (at your option) any later version.
+
+     RR-Tree is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with RR-Tree.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<project name="threshold-filter" default="threshold-filter.make">
+    <dirname property="threshold-filter.root" file="${ant.file.threshold-filter}"/>
+
+    <import file="../build-common.xml"/>
+    <import file="../libworkload/build.xml"/>
+
+    <property name="threshold-filter.src" location="${threshold-filter.root}/src"/>
+    <property name="threshold-filter.dest" location="${out-production}/ThresholdFilter"/>
+
+    <path id="threshold-filter.compile.classpath">
+        <pathelement location="${lib-workload.dest}"/>
+        <pathelement location="${jopt-simple}"/>
+    </path>
+
+    <path id="threshold-filter.run.classpath">
+        <path refid="threshold-filter.compile.classpath"/>
+        <pathelement location="${threshold-filter.dest}"/>
+        <pathelement location="${xxl-core.dest}"/>
+    </path>
+
+    <target name="threshold-filter.init">
+        <mkdir dir="${threshold-filter.dest}"/>
+    </target>
+
+    <target name="threshold-filter.clean" description="Removes threshold filter output files and directories">
+        <delete dir="${threshold-filter.dest}"/>
+    </target>
+
+    <target name="threshold-filter.make" depends="threshold-filter.init,lib-workload.make"
+            description="Builds the threshold filter">
+        <javac srcdir="${threshold-filter.src}" destdir="${threshold-filter.dest}"
+               classpathref="threshold-filter.compile.classpath"/>
+    </target>
+</project>

@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>External Collections &amp; Input Iterators</TITLE>
+<META NAME="description" CONTENT="External Collections &amp; Input Iterators">
+<META NAME="keywords" CONTENT="vldb">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="vldb.css">
+
+<LINK REL="previous" HREF="vldb2001-node17.html">
+<LINK REL="up" HREF="vldb2001-node15.html">
+<LINK REL="next" HREF="vldb2001-node19.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html224"
+  HREF="vldb2001-node19.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html222"
+  HREF="vldb2001-node15.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html218"
+  HREF="vldb2001-node17.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html225"
+  HREF="vldb2001-node19.html">Index Structures</A> <B> Up:</B> <A NAME="tex2html223"
+  HREF="vldb2001-node15.html">I/O</A> <B> Previous:</B> <A NAME="tex2html219"
+  HREF="vldb2001-node17.html">Buffers &amp; Blocks</A> <BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00053000000000000000">
+External Collections &amp; Input Iterators</A>
+</H2>
+
+Collections that use external resources for storing their objects
+are very important for database applications. For this reason, XXL
+contains external implementations for the most important
+collections. Currently, there are external bags, queues and
+containers. Other data structures like external lists are in
+process. For debugging and testing purposes external collections
+can easily be exchanged by their corresponding (main memory)
+variants.
+
+Another benefit of XXL is its rich reservoir of input iterators
+that read data from external sources, e.g. files or URLs. For
+example, XXL contains the class <I>InputIterator</I> that is able
+to wrap an arbitrary Java input stream to an iterator. Special
+input iterators are also the <I>FileInputIterator</I> and the
+<I>URLInputIterator</I>. Moreover, iterators can be wrapped in
+Java input streams using the class <I>IteratorInputStream</I>.
+<BR><HR>
+<ADDRESS>
+Bernhard Seeger
+2001-10-11
+</ADDRESS>
+</BODY>
+</HTML>

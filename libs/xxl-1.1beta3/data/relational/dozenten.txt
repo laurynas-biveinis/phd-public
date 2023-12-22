@@ -1,0 +1,7 @@
+DID	Vorname	Nachname
+Number	Varchar	Varchar
+
+1	Bernhard	Seeger
+2	Bernd	Freisleben
+3	Eyke	Hüllermeier
+4	Manfred	Sommer

@@ -1,0 +1,7 @@
+key	NAME	first name	year of birth
+Number	Varchar	varChar	number
+
+1	Tiger	Scott	1957
+2	Smith	Scott	1961
+3	Smith	John	1948
+4	#	Test	#

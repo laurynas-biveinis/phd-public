@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<MajorCities>
+	<CityWeather>
+		<City>San Francisco</City>
+		<Temperature>
+			<High>75</High>
+			<Low>46</Low>
+			<Current>50</Current>
+		</Temperature>
+		<Wind>
+			<direction>NE</direction>
+			<speed>20 mph</speed>
+		</Wind>
+	</CityWeather>
+	<CityWeather>
+		<City>Dallas</City>
+		<Temperature>
+			<High>92</High>
+			<Low>48</Low>
+			<Current>48</Current>
+		</Temperature>
+		<Wind>
+			<direction>E</direction>
+			<speed>5-10 mph</speed>
+		</Wind>
+	</CityWeather>
+	<CityWeather>
+		<City>Chicago</City>
+		<Temperature>
+			<High>67</High>
+			<Low>34</Low>
+			<Current>37</Current>
+		</Temperature>
+		<Wind>
+			<direction>S</direction>
+			<speed>30-45 mph</speed>
+		</Wind>
+	</CityWeather>
+	<CityWeather>
+		<City>New York</City>
+		<Temperature>
+			<High>78</High>
+			<Low>39</Low>
+			<Current>45</Current>
+		</Temperature>
+		<Wind>
+			<direction>SW</direction>
+			<speed>0-5 mph</speed>
+		</Wind>
+	</CityWeather>
+</MajorCities>

@@ -1,0 +1,163 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Introduction</TITLE>
+<META NAME="description" CONTENT="Introduction">
+<META NAME="keywords" CONTENT="vldb">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="vldb.css">
+
+<LINK REL="next" HREF="vldb2001-node2.html">
+<LINK REL="previous" HREF="vldb2001.html">
+<LINK REL="up" HREF="vldb2001.html">
+<LINK REL="next" HREF="vldb2001-node2.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html47"
+  HREF="vldb2001-node2.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html45"
+  HREF="vldb2001.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html39"
+  HREF="vldb2001.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html48"
+  HREF="vldb2001-node2.html">Functions</A> <B> Up:</B> <A NAME="tex2html46"
+  HREF="vldb2001.html">XXL - A Library</A> <B> Previous:</B> <A NAME="tex2html40"
+  HREF="vldb2001.html">XXL - A Library</A> <BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H1><A NAME="SECTION00010000000000000000">
+Introduction</A>
+</H1>
+
+Since the last decade object-relational DBMS have been emerged in
+order to support new application areas where complex data has to
+be managed in a user-suitable way. Today's DBMS provide different
+mechanisms to incorporate new functionality into the systems. In
+general, DBMS vendors offer specific languages which allow the
+implementation of user-defined functionality. Recently, they also
+support user-defined functionality being implemented directly in
+Java. This code can be reasonably fast since Java Virtual Machines
+(JVM) are part of the kernel of most DBMS. It seems that this
+approach is very appealing to users of DBMS and therefore, we
+expect an increase of its practical relevance in the near future.
+
+In this paper, we address the problem of designing a Java library
+that facilitates the implementation of user-defined functionality.
+As our approach to this problem we present XXL (eXtensible and
+fleXible Library). XXL is freely available under the terms of the
+GNU Lesser General Public License [<A
+ HREF="vldb2001-node30.html#xxldocu">Dat01</A>]. The library
+consists of the following components:
+
+<OL>
+<LI>The cursor package provides an algebra of the most important
+      query operators whose implementations  are demand-driven
+      whenever it is effective. The operators of the algebra require
+      that the input as well as the output satisfy an iterator
+      interface. In order to support the import of external
+      database sources, XXL also contains an enriched algebra
+      based on Java's interface <I>ResultSet</I>.
+      Moreover, some database vendors&nbsp;[<A
+ HREF="vldb2001-node30.html#Cloudscape">Inf01</A>] have extended SQL in such a way
+      that a <I>ResultSet</I> can be used within a SQL statement. This allows
+      a seamless and easy integration of application code into SQL.
+</LI>
+<LI>XXL offers a rich infrastructure of external data structures
+      which are helpful for the implementation of new database functionality. In
+      addition, XXL provides a very flexible
+      buffer mechanism. In contrast to system-based approaches, specific data
+      structures of XXL like the buffer can be used
+      without knowledge of the other parts of XXL.
+</LI>
+<LI>A broad class of index structures has been implemented as a framework in XXL,
+      where many default implementations (R-tree, M-tree, X-tree)
+      already exist and the implementations of new structures are
+      largely facilitated. For example, different types of bulk
+      operations on indexes are already efficiently implemented as part
+      of the generic code. Moreover, the framework of index
+      structures in XXL is not an isolated component, but is fully
+      embedded into the library.
+</LI>
+</OL>
+There is another purpose of XXL that is of great importance at least from a research 
+point of view. We propose XXL as a library for conducting experiments. Results 
+obtained from experiments are important indicators for evaluating the performance 
+of new query processing techniques. We however feel that the quality of the experimental 
+work has to be considerably improved. Due to the large gap between a high-level 
+algorithmic description and a low-level implementation, we argue that in addition 
+to the publication of the results, the code should be made publicly available, 
+too. However, we assume that the quality of the code is generally poor. Therefore, 
+a well documented and open library like XXL would be an ideal infrastructure for 
+experiments. The library could provide reference implementations as well as building 
+blocks (e.g. external algorithms and data structures) that are used in an experimental 
+comparison of competitive approaches. Research in the database area is largely 
+driven by the idea of building a system, whereas the development of a library 
+is exceptional. Volcano&nbsp;[<A
+ HREF="vldb2001-node30.html#Gra94">Gra94</A>] is probably the work closest to 
+ours. It provides a data model independent query processing functionality similar 
+to XXL, but also addresses the problem of query optimization and parallelism. 
+Volcano can be viewed as a hybrid between a system and a library. Iterator-based 
+processing is also addressed in object-oriented query languages like OFL&nbsp;[<A
+ HREF="vldb2001-node30.html#GMP95">GMP95</A>] and functional ones [<A
+ HREF="vldb2001-node30.html#BF79">BF79</A>]. According to indexing, there has 
+been only a few approaches. The grid-file system&nbsp;[<A
+ HREF="vldb2001-node30.html#Hin85">Hin85</A>] is an exceptional example of an 
+elegant implementation of an index structure, but it is limited to one specific 
+structure. GIST&nbsp;[<A
+ HREF="vldb2001-node30.html#HNP95">HNP95</A>] is basically an extensible system 
+for indexing which supports the implementation of R-trees and related structures. 
+The development of libraries is more popular in the algorithmic area. There is 
+also an increasing interest on external problems where the data cannot be kept 
+in main memory. TPIE&nbsp;[<A
+ HREF="vldb2001-node30.html#VV96">VV96</A>] and Leda-SM&nbsp;[<A
+ HREF="vldb2001-node30.html#CM99">AC99</A>] are among the most well known libraries 
+with a rich source of external algorithms. However, both libraries do not support 
+demand-driven query processing as it is required in a DBMS. Moreover, index structures 
+are not supported in the libraries. The paper is organized as follows. In Section&nbsp;<A HREF="vldb2001-node2.html#Functions">2</A>, 
+the implementation of the functional paradigm is outlined. In Section&nbsp;<A HREF="vldb2001-node3.html#Cursors">3</A>, 
+the cursor algebra of XXL is introduced. A selection of the most important operators 
+is presented and, it is shown how the functionality of a cursor can be extended 
+to satisfy the interface <I>java.sql.ResultSet</I>. In Section&nbsp;4, the different 
+collections currently available in XXL are presented. The I/O infrastructure including 
+buffering and different types of containers is discussed in Section&nbsp;5. XXL's 
+framework of index structures is presented in Section&nbsp;6. Section&nbsp;7 discusses 
+the most important features of the spatial package. In Section&nbsp;8, we present 
+two use-cases of XXL where the one shows the connectivity of XXL and a commercial 
+database system and the other presents approaches to spatial databases. Finally, 
+Section&nbsp;9 concludes the paper. 
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html47"
+  HREF="vldb2001-node2.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html45"
+  HREF="vldb2001.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html39"
+  HREF="vldb2001.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html48"
+  HREF="vldb2001-node2.html">Functions</A> <B> Up:</B> <A NAME="tex2html46"
+  HREF="vldb2001.html">XXL - A Library</A> <B> Previous:</B> <A NAME="tex2html40"
+  HREF="vldb2001.html">XXL - A Library</A> 
+<!--End of Navigation Panel-->
+<ADDRESS>
+Bernhard Seeger
+2001-10-11
+</ADDRESS>
+</BODY>
+</HTML>

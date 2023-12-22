@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Available Functionality</TITLE>
+<META NAME="description" CONTENT="Available Functionality">
+<META NAME="keywords" CONTENT="vldb">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="vldb.css">
+
+<LINK REL="previous" HREF="vldb2001-node21.html">
+<LINK REL="up" HREF="vldb2001-node19.html">
+<LINK REL="next" HREF="vldb2001-node23.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html265"
+  HREF="vldb2001-node23.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html263"
+  HREF="vldb2001-node19.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html259"
+  HREF="vldb2001-node21.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html266"
+  HREF="vldb2001-node23.html">Spatial</A> <B> Up:</B> <A NAME="tex2html264"
+  HREF="vldb2001-node19.html">Index Structures</A> <B> Previous:</B> <A NAME="tex2html260"
+  HREF="vldb2001-node21.html">Implementation of new Index</A> <BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00063000000000000000">
+Available Functionality</A>
+</H2>
+
+In the following, we briefly describe the available functionality
+of an index structure that is based on our framework. First of
+all, the index structure supports insertions and deletions of
+objects. In addition, the index structure is automatically
+equipped with efficient algorithms for bulk-loading and
+bulk-insertion.
+
+At a first glance, it may sound surprising that the programer of a
+new index structure has not to deal with the implementation of
+queries. This is generally true for standard queries, but we have
+to admit that exotic queries still have to be implemented by hand.
+The predicate of a standard query can be expressed by using the
+descriptor of the underlying index structure. For an R-tree, a
+standard query is the popular window query since the corresponding
+predicate refers to a rectangle which is also the data type of the
+descriptor. Moreover, our framework offers the efficient
+implementation of nearest-neighbor queries&nbsp;[<A
+ HREF="vldb2001-node30.html#HS99">HS99</A>] and their
+combinations with standard queries.
+<BR><HR>
+<ADDRESS>
+Bernhard Seeger
+2001-10-11
+</ADDRESS>
+</BODY>
+</HTML>

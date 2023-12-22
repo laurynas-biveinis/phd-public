@@ -1,0 +1,29 @@
+XXL - An eXtensible and fleXible Library for query processing
+=============================================================
+
+Are you looking for a flexible, high-level, platform-independent Java-library that provides a powerful and ready-to-use collection of query processing functionality?
+
+We are pleased to announce version 1.0 of our Java library XXL. This library seamlessly extends Sun's Java SDK and provides sophisticated frameworks as well as toolboxes modeling complex database functionality. Due to its extensible and generic design, XXL facilitates and accelerates the implementation of new ideas and the comparison to existing functionality.
+
+The main features of XXL are:
+- A demand-driven cursor algebra including efficient implementations of object-relational operators such as joins, difference, MergeSort …
+- An extended relational algebra based on java.sql.ResultSet
+- A powerful framework of index-structures, e.g. B+-tree, R-tree, X-tree, M-tree …
+
+In addition, version 1.0 of XXL comes along with the following new functionality:
+- A framework for processing multi-way joins including spatial, temporal and similarity joins
+- The support of raw-I/O (using JNI), an own file system implementation and a record manager
+- A native XML storage, a DOM-layer on top and XML operators
+- A framework for advanced aggregates, e.g. online aggregation 
+
+Note that all classes of version 1.0 are documented in detail, while lots of use-cases simplify their understanding. Also, we will offer a beta release of XXL containing our work in progress. This includes PIPES, our infrastructure for continuous query processing over data streams, which will be presented at SIGMOD 2004.
+
+Version 1.0 of XXL is freely available under the terms of the GNU Lesser General Public License.
+
+Check out XXL (eXtensible and fleXible Library) at 
+http://www.xxl-library.de
+
+
+Best regards,
+
+XXL Team (University of Marburg).

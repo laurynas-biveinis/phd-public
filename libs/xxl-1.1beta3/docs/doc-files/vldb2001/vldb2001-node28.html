@@ -1,0 +1,211 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Related Work</TITLE>
+<META NAME="description" CONTENT="Related Work">
+<META NAME="keywords" CONTENT="vldb">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="vldb.css">
+
+<LINK REL="next" HREF="vldb2001-node29.html">
+<LINK REL="previous" HREF="vldb2001-node24.html">
+<LINK REL="up" HREF="vldb2001.html">
+<LINK REL="next" HREF="vldb2001-node29.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html326"
+  HREF="vldb2001-node29.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html324"
+  HREF="vldb2001.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html318"
+  HREF="vldb2001-node27.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html327"
+  HREF="vldb2001-node29.html">Conclusions</A> <B> Up:</B> <A NAME="tex2html325"
+  HREF="vldb2001.html">XXL - A Library</A> <B> Previous:</B> <A NAME="tex2html319"
+  HREF="vldb2001-node27.html">Online Aggregation of Large</A> <BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H1><A NAME="SECTION00090000000000000000">
+Related Work</A>
+</H1>
+
+In <B>Smalltalk</B> [x], blocks are used to combine
+multiple instructions to a logical unit. The creation of a block
+is independent of its execution. Therefore blocks can be bound to
+variables and explicitly executed at any time. Block arguments can
+be used as local variables or input parameters. If the last
+instruction on a block returns a result, it is used as the result
+of the block. Blocks are used to define conditions and bodies of
+loops or conditional expressions as well as they are used for
+transmission of special functionality to general algorithms. In
+XXL functions are used to implement the functionality of blocks.
+
+A short comprehension between cursors and streams.
+
+<B>Volcano</B> [x] is a dataflow query execution system,
+implemented in C, with a special focus on query optimization and
+parallelism in database query processing, providing also a testbed
+for database systems research like XXL. Volcano and XXL use a
+tree-structured query evaluation strategy, represented as algebra
+expressions, that is used to execute queries by demand-driven
+dataflow (lazy evaluation). Therefore, all algebra operators are
+implemented as <I>iterators</I>, i.e., they implement a simple
+<I>open-next-close</I> protocol, which is only extended by XXL.
+This feature guarantees that iterators can be composed, because an
+operator does neither need to know what kind of operator produces
+its input nor any information about the type and structure of the
+elements contained in the stream. The second parallel is the usage
+of <I>support functions</I> with regard to all manipulation and
+interpretation of individual data objects contained in these
+streams. But XXL has several advantages with regard to Volcano,
+since it has been implemented in Java, e.g. the strict type
+concept or the platform independence. Furthermore, XXL presents no
+stand-alone solution, but an extension of the SDK that delivers a
+large standard library and infrastructure combined with high
+acceptance. Volcano integrates modules implementing a file system
+and a memory manager, so it tends to be a system and no real
+library like XXL, where the file input and output stream
+interfaces of the SDK are used and the memory management is
+controlled by the Java Virtual Machine. XXL supports all kinds of
+data-sources like JDBC-databases, files or even URLs, whereas the
+connectivity of Volcano is restricted to file I/O. The various
+kinds of index structures and a lot of components for spatial
+query processing integrated in XXL, but not contained in Volcano,
+underline its flexibility, as well as the fact that XXL cannot
+only be used for query processing in an object-oriented database
+system, but also delivers an implementation of the physical
+operators of the relational algebra.
+
+Our work can also be compared with <B>OFL</B> [<A
+ HREF="vldb2001-node30.html#GMP95">GMP95</A>].
+Gardarin et al proposed an object functional language as a target
+language for OQL-like query compilers. The language consists of a
+small set of functions that are based on collections. The
+functions <I>apply to all</I> and <I>apply to any</I> can be
+used to traverse collections. Both functions require a collection,
+a predicate, and a function. If an object satisfies the predicate,
+the function is called which can perform nested operations. Some
+other important OFL-functions are <I>composition</I>,
+<I>iteration</I> and <I>sequence</I>. All concepts of OFL are
+availlable within the XXL library. The main difference is that XXL
+represents the query in form of an operator tree consisting of
+cursors. The results of a complex query are delivered by calling
+the root cursor's hasNext/next-methods. Contrary to XXL, the
+output of OFL queries are delivered by the <I>display</I>
+function that is called inside a nested structure. In XXL,
+collections are represented by cursors that iterate on specific
+sources, e.g. JDBC ResultSets, Files, URL-Connections, and many
+more. The <I>apply to all</I> function is equivalent to the
+filter cursor which delivers every element that fulfills a defined
+predicate. <I>apply to any</I> can be found as a static method
+in the class xxl.cursors.Cursors. Functions and predicates already
+support composition, and sequence can easily be modeled by putting
+the results of functions into an object, e.g. a
+java.util.LinkedList.
+
+FQL
+
+<B>TPIE</B> [x], a Transparent Parallel I/O Environment
+implemented as a set of templated classes and functions in C++, is
+designed to assist programmers in writing high performance
+I/O-efficient programs. To achieve this goal the I/O performance
+is approved by providing algorithms minimizing the input/output
+communication and using parallel disk processing. The details how
+I/O is performed is abstracted away by a simple high level
+<I>stream interface</I> the programmer deals with. But the
+algorithms in TPIE do not implement a cursor interface, i.e., each
+algorithm completely consumes all its input data and generates all
+output data at once. As a result, the output of an algorithm
+cannot be passed on directly to another algorithm, but has to be
+stored on and reread from disk before. Therefore it is impossible
+to use the algorithms in operator trees or even to stop an
+algorithm if only a small fraction of the result set is needed.
+The streams used in TPIE are based on an ordered collection of
+objects and the operations are limited to a maximum of four input
+and four output streams. In contrast to TPIE, XXL handles
+arbitrary collections due to the possibility to compose cursors,
+no limitation of the number of input cursors are made.
+Furthermore, TPIE uses stream-oriented <I>block transfer
+engines</I> to move the blocks of data from physical disk devices to
+main memory and back. But still no random-access to disk blocks is
+supported, which can be effectively used for index-structures.
+Like Volcano, TPIE also is not able to use arbitrary data-sources
+such as URL input streams, and it represents no traditional
+library, because it relies on a memory manager allocating and
+managing the physical memory used by the block transfer engine.
+This fact also implies that TPIE is not platform independent,
+especially the block transfer engine is system and application
+dependent. Also a great part of buffering and prefetching is
+performed by the system in contrast to XXL, where the buffer and
+its strategy are completely application dependent.
+
+<B>LEDA-SM</B> (LEDA -- Secondary Memory) [x] is an
+extension of LEDA (Library of Efficient Data types and Algorithms)
+[x] towards secondary memory computation. The library works on
+block-structured files that represents a collection of disks.
+LEDA-SM provides a collection of external memory data structures,
+algorithms operating on these data structures and a centralized
+kernel that controls memory management on disk or main memory.
+LEDA-SM does not provide a cursor interface for accessing external
+data structures, which leads to the same disadvantages mentioned
+in the section about TPIE. In its current version, LEDA-SM does
+not support any index structure. LEDA-SM differs from traditional
+libraries by using a centralized kernel for memory management.
+
+<B>STL</B> (Standard Template Library) [x] is a C++
+library of container classes, algorithms, and iterators. The
+library provides a large collection of the basic algorithms and
+data structures of computer science. Its components are generic
+and mostly templates -- therefore the behavior and functionality
+of algorithms and data structures can be adapted by type
+parameters. All algorithms and data structures contained in STL
+reside in main memory. Therefore they cannot be used for
+manipulating large data sets as needed by database applications.
+Like LEDA-SM, STL does not support any index structures. Although
+the iterator (cursor) concept takes a central part of the library,
+its algorithms do not provide lazy evaluation.
+
+<B>GiST</B> unifies a number of popular index structures
+and provides a generalized search tree. Though GiST implements a
+generalized search algorithm, it does not provide an
+infrastructure to process the query results further on. Important
+database algorithms, e.g. joins, are not supported in GiST.
+
+<BR>
+And last but not least a short paragraph about the GridFile Library.
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html326"
+  HREF="vldb2001-node29.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html324"
+  HREF="vldb2001.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html318"
+  HREF="vldb2001-node27.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html327"
+  HREF="vldb2001-node29.html">Conclusions</A> <B> Up:</B> <A NAME="tex2html325"
+  HREF="vldb2001.html">XXL - A Library</A> <B> Previous:</B> <A NAME="tex2html319"
+  HREF="vldb2001-node27.html">Online Aggregation of Large</A> 
+<!--End of Navigation Panel-->
+<ADDRESS>
+Bernhard Seeger
+2001-10-11
+</ADDRESS>
+</BODY>
+</HTML>

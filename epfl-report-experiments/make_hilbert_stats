@@ -1,0 +1,55 @@
+#!/bin/bash
+
+function process_file () {
+    echo Processing $1...
+    wc -l $1 >> $2
+    sort $1 > $1.sorted
+    uniq $1.sorted > $1.uniq
+    wc -l $1.uniq >> $2
+}
+
+process_file mesh_1m_uhilbert.data uhilbert_uniq_values.data
+process_file mesh_2m_uhilbert.data uhilbert_uniq_values.data
+process_file mesh_3m_uhilbert.data uhilbert_uniq_values.data
+process_file mesh_4m_uhilbert.data uhilbert_uniq_values.data
+process_file mesh_5m_uhilbert.data uhilbert_uniq_values.data
+process_file mesh_6m_uhilbert.data uhilbert_uniq_values.data
+process_file mesh_7m_uhilbert.data uhilbert_uniq_values.data
+process_file mesh_8m_uhilbert.data uhilbert_uniq_values.data
+process_file mesh_9m_uhilbert.data uhilbert_uniq_values.data
+process_file mesh_10m_uhilbert.data uhilbert_uniq_values.data
+
+process_file mesh_l16_1m.hilbert.data lhilbert16_uniq_values.data
+process_file mesh_l16_2m.hilbert.data lhilbert16_uniq_values.data
+process_file mesh_l16_3m.hilbert.data lhilbert16_uniq_values.data
+process_file mesh_l16_4m.hilbert.data lhilbert16_uniq_values.data
+process_file mesh_l16_5m.hilbert.data lhilbert16_uniq_values.data
+process_file mesh_l16_6m.hilbert.data lhilbert16_uniq_values.data
+process_file mesh_l16_7m.hilbert.data lhilbert16_uniq_values.data
+process_file mesh_l16_8m.hilbert.data lhilbert16_uniq_values.data
+process_file mesh_l16_9m.hilbert.data lhilbert16_uniq_values.data
+process_file mesh_l16_10m.hilbert.data lhilbert16_uniq_values.data
+
+process_file mesh_l32_1m.hilbert.data lhilbert32_uniq_values.data
+process_file mesh_l32_2m.hilbert.data lhilbert32_uniq_values.data
+process_file mesh_l32_3m.hilbert.data lhilbert32_uniq_values.data
+process_file mesh_l32_4m.hilbert.data lhilbert32_uniq_values.data
+process_file mesh_l32_5m.hilbert.data lhilbert32_uniq_values.data
+process_file mesh_l32_6m.hilbert.data lhilbert32_uniq_values.data
+process_file mesh_l32_7m.hilbert.data lhilbert32_uniq_values.data
+process_file mesh_l32_8m.hilbert.data lhilbert32_uniq_values.data
+process_file mesh_l32_9m.hilbert.data lhilbert32_uniq_values.data
+process_file mesh_l32_10m.hilbert.data lhilbert32_uniq_values.data
+
+process_file mesh_l64_1m.hilbert.data lhilbert64_uniq_values.data
+process_file mesh_l64_2m.hilbert.data lhilbert64_uniq_values.data
+process_file mesh_l64_3m.hilbert.data lhilbert64_uniq_values.data
+process_file mesh_l64_4m.hilbert.data lhilbert64_uniq_values.data
+process_file mesh_l64_5m.hilbert.data lhilbert64_uniq_values.data
+process_file mesh_l64_6m.hilbert.data lhilbert64_uniq_values.data
+process_file mesh_l64_7m.hilbert.data lhilbert64_uniq_values.data
+process_file mesh_l64_8m.hilbert.data lhilbert64_uniq_values.data
+process_file mesh_l64_9m.hilbert.data lhilbert64_uniq_values.data
+process_file mesh_l64_10m.hilbert.data lhilbert64_uniq_values.data
+
+

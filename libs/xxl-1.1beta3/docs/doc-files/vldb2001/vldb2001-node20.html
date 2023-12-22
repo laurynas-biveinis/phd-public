@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>The Lower Interface of Index Structures</TITLE>
+<META NAME="description" CONTENT="The Lower Interface of Index Structures">
+<META NAME="keywords" CONTENT="vldb">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="vldb.css">
+
+<LINK REL="next" HREF="vldb2001-node21.html">
+<LINK REL="previous" HREF="vldb2001-node19.html">
+<LINK REL="up" HREF="vldb2001-node19.html">
+<LINK REL="next" HREF="vldb2001-node21.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html247"
+  HREF="vldb2001-node21.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html245"
+  HREF="vldb2001-node19.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html239"
+  HREF="vldb2001-node19.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html248"
+  HREF="vldb2001-node21.html">Implementation of new Index</A> <B> Up:</B> <A NAME="tex2html246"
+  HREF="vldb2001-node19.html">Index Structures</A> <B> Previous:</B> <A NAME="tex2html240"
+  HREF="vldb2001-node19.html">Index Structures</A> <BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00061000000000000000">
+The Lower Interface of Index Structures</A>
+</H2>
+
+Tree-based index structures keep their data in nodes where each of
+them refers to a block that is generally of a fixed size. These
+blocks are managed by an object that satisfies the interface
+<I>Container</I>. Obviously, a user may implement his/her own
+container classes.
+
+<P></P>
+<DIV ALIGN="CENTER"><A NAME="fig:tree:containers"></A><A NAME="200"></A>
+<TABLE>
+<CAPTION ALIGN="BOTTOM"><STRONG>Figure 1:</STRONG>
+An example for using containers</CAPTION>
+<TR>
+      <TD><IMG
+ WIDTH="540" HEIGHT="547" BORDER="0"
+ SRC="img3.png"
+ ALT="\begin{figure}
+\begin{center}
+\footnotesize
+\epsfig{file=eps/indexContainers.eps, width=1.0\linewidth}
+\end{center}
+\end{figure}"></TD>
+    </TR>
+</TABLE>
+</DIV><P></P>
+A typical scenario for the usage of containers is illustrated in
+Figure&nbsp;<A HREF="node20.html#fig:tree:containers">1</A>. The top container belongs to the
+class <I>BufferedContainer</I> where presumably a large number of
+nodes of the index structure are kept in the buffer. If a desired
+node is not in the buffer, the node is requested from a
+<I>ConverterContainer</I>. The only task of a
+<I>ConverterContainer</I> is to convert a node into its block and
+vice versa. Therefore, it forwards a request to a
+<I>FileContainer</I> object that reads the desired block from
+disk.
+
+<BR><HR>
+<ADDRESS>
+Bernhard Seeger
+2001-10-11
+</ADDRESS>
+</BODY>
+</HTML>

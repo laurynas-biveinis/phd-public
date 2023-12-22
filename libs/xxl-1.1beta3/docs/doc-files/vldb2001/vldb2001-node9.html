@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Strict and Hybrid Operators</TITLE>
+<META NAME="description" CONTENT="Strict and Hybrid Operators">
+<META NAME="keywords" CONTENT="vldb">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="vldb.css">
+
+<LINK REL="previous" HREF="vldb2001-node8.html">
+<LINK REL="up" HREF="vldb2001-node7.html">
+<LINK REL="next" HREF="vldb2001-node10.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html134"
+  HREF="vldb2001-node10.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html132"
+  HREF="vldb2001-node7.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html128"
+  HREF="vldb2001-node8.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html135"
+  HREF="vldb2001-node10.html">ResultSet versus Cursor</A> <B> Up:</B> <A NAME="tex2html133"
+  HREF="vldb2001-node7.html">Processing Operators</A> <B> Previous:</B> <A NAME="tex2html129"
+  HREF="vldb2001-node8.html">Demand-driven Operators</A> <BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H3><A NAME="SECTION00034200000000000000">
+Strict and Hybrid Operators</A>
+</H3>
+
+Almost all of the operators in XXL are implemented in a
+demand-driven manner, but there are a few exceptions where the
+processing is strict. The implementation of an operator is
+<I>strict</I>, when the total output of an operator is computed
+during its initialization. In general, this requires that the
+output is temporarily stored on disk. During the next-phase of a
+strict operator a result is delivered to the caller without any
+additional processing cost. In contrast to a strict operator, a
+hybrid operator shifts a substantial part of its computation from
+its initialization phase to the demand-driven phase.
+
+The class <I>HashGrouper</I> can be viewed as a special form of a
+grouper whose implementation is strict. It partitions its input
+into hash buckets. A call of next delivers an iterator of a hash
+bucket to the caller. An example of a hybrid operator is the class
+<I>MergeSorter</I> that offers external sorting of the input
+iterator based on the sort-merge paradigm and
+<I>ReplacementSelection</I>&nbsp;[<A
+ HREF="vldb2001-node30.html#Knu73">Knu73</A>]. As suggested in
+[<A
+ HREF="vldb2001-node30.html#Gra94">Gra94</A>], our merge sorter delays the final merge to the
+next-phase.
+
+<BR><HR>
+<ADDRESS>
+Bernhard Seeger
+2001-10-11
+</ADDRESS>
+</BODY>
+</HTML>

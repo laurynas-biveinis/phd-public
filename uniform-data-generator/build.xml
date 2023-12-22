@@ -1,0 +1,55 @@
+<!--
+     Copyright (C) 2009 Laurynas Biveinis
+
+     This file is part of RR-Tree.
+
+     RR-Tree is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation, either version 3 of the License, or
+     (at your option) any later version.
+
+     RR-Tree is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with RR-Tree.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<project name="uniform-generator" default="uniform-generator.make">
+    <dirname property="uniform-generator.root" file="${ant.file.uniform-generator}"/>
+
+    <import file="../build-common.xml"/>
+    <import file="../libworkload/build.xml"/>
+    <import file="../libs/xxl-1.1beta3/build.xml"/>
+
+    <property name="uniform-generator.src" location="${uniform-generator.root}/src"/>
+    <property name="uniform-generator.dest" location="${out-production}/UniformDataGenerator"/>
+
+    <path id="uniform-generator.compile.classpath">
+        <pathelement location="${lib-workload.dest}"/>
+        <pathelement location="${jopt-simple}"/>
+    </path>
+
+    <path id="uniform-generator.run.classpath">
+        <path refid="uniform-generator.compile.classpath"/>
+        <pathelement location="${xxl-core.dest}"/>
+        <pathelement location="${uniform-generator.dest}"/>
+    </path>
+
+    <target name="uniform-generator.init">
+        <mkdir dir="${uniform-generator.dest}"/>
+    </target>
+
+    <target name="uniform-generator.clean" 
+	    description="Removes experimental driver output files and directories">
+        <delete dir="${uniform-generator.dest}"/>
+    </target>
+
+    <target name="uniform-generator.make"
+	    depends="uniform-generator.init,lib-workload.make,xxl-core.make" 
+	    description="Makes experimental driver">
+        <javac srcdir="${uniform-generator.src}" destdir="${uniform-generator.dest}"
+	           classpathref="uniform-generator.compile.classpath"/>
+    </target>
+</project>

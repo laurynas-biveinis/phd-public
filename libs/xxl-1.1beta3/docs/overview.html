@@ -1,0 +1,132 @@
+<HTML>
+<BODY>
+  <p>XXL is a flexible, high-level, platform independent Java-library for data
+  processing and database purposes.<br>
+  XXL provides a powerful collection of easy-to-use index-structures, 
+  query operators and algorithms facilitating the performance evaluation of new 
+  query processing developments.&nbsp;Query algorithms in XXL use the same set of basic 
+  classes, like I/O routines and improved (de)serialization methods.&nbsp;Therefore, 
+  XXL is an ideal testbed for experimental comparisons of new approaches to established 
+  ones.&nbsp;</p>
+<p>
+<b>Note</b>: XXL is <a href=http://www.gnu.org>GNU</a> (<a href=doc-files/LGPL.txt>LGPL</a>:
+    Lesser Gnu Public License, i.e., XXL can be 
+    used in commercial projects.&nbsp;Projects that make use of XXL do not have to 
+    be GNU!)<br>
+</p>
+<p>Since the last decade object-relational DBMS have been emerged 
+  in order to support new application areas where complex data has to be managed 
+  in a user-suitable way. Today's DBMS provide different mechanisms to incorporate 
+  new functionality into the systems. In general, DBMS vendors offer specific 
+  languages which allow the implementation of user-defined functionality. Recently, 
+  they also support user-defined functionality being implemented directly in Java. 
+  This code can be reasonably fast since Java Virtual Machines (JVM) are part 
+  of the kernel of most DBMS. It seems that this approach is very appealing to 
+  users of DBMS and therefore, we expect an increase of its practical relevance 
+  in the near future. Here we address the problem of designing a Java library 
+  that facilitates the implementation of user-defined functionality. As our approach 
+  to this problem we present XXL (eXtensible and fleXible Library). XXL is freely 
+  available under the terms of the GNU Lesser General Public License [Dat01]. 
+  The library consists of the following components: <br>
+  The cursor package provides an algebra of the most important query operators 
+  whose implementations are demand-driven whenever it is effective. The operators 
+  of the algebra require that the input as well as the output satisfy an iterator 
+  interface. In order to support the import of external database sources, XXL 
+  also contains an enriched algebra based on Java's interface ResultSet. Moreover, 
+  some database vendors [Inf01] have extended SQL in such a way that a ResultSet 
+  can be used within a SQL statement. This allows a seamless and easy integration 
+  of application code into SQL. <br>
+  XXL offers a rich infrastructure of external data structures which are helpful 
+  for the implementation of new database functionality. In addition, XXL provides 
+  a very flexible buffer mechanism. In contrast to system-based approaches, specific 
+  data structures of XXL like the buffer can be used without knowledge of the 
+  other parts of XXL. <br>
+  A broad class of index structures has been implemented as a framework in XXL, 
+  where many default implementations (R-tree, M-tree, X-tree) already exist and 
+  the implementations of new structures are largely facilitated. For example, 
+  different types of bulk operations on indexes are already efficiently implemented 
+  as part of the generic code. Moreover, the framework of index structures in 
+  XXL is not an isolated component, but is fully embedded into the library. <br>
+  There is another purpose of XXL that is of great importance at least from a 
+  research point of view. We propose XXL as a library for conducting experiments. 
+  Results obtained from experiments are important indicators for evaluating the 
+  performance of new query processing techniques. We however feel that the quality 
+  of the experimental work has to be considerably improved. Due to the large gap 
+  between a high-level algorithmic description and a low-level implementation, 
+  we argue that in addition to the publication of the results, the code should 
+  be made publicly available, too. However, we assume that the quality of the 
+  code is generally poor. Therefore, a well documented and open library like XXL 
+  would be an ideal infrastructure for experiments. The library could provide 
+  reference implementations as well as building blocks (e.g. external algorithms 
+  and data structures) that are used in an experimental comparison of competitive 
+  approaches. Research in the database area is largely driven by the idea of building 
+  a system, whereas the development of a library is exceptional. Volcano [Gra94] 
+  is probably the work closest to ours. It provides a data model independent query 
+  processing functionality similar to XXL, but also addresses the problem of query 
+  optimization and parallelism. Volcano can be viewed as a hybrid between a system 
+  and a library. Iterator-based processing is also addressed in object-oriented 
+  query languages like OFL [GMP95] and functional ones [BF79]. According to indexing, 
+  there has been only a few approaches. The grid-file system [Hin85] is an exceptional 
+  example of an elegant implementation of an index structure, but it is limited 
+  to one specific structure. GIST [HNP95] is basically an extensible system for 
+  indexing which supports the implementation of R-trees and related structures. 
+  The development of libraries is more popular in the algorithmic area. There 
+  is also an increasing interest on external problems where the data cannot be 
+  kept in main memory. TPIE [VV96] and Leda-SM [AC99] are among the most well 
+  known libraries with a rich source of external algorithms. However, both libraries 
+  do not support demand-driven query processing as it is required in a DBMS. Moreover, 
+  index structures are not supported in the libraries.</p>
+  The paper published at VLDB 2001 could be browsed <a href="doc-files/vldb2001/vldb2001-index.html">here</a>! 
+<p>
+<p align="left"><b>Bibliography:</b></p>
+<table width="100%" border="0">
+  <tr>
+    <td width="7%" valign="top"><b>[Dat01]</b></td>
+    <td width="93%">Database Research Group. XXL. <a href="http://www.xxl-library.de">http://www.xxl-library.de</a>, 
+      2001.</td>
+  </tr>
+  <tr>
+    <td width="7%" valign="top"><b>[Inf01]</b></td>
+    <td width="93%">Informix. Cloudscape. Internet: <a href="http://www.cloudscape.com">http://www.cloudscape.com</a>, 
+      2001. </td>
+  </tr>
+  <tr>
+    <td width="7%" valign="top"><b>[Gra94]</b></td>
+    <td width="93%">G. Graefe. Volcano - An Extensible and Parallel Query Evaluation 
+      System. TKDE, 6(1):120-135, 1994. </td>
+  </tr>
+  <tr>
+    <td width="7%" valign="top"><b>[GMP95</b>]</td>
+    <td width="93%">G. Gardarin, F. Machuca, and P. Pucheral. OFL: A Functional 
+      Execution Model for Object Query Languages. In SIGMOD, pages 59-70, 1995.</td>
+  </tr>
+  <tr>
+    <td width="7%" valign="top"><b>[BF79]</b></td>
+    <td width="93%">P. Buneman and R. E. Frankel. FQL - A Functional Query Language. 
+      In SIGMOD, pages 52-58, 1979.</td>
+  </tr>
+  <tr>
+    <td width="7%" valign="top"><b>[Hin85]</b></td>
+    <td width="93%">K. H. Hinrichs. The Grid File System: Implementation and Case 
+      Studies. PhD thesis, ETH Z&uuml;rich, 1985. </td>
+  </tr>
+  <tr>
+    <td width="7%" valign="top"><b>[HNP95]</b></td>
+    <td width="93%">J. M. Hellerstein, J. F. Naughton, and A. Pfeffer. Generalized 
+      Search Trees for Database Systems. In VLDB, pages 562-573, 1995. </td>
+  </tr>
+  <tr>
+    <td width="7%" valign="top"><b>[VV96]</b></td>
+    <td width="93%">D. E. Vengroff and J. S. Vitter. I/O-Efficient Scientific 
+      Computation using TPIE. In Proc. Goddard Conf. on Mass Storage Systems and 
+      Technologies, pages 553-570, 1996.</td>
+  </tr>
+  <tr>
+    <td width="7%" valign="top"><b>[AC99]</b></td>
+    <td width="93%">K. Mehlhorn A. Crauser. LEDA-SM Extending LEDA to Secondary 
+      Memory. In Algorithm Engineering, pages 228-242, 1999. </td>
+  </tr>
+</table>
+<p align="left">&nbsp;</p>
+</BODY>
+</HTML>

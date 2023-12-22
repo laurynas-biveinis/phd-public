@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Iterators</TITLE>
+<META NAME="description" CONTENT="Iterators">
+<META NAME="keywords" CONTENT="vldb">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="vldb.css">
+
+<LINK REL="next" HREF="vldb2001-node5.html">
+<LINK REL="previous" HREF="vldb2001-node3.html">
+<LINK REL="up" HREF="vldb2001-node3.html">
+<LINK REL="next" HREF="vldb2001-node5.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html84"
+  HREF="vldb2001-node5.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html82"
+  HREF="vldb2001-node3.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html76"
+  HREF="vldb2001-node3.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html85"
+  HREF="vldb2001-node5.html">Cursor Interface</A> <B> Up:</B> <A NAME="tex2html83"
+  HREF="vldb2001-node3.html">Cursors</A> <B> Previous:</B> <A NAME="tex2html77"
+  HREF="vldb2001-node3.html">Cursors</A> <BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00031000000000000000">
+Iterators</A>
+</H2>
+
+Cursors are closely related to iterators which are well known from
+different areas in computer science. Volcano&nbsp;[<A
+ HREF="vldb2001-node30.html#Gra94">Gra94</A>] is
+probably the most well known project within the database community
+where iterators have extensively been used for processing queries.
+Although iterators have been used within Volcano the semantics of
+the different iterators have been not published to the best of the
+authors' knowledge. Iterators also occur in large libraries like
+STL and the Java API. Iterators are also used in the
+algorithmic community [<A
+ HREF="vldb2001-node30.html#weihe">Wei01</A>].
+
+In the following section, we present how cursors and iterators are
+used for processing queries in the XXL library. In order to be
+compatible to the Java API, XXL adapts the iterator functionality
+from the Java API. The <I>Iterator</I> interface of the Java API
+consists of the following three methods:
+<FONT SIZE="-1">
+</FONT><PRE>
+    interface Iterator {
+        boolean hasNext();
+        Object next();
+        void remove();
+    }
+</PRE>
+The method <code>hasNext</code> asks whether the underlying
+stream contains another object, whereas <code>next</code> retrieves the
+next object from the stream. These two methods have to be
+implemented by a class that satisfies the <I>Iterator</I>
+interface. The third method is a so-called <I>optional</I> method
+which is actually not required to be implemented. This
+design-principle is frequently used within the Java API. If
+<code>remove</code> is implemented, a call simply removes the last
+object returned by an iterator.
+
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html84"
+  HREF="vldb2001-node5.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html82"
+  HREF="vldb2001-node3.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html76"
+  HREF="vldb2001-node3.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html85"
+  HREF="vldb2001-node5.html">Cursor Interface</A> <B> Up:</B> <A NAME="tex2html83"
+  HREF="vldb2001-node3.html">Cursors</A> <B> Previous:</B> <A NAME="tex2html77"
+  HREF="vldb2001-node3.html">Cursors</A> 
+<!--End of Navigation Panel-->
+<ADDRESS>
+Bernhard Seeger
+2001-10-11
+</ADDRESS>
+</BODY>
+</HTML>

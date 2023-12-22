@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<MajorCities>
+	<CityWeather>
+		<City>Marburg</City>
+		<Temperature>
+			<High>65</High>
+			<Low>23</Low>
+			<Current>51</Current>
+		</Temperature>
+		<Wind>
+			<direction>NE</direction>
+			<speed>10 mph</speed>
+		</Wind>
+	</CityWeather>
+	<CityWeather>
+		<City>Frankfurt</City>
+		<Temperature>
+			<High>100</High>
+			<Low>65</Low>
+			<Current>79</Current>
+		</Temperature>
+		<Wind>
+			<direction>W</direction>
+			<speed>5-6 mph</speed>
+		</Wind>
+	</CityWeather>
+</MajorCities>

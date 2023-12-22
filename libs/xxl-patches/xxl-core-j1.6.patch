@@ -1,0 +1,577 @@
+Index: src/xxl/core/relational/metaData/MergedResultSetMetaData.java
+===================================================================
+--- src/xxl/core/relational/metaData/MergedResultSetMetaData.java	(revision 16)
++++ src/xxl/core/relational/metaData/MergedResultSetMetaData.java	(working copy)
+@@ -46,7 +46,7 @@
+ import xxl.core.util.WrappingRuntimeException;
+ import xxl.core.util.metaData.MetaDataException;
+ 
+-/** 
++/**
+  * This abstract class is a ResultSetMetaData skeleton that wraps a number of
+  * given ResultSetMetaData objects to a single one.
+  * 
+@@ -732,10 +732,10 @@
+ 	 *         actual implementing object.
+ 	 * @throws SQLException if no object found that implements the interface.
+ 	 */
+-	public Object unwrap(java.lang.Class<?> iface) throws SQLException {
+-		throw new UnsupportedOperationException("this method is not implemented yet.");
+-	}
+-	
++    public <T> T unwrap(java.lang.Class<T> iface) throws java.sql.SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
+ 	/**
+ 	 * Returns true if this either implements the interface argument or is
+ 	 * directly or indirectly a wrapper for an object that does. Returns false
+Index: src/xxl/core/relational/metaData/ColumnMetaDataResultSetMetaData.java
+===================================================================
+--- src/xxl/core/relational/metaData/ColumnMetaDataResultSetMetaData.java	(revision 16)
++++ src/xxl/core/relational/metaData/ColumnMetaDataResultSetMetaData.java	(working copy)
+@@ -431,11 +431,11 @@
+ 	 *         actual implementing object.
+ 	 * @throws SQLException if no object found that implements the interface.
+ 	 */
+-	public Object unwrap(java.lang.Class<?> iface) throws SQLException {
+-		throw new UnsupportedOperationException("this method is not implemented yet.");
+-	}
+-	
+-	/**
++    public <T> T unwrap(Class<T> iface) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    /**
+ 	 * Returns true if this either implements the interface argument or is
+ 	 * directly or indirectly a wrapper for an object that does. Returns false
+ 	 * otherwise. If this implements the interface then return true, else if
+Index: src/xxl/core/relational/metaData/WrappedResultSetMetaData.java
+===================================================================
+--- src/xxl/core/relational/metaData/WrappedResultSetMetaData.java	(revision 16)
++++ src/xxl/core/relational/metaData/WrappedResultSetMetaData.java	(working copy)
+@@ -455,11 +455,11 @@
+ 	 *         actual implementing object.
+ 	 * @throws SQLException if no object found that implements the interface.
+ 	 */
+-	public Object unwrap(java.lang.Class<?> iface) throws SQLException {
+-		throw new UnsupportedOperationException("this method is not implemented yet.");
+-	}
+-	
+-	/**
++    public <T> T unwrap(Class<T> iface) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    /**
+ 	 * Returns true if this either implements the interface argument or is
+ 	 * directly or indirectly a wrapper for an object that does. Returns false
+ 	 * otherwise. If this implements the interface then return true, else if
+Index: src/xxl/core/relational/resultSets/DecoratorResultSet.java
+===================================================================
+--- src/xxl/core/relational/resultSets/DecoratorResultSet.java	(revision 16)
++++ src/xxl/core/relational/resultSets/DecoratorResultSet.java	(working copy)
+@@ -39,22 +39,7 @@
+ import java.io.Reader;
+ import java.math.BigDecimal;
+ import java.net.URL;
+-import java.sql.Array;
+-import java.sql.Blob;
+-import java.sql.Clob;
+-import java.sql.DatabaseMetaData;
+-import java.sql.Date;
+-//import java.sql.NClob;
+-import java.sql.Ref;
+-import java.sql.ResultSet;
+-import java.sql.ResultSetMetaData;
+-//import java.sql.RowId;
+-import java.sql.SQLException;
+-import java.sql.SQLWarning;
+-//import java.sql.SQLXML;
+-import java.sql.Statement;
+-import java.sql.Time;
+-import java.sql.Timestamp;
++import java.sql.*;
+ import java.util.Calendar;
+ import java.util.Map;
+ 
+@@ -2719,5 +2704,204 @@
+ 	public boolean wasNull() throws SQLException {
+ 		return resultSet.wasNull();
+ 	}
+-	
++
++    public void updateNClob(String columnLabel, Reader reader) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateNClob(int columnIndex, Reader reader) throws SQLException {
++         throw new UnsupportedOperationException("this method is not implemented yet.");
++     }
++
++    public RowId getRowId(int columnIndex) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public RowId getRowId(String columnLabel) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateRowId(int columnIndex, RowId x) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateRowId(String columnLabel, RowId x) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public int getHoldability() throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public boolean isClosed() throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateNString(int columnIndex, String nString) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateNString(String columnLabel, String nString) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateNClob(int columnIndex, NClob nClob) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateNClob(String columnLabel, NClob nClob) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public NClob getNClob(int columnIndex) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public NClob getNClob(String columnLabel) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public SQLXML getSQLXML(int columnIndex) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public SQLXML getSQLXML(String columnLabel) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateSQLXML(int columnIndex, SQLXML xmlObject) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateSQLXML(String columnLabel, SQLXML xmlObject) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public String getNString(int columnIndex) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public String getNString(String columnLabel) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public Reader getNCharacterStream(int columnIndex) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public Reader getNCharacterStream(String columnLabel) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateNCharacterStream(int columnIndex, Reader x, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateNCharacterStream(String columnLabel, Reader reader, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateAsciiStream(int columnIndex, InputStream x, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateBinaryStream(int columnIndex, InputStream x, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateCharacterStream(int columnIndex, Reader x, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateAsciiStream(String columnLabel, InputStream x, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateBinaryStream(String columnLabel, InputStream x, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateCharacterStream(String columnLabel, Reader reader, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateBlob(int columnIndex, InputStream inputStream, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateBlob(String columnLabel, InputStream inputStream, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateClob(int columnIndex, Reader reader, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateClob(String columnLabel, Reader reader, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateNClob(int columnIndex, Reader reader, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateNClob(String columnLabel, Reader reader, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateNCharacterStream(int columnIndex, Reader x) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateNCharacterStream(String columnLabel, Reader reader) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateAsciiStream(int columnIndex, InputStream x) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateBinaryStream(int columnIndex, InputStream x) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateCharacterStream(int columnIndex, Reader x) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateAsciiStream(String columnLabel, InputStream x) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateBinaryStream(String columnLabel, InputStream x) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateCharacterStream(String columnLabel, Reader reader) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateBlob(int columnIndex, InputStream inputStream) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateBlob(String columnLabel, InputStream inputStream) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateClob(int columnIndex, Reader reader) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateClob(String columnLabel, Reader reader) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public <T> T unwrap(Class<T> iface) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public boolean isWrapperFor(Class<?> iface) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
+ }
+Index: src/xxl/core/relational/resultSets/AbstractResultSet.java
+===================================================================
+--- src/xxl/core/relational/resultSets/AbstractResultSet.java	(revision 16)
++++ src/xxl/core/relational/resultSets/AbstractResultSet.java	(working copy)
+@@ -40,22 +40,7 @@
+ import java.io.Reader;
+ import java.math.BigDecimal;
+ import java.net.URL;
+-import java.sql.Array;
+-import java.sql.Blob;
+-import java.sql.Clob;
+-import java.sql.DatabaseMetaData;
+-import java.sql.Date;
+-//import java.sql.NClob;
+-import java.sql.Ref;
+-import java.sql.ResultSet;
+-import java.sql.ResultSetMetaData;
+-//import java.sql.RowId;
+-import java.sql.SQLException;
+-import java.sql.SQLWarning;
+-//import java.sql.SQLXML;
+-import java.sql.Statement;
+-import java.sql.Time;
+-import java.sql.Timestamp;
++import java.sql.*;
+ import java.util.Calendar;
+ import java.util.Map;
+ 
+@@ -1255,32 +1240,12 @@
+ 	 *         representing the SQL value.
+ 	 * @throws SQLException if a database access error occurs.
+ 	 */
+-	public Object getObject(int columnIndex, Map map) throws SQLException {
+-		throw new UnsupportedOperationException("this method is not implemented yet.");
++    public Object getObject(int columnIndex, Map<String, Class<?>> map) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
+ 	}
+ 
+ 	/**
+ 	 * Retrieves the value of the designated column in the current row of this
+-	 * <code>ResultSet</code> object as an <code>Object</code> in the Java
+-	 * programming language. If the value is an SQL <code>NULL</code>, the
+-	 * driver returns a Java <code>null</code>. This method uses the
+-	 * specified <code>Map</code> object for custom mapping if appropriate.
+-	 * 
+-	 * @param columnName the name of the column from which to retrieve the
+-	 *        value.
+-	 * @param map a <code>java.util.Map</code> object that contains the
+-	 *        mapping from SQL type names to classes in the Java programming
+-	 *        language.
+-	 * @return an <code>Object</code> representing the SQL value in the
+-	 *         specified column.
+-	 * @throws SQLException if a database access error occurs.
+-	 */
+-	public Object getObject(String columnName, Map map) throws SQLException {
+-		throw new UnsupportedOperationException("this method is not implemented yet.");
+-	}
+-
+-	/**
+-	 * Retrieves the value of the designated column in the current row of this
+ 	 * <code>ResultSet</code> object as a <code>Ref</code> object in the
+ 	 * Java programming language.
+ 	 * 
+@@ -2816,5 +2781,208 @@
+ //	public boolean isWrapperFor(java.lang.Class<?> iface) throws SQLException {
+ //		throw new UnsupportedOperationException("this method is not implemented yet.");
+ //	}
+-	
++
++    public Object getObject(String columnLabel, Map<String, Class<?>> map) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public RowId getRowId(int columnIndex) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public RowId getRowId(String columnLabel) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateRowId(int columnIndex, RowId x) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateRowId(String columnLabel, RowId x) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public int getHoldability() throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public boolean isClosed() throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateNString(int columnIndex, String nString) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateNString(String columnLabel, String nString) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateNClob(int columnIndex, NClob nClob) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateNClob(String columnLabel, NClob nClob) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public NClob getNClob(int columnIndex) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public NClob getNClob(String columnLabel) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public SQLXML getSQLXML(int columnIndex) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public SQLXML getSQLXML(String columnLabel) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateSQLXML(int columnIndex, SQLXML xmlObject) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateSQLXML(String columnLabel, SQLXML xmlObject) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public String getNString(int columnIndex) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public String getNString(String columnLabel) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public Reader getNCharacterStream(int columnIndex) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public Reader getNCharacterStream(String columnLabel) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateNCharacterStream(int columnIndex, Reader x, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateNCharacterStream(String columnLabel, Reader reader, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateAsciiStream(int columnIndex, InputStream x, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateBinaryStream(int columnIndex, InputStream x, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateCharacterStream(int columnIndex, Reader x, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateAsciiStream(String columnLabel, InputStream x, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateBinaryStream(String columnLabel, InputStream x, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateCharacterStream(String columnLabel, Reader reader, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateBlob(int columnIndex, InputStream inputStream, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateBlob(String columnLabel, InputStream inputStream, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateClob(int columnIndex, Reader reader, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateClob(String columnLabel, Reader reader, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateNClob(int columnIndex, Reader reader, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateNClob(String columnLabel, Reader reader, long length) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateNCharacterStream(int columnIndex, Reader x) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateNCharacterStream(String columnLabel, Reader reader) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateAsciiStream(int columnIndex, InputStream x) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateBinaryStream(int columnIndex, InputStream x) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateCharacterStream(int columnIndex, Reader x) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateAsciiStream(String columnLabel, InputStream x) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateBinaryStream(String columnLabel, InputStream x) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateCharacterStream(String columnLabel, Reader reader) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateBlob(int columnIndex, InputStream inputStream) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateBlob(String columnLabel, InputStream inputStream) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateClob(int columnIndex, Reader reader) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateClob(String columnLabel, Reader reader) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateNClob(int columnIndex, Reader reader) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public void updateNClob(String columnLabel, Reader reader) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public <T> T unwrap(Class<T> iface) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
++
++    public boolean isWrapperFor(Class<?> iface) throws SQLException {
++        throw new UnsupportedOperationException("this method is not implemented yet.");
++    }
+ }

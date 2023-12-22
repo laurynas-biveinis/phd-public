@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Demand-driven Operators</TITLE>
+<META NAME="description" CONTENT="Demand-driven Operators">
+<META NAME="keywords" CONTENT="vldb">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="vldb.css">
+
+<LINK REL="next" HREF="vldb2001-node9.html">
+<LINK REL="previous" HREF="vldb2001-node7.html">
+<LINK REL="up" HREF="vldb2001-node7.html">
+<LINK REL="next" HREF="vldb2001-node9.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html126"
+  HREF="vldb2001-node9.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html124"
+  HREF="vldb2001-node7.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html118"
+  HREF="vldb2001-node7.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html127"
+  HREF="vldb2001-node9.html">Strict and Hybrid Operators</A> <B> Up:</B> <A NAME="tex2html125"
+  HREF="vldb2001-node7.html">Processing Operators</A> <B> Previous:</B> <A NAME="tex2html119"
+  HREF="vldb2001-node7.html">Processing Operators</A> <BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H3><A NAME="SECTION00034100000000000000">
+Demand-driven Operators</A>
+</H3>
+
+In the following we present the most important demand-driven
+operations of XXL. We put our focus on those operators that are of
+particular interest for processing database queries.
+
+Let us first consider those demand-driven operators whose input
+consists of an iterator and a function and whose output is again a
+cursor. Among these operators are <I>Filter</I>, <I>Mapper</I> and
+<I>Aggregator</I>. A filter simply delivers the objects from the
+input iterator which satisfy a user-defined predicate. In order to
+illustrate the declaration of a filter let us consider a simple
+example where <code>employeeList</code> is a list of objects of the
+class <code>Employee</code>. The following code deletes all persons
+older than 30 from the list:
+<PRE>
+removeAll( new Filter( employeeList.iterator(),
+    new Predicate () {
+      public boolean invoke(Object employee) {
+        return ((Employee)employee).getAge() &gt; 30;
+      }
+    }
+)
+</PRE>
+The static method <code>removeAll</code> requires as its input an object
+of type iterator. In our example, the iterator corresponds to a
+filter. The constructor of the filter requires two input
+parameters where the first one is again an iterator and the second
+one is a function that implements a simple predicate. Note, that
+the semantics of the expression is equivalent to the following SQL
+command:
+<PRE>
+    DELETE
+    FROM Employee
+    WHERE Age &gt; 30
+</PRE>
+An object of the class <I>Mapper</I> maps each object of the input iterator to 
+a new output object. The second parameter of a mapper is again a function which 
+implements the mapping. The relational projection is obviously a special case 
+of a mapper. Another interesting operator of XXL is the <I>Aggregator</I>. An 
+aggregator computes for an input iterator an aggregate (e.g. sum or average), 
+but it also delivers the partial results after having consumed an object of the 
+input iterator. This is interesting for computing approximations of aggregates 
+as it has been proposed in &nbsp;[<A
+ HREF="vldb2001-node30.html#HHW97">HHW97</A>]. A second class of demand-driven 
+operators provides powerful mechanisms to change the structure of an iterator. 
+The class <I>Grouper</I> provides objects that transform an iterator into a cursor 
+where each result of the operator is again a cursor. The constructor of a grouper 
+requires a predicate comparing two consecutive objects of the input iterator. 
+If the predicate is satisfied, the objects are in the same group. Otherwise, the 
+second object belongs to a new group. Consequently, a grouper partitions the input 
+iterator into disjoint groups. The class <I>Grouper</I> of XXL is again implemented 
+in a demand-driven fashion. Note, that a grouper is more powerful than the GROUP 
+BY operator known from relational DBMS (which is only applicable in combination 
+with an aggregation). It is semantically equivalent to the <I>nest</I> operation 
+known from object-oriented DBMS&nbsp;[<A
+ HREF="vldb2001-node30.html#AB95">AB95</A>]. In addition, the class <I>Sequentializer</I> 
+of XXL provides the inverse operator (<I>unnest</I>) of a grouper. In order to 
+combine the object of two iterators, XXL supports the computation of the Cartesian 
+product. Different types of join operators are also efficiently implemented in 
+XXL whose predicates can be relational, spatial and similarity-based. A more detailed 
+discussion of the spatial functionality in XXL is given in Section <A HREF="vldb2001-node23.html#Spatial">7</A>. 
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html126"
+  HREF="vldb2001-node9.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html124"
+  HREF="vldb2001-node7.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html118"
+  HREF="vldb2001-node7.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html127"
+  HREF="vldb2001-node9.html">Strict and Hybrid Operators</A> <B> Up:</B> <A NAME="tex2html125"
+  HREF="vldb2001-node7.html">Processing Operators</A> <B> Previous:</B> <A NAME="tex2html119"
+  HREF="vldb2001-node7.html">Processing Operators</A> 
+<!--End of Navigation Panel-->
+<ADDRESS>
+Bernhard Seeger
+2001-10-11
+</ADDRESS>
+</BODY>
+</HTML>

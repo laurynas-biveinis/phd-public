@@ -1,0 +1,100 @@
+#!/bin/csh
+#
+# Compiles the entire or parts of the XXL-project.
+#
+# Last change Martin Schneider (03/08/2004)
+#
+
+####################################################################
+# environment variable checks:
+####################################################################
+source $XXLROOTPATH/bin/linux/xxlEnv
+
+setenv CC gcc
+setenv CFLAGS "-ansi -O2"
+# -pedantic
+setenv INCLUDE "-I${XXLJAVAHOME}/include -I${XXLJAVAHOME}/include/linux"
+setenv JAVAC "${XXLJAVAHOME}/bin/javac"
+setenv JAVAH "${XXLJAVAHOME}/bin/javah"
+setenv JNIPATH "${XXLSOURCEPATH}/xxl/connectivity/jni"
+setenv JARS `find $XXLROOTPATH/jars/classpath -name "*jar"|tr "\n" ":"`
+
+echo $JAVAH
+# echo $INCLUDE
+# echo ${JARS}
+
+if( $#argv == 0) then
+	echo "usage: xxlMake all | xxl | con | reg | apps | intern | native"
+	echo "   (compiles *.java-files of XXL into *.class files)"
+	echo "Valid parameters:"
+	echo "   all - compiling all classes except native sources"
+	echo "   xxl - compiling only the core-packages"
+	echo "   con - compiling only connectivity"
+	echo "   reg - compiling classes which match a regular expression (second parameter). grep needed in PATH!"
+	echo "   apps - compiling only applications"
+	echo "   intern - compiling only internal applications"
+	echo "   native - compiling native c-sources only"
+	exit
+else
+	echo
+	echo "XXL: The eXtensible and fleXible Library for data processing"
+	echo "============================================================"
+	echo
+	echo "Compile script"
+	echo
+	echo "given parameters: $1"
+	echo
+	date
+
+	if( $1 == all) then
+		echo "all";
+		setenv JAVAS `find ${XXLSOURCEPATH}/xxl -name "*.java"`
+		$JAVAC -d $XXLCLASSPATH -classpath ${CLASSPATH}:${XXLCLASSPATH}:$JARS $JAVAS
+	else
+		if( $1 == con) then
+			setenv JAVAS `find ${XXLSOURCEPATH}/xxl/connectivity -name "*.java"`
+			$JAVAC -d $XXLCLASSPATH -classpath ${CLASSPATH}:${XXLCLASSPATH}:$JARS $JAVAS
+		else
+			if( $1 == xxl) then
+				setenv JAVAS `find ${XXLSOURCEPATH}/xxl/core -name "*.java"`
+				$JAVAC -d $XXLCLASSPATH -classpath ${CLASSPATH}:${XXLCLASSPATH}:$JARS $JAVAS
+			else
+				if( $1 == apps) then
+					setenv JAVAS `find ${XXLSOURCEPATH}/xxl/applications -name "*.java"`
+					$JAVAC -d $XXLCLASSPATH -classpath ${CLASSPATH}:${XXLCLASSPATH}:$JARS $JAVAS
+				else
+					if( $1 == reg) then
+						setenv JAVAS `find ${XXLSOURCEPATH} -name "*.java" | grep $2`
+						$JAVAC -d $XXLCLASSPATH -classpath ${CLASSPATH}:${XXLCLASSPATH}:$JARS $JAVAS
+					else
+						if( $1 == intern) then
+							setenv JAVAS `find ${XXLSOURCEPATH}/intern -name "*.java"`
+							$JAVAC -d $XXLCLASSPATH -classpath ${CLASSPATH}:${XXLCLASSPATH}:$JARS $JAVAS
+						else
+							if( $1 == native) then
+								echo "Timer"
+								${JAVAH} -jni -classpath ${XXLCLASSPATH} -d ${JNIPATH}/timer xxl.core.util.timers.JNITimer
+								${CC} ${CFLAGS} ${INCLUDE} -c -DUESHADOW ${JNIPATH}/timer/JNITimerLinux.c -o ${XXLOUTPATH}/libtimer.o
+								${CC} -shared -o ${XXLOUTPATH}/libtimer.so ${XXLOUTPATH}/libtimer.o
+								strip ${XXLOUTPATH}/libtimer.so
+								rm ${XXLOUTPATH}/libtimer.o
+
+								echo "Raw"
+								${JAVAH} -jni -classpath ${XXLCLASSPATH} -d ${JNIPATH}/raw xxl.core.io.raw.NativeRawAccess
+								${CC} ${CFLAGS} ${INCLUDE} -c -DUESHADOW ${JNIPATH}/raw/NativeRawAccessLinux.c -o ${XXLOUTPATH}/libRawAccess.o
+								${CC} -shared -o ${XXLOUTPATH}/libRawAccess.so ${XXLOUTPATH}/libRawAccess.o
+								strip ${XXLOUTPATH}/libRawAccess.so
+								rm ${XXLOUTPATH}/libRawAccess.o
+							else
+								echo "Error: No valid option specified!"
+								exit
+							endif
+						endif
+					endif
+				endif
+			endif
+		endif
+	endif
+endif
+
+echo "Build completed sucessfully"

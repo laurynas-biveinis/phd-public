@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Cursor Interface</TITLE>
+<META NAME="description" CONTENT="Cursor Interface">
+<META NAME="keywords" CONTENT="vldb">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="vldb.css">
+
+<LINK REL="next" HREF="vldb2001-node6.html">
+<LINK REL="previous" HREF="vldb2001-node4.html">
+<LINK REL="up" HREF="vldb2001-node3.html">
+<LINK REL="next" HREF="vldb2001-node6.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html94"
+  HREF="vldb2001-node6.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html92"
+  HREF="vldb2001-node3.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html86"
+  HREF="vldb2001-node4.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html95"
+  HREF="vldb2001-node6.html">Input Operators</A> <B> Up:</B> <A NAME="tex2html93"
+  HREF="vldb2001-node3.html">Cursors</A> <B> Previous:</B> <A NAME="tex2html87"
+  HREF="vldb2001-node4.html">Iterators</A> <BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00032000000000000000">
+Cursor Interface</A>
+</H2>
+
+The interface <I>Cursor</I> extends the functionality of an
+iterator by the following methods:
+<PRE>
+    interface Cursor extends Iterator {
+        Object peek();
+        void update(Object o);
+        void reset();
+        void close();
+    }
+</PRE>
+The <code>peek</code> method shows the next object of the
+iteration without changing its state. By calling <code>reset</code> the
+iteration is started again from the beginning. Important to
+cursors is the method <code>close</code> which allows to release
+resources (e.g. net-connections) associated with a cursor.
+
+Our intention was to define a cursor algebra where the different
+operators of the algebra take a cursor as an input and deliver a
+cursor as an output. In addition, our algebra also contains a set
+of <I>input operators</I> where the input type does not fulfill
+the <I>Cursor</I> interface. A complex query is then represented
+as an operator tree where the nodes correspond to specific
+operators. The leaves of the nodes are input operators, whereas
+the internal nodes are <I>processing operators</I>. Processing
+operators can easily be customized by passing functional
+arguments. This idea is closely related to <I>support
+functions</I>&nbsp;[<A
+ HREF="vldb2001-node30.html#Gra94">Gra94</A>] and <I>algorithmic
+generators</I>&nbsp;[<A
+ HREF="vldb2001-node30.html#weihe">Wei01</A>]. From a functional point of view
+[<A
+ HREF="vldb2001-node30.html#Hug89">Hug89</A>], a complex query is simply a higher-order function
+that can be defined dynamically during runtime.
+
+<BR><HR>
+<ADDRESS>
+Bernhard Seeger
+2001-10-11
+</ADDRESS>
+</BODY>
+</HTML>

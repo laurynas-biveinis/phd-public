@@ -1,0 +1,443 @@
+<!-- (C) 2010, 2011 Laurynas Biveinis
+
+     This file is part of RR-Tree.
+
+     RR-Tree is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation, either version 3 of the License, or
+     (at your option) any later version.
+
+     RR-Tree is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with RR-Tree.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<project name="rr-tree-build-datasets">
+    <dirname property="rr-tree-build-datasets.root" file="${ant.file.rr-tree-build-datasets}"/>
+
+    <property file="../build.properties"/>
+
+    <import file="../build-common.xml"/>
+
+    <import file="../query-postprocessor/build.xml"/>
+    <import file="../uniform-data-generator/build.xml"/>
+    <import file="../spf-postprocessor/build.xml"/>
+    <import file="../threshold-filter/build.xml"/>
+    <import file="../workload-analyzer/build.xml"/>
+    <import file="../query-generator/build.xml"/>
+
+    <macrodef name="run-uniform-generator">
+        <attribute name="output.dir" default="../datasets"/>
+        <attribute name="output"/>
+        <!-- value from SPF28 -->
+        <attribute name="numobjects" default="270811"/>
+        <attribute name="numops"/>
+        <attribute name="numdelins" default="0"/>
+        <sequential>
+            <java classname="aau.uniformDataGenerator.UniformDataGenerator" fork="yes" failonerror="yes"
+                  classpathref="uniform-generator.run.classpath" dir="@{output.dir}">
+                <arg value="--output"/>
+                <arg value="@{output}"/>
+                <arg value="--numobjects"/>
+                <arg value="@{numobjects}"/>
+	            <arg value="--numops"/>
+	            <arg value="@{numops}"/>
+                <arg value="--numdelins"/>
+                <arg value="@{numdelins}"/>
+        </java>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="run-query-postprocessor">
+        <attribute name="input"/>
+        <attribute name="output"/>
+        <attribute name="queryratio"/>
+        <attribute name="updateratio" default="1"/>
+        <attribute name="queryregionsize"/>
+        <attribute name="outputsize" default="-1"/>
+        <attribute name="initialinsertions" default="0"/>
+        <sequential>
+            <java classname="aau.queryPostprocessor.Postprocessor" 
+                  classpathref="query-postprocessor.run.classpath" fork="yes" 
+                  failonerror="yes">
+                <arg value="--input"/>
+                <arg value="@{input}"/>
+                <arg value="--output"/>
+                <arg value="@{output}"/>
+                <arg value="--queryratio"/>
+                <arg value="@{queryratio}"/>
+                <arg value="--updateratio"/>
+                <arg value="@{updateratio}"/>
+                <arg value="--queryregionsize"/>
+                <arg value="@{queryregionsize}"/>
+                <arg value="--outputsize"/>
+                <arg value="@{outputsize}"/>
+                <arg value="--initialinsertions"/>
+                <arg value="@{initialinsertions}"/>
+            </java>
+        </sequential>
+    </macrodef>
+
+    <macrodef name="run-workload-analyzer">
+        <attribute name="input"/>
+        <attribute name="output"/>
+         <sequential>
+             <java classname="aau.workloadAnalyzer.WorkloadAnalyzer"
+                   classpathref="workload-analyzer.run.classpath" fork="yes"
+                   failonerror="yes">
+                 <arg value="--input"/>
+                 <arg value="@{input}"/>
+             </java>
+         </sequential>
+    </macrodef>
+
+    <macrodef name="run-query-generator">
+        <attribute name="info"/>
+        <attribute name="output"/>
+        <attribute name="queryregionsize"/>
+        <attribute name="querynumber"/>
+        <sequential>
+            <java classname="aau.queryGenerator.QueryGenerator"
+                  classpathref="query-generator.run.classpath" fork="yes"
+                  failonerror="yes">
+                <arg value="--info"/>
+                <arg value="@{info}"/>
+                <arg value="--output"/>
+                <arg value="@{output}"/>
+                <arg value="--queryregionsize"/>
+                <arg value="@{queryregionsize}"/>
+                <arg value="--querynumber"/>
+                <arg value="@{querynumber}"/>
+            </java>
+        </sequential>
+    </macrodef>
+
+    <target name="prepare-spf-queries" description="Prepares query workloads for the SPF world"
+            depends="query-generator.make">
+      <sequential>
+        <run-query-generator info="../SPF/spf.info" output="${spf.queries}"
+                             queryregionsize="0.01" querynumber="10000000"/>
+      </sequential>
+    </target>
+    
+    <target name="prepare-10m-spf" 
+            description="Prepares workload duration exps for SPF 10m threshold"
+            depends="query-postprocessor.make">
+        <parallel threadCount="4">
+            <run-query-postprocessor input="${spf.path}/spf32mod1t10m.out" 
+                                     output="${spf.path}/spf32mod1t10m1.out"
+                                     queryratio="10000" queryregionsize="0.01" outputsize="10000000"/>
+            <run-query-postprocessor input="${spf.path}/spf32mod1t10m.out" 
+                                     output="${spf.path}/spf32mod1t10m2.out"
+                                     queryratio="10000" queryregionsize="0.01" outputsize="5000000"/>
+            <run-query-postprocessor input="${spf.path}/spf32mod1t10m.out" 
+                                     output="${spf.path}/spf32mod1t10m3.out"
+                                     queryratio="10000" queryregionsize="0.01" outputsize="2500000"/>
+            <run-query-postprocessor input="${spf.path}/spf32mod1t10m.out" 
+                                     output="${spf.path}/spf32mod1t10m4.out"
+                                     queryratio="10000" queryregionsize="0.01" outputsize="1200000"/>
+            <run-query-postprocessor input="${spf.path}/spf32mod1t10m.out" 
+                                     output="${spf.path}/spf32mod1t10m5.out"
+                                     queryratio="10000" queryregionsize="0.01" outputsize="600000"/>
+            <run-query-postprocessor input="${spf.path}/spf32mod1t10m.out" 
+                                     output="${spf.path}/spf32mod1t10m6.out"
+                                     queryratio="10000" queryregionsize="0.01" outputsize="300000"/>
+            <run-query-postprocessor input="${spf.path}/spf32mod1t10m.out" 
+                                     output="${spf.path}/spf32mod1t10m7.out"
+                                     queryratio="10000" queryregionsize="0.01" outputsize="150000"/>
+        </parallel>
+    </target>
+
+    <target name="prepare-1km-spf" 
+            description="Prepares workload duration exps for SPF 1km threshold"
+            depends="query-postprocessor.make">
+        <parallel threadCount="4">
+            <run-query-postprocessor input="${spf.path}/spf32mod1t1km.out" 
+                                     output="${spf.path}/spf32mod1t1km1.out"
+                                     queryratio="10000" queryregionsize="0.01" outputsize="2400000"/>
+            <run-query-postprocessor input="${spf.path}/spf32mod1t1km.out" 
+                                     output="${spf.path}/spf32mod1t1km2.out"
+                                     queryratio="10000" queryregionsize="0.01" outputsize="2000000"/>
+            <run-query-postprocessor input="${spf.path}/spf32mod1t1km.out" 
+                                     output="${spf.path}/spf32mod1t1km3.out"
+                                     queryratio="10000" queryregionsize="0.01" outputsize="1000000"/>
+            <run-query-postprocessor input="${spf.path}/spf32mod1t1km.out" 
+                                     output="${spf.path}/spf32mod1t1km4.out"
+                                     queryratio="10000" queryregionsize="0.01" outputsize="500000"/>
+            <run-query-postprocessor input="${spf.path}/spf32mod1t1km.out" 
+                                     output="${spf.path}/spf32mod1t1km5.out"
+                                     queryratio="10000" queryregionsize="0.01" outputsize="250000"/>
+            <run-query-postprocessor input="${spf.path}/spf32mod1t1km.out" 
+                                     output="${spf.path}/spf32mod1t1km6.out"
+                                     queryratio="10000" queryregionsize="0.01" outputsize="125000"/>
+            <run-query-postprocessor input="${spf.path}/spf32mod1t1km.out" 
+                                     output="${spf.path}/spf32mod1t1km7.out"
+                                     queryratio="10000" queryregionsize="0.01" outputsize="60000"/>
+        </parallel>
+    </target>
+
+    <target name="prepare-buf-lru"
+            description="Prepares SPF 10m workloads with 1:1 and 1:10000 Q:U ratios for buffer vs LRU experiment"
+            depends="query-postprocessor.make">
+        <parallel threadCount="2">
+            <run-query-postprocessor input="${spf.path}/spf28mod1t10m.out" 
+                                     output="${spf.path}/spf28mod1t10m5qu1.out"
+                                     queryratio="1" queryregionsize="0.01" outputsize="600000"/>
+            <run-query-postprocessor input="${spf.path}/spf28mod1t10m.out" 
+                                     output="${spf.path}/spf28mod1t10m5qu10000.out"
+                                     queryratio="10000" queryregionsize="0.01" outputsize="600000"/>
+        </parallel>
+    </target>
+
+    <target name="prepare-buf-lru-uniform"
+            description="Prepares uniform datasets with 1:1 and 1:10000 Q:U ratios for the buffer vs LRU experiment"
+            depends="query-postprocessor.make">
+      <parallel threadCount="4">
+        <run-query-postprocessor input="../datasets/uniform.data" 
+                                 output="../datasets/uniform5qu1.out"
+                                 queryratio="1" queryregionsize="0.01" outputsize="600000" 
+                                 initialinsertions="270811"/>
+<!--        <run-query-postprocessor input="../datasets/uniform.data" 
+     output="../datasets/uniform5qu10000.out"
+                                 queryratio="10000" queryregionsize="0.01" outputsize="600000"/> -->
+      </parallel>
+    </target>
+
+    <target name="apply-query-postprocessor" depends="prepare-10m-spf,prepare-1km-spf"
+            description="Prepares workload duration experiments" />
+
+    <macrodef name="run-threshold-filter">
+        <attribute name="input"/>
+        <attribute name="output"/>
+        <attribute name="threshold"/>
+        <sequential>
+            <java classname="aau.thresholdFilter.ThresholdFilter" 
+                  classpathref="threshold-filter.run.classpath"
+                  fork="yes" failonerror="yes">
+                <arg value="--input"/>
+                <arg value="@{input}"/>
+                <arg value="--output"/>
+                <arg value="@{output}"/>
+                <arg value="--threshold"/>
+                <arg value="@{threshold}"/>
+                <arg value="--verbose"/>
+            </java>
+        </sequential>
+    </macrodef>
+
+    <target name="apply-threshold-filter" description="Applies threshold filter to raw SPF data"
+            depends="threshold-filter.make">
+        <parallel>
+            <run-threshold-filter input="${spf.path}/spf32mod1.out" 
+                                  output="${spf.path}/spf32mod1t10m.out"
+                                  threshold="10"/>
+            <run-threshold-filter input="${spf.path}/spf32mod1.out" 
+                                  output="${spf.path}/spf32mod1t1km.out"
+                                  threshold="1000"/>
+        </parallel>
+    </target>
+
+    <target name="create-spf" description="Creates the raw SPF dataset from the CSV files"
+            depends="spf-postprocessor.make">
+        <java classname="aau.spfPostprocessor.Postprocessor" fork="yes" failonerror="yes"
+              classpathref="spf-postprocessor.run.classpath" dir="${spf.path}" maxmemory="3584m">
+            <arg value="--input"/>
+            <arg value="${spf.path}/spf32.in"/>
+            <arg value="--output"/>
+            <arg value="${spf.path}/spf32mod1.out"/>
+            <arg value="--hourperiod=1"/>
+        </java>
+    </target>
+
+    <target name="prepare-datasets" description="Does all the dataset preprocessing"
+            depends="create-spf,apply-threshold-filter,apply-query-postprocessor,prepare-spf-queries"/>
+
+    <!-- numops is a rough value from SPF28 threshold 10m, but there is no correspondence -->
+    <property name="uniform.numops" value="350000000"/>
+    <property name="uniform.numobjs" value="270811"/>
+
+    <target name="create-test-uniform" description="Creates the test uniform dataset file"
+            depends="uniform-generator.make">
+        <run-uniform-generator output="uniform-test.data" numops="1"/>
+    </target>
+
+    <target name="analyze-test-uniform" description="Runs the workload analyzer on the test uniform dataset"
+            depends="workload-analyzer.make">
+        <run-workload-analyzer input="../datasets/uniform-test.data"/>
+    </target>
+
+    <target name="generate-test-uniform-queries" description="Generates test queries for the test uniform dataset"
+            depends="query-generator.make">
+        <run-query-generator info="../datasets/uniform-test.info" output="../datasets/uniform-test.queries"
+                queryregionsize="0.01" querynumber="1000"/>
+    </target>
+
+    <target name="create-uniform" description="Creates the uniform dataset file"
+            depends="uniform-generator.make">
+        <run-uniform-generator output="uniform.data" numops="${uniform.numops}"/>
+    </target>
+
+    <target name="create-uniform-delins"
+            description="Creates the uniform dataset file for the deleting insertions experiment"
+            depends="uniform-generator.make">
+        <run-uniform-generator output="uniform-delins.data" numops="0" numdelins="${uniform.numops}"/>
+    </target>
+
+    <macrodef name="make-different-length-workloads">
+        <attribute name="dir" default="../datasets"/>
+        <attribute name="stem"/>
+        <attribute name="input.suffix"/>
+        <attribute name="output.suffix"/>
+        <attribute name="query.ratio"/>
+        <attribute name="query.regionsize"/>
+        <attribute name="initialinsertions" default="0"/>
+        <sequential>
+            <parallel threadCount="4">
+                <run-query-postprocessor input="@{dir}/@{stem}.@{input.suffix}"
+                                         output="@{dir}/@{stem}1.@{output.suffix}"
+                                         queryratio="@{query.ratio}"
+                                         queryregionsize="@{query.regionsize}"
+                                         initialinsertions="@{initialinsertions}"
+                                         outputsize="10000000"/>
+                <run-query-postprocessor input="@{dir}/@{stem}.@{input.suffix}"
+                                         output="@{dir}/@{stem}2.@{output.suffix}"
+                                         queryratio="@{query.ratio}"
+                                         queryregionsize="@{query.regionsize}"
+                                         initialinsertions="@{initialinsertions}"
+                                         outputsize="5000000"/>
+                <run-query-postprocessor input="@{dir}/@{stem}.@{input.suffix}"
+                                         output="@{dir}/@{stem}3.@{output.suffix}"
+                                         queryratio="@{query.ratio}"
+                                         queryregionsize="@{query.regionsize}"
+                                         initialinsertions="@{initialinsertions}"
+                                         outputsize="2500000"/>
+                <run-query-postprocessor input="@{dir}/@{stem}.@{input.suffix}"
+                                         output="@{dir}/@{stem}4.@{output.suffix}"
+                                         queryratio="@{query.ratio}"
+                                         queryregionsize="@{query.regionsize}"
+                                         initialinsertions="@{initialinsertions}"
+                                         outputsize="1200000"/>
+                <run-query-postprocessor input="@{dir}/@{stem}.@{input.suffix}"
+                                         output="@{dir}/@{stem}5.@{output.suffix}"
+                                         queryratio="@{query.ratio}"
+                                         queryregionsize="@{query.regionsize}"
+                                         initialinsertions="@{initialinsertions}"
+                                         outputsize="600000"/>
+                <run-query-postprocessor input="@{dir}/@{stem}.@{input.suffix}"
+                                         output="@{dir}/@{stem}6.@{output.suffix}"
+                                         queryratio="@{query.ratio}"
+                                         queryregionsize="@{query.regionsize}"
+                                         initialinsertions="@{initialinsertions}"
+                                         outputsize="300000"/>
+                <run-query-postprocessor input="@{dir}/@{stem}.@{input.suffix}"
+                                         output="@{dir}/@{stem}7.@{output.suffix}"
+                                         queryratio="@{query.ratio}"
+                                         queryregionsize="@{query.regionsize}"
+                                         initialinsertions="@{initialinsertions}"
+                                         outputsize="150000"/>
+            </parallel>
+        </sequential>
+    </macrodef>
+
+    <target name="prepare-workload-duration-uniform"
+            description="Prepares workload duration exps for the uniform dataset"
+            depends="query-postprocessor.make">
+        <sequential>
+            <make-different-length-workloads stem="uniform" input.suffix="data"
+                                             output.suffix="out" query.ratio="10000"
+                                             query.regionsize="0.01"
+                                             initialinsertions="${uniform.numobjs}"/>
+        </sequential>
+    </target>
+
+    <target name="prepare-workload-duration-uniform-delins"
+            description="Prepares uniform workload duration datasets with deleting insertions"
+            depends="query-postprocessor.make">
+        <sequential>
+            <make-different-length-workloads stem="uniform-delins" input.suffix="data"
+                                             output.suffix="out" query.ratio="10000"
+                                             query.regionsize="0.01"/>
+        </sequential>
+    </target>
+
+    <target name="prepare-uniform-datasets" description="Creates the uniform datasets from scratch"
+	    depends="create-uniform,prepare-workload-duration-uniform"/>
+    
+    <macrodef name="make-q-u-datasets">
+      <attribute name="input.stem"/>
+      <sequential>
+        <run-query-postprocessor input="@{input.stem}.out"
+                                 initialinsertions="270811"
+                                 output="@{input.stem}_10000.out"
+                                 queryratio="10000" queryregionsize="0.01"
+                                 outputsize="2770811"/>
+        <run-query-postprocessor input="@{input.stem}.out"
+                                 initialinsertions="270811"
+                                 output="@{input.stem}_1000.out"
+                                 queryratio="1000" queryregionsize="0.01"
+                                 outputsize="2770811"/>
+        <run-query-postprocessor input="@{input.stem}.out"
+                                 initialinsertions="270811"
+                                 output="@{input.stem}_100.out"
+                                 queryratio="100" queryregionsize="0.01"
+                                 outputsize="2770811"/>
+        <run-query-postprocessor input="@{input.stem}.out"
+                                 initialinsertions="270811"
+                                 output="@{input.stem}_10.out"
+                                 queryratio="10" queryregionsize="0.01"
+                                 outputsize="2770811"/>
+        <run-query-postprocessor input="@{input.stem}.out"
+                                 initialinsertions="270811"
+                                 output="@{input.stem}_1.out"
+                                 queryratio="1" queryregionsize="0.01"
+                                 outputsize="2770811"/>
+        <run-query-postprocessor input="@{input.stem}.out"
+                                 initialinsertions="270811"
+                                 output="@{input.stem}_01.out"
+                                 queryratio="1" updateratio="10" queryregionsize="0.01"
+                                 outputsize="2770811"/>
+        <run-query-postprocessor input="@{input.stem}.out"
+                                 initialinsertions="270811"
+                                 output="@{input.stem}_001.out"
+                                 queryratio="1" updateratio="100" queryregionsize="0.01"
+                                 outputsize="2770811"/>
+        <run-query-postprocessor input="@{input.stem}.out"
+                                 initialinsertions="270811"
+                                 output="@{input.stem}_0001.out"
+                                 queryratio="1" updateratio="1000" queryregionsize="0.01"
+                                 outputsize="2770811"/>
+              </sequential>
+    </macrodef>
+
+    <target name="prepare-q-u-ratio-experiment-spf">
+      <parallel threadCount="4">
+        <make-q-u-datasets input.stem="${spf.path}/spf28mod1t10m"/>
+        <make-q-u-datasets input.stem="${spf.path}/spf28mod1t1km"/>
+      </parallel>
+    </target>
+
+    <target name="prepare-q-u-ratio-experiment-uniform">
+      <parallel threadCount="4">
+            <run-query-postprocessor input="../datasets/uniform.data" output="../datasets/uniform3_1000.out"
+                                     queryratio="1000" queryregionsize="0.01" outputsize="2500000"/>
+            <run-query-postprocessor input="../datasets/uniform.data" output="../datasets/uniform3_100.out"
+                                     queryratio="100" queryregionsize="0.01" outputsize="2500000"/>
+            <run-query-postprocessor input="../datasets/uniform.data" output="../datasets/uniform3_10.out"
+                                     queryratio="10" queryregionsize="0.01" outputsize="2500000"/>
+            <run-query-postprocessor input="../datasets/uniform.data" output="../datasets/uniform3_1.out"
+                                     queryratio="1" queryregionsize="0.01" outputsize="2500000"/>
+            <run-query-postprocessor input="../datasets/uniform.data" output="../datasets/uniform3_01.out"
+                                     queryratio="1" updateratio="10" queryregionsize="0.01" outputsize="2500000"/>
+            <run-query-postprocessor input="../datasets/uniform.data" output="../datasets/uniform3_001.out"
+                                     queryratio="1" updateratio="100" queryregionsize="0.01" outputsize="2500000"/>
+            <run-query-postprocessor input="../datasets/uniform.data" output="../datasets/uniform3_0001.out"
+                                     queryratio="1" updateratio="1000" queryregionsize="0.01" outputsize="2500000"/>
+      </parallel>
+    </target>
+
+    
+
+</project>

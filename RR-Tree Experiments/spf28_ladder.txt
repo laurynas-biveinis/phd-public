@@ -1,0 +1,105 @@
+0.103 buflargestdivconst 1.8
+0.105 buflargest_SI
+0.117 rthreshold_SI 1000
+0.121 buflargestdivconst_SI 1.8
+0.124 buflargestthreshold 10
+0.125 buflargest
+0.131 buflargestthreshold 5
+0.132 buflargestdivconst 1.1
+0.138 buflargestdivconst_SI 1.7
+0.138 buflargestdivfanout_SI 0.8
+0.139 buflargestdivconst_SI 1.1
+0.139 buflargestdivconst_SI 1.6
+0.140 buflargestdivconst 1.7
+0.140 buflargestdivfanout_SI 1.0
+0.142 buflargestdivconst 1.0
+0.142 buflargestdivconst_SI 1.3
+0.142 buflargestdivconst_SI 1.4
+0.142 buflargestdivconst_SI 1.5
+0.143 buflargestdivfanout 0.6
+0.143 buflargestdivfanout_SI 0.95
+0.143 buflargestdivfanout_SI 1.15
+0.144 buflargestdivconst_SI 0.8
+0.144 buflargestdivfanout_SI 09
+0.144 buflargestdivfanout 1.2
+0.145 buflargestdivconst_SI 1.0
+0.145 buflargestdivfanout_SI 1.25
+0.145 buflargestdivfanout_SI 1.4
+0.145 buflargestthreshold 500
+0.146 buflargestdivconst_SI 0.9
+0.146 buflargestdivconst_SI 1.2
+0.146 buflargestthreshold 50
+0.146 buflargsetthreshold 100
+0.147 buflargestdivconst 0.9
+0.147 buflargestdivfanout 0.9
+0.147 buflargestdivfanout_SI 1.1
+0.148 buflargestdivfanout 1.0
+0.148 buflargestdivfanout_SI 1.05
+0.148 buflargestdivfanout 1.1
+0.148 buflargestdivfanout_SI 1.2
+0.148 buflargestdivfanout_SI 1.3
+0.149 buflargestdivconst 1.6
+0.149 buflargestdivfanout 0.7
+0.152 buflargestdivconst 0.8
+0.152 buflargestdivfanout 0.8
+0.152 everything
+0.153 rthreshold 2
+0.153 rthreshold 10
+0.155 rthreshold 100
+0.155             spf28mod1t10m3.out_rthreshold250.out
+0.156 buflargestdivconst 1.2
+0.163 rthreshold_SI 1050
+0.166  spf28mod1t10m3.out_rthreshold250_si.out
+0.171 rthreshold_SI 100
+0.194 
+0.195 buflargestsplit_SI
+0.301 buflargestthreshold_SI 100
+0.304 buflargestthreshold_SI 50
+0.314 buflargestthreshold_SI 500
+0.347 buflargestsplit
+0.395 rthreshold_SI 10
+0.716 buflargestthreshold_SI 10
+1.144 buflargestthreshold_SI 5 spf28mod1t10m3.out_rthreshold2_si.out
+0.153  spf28mod1t10m3.out_rthreshold3.out
+0.149  spf28mod1t10m3.out_rthreshold350_si.out
+0.194  spf28mod1t10m3.out_rthreshold3_si.out
+0.153  spf28mod1t10m3.out_rthreshold4.out
+0.149  spf28mod1t10m3.out_rthreshold400.out
+0.138  spf28mod1t10m3.out_rthreshold400_si.out
+0.127  spf28mod1t10m3.out_rthreshold450_si.out
+0.194  spf28mod1t10m3.out_rthreshold4_si.out
+0.153  spf28mod1t10m3.out_rthreshold5.out
+0.153  spf28mod1t10m3.out_rthreshold50.out
+0.164  spf28mod1t10m3.out_rthreshold500.out
+0.117  spf28mod1t10m3.out_rthreshold500_si.out
+0.168  spf28mod1t10m3.out_rthreshold50_si.out
+0.115  spf28mod1t10m3.out_rthreshold550_si.out
+0.194  spf28mod1t10m3.out_rthreshold5_si.out
+0.161  spf28mod1t10m3.out_rthreshold600.out
+0.110  spf28mod1t10m3.out_rthreshold600_si.out
+0.126  spf28mod1t10m3.out_rthreshold700_si.out
+0.146  spf28mod1t10m3.out_rthreshold750.out
+0.117  spf28mod1t10m3.out_rthreshold750_si.out
+0.120  spf28mod1t10m3.out_rthreshold800_si.out
+0.152  spf28mod1t10m3.out_rthreshold900_si.out
+0.126  spf28mod1t10m3.out_threshold10.out
+0.350  spf28mod1t10m3.out_threshold100.out
+0.148  spf28mod1t10m3.out_threshold2.out
+0.143  spf28mod1t10m3.out_threshold3.out
+0.143  spf28mod1t10m3.out_threshold4.out
+0.142  spf28mod1t10m3.out_threshold5.out
+0.298  spf28mod1t10m3.out_threshold50.out
+0.194  spf28mod1t10m3.out_threshold500.out
+0.180  spf28mod1t10m3.out_thresholdtimesfanout10.out
+0.150  spf28mod1t10m3.out_thresholdtimesfanout100.out
+0.152  spf28mod1t10m3.out_thresholdtimesfanout100_si.out
+0.143  spf28mod1t10m3.out_thresholdtimesfanout10_si.out
+0.153  spf28mod1t10m3.out_thresholdtimesfanout15_si.out
+0.150  spf28mod1t10m3.out_thresholdtimesfanout25_si.out
+0.198  spf28mod1t10m3.out_thresholdtimesfanout2_si.out
+0.156  spf28mod1t10m3.out_thresholdtimesfanout50.out
+0.233  spf28mod1t10m3.out_thresholdtimesfanout500.out
+0.152  spf28mod1t10m3.out_thresholdtimesfanout500_si.out
+0.153  spf28mod1t10m3.out_thresholdtimesfanout50_si.out
+0.127  spf28mod1t10m3.out_thresholdtimesfanout5_si.out
+ERROR  spf28mod1t10m3.out_rthreshold700.out

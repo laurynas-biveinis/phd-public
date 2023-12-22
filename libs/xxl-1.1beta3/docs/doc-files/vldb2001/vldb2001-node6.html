@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2K.1beta (1.47)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Input Operators</TITLE>
+<META NAME="description" CONTENT="Input Operators">
+<META NAME="keywords" CONTENT="vldb">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="LaTeX2HTML v2K.1beta">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="vldb.css">
+
+<LINK REL="next" HREF="vldb2001-node7.html">
+<LINK REL="previous" HREF="vldb2001-node5.html">
+<LINK REL="up" HREF="vldb2001-node3.html">
+<LINK REL="next" HREF="vldb2001-node7.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html104"
+  HREF="vldb2001-node7.html"> <IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="next.png"></A> <A NAME="tex2html102"
+  HREF="vldb2001-node3.html"> <IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="up.png"></A> <A NAME="tex2html96"
+  HREF="vldb2001-node5.html"> <IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="prev.png"></A> <BR>
+<B> Next:</B> <A NAME="tex2html105"
+  HREF="vldb2001-node7.html">Processing Operators</A> <B> Up:</B> <A NAME="tex2html103"
+  HREF="vldb2001-node3.html">Cursors</A> <B> Previous:</B> <A NAME="tex2html97"
+  HREF="vldb2001-node5.html">Cursor Interface</A> <BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00033000000000000000">
+Input Operators</A>
+</H2>
+
+There are different types of input operators which are briefly
+described in the following. Due to space limitations we only
+discuss a few examples in this paper and refer the interested
+reader to the online documentation of XXL&nbsp;[<A
+ HREF="vldb2001-node30.html#xxldocu">Dat01</A>].
+
+XXL provides a large set of input operators that are wrappers of
+specific sources. We just want to mention two of the most
+important ones:
+
+<UL>
+  <LI>IteratorCursor: java.util.Iterator <IMG
+ WIDTH="21" HEIGHT="17" ALIGN="BOTTOM" BORDER="0"
+ SRC="img1.png"
+ ALT="$\mapsto$"> Cursor </LI>
+  <LI>ResultSetCursor: java.sql.ResultSet <IMG
+ WIDTH="21" HEIGHT="17" ALIGN="BOTTOM" BORDER="0"
+ SRC="img1.png"
+ ALT="$\mapsto$"> Cursor </LI>
+</UL>
+The first operator transforms an iterator into a cursor. This is
+important for processing sources which only satisfy the
+<I>Iterator</I> interface of the Java API. The second operator is
+used for processing sources that satisfy the <I>ResultSet</I>
+interface. This operator can particularly be useful for importing
+tables of relational databases.
+
+XXL also provides virtual sources, e.g. the class
+<I>RandomIntegers</I> returns randomly created Integer objects on
+demand. Hence, the output of such an operator is not limited in
+size. In general, XXL supports query processing on infinite
+sources.
+
+<BR><HR>
+<ADDRESS>
+Bernhard Seeger
+2001-10-11
+</ADDRESS>
+</BODY>
+</HTML>
